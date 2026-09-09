@@ -165,29 +165,98 @@
       "content": "Recipe adapted from http://www.Lovefoodies.com"
     }
   ],
+  "related": [
+    {
+      "id": "lamington",
+      "title": "Classic Lamingtons",
+      "matchingTags": [
+        "Australian",
+        "Baked",
+        "Baking",
+        "Cake",
+        "Coconut",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "lemoncoconut",
+      "title": "Lemon Coconut Cake",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Coconut",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bananacake",
+      "title": "Banana Cake with Lemon Frosting",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "classiccarrotcake",
+      "title": "Classic Carrot Cake",
+      "matchingTags": [
+        "Baked",
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "orangepoppyseed",
+      "title": "Orange & Poppy Seed Cake",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 10,
-    "cal": 574,
-    "kj": 2403,
-    "protein": 11,
-    "carbs": 70,
-    "sugars": 54,
-    "fat": 29,
-    "saturated_fat": 18.9,
-    "fiber": 2,
-    "sodium": 169,
-    "coverage": 100,
-    "foundCount": 9,
+    "cal": 410,
+    "kj": 1717,
+    "protein": 10,
+    "carbs": 41,
+    "sugars": 24,
+    "fat": 23,
+    "saturated_fat": 14.3,
+    "fiber": 1,
+    "sodium": 168,
+    "coverage": 78,
+    "foundCount": 7,
     "totalCount": 9,
-    "unmatchedItems": [],
-    "calcium_mg": 58,
+    "unmatchedItems": [
+      "Caster Sugar",
+      "Desiccated Coconut"
+    ],
+    "noQuantityItems": [],
+    "calcium_mg": 57,
     "iron_mg": 2,
-    "potassium_mg": 262,
-    "magnesium_mg": 30,
+    "potassium_mg": 215,
+    "magnesium_mg": 24,
     "zinc_mg": 1,
     "cholesterol_mg": 322,
     "vitamin_a_ug": 229,
     "vitamin_d_ug": 4
   },
-  "lastModified": "2026-08-31"
+  "lastModified": "2026-09-09"
 }

@@ -8,6 +8,7 @@
   "cookTime": "45 min",
   "totalTime": "1 hr 15 min",
   "servings": "4 individual pies",
+  "yieldPerBatch": "1 batch",
   "tags": [
     "Australian",
     "Baked",
@@ -168,31 +169,94 @@
       "content": "Adapted from Taste.com.au — Chicken, Mushroom & Bacon Pies, with mascarpone replacing cooking cream for a richer, silkier filling."
     }
   ],
+  "related": [
+    {
+      "id": "butterchicken",
+      "title": "Restaurant-Style Butter Chicken",
+      "matchingTags": [
+        "Baking",
+        "Chicken",
+        "Chinese",
+        "Creamy",
+        "Dinner",
+        "Greek",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "apricotchicken",
+      "title": "Apricot Chicken",
+      "matchingTags": [
+        "Australian",
+        "Baked",
+        "Chicken",
+        "Chinese",
+        "Dinner",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "lasagne",
+      "title": "Classic Lasagne — Ragù & Béchamel",
+      "matchingTags": [
+        "Baked",
+        "Baking",
+        "Chinese",
+        "Dinner",
+        "Greek",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "currychicken",
+      "title": "Curry Chicken with Coconut Cream",
+      "matchingTags": [
+        "Baking",
+        "Chicken",
+        "Chinese",
+        "Creamy",
+        "Dinner",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "meatpie",
+      "title": "Classic Aussie Meat Pies",
+      "matchingTags": [
+        "Australian",
+        "Baked",
+        "Baking",
+        "Dinner",
+        "Pastry",
+        "Savoury"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 4,
-    "cal": 928,
-    "kj": 3884,
-    "protein": 60,
-    "carbs": 60,
-    "sugars": 11,
-    "fat": 46,
-    "saturated_fat": 19.2,
+    "cal": 869,
+    "kj": 3638,
+    "protein": 64,
+    "carbs": 48,
+    "sugars": 9,
+    "fat": 43,
+    "saturated_fat": 18,
     "fiber": 16,
-    "sodium": 964,
+    "sodium": 1331,
     "coverage": 100,
     "foundCount": 15,
     "totalCount": 15,
     "unmatchedItems": [],
-    "calcium_mg": 132,
-    "iron_mg": 5,
-    "potassium_mg": 1428,
-    "magnesium_mg": 112,
+    "noQuantityItems": [],
+    "calcium_mg": 103,
+    "iron_mg": 4,
+    "potassium_mg": 1489,
+    "magnesium_mg": 109,
     "zinc_mg": 5,
-    "cholesterol_mg": 509,
-    "vitamin_a_ug": 354,
+    "cholesterol_mg": 485,
+    "vitamin_a_ug": 335,
     "vitamin_c_mg": 38,
     "vitamin_d_ug": 7
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-09-09"
 }

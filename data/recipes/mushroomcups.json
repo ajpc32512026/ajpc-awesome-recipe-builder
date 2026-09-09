@@ -8,17 +8,13 @@
   "cookTime": "15 min",
   "totalTime": "25 min",
   "servings": "4 servings",
+  "yieldPerBatch": "4 servings",
   "tags": [
-    "Baked",
-    "Chinese",
-    "Drinks",
     "Entree",
     "French",
     "Gluten-Free",
-    "Greek",
     "Rich",
     "Savoury",
-    "Under 30 Minutes",
     "Vegetarian"
   ],
   "ingredients": [
@@ -80,20 +76,15 @@
       "notes": "chopped"
     },
     {
-      "quantity": "3",
-      "unit": "g",
-      "item": "Salt"
-    },
-    {
-      "quantity": "1",
-      "unit": "g",
-      "item": "Black Pepper"
-    },
-    {
       "quantity": "75",
       "unit": "g",
       "item": "Unsalted Butter",
       "notes": "softened"
+    },
+    {
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once, You can't take it out once it's in."
     }
   ],
   "method": [
@@ -146,31 +137,83 @@
       "content": "Adapted from The Essential Vegetarian Cook Book, published by Murdoch Books."
     }
   ],
+  "related": [
+    {
+      "id": "tomatoflan",
+      "title": "Tomato and Olive Flan",
+      "matchingTags": [
+        "French",
+        "Rich",
+        "Savoury",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bistro-brandymustardsteak",
+      "title": "Brandy Mustard Steak",
+      "matchingTags": [
+        "French",
+        "Gluten-Free",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "bistro-chickenkiev",
+      "title": "Chicken Kiev",
+      "matchingTags": [
+        "French",
+        "Gluten-Free",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "bistro-chickenpapion",
+      "title": "Chicken Papion",
+      "matchingTags": [
+        "French",
+        "Gluten-Free",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante",
+      "matchingTags": [
+        "French",
+        "Gluten-Free",
+        "Rich",
+        "Savoury"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 4,
-    "cal": 361,
-    "kj": 1508,
+    "cal": 358,
+    "kj": 1499,
     "protein": 11,
     "carbs": 8,
-    "sugars": 6,
+    "sugars": 5,
     "fat": 28,
     "saturated_fat": 12.4,
     "fiber": 11,
-    "sodium": 95,
+    "sodium": 32,
     "coverage": 100,
-    "foundCount": 13,
-    "totalCount": 13,
+    "foundCount": 11,
+    "totalCount": 11,
     "unmatchedItems": [],
-    "calcium_mg": 96,
+    "noQuantityItems": [],
+    "calcium_mg": 94,
     "iron_mg": 4,
-    "potassium_mg": 1465,
-    "magnesium_mg": 75,
+    "potassium_mg": 1457,
+    "magnesium_mg": 73,
     "zinc_mg": 2,
     "cholesterol_mg": 31,
-    "vitamin_a_ug": 193,
+    "vitamin_a_ug": 192,
     "vitamin_c_mg": 12,
     "vitamin_d_ug": 7
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "4 servings"
+  "lastModified": "2026-09-09"
 }

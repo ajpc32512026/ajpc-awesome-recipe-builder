@@ -10,7 +10,6 @@
   "servings": "12 slices",
   "yieldPerBatch": "1 loaf",
   "tags": [
-    "Baked",
     "Baking",
     "Bread",
     "Breakfast",
@@ -223,33 +222,83 @@
       "content": "I have been experimenting using butter. The result is minimal although olive oil does enhance flavour. \n\nOlive Oil: \nI use Cobrams Olive Oil with the purple label. \"Medium\" $25 for 750ml or $65 for 3 Litres. \n*** Always check both Woolworths and Coles for when it's on special, sometimes it's half price... ***\n\nButter: \nI use Woolworths brand \"unsalted\" this is a good product for baking. I also have been trying Flora Spreadable Butter \"salted\" and it seems to be better than the \"unsalted\" Butter... \"Better in smooth consistancy\" \nI have also used Western Star salted Butter but I found it to be too expensive to continue to buy."
     }
   ],
+  "related": [
+    {
+      "id": "sub",
+      "title": "Homemade Sub Buns",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Lunch",
+        "Savoury",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "tangzhongseed",
+      "title": "Tangzhong Grain & Seed Bread",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Breakfast",
+        "Savoury",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "highhydraciab",
+      "title": "Airy High-Hydration Ciabatta",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Savoury",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "cinnbun",
+      "title": "Bakery-Style Cinnamon Buns",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Breakfast",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bananabread",
+      "title": "Banana Bread",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Breakfast",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 12,
-    "cal": 230,
-    "kj": 960,
+    "cal": 232,
+    "kj": 969,
     "protein": 7,
     "carbs": 38,
     "sugars": 3,
-    "fat": 4,
+    "fat": 5,
     "saturated_fat": 1.7,
     "fiber": 3,
-    "sodium": 92,
-    "coverage": 88,
-    "foundCount": 21,
+    "sodium": 95,
+    "coverage": 100,
+    "foundCount": 24,
     "totalCount": 24,
-    "unmatchedItems": [
-      "Black Chia Seeds",
-      "White Chia Seeds",
-      "Pumpkin Kernels"
-    ],
+    "unmatchedItems": [],
     "noQuantityItems": [],
-    "calcium_mg": 24,
+    "calcium_mg": 25,
     "iron_mg": 1,
-    "potassium_mg": 132,
+    "potassium_mg": 134,
     "magnesium_mg": 31,
     "zinc_mg": 1,
     "cholesterol_mg": 4,
     "vitamin_a_ug": 22
   },
-  "lastModified": "2026-09-05"
+  "lastModified": "2026-09-09"
 }

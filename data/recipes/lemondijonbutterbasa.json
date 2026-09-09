@@ -12,17 +12,11 @@
   "tags": [
     "Baking",
     "Butter",
-    "Chinese",
-    
     "Dinner",
-    "Drinks",
     "European",
     "Fish",
     "Lemon",
-    "Quick",
-    "Saucy",
-    "Savoury",
-    "Stovetop"
+    "Savoury"
   ],
   "ingredients": [
     {
@@ -36,11 +30,6 @@
       "unit": "g",
       "item": "Plain Flour",
       "notes": "for dusting if required, read step 1 in the method"
-    },
-    {
-      "quantity": "3",
-      "unit": "g",
-      "item": "Salt"
     },
     {
       "quantity": "1",
@@ -87,6 +76,11 @@
       "unit": "g",
       "item": "Sweet Smoked Paprika",
       "notes": "about 1/4 tsp"
+    },
+    {
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once, You can't take it out once it's in."
     }
   ],
   "method": [
@@ -133,31 +127,80 @@
       "content": "Best eaten fresh - the fish texture suffers on reheating. Refrigerate covered for up to 1 day if needed."
     }
   ],
+  "related": [
+    {
+      "id": "bistro-fishoftheday",
+      "title": "Fish of the Day",
+      "matchingTags": [
+        "Dinner",
+        "Fish",
+        "Lemon",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "beefstockpot",
+      "title": "20 Minute Beef Stock Pot",
+      "matchingTags": [
+        "Baking",
+        "Dinner",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "sweetsourpork",
+      "title": "Better Than Takeaway Sweet & Sour Pork",
+      "matchingTags": [
+        "Baking",
+        "Dinner",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "chickenmushroombaconpies",
+      "title": "Chicken, Mushroom & Bacon Pies",
+      "matchingTags": [
+        "Baking",
+        "Dinner",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "lasagne",
+      "title": "Classic Lasagne — Ragù & Béchamel",
+      "matchingTags": [
+        "Baking",
+        "Dinner",
+        "Savoury"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 2,
-    "cal": 323,
-    "kj": 1352,
-    "protein": 4,
-    "carbs": 13,
-    "sugars": 4,
-    "fat": 28,
-    "saturated_fat": 17.3,
-    "fiber": 2,
-    "sodium": 301,
-    "coverage": 91,
-    "foundCount": 10,
-    "totalCount": 11,
+    "cal": 892,
+    "kj": 3733,
+    "protein": 44,
+    "carbs": 53,
+    "sugars": 10,
+    "fat": 41,
+    "saturated_fat": 20.9,
+    "fiber": 69,
+    "sodium": 292,
+    "coverage": 90,
+    "foundCount": 9,
+    "totalCount": 10,
     "unmatchedItems": [
-      "Basa Fillets"
+      "Ground White Pepper"
     ],
-    "calcium_mg": 32,
-    "iron_mg": 1,
-    "potassium_mg": 149,
-    "magnesium_mg": 34,
-    "zinc_mg": 1,
-    "cholesterol_mg": 50,
-    "vitamin_a_ug": 280,
-    "vitamin_c_mg": 6
+    "noQuantityItems": [],
+    "calcium_mg": 164,
+    "iron_mg": 8,
+    "potassium_mg": 2489,
+    "magnesium_mg": 161,
+    "zinc_mg": 5,
+    "cholesterol_mg": 124,
+    "vitamin_a_ug": 266,
+    "vitamin_c_mg": 50
   },
-  "lastModified": "2026-08-29"
+  "lastModified": "2026-09-09"
 }

@@ -8,9 +8,8 @@
   "cookTime": "2 min",
   "totalTime": "12 min",
   "servings": "1 batch",
+  "yieldPerBatch": "1 batch",
   "tags": [
-    "Chinese",
-    "Condiment",
     "Curry",
     "Gluten-Free",
     "Indian",
@@ -119,32 +118,97 @@
       "content": "Adapted from traditional Indian korma recipes."
     }
   ],
+  "related": [
+    {
+      "id": "vindaloopaste",
+      "title": "Vindaloo Paste",
+      "matchingTags": [
+        "Curry",
+        "Gluten-Free",
+        "Indian",
+        "Make Ahead",
+        "Savoury",
+        "Spicy",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sataysauce",
+      "title": "Satay Sauce",
+      "matchingTags": [
+        "Gluten-Free",
+        "Indian",
+        "Make Ahead",
+        "Savoury",
+        "Spicy",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "beefvindaloo",
+      "title": "Beef Vindaloo",
+      "matchingTags": [
+        "Curry",
+        "Gluten-Free",
+        "Indian",
+        "Make Ahead",
+        "Savoury",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "currychicken",
+      "title": "Curry Chicken with Coconut Cream",
+      "matchingTags": [
+        "Curry",
+        "Gluten-Free",
+        "Indian",
+        "Make Ahead",
+        "Savoury",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "lambvindaloo",
+      "title": "Lamb Vindaloo",
+      "matchingTags": [
+        "Curry",
+        "Gluten-Free",
+        "Indian",
+        "Make Ahead",
+        "Savoury",
+        "Spicy"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 1,
-    "cal": 1012,
-    "kj": 4236,
-    "protein": 31,
-    "carbs": 53,
-    "sugars": 14,
-    "fat": 60,
-    "saturated_fat": 19.4,
-    "fiber": 71,
-    "sodium": 232,
+    "cal": 1110,
+    "kj": 4645,
+    "protein": 37,
+    "carbs": 75,
+    "sugars": 36,
+    "fat": 51,
+    "saturated_fat": 7.9,
+    "fiber": 104,
+    "sodium": 244,
     "coverage": 92,
     "foundCount": 11,
     "totalCount": 12,
     "unmatchedItems": [
-      "Red Chilli Powder"
+      "Desiccated Coconut"
     ],
-    "calcium_mg": 363,
-    "iron_mg": 18,
-    "potassium_mg": 2542,
-    "magnesium_mg": 290,
-    "zinc_mg": 7,
+    "noQuantityItems": [],
+    "calcium_mg": 420,
+    "iron_mg": 21,
+    "potassium_mg": 4002,
+    "magnesium_mg": 386,
+    "zinc_mg": 8,
     "cholesterol_mg": 14,
-    "vitamin_a_ug": 81,
-    "vitamin_c_mg": 41
+    "vitamin_a_ug": 2681,
+    "vitamin_c_mg": 991
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-09-09"
 }

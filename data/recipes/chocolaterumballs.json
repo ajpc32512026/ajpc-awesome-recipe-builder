@@ -99,28 +99,100 @@
       "content": "Keep refrigerated in an airtight container for up to 2 weeks. The flavour deepens after a day or two."
     }
   ],
+  "related": [
+    {
+      "id": "plaincheesecakeclassicnobake",
+      "title": "Plain Cheesecake (Classic No Bake)",
+      "matchingTags": [
+        "Baked",
+        "Dessert",
+        "Gluten-Free",
+        "Make Ahead",
+        "No-Bake",
+        "No-Cook",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "baked-cheesecake",
+      "title": "Baked Cheesecake",
+      "matchingTags": [
+        "Baked",
+        "Dessert",
+        "Gluten-Free",
+        "Make Ahead",
+        "Party",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chefstyletiramisugateau",
+      "title": "Chef-Style Tiramisu Gateau",
+      "matchingTags": [
+        "Alcohol",
+        "Dessert",
+        "Gluten-Free",
+        "Make Ahead",
+        "No-Cook",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chocolatemousse",
+      "title": "Chocolate Mousse",
+      "matchingTags": [
+        "Chocolate",
+        "Dessert",
+        "Gluten-Free",
+        "Make Ahead",
+        "No-Bake",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "lamington",
+      "title": "Classic Lamingtons",
+      "matchingTags": [
+        "Australian",
+        "Baked",
+        "Chocolate",
+        "Dessert",
+        "Party",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 24,
-    "cal": 25,
-    "kj": 103,
-    "protein": 1,
-    "carbs": 4,
-    "sugars": 0,
-    "fat": 0,
-    "saturated_fat": 0.2,
+    "cal": 85,
+    "kj": 355,
+    "protein": 2,
+    "carbs": 12,
+    "sugars": 6,
+    "fat": 3,
+    "saturated_fat": 1.9,
     "fiber": 1,
-    "sodium": 18,
-    "coverage": 60,
-    "foundCount": 3,
+    "sodium": 58,
+    "coverage": 100,
+    "foundCount": 5,
     "totalCount": 5,
-    "unmatchedItems": [
-      "Cake Crumbs",
-      "Chocolate Sprinkles"
-    ],
-    "calcium_mg": 7,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 13,
     "iron_mg": 1,
-    "potassium_mg": 96,
-    "magnesium_mg": 13
+    "potassium_mg": 114,
+    "magnesium_mg": 17,
+    "cholesterol_mg": 14,
+    "vitamin_a_ug": 19
   },
-  "lastModified": "2026-08-31"
+  "lastModified": "2026-09-09"
 }

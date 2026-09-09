@@ -8,19 +8,14 @@
   "cookTime": "25 min",
   "totalTime": "40 min",
   "servings": "4 servings",
+  "yieldPerBatch": "4 servings",
   "tags": [
-    "Baking",
     "Chicken",
-    "Chinese",
     "Creamy",
     "Curry",
     "Dinner",
-    "Drinks",
-    "Greek",
     "Indian",
-    "Rich",
-    "Savoury",
-    "Under 1 Hour"
+    "Rich"
   ],
   "ingredients": [
     {
@@ -98,7 +93,7 @@
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Milk Full-Cream"
+      "item": "Milk Full-cream"
     },
     {
       "quantity": "2",
@@ -189,34 +184,84 @@
       "content": "This recipe is adapted from traditional Indian butter chicken recipes with home-cook friendly adjustments."
     }
   ],
+  "related": [
+    {
+      "id": "currychicken",
+      "title": "Curry Chicken with Coconut Cream",
+      "matchingTags": [
+        "Chicken",
+        "Creamy",
+        "Curry",
+        "Dinner",
+        "Indian"
+      ]
+    },
+    {
+      "id": "beefvindaloo",
+      "title": "Beef Vindaloo",
+      "matchingTags": [
+        "Curry",
+        "Dinner",
+        "Indian",
+        "Rich"
+      ]
+    },
+    {
+      "id": "lambkorma",
+      "title": "Lamb Korma",
+      "matchingTags": [
+        "Curry",
+        "Dinner",
+        "Indian",
+        "Rich"
+      ]
+    },
+    {
+      "id": "roganjosh",
+      "title": "Lamb Rogan Josh – Restaurant Style",
+      "matchingTags": [
+        "Curry",
+        "Dinner",
+        "Indian",
+        "Rich"
+      ]
+    },
+    {
+      "id": "lambvindaloo",
+      "title": "Lamb Vindaloo",
+      "matchingTags": [
+        "Curry",
+        "Dinner",
+        "Indian",
+        "Rich"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 4,
-    "cal": 831,
-    "kj": 3476,
+    "cal": 859,
+    "kj": 3593,
     "protein": 41,
-    "carbs": 76,
-    "sugars": 8,
-    "fat": 42,
-    "saturated_fat": 16.4,
+    "carbs": 77,
+    "sugars": 10,
+    "fat": 45,
+    "saturated_fat": 17.2,
     "fiber": 31,
-    "sodium": 409,
-    "coverage": 89,
-    "foundCount": 17,
+    "sodium": 508,
+    "coverage": 100,
+    "foundCount": 19,
     "totalCount": 19,
-    "unmatchedItems": [
-      "Red Chilli Powder",
-      "Greek Yoghurt"
-    ],
-    "calcium_mg": 155,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 181,
     "iron_mg": 5,
-    "potassium_mg": 1159,
-    "magnesium_mg": 108,
+    "potassium_mg": 1190,
+    "magnesium_mg": 109,
     "zinc_mg": 4,
-    "cholesterol_mg": 160,
-    "vitamin_a_ug": 203,
-    "vitamin_c_mg": 15,
+    "cholesterol_mg": 165,
+    "vitamin_a_ug": 220,
+    "vitamin_c_mg": 17,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "4 servings"
+  "lastModified": "2026-09-09"
 }

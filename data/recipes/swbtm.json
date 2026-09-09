@@ -10,7 +10,6 @@
   "servings": "1 loaf",
   "yieldPerBatch": "1 loaf",
   "tags": [
-    "Asian",
     "Baking",
     "Bread",
     "Classic",
@@ -117,6 +116,64 @@
       "content": "For best results, weigh your tangzhong after cooking to ensure hydration is correct. It should weigh approximately 150–160 g."
     }
   ],
+  "related": [
+    {
+      "id": "turkishbread",
+      "title": "Traditional Turkish Bread",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Classic",
+        "Make Ahead",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "focaccia-high",
+      "title": "High-Hydration Focaccia",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Make Ahead",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "tangzhongseed",
+      "title": "Tangzhong Grain & Seed Bread",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Make Ahead",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "pizzadough",
+      "title": "Ultimate Homemade Pizza Dough",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Classic",
+        "Make Ahead",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bananabread",
+      "title": "Banana Bread",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Classic",
+        "Make Ahead",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 1,
     "cal": 2319,
@@ -129,9 +186,10 @@
     "fiber": 18,
     "sodium": 877,
     "coverage": 100,
-    "foundCount": 7,
-    "totalCount": 7,
+    "foundCount": 6,
+    "totalCount": 6,
     "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 138,
     "iron_mg": 9,
     "potassium_mg": 1167,
@@ -139,5 +197,5 @@
     "zinc_mg": 6,
     "vitamin_a_ug": 1
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-09-09"
 }

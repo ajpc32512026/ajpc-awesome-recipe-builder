@@ -14,7 +14,6 @@
     "Asian",
     "Baking",
     "Chinese",
-    
     "Dinner",
     "Gluten-Free",
     "Lamb",
@@ -149,30 +148,104 @@
       "content": "Tender cuts like lamb backstrap need only 2 hours. Economical cuts benefit from an overnight marinade — the longer the better."
     }
   ],
+  "related": [
+    {
+      "id": "mongolianbeef",
+      "title": "Mongolian Beef Stir-Fry",
+      "matchingTags": [
+        "Alcohol",
+        "Asian",
+        "Baking",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Stir-Fried",
+        "Stovetop",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce",
+      "matchingTags": [
+        "Alcohol",
+        "Asian",
+        "Baking",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Stovetop",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "pineapplecoconutchicken",
+      "title": "Pineapple Coconut Chicken",
+      "matchingTags": [
+        "Asian",
+        "Baking",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Stovetop",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "sweetsourpork",
+      "title": "Better Than Takeaway Sweet & Sour Pork",
+      "matchingTags": [
+        "Asian",
+        "Baking",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "chickenteriyaki",
+      "title": "Chicken Teriyaki",
+      "matchingTags": [
+        "Asian",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Stovetop",
+        "Sweet"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 2,
-    "cal": 749,
-    "kj": 3134,
-    "protein": 47,
+    "cal": 729,
+    "kj": 3050,
+    "protein": 49,
     "carbs": 48,
     "sugars": 28,
-    "fat": 34,
-    "saturated_fat": 6.5,
+    "fat": 31,
+    "saturated_fat": 5.6,
     "fiber": 23,
-    "sodium": 1529,
+    "sodium": 1522,
     "coverage": 100,
-    "foundCount": 17,
-    "totalCount": 17,
+    "foundCount": 14,
+    "totalCount": 14,
     "unmatchedItems": [],
-    "calcium_mg": 111,
-    "iron_mg": 6,
-    "potassium_mg": 1370,
-    "magnesium_mg": 91,
-    "zinc_mg": 8,
-    "cholesterol_mg": 105,
-    "vitamin_a_ug": 233,
+    "noQuantityItems": [],
+    "calcium_mg": 97,
+    "iron_mg": 7,
+    "potassium_mg": 1492,
+    "magnesium_mg": 104,
+    "zinc_mg": 9,
+    "cholesterol_mg": 137,
+    "vitamin_a_ug": 227,
     "vitamin_c_mg": 79,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-09-09"
 }

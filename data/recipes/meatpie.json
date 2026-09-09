@@ -15,7 +15,6 @@
     "Baking",
     "Beef",
     "Classic",
-    
     "Dinner",
     "Lunch",
     "Pastry",
@@ -126,6 +125,70 @@
       "content": "Assemble pies unbaked and freeze for up to 2 months. Bake from frozen, adding 10–15 minutes to the cooking time."
     }
   ],
+  "related": [
+    {
+      "id": "sausageroll",
+      "title": "Classic Aussie Sausage Rolls",
+      "matchingTags": [
+        "Australian",
+        "Baked",
+        "Baking",
+        "Classic",
+        "Lunch",
+        "Pastry",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "lasagne",
+      "title": "Classic Lasagne — Ragù & Béchamel",
+      "matchingTags": [
+        "Baked",
+        "Baking",
+        "Beef",
+        "Classic",
+        "Dinner",
+        "Lunch",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "chickenmushroombaconpies",
+      "title": "Chicken, Mushroom & Bacon Pies",
+      "matchingTags": [
+        "Australian",
+        "Baked",
+        "Baking",
+        "Dinner",
+        "Pastry",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "bistro-reefandbeef",
+      "title": "Reef and Beef",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Beef",
+        "Classic",
+        "Dinner",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "bistro-vealmozzarella",
+      "title": "Veal Mozzarella",
+      "matchingTags": [
+        "Baked",
+        "Baking",
+        "Classic",
+        "Dinner",
+        "Lunch",
+        "Savoury"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 4,
     "cal": 658,
@@ -141,6 +204,7 @@
     "foundCount": 9,
     "totalCount": 9,
     "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 59,
     "iron_mg": 4,
     "potassium_mg": 754,
@@ -151,5 +215,5 @@
     "vitamin_c_mg": 3,
     "vitamin_d_ug": 5
   },
-  "lastModified": "2026-09-03"
+  "lastModified": "2026-09-09"
 }

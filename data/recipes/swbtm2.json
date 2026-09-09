@@ -14,7 +14,8 @@
     "Bread",
     "Savoury",
     "Vegan",
-    "Vegetarian"
+    "Vegetarian",
+    "Tangzhong"
   ],
   "ingredients": [
     {
@@ -152,28 +153,6 @@
       ]
     },
     {
-      "id": "darkrye",
-      "title": "Dark Rye Bread",
-      "matchingTags": [
-        "Baking",
-        "Bread",
-        "Savoury",
-        "Vegan",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "focaccia",
-      "title": "Focaccia",
-      "matchingTags": [
-        "Baking",
-        "Bread",
-        "Savoury",
-        "Vegan",
-        "Vegetarian"
-      ]
-    },
-    {
       "id": "focaccia-high",
       "title": "High-Hydration Focaccia",
       "matchingTags": [
@@ -189,6 +168,27 @@
       "title": "Tangzhong Grain & Seed Bread",
       "matchingTags": [
         "Baking",
+        "Bread",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "turkishbread",
+      "title": "Traditional Turkish Bread",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "darkrye",
+      "title": "Dark Rye Bread",
+      "matchingTags": [
         "Bread",
         "Savoury",
         "Vegan",

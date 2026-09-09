@@ -8,10 +8,8 @@
   "cookTime": "35 min",
   "totalTime": "1 hr 5 min",
   "servings": "4 servings",
+  "yieldPerBatch": "4 servings",
   "tags": [
-    "Alcohol",
-    "Baking",
-    "Chinese",
     "Classic",
     "Dinner",
     "Italian",
@@ -121,30 +119,94 @@
       "content": "Adapted from The Essential Vegetarian Cook Book, published by Murdoch Books."
     }
   ],
+  "related": [
+    {
+      "id": "chickencacciatore",
+      "title": "Chicken Cacciatore",
+      "matchingTags": [
+        "Alcohol",
+        "Chinese",
+        "Classic",
+        "Dinner",
+        "Italian",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "lasagne",
+      "title": "Classic Lasagne — Ragu & Bechamel",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Dinner",
+        "Italian",
+        "Pasta",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "chefstyletiramisugateau",
+      "title": "Chef-Style Tiramisu Gateau",
+      "matchingTags": [
+        "Alcohol",
+        "Baking",
+        "Classic",
+        "Italian",
+        "Rich",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bistro-mediterraneansteak",
+      "title": "Mediterranean Steak",
+      "matchingTags": [
+        "Alcohol",
+        "Classic",
+        "Dinner",
+        "Italian",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce",
+      "matchingTags": [
+        "Alcohol",
+        "Baking",
+        "Chinese",
+        "Dinner",
+        "Savoury",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 4,
-    "cal": 647,
-    "kj": 2707,
-    "protein": 10,
-    "carbs": 114,
-    "sugars": 8,
-    "fat": 12,
-    "saturated_fat": 7.3,
-    "fiber": 19,
-    "sodium": 217,
+    "cal": 15952,
+    "kj": 66743,
+    "protein": 633,
+    "carbs": 2304,
+    "sugars": 2201,
+    "fat": 312,
+    "saturated_fat": 82.2,
+    "fiber": 916,
+    "sodium": 5205,
     "coverage": 100,
     "foundCount": 10,
     "totalCount": 10,
     "unmatchedItems": [],
-    "calcium_mg": 188,
-    "iron_mg": 2,
-    "potassium_mg": 953,
-    "magnesium_mg": 58,
-    "zinc_mg": 2,
+    "noQuantityItems": [],
+    "calcium_mg": 16913,
+    "iron_mg": 1052,
+    "potassium_mg": 135110,
+    "magnesium_mg": 8031,
+    "zinc_mg": 109,
     "cholesterol_mg": 24,
-    "vitamin_a_ug": 214,
-    "vitamin_c_mg": 40
+    "vitamin_a_ug": 109,
+    "vitamin_c_mg": 1756
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "4 servings"
+  "lastModified": "2026-09-09"
 }

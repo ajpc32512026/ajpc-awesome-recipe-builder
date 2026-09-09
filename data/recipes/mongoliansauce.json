@@ -8,13 +8,13 @@
   "cookTime": "3 min",
   "totalTime": "8 min",
   "servings": "1 batch",
+  "yieldPerBatch": "1 batch",
   "tags": [
     "Alcohol",
     "Asian",
     "Baking",
     "Chinese",
     "Condiment",
-    
     "Dinner",
     "Gluten-Free",
     "Make Ahead",
@@ -103,6 +103,92 @@
       "content": "Adapted from traditional Chinese stir-fry sauces, balancing heat, sweetness, and umami."
     }
   ],
+  "related": [
+    {
+      "id": "teriyakimarinade",
+      "title": "Teriyaki Marinade",
+      "matchingTags": [
+        "Asian",
+        "Chinese",
+        "Condiment",
+        "Dinner",
+        "Gluten-Free",
+        "Make Ahead",
+        "Sauce",
+        "Savoury",
+        "Stovetop",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "honeygarlicsauce",
+      "title": "Honey Garlic Sauce",
+      "matchingTags": [
+        "Asian",
+        "Baking",
+        "Chinese",
+        "Condiment",
+        "Gluten-Free",
+        "Sauce",
+        "Savoury",
+        "Sweet",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sweetsoursauce_flex",
+      "title": "Sweet & Sour Sauce – Home Chef Flex",
+      "matchingTags": [
+        "Asian",
+        "Baking",
+        "Chinese",
+        "Condiment",
+        "Gluten-Free",
+        "Make Ahead",
+        "Sauce",
+        "Sweet",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sataysauce",
+      "title": "Satay Sauce",
+      "matchingTags": [
+        "Asian",
+        "Chinese",
+        "Condiment",
+        "Dinner",
+        "Gluten-Free",
+        "Make Ahead",
+        "Sauce",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sweetsoursauce_quick",
+      "title": "Sweet & Sour Sauce – Quick Takeout Style",
+      "matchingTags": [
+        "Asian",
+        "Baking",
+        "Chinese",
+        "Condiment",
+        "Gluten-Free",
+        "Sauce",
+        "Sweet",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 1,
     "cal": 148,
@@ -118,11 +204,11 @@
     "foundCount": 8,
     "totalCount": 8,
     "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 3,
     "potassium_mg": 19,
     "magnesium_mg": 4,
     "vitamin_a_ug": 3
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-09-09"
 }

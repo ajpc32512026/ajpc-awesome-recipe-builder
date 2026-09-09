@@ -8,17 +8,15 @@
   "cookTime": "5 min",
   "totalTime": "10 min",
   "servings": "4 servings",
+  "yieldPerBatch": "4 servings",
   "tags": [
     "Asian",
     "Baking",
-    "Chinese",
-    "Condiment",
     "Garlic",
     "Gluten-Free",
     "Sauce",
     "Savoury",
     "Sweet",
-    "Under 30 Minutes",
     "Vegan",
     "Vegetarian"
   ],
@@ -95,6 +93,73 @@
       "content": "Store in an airtight container in the refrigerator for up to 1 week. Reheat gently — the sauce will thicken when cold."
     }
   ],
+  "related": [
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce",
+      "matchingTags": [
+        "Asian",
+        "Baking",
+        "Gluten-Free",
+        "Sauce",
+        "Savoury",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sweetsoursauce_flex",
+      "title": "Sweet & Sour Sauce – Home Chef Flex",
+      "matchingTags": [
+        "Asian",
+        "Baking",
+        "Gluten-Free",
+        "Sauce",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sweetsoursauce_quick",
+      "title": "Sweet & Sour Sauce – Quick Takeout Style",
+      "matchingTags": [
+        "Asian",
+        "Baking",
+        "Gluten-Free",
+        "Sauce",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "teriyakimarinade",
+      "title": "Teriyaki Marinade",
+      "matchingTags": [
+        "Asian",
+        "Gluten-Free",
+        "Sauce",
+        "Savoury",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chilligarlicoil",
+      "title": "Chilli Garlic Oil",
+      "matchingTags": [
+        "Asian",
+        "Garlic",
+        "Gluten-Free",
+        "Sauce",
+        "Vegan",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 4,
     "cal": 215,
@@ -110,6 +175,7 @@
     "foundCount": 6,
     "totalCount": 6,
     "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 33,
     "iron_mg": 2,
     "potassium_mg": 540,
@@ -118,6 +184,5 @@
     "vitamin_a_ug": 2,
     "vitamin_c_mg": 11
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "4 servings"
+  "lastModified": "2026-09-09"
 }

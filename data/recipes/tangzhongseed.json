@@ -10,16 +10,15 @@
   "servings": "1 large loaf",
   "yieldPerBatch": "1 large loaf",
   "tags": [
-    "Asian",
     "Baking",
     "Bread",
     "Breakfast",
-    "Chinese",
-    "Drinks",
     "Make Ahead",
-    "Savoury",
     "Vegan",
-    "Vegetarian"
+    "Vegetarian",
+    "Australian",
+    "Seed & Grain",
+    "Tangzhong"
   ],
   "ingredients": [
     {
@@ -222,27 +221,85 @@
       "content": "Do not worry if you are missing some seeds — use what you have. The total seed and grain weight should be around 145–150 g. Popular combinations include oats, sunflower, pumpkin, flax, and chia."
     }
   ],
+  "related": [
+    {
+      "id": "focaccia-high",
+      "title": "High-Hydration Focaccia",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Make Ahead",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "swbtm",
+      "title": "Soft White Bread (Tangzhong Method)",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Make Ahead",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sultanabread",
+      "title": "Sultana Rolls with Sugar Glaze",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Bread",
+        "Breakfast",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "turkishbread",
+      "title": "Traditional Turkish Bread",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Make Ahead",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bananabread",
+      "title": "Banana Bread",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Breakfast",
+        "Make Ahead",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 1,
-    "cal": 2908,
-    "kj": 12166,
+    "cal": 2919,
+    "kj": 12215,
     "protein": 96,
-    "carbs": 458,
+    "carbs": 465,
     "sugars": 30,
-    "fat": 66,
-    "saturated_fat": 7.9,
-    "fiber": 40,
-    "sodium": 954,
+    "fat": 64,
+    "saturated_fat": 7.8,
+    "fiber": 39,
+    "sodium": 955,
     "coverage": 100,
-    "foundCount": 25,
-    "totalCount": 25,
+    "foundCount": 24,
+    "totalCount": 24,
     "unmatchedItems": [],
-    "calcium_mg": 352,
-    "iron_mg": 16,
-    "potassium_mg": 1797,
-    "magnesium_mg": 509,
+    "noQuantityItems": [],
+    "calcium_mg": 308,
+    "iron_mg": 15,
+    "potassium_mg": 1810,
+    "magnesium_mg": 500,
     "zinc_mg": 10,
-    "vitamin_a_ug": 2
+    "vitamin_a_ug": 3
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-09-09"
 }

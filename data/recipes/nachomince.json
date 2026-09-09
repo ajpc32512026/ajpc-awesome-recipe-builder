@@ -8,16 +8,15 @@
   "cookTime": "20 min",
   "totalTime": "30 min",
   "servings": "4 servings",
+  "yieldPerBatch": "4 servings",
   "tags": [
     "Beef",
-    "Chinese",
     "Dinner",
     "Gluten-Free",
     "Make Ahead",
     "Mexican",
     "Savoury",
-    "Spicy",
-    "Under 30 Minutes"
+    "Spicy"
   ],
   "ingredients": [
     {
@@ -60,15 +59,9 @@
       "notes": "see recipe, or 1 packet Old El Paso"
     },
     {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
-    },
-    {
-      "quantity": "2",
-      "unit": "g",
-      "item": "Black Pepper"
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once, You can't take it out once it's in"
     }
   ],
   "method": [
@@ -136,31 +129,87 @@
       "content": "The beef mince reheats beautifully. Make a double batch, refrigerate for up to 3 days, or freeze in portions for up to 3 months. Reheat in a pan with a splash of water to loosen."
     }
   ],
+  "related": [
+    {
+      "id": "beefvindaloo",
+      "title": "Beef Vindaloo",
+      "matchingTags": [
+        "Beef",
+        "Dinner",
+        "Make Ahead",
+        "Savoury",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "currychicken",
+      "title": "Curry Chicken with Coconut Cream",
+      "matchingTags": [
+        "Dinner",
+        "Gluten-Free",
+        "Make Ahead",
+        "Savoury",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "lambvindaloo",
+      "title": "Lamb Vindaloo",
+      "matchingTags": [
+        "Dinner",
+        "Gluten-Free",
+        "Make Ahead",
+        "Savoury",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "sataysauce",
+      "title": "Satay Sauce",
+      "matchingTags": [
+        "Dinner",
+        "Gluten-Free",
+        "Make Ahead",
+        "Savoury",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "beefstroganoff",
+      "title": "Beef & Mushroom Stroganoff",
+      "matchingTags": [
+        "Beef",
+        "Dinner",
+        "Mexican",
+        "Savoury"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 4,
-    "cal": 378,
-    "kj": 1582,
-    "protein": 35,
-    "carbs": 22,
-    "sugars": 7,
-    "fat": 15,
-    "saturated_fat": 4.3,
-    "fiber": 15,
-    "sodium": 2263,
+    "cal": 6496,
+    "kj": 27180,
+    "protein": 284,
+    "carbs": 898,
+    "sugars": 884,
+    "fat": 134,
+    "saturated_fat": 34.2,
+    "fiber": 373,
+    "sodium": 4153,
     "coverage": 100,
-    "foundCount": 9,
-    "totalCount": 9,
+    "foundCount": 7,
+    "totalCount": 7,
     "unmatchedItems": [],
-    "calcium_mg": 46,
-    "iron_mg": 3,
-    "potassium_mg": 1082,
-    "magnesium_mg": 66,
-    "zinc_mg": 4,
+    "noQuantityItems": [],
+    "calcium_mg": 6732,
+    "iron_mg": 423,
+    "potassium_mg": 54731,
+    "magnesium_mg": 3253,
+    "zinc_mg": 46,
     "cholesterol_mg": 95,
-    "vitamin_a_ug": 65,
-    "vitamin_c_mg": 22,
+    "vitamin_a_ug": 23,
+    "vitamin_c_mg": 709,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "4 servings"
+  "lastModified": "2026-09-09"
 }

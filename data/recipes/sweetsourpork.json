@@ -14,7 +14,6 @@
     "Baking",
     "Chinese",
     "Classic",
-    
     "Dinner",
     "Gluten-Free",
     "Pork",
@@ -160,30 +159,100 @@
       "content": "Fresh or canned pineapple chunks add authentic sweetness and texture. Add them with the vegetables in step 6."
     }
   ],
+  "related": [
+    {
+      "id": "apricotchicken",
+      "title": "Apricot Chicken",
+      "matchingTags": [
+        "Asian",
+        "Chinese",
+        "Classic",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "chickenteriyaki",
+      "title": "Chicken Teriyaki",
+      "matchingTags": [
+        "Asian",
+        "Chinese",
+        "Classic",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "filipinoportoccino",
+      "title": "Filipino Pork Toccino",
+      "matchingTags": [
+        "Asian",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Pork",
+        "Savoury",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "mongolianbeef",
+      "title": "Mongolian Beef Stir-Fry",
+      "matchingTags": [
+        "Asian",
+        "Baking",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "mongolianlamb",
+      "title": "Mongolian Lamb",
+      "matchingTags": [
+        "Asian",
+        "Baking",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Sweet"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 4,
     "cal": 1790,
-    "kj": 7489,
+    "kj": 7490,
     "protein": 36,
-    "carbs": 70,
-    "sugars": 31,
+    "carbs": 71,
+    "sugars": 30,
     "fat": 152,
     "saturated_fat": 17.2,
     "fiber": 11,
-    "sodium": 394,
-    "coverage": 100,
-    "foundCount": 16,
-    "totalCount": 16,
-    "unmatchedItems": [],
-    "calcium_mg": 127,
+    "sodium": 381,
+    "coverage": 93,
+    "foundCount": 14,
+    "totalCount": 15,
+    "unmatchedItems": [
+      "White Pepper"
+    ],
+    "noQuantityItems": [],
+    "calcium_mg": 119,
     "iron_mg": 4,
-    "potassium_mg": 1068,
-    "magnesium_mg": 72,
-    "zinc_mg": 5,
+    "potassium_mg": 995,
+    "magnesium_mg": 68,
+    "zinc_mg": 4,
     "cholesterol_mg": 329,
-    "vitamin_a_ug": 501,
-    "vitamin_c_mg": 51,
+    "vitamin_a_ug": 91,
+    "vitamin_c_mg": 50,
     "vitamin_d_ug": 5
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-09-09"
 }

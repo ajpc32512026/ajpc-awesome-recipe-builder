@@ -14,7 +14,6 @@
     "Baked",
     "Baking",
     "Classic",
-    
     "Lunch",
     "Make Ahead",
     "Pastry",
@@ -154,6 +153,66 @@
       "content": "I used the Woolworths brand of Sausage Mince and found it was too fatty for my liking... The flavour is good and is what I expected. Keep an eye out for the next journal entry."
     }
   ],
+  "related": [
+    {
+      "id": "meatpie",
+      "title": "Classic Aussie Meat Pies",
+      "matchingTags": [
+        "Australian",
+        "Baked",
+        "Baking",
+        "Classic",
+        "Lunch",
+        "Pastry",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "lasagne",
+      "title": "Classic Lasagne — Ragù & Béchamel",
+      "matchingTags": [
+        "Baked",
+        "Baking",
+        "Classic",
+        "Lunch",
+        "Make Ahead",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "chickenmushroombaconpies",
+      "title": "Chicken, Mushroom & Bacon Pies",
+      "matchingTags": [
+        "Australian",
+        "Baked",
+        "Baking",
+        "Pastry",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "turkishbread",
+      "title": "Traditional Turkish Bread",
+      "matchingTags": [
+        "Baked",
+        "Baking",
+        "Classic",
+        "Make Ahead",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "bistro-vealmozzarella",
+      "title": "Veal Mozzarella",
+      "matchingTags": [
+        "Baked",
+        "Baking",
+        "Classic",
+        "Lunch",
+        "Savoury"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 12,
     "cal": 330,
@@ -180,5 +239,5 @@
     "vitamin_c_mg": 1,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-09-04"
+  "lastModified": "2026-09-09"
 }

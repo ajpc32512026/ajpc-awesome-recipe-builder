@@ -8,23 +8,16 @@
   "cookTime": "10 Min",
   "totalTime": "25 Min",
   "servings": "2",
+  "yieldPerBatch": "1 batch",
   "tags": [
-    "Air Fryer",
-    "Air-Fried",
-    "American",
-    "Baked",
-    "Baking",
     "Chicken",
-    "Chinese",
     "Crispy",
-    "Deep Fried",
     "Dinner",
     "Easy",
-    "Grilled/BBQ",
-    "Indian",
     "Savoury",
-    "Stovetop",
-    "Under 30 Minutes"
+    "Snack",
+    "Lunch",
+    "Australian"
   ],
   "ingredients": [
     {
@@ -136,33 +129,84 @@
       "content": "To maintain the texture, avoid the microwave when reheating. Place the leftovers back into the air fryer at 180°C (350°F) for 4 to 5 minutes until heated through."
     }
   ],
+  "related": [
+    {
+      "id": "apricotchicken",
+      "title": "Apricot Chicken",
+      "matchingTags": [
+        "Australian",
+        "Chicken",
+        "Dinner",
+        "Easy",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "bistro-chickenriverina",
+      "title": "Chicken Riverina",
+      "matchingTags": [
+        "Australian",
+        "Chicken",
+        "Dinner",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "chickenmushroombaconpies",
+      "title": "Chicken, Mushroom & Bacon Pies",
+      "matchingTags": [
+        "Australian",
+        "Chicken",
+        "Dinner",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "meatpie",
+      "title": "Classic Aussie Meat Pies",
+      "matchingTags": [
+        "Australian",
+        "Dinner",
+        "Lunch",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "sausageroll",
+      "title": "Classic Aussie Sausage Rolls",
+      "matchingTags": [
+        "Australian",
+        "Lunch",
+        "Savoury",
+        "Snack"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 2,
-    "cal": 458,
-    "kj": 1918,
-    "protein": 22,
-    "carbs": 72,
-    "sugars": 9,
-    "fat": 7,
-    "saturated_fat": 2.1,
-    "fiber": 4,
-    "sodium": 510,
-    "coverage": 90,
-    "foundCount": 9,
+    "cal": 708,
+    "kj": 2961,
+    "protein": 31,
+    "carbs": 82,
+    "sugars": 16,
+    "fat": 26,
+    "saturated_fat": 4.3,
+    "fiber": 10,
+    "sodium": 547,
+    "coverage": 100,
+    "foundCount": 10,
     "totalCount": 10,
-    "unmatchedItems": [
-      "Cornflakes"
-    ],
-    "calcium_mg": 86,
-    "iron_mg": 2,
-    "potassium_mg": 526,
-    "magnesium_mg": 50,
-    "zinc_mg": 2,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 136,
+    "iron_mg": 4,
+    "potassium_mg": 779,
+    "magnesium_mg": 203,
+    "zinc_mg": 4,
     "cholesterol_mg": 46,
-    "vitamin_a_ug": 137,
+    "vitamin_a_ug": 50,
     "vitamin_c_mg": 8,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-08-18",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-09-09"
 }

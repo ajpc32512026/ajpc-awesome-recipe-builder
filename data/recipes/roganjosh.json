@@ -10,11 +10,9 @@
   "servings": "4 servings",
   "yieldPerBatch": "4 servings",
   "tags": [
-    "Chinese",
     "Curry",
     "Dinner",
     "Gluten-Free",
-    "Greek",
     "Indian",
     "Lamb",
     "Rich",
@@ -115,19 +113,19 @@
     {
       "quantity": "250",
       "unit": "ml",
-      "item": "Hot Water"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
+      "item": "Water",
+      "notes": "hot"
     },
     {
       "quantity": "5",
       "unit": "g",
       "item": "Coriander (Fresh)",
       "notes": "chopped, for garnish"
+    },
+    {
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once, You can't take it out once it's in."
     }
   ],
   "method": [
@@ -184,33 +182,99 @@
       "content": "Adapted from traditional Indian rogan josh recipes."
     }
   ],
+  "related": [
+    {
+      "id": "lambvindaloo",
+      "title": "Lamb Vindaloo",
+      "matchingTags": [
+        "Curry",
+        "Dinner",
+        "Gluten-Free",
+        "Indian",
+        "Lamb",
+        "Rich",
+        "Savoury",
+        "Slow-Cooked",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "beefvindaloo",
+      "title": "Beef Vindaloo",
+      "matchingTags": [
+        "Curry",
+        "Dinner",
+        "Gluten-Free",
+        "Indian",
+        "Rich",
+        "Savoury",
+        "Slow-Cooked",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "lambkorma",
+      "title": "Lamb Korma",
+      "matchingTags": [
+        "Curry",
+        "Dinner",
+        "Gluten-Free",
+        "Indian",
+        "Lamb",
+        "Rich",
+        "Savoury",
+        "Slow-Cooked"
+      ]
+    },
+    {
+      "id": "currychicken",
+      "title": "Curry Chicken with Coconut Cream",
+      "matchingTags": [
+        "Curry",
+        "Dinner",
+        "Gluten-Free",
+        "Indian",
+        "Savoury",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "chickenshawarma",
+      "title": "Chicken Shawarma",
+      "matchingTags": [
+        "Dinner",
+        "Gluten-Free",
+        "Indian",
+        "Savoury",
+        "Spicy"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 4,
-    "cal": 1444,
-    "kj": 6042,
-    "protein": 63,
-    "carbs": 131,
-    "sugars": 14,
-    "fat": 59,
-    "saturated_fat": 16.3,
-    "fiber": 110,
-    "sodium": 694,
-    "coverage": 90,
+    "cal": 1497,
+    "kj": 6262,
+    "protein": 64,
+    "carbs": 167,
+    "sugars": 11,
+    "fat": 61,
+    "saturated_fat": 16.1,
+    "fiber": 109,
+    "sodium": 595,
+    "coverage": 100,
     "foundCount": 18,
-    "totalCount": 20,
-    "unmatchedItems": [
-      "Red Chilli Powder",
-      "Greek Yoghurt"
-    ],
-    "calcium_mg": 1304,
-    "iron_mg": 37,
-    "potassium_mg": 3805,
-    "magnesium_mg": 655,
-    "zinc_mg": 18,
-    "cholesterol_mg": 93,
-    "vitamin_a_ug": 184,
-    "vitamin_c_mg": 40,
+    "totalCount": 18,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 960,
+    "iron_mg": 22,
+    "potassium_mg": 2701,
+    "magnesium_mg": 426,
+    "zinc_mg": 10,
+    "cholesterol_mg": 107,
+    "vitamin_a_ug": 121,
+    "vitamin_c_mg": 21,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-09-09"
 }

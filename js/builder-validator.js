@@ -34,6 +34,47 @@
 (function () {
     'use strict';
 
+    // ── Optional project folder connection ─────────────────
+    // "Load in Editor" (from Validate All / Missing Related) fetches over
+    // HTTP by default, so Save has no file handle to write back to and
+    // falls back to a download — same as it always has. Connecting the
+    // project folder once (Chromium browsers only) lets us pull a real,
+    // writable FileSystemFileHandle for data/recipes/<id>.json instead,
+    // so Save writes straight back to the exact file it came from — the
+    // same behaviour "Load JSON" already gets via showOpenFilePicker.
+    var projectRootHandle = null;
+
+    async function connectProjectFolder() {
+        if (!window.showDirectoryPicker) {
+            alert('Direct-save requires a Chromium browser (Chrome, Edge, Brave, Opera) served over http(s):// or localhost.');
+            return;
+        }
+        try {
+            projectRootHandle = await window.showDirectoryPicker({ mode: 'readwrite' });
+            var status = document.getElementById('folder-connect-status');
+            if (status) {
+                status.textContent = 'Connected: ' + projectRootHandle.name;
+                status.style.color = 'var(--copper)';
+            }
+            if (typeof toast === 'function') toast('Folder connected — "Load in Editor" will now save directly back to disk');
+        } catch (e) {
+            // user cancelled the picker — not an error worth surfacing
+        }
+    }
+
+    // Resolves a writable handle for data/recipes/<id>.json from the
+    // connected folder, or null if no folder is connected / it fails.
+    async function getRecipeFileHandle(id) {
+        if (!projectRootHandle) return null;
+        try {
+            var dataDir = await projectRootHandle.getDirectoryHandle('data');
+            var recipesDir = await dataDir.getDirectoryHandle('recipes');
+            return await recipesDir.getFileHandle(id + '.json');
+        } catch (e) {
+            return null; // folder connected but this file/path didn't resolve — fall back to fetch
+        }
+    }
+
     // ── Schema definition ─────────────────────────────────
     var REQUIRED_TOP = [
         'id','title','category','difficulty','description',
@@ -293,6 +334,72 @@
         if (panel) panel.style.display = 'none';
     }
 
+    // ── Find every recipe with no related section ──────────
+    async function findMissingRelated() {
+        var panel  = document.getElementById('missing-related-panel');
+        var output = document.getElementById('missing-related-output');
+        if (panel) panel.style.display = 'block';
+        if (output) output.innerHTML = '<p class="preview-placeholder">Scanning recipe collection…</p>';
+        if (panel) panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+        var index;
+        try {
+            var res = await fetch('json/recipe-index.json?t=' + Date.now());
+            index = await res.json();
+        } catch (e) {
+            if (output) output.innerHTML = '<p class="diff-note">Could not load json/recipe-index.json</p>';
+            return;
+        }
+
+        var missing = [];
+        for (var i = 0; i < index.length; i++) {
+            var id = index[i].id;
+            try {
+                var r = await fetch('data/recipes/' + id + '.json?t=' + Date.now());
+                if (!r.ok) continue;
+                var data = await r.json();
+                if (!Array.isArray(data.related) || data.related.length === 0) {
+                    missing.push({ id: id, title: data.title || id });
+                }
+            } catch (e) {
+                // skip unreadable files here — Validate All already surfaces those
+            }
+        }
+
+        renderMissingRelatedReport(missing, index.length);
+    }
+
+    function renderMissingRelatedReport(missing, total) {
+        var output = document.getElementById('missing-related-output');
+        if (!output) return;
+
+        var html = '<div class="validate-summary">' +
+            '<strong>' + total + '</strong> recipes scanned — ' +
+            '<span class="v-err">' + missing.length + ' missing related</span> · ' +
+            '<span class="v-clean">' + (total - missing.length) + ' have related set</span>' +
+            '</div>';
+
+        if (!missing.length) {
+            html += '<p class="diff-note diff-clean">Every recipe has a related section. Nothing to fix.</p>';
+        } else {
+            missing.sort(function (a, b) { return a.title.localeCompare(b.title); });
+            missing.forEach(function (r) {
+                html += '<div class="validate-file v-err">' +
+                    '<div class="validate-file-name">' +
+                    '<span>' + escHtml(r.title) + ' <span class="validate-count">' + escHtml(r.id) + '.json</span></span>' +
+                    '<button class="validate-load-btn" onclick="BuilderValidator.loadRecipeForEditing(\'' + escHtml(r.id).replace(/'/g, '&#39;') + '\')">Load in Editor</button>' +
+                    '</div></div>';
+            });
+        }
+
+        output.innerHTML = html;
+    }
+
+    function closeMissingRelated() {
+        var panel = document.getElementById('missing-related-panel');
+        if (panel) panel.style.display = 'none';
+    }
+
     // ── Load a flagged recipe straight into the editor ─────
     // Re-fetches rather than reusing the scan's cached copy, so this
     // always loads whatever is currently on disk — including any fix
@@ -303,20 +410,32 @@
             return;
         }
         try {
-            var r = await fetch('data/recipes/' + id + '.json?t=' + Date.now());
-            if (!r.ok) throw new Error('HTTP ' + r.status);
-            var data = await r.json();
+            var data, handle = await getRecipeFileHandle(id);
+
+            if (handle) {
+                var file = await handle.getFile();
+                data = JSON.parse(await file.text());
+                currentFileHandle = handle; // real, writable — Save goes straight back to this file
+            } else {
+                var r = await fetch('data/recipes/' + id + '.json?t=' + Date.now());
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                data = await r.json();
+                currentFileHandle = null; // no folder connected — Save falls back to a download
+            }
 
             currentFilename = id;
-            currentFileHandle = null; // fetched over HTTP, not picked via the file system — Save falls back to a normal download rather than silently overwriting anything
             populateForm(data);
 
             var modeLabel = document.getElementById('mode-label');
             if (modeLabel) {
-                modeLabel.textContent = 'Editing: ' + id + '.json';
+                modeLabel.textContent = 'Editing: ' + id + '.json' + (handle ? '' : ' (will download on save)');
                 modeLabel.style.color = 'var(--copper)';
             }
-            if (typeof toast === 'function') toast('Loaded ' + id + '.json — fix flagged issues, then Save');
+            if (typeof toast === 'function') {
+                toast(handle
+                    ? 'Loaded ' + id + '.json — Save will write straight back to this file'
+                    : 'Loaded ' + id + '.json — connect your project folder to save directly, or Save will download a copy');
+            }
         } catch (e) {
             alert('Could not load data/recipes/' + id + '.json: ' + e.message);
         }
@@ -377,6 +496,15 @@
 
         var closeBtn = document.getElementById('close-validate-btn');
         if (closeBtn) closeBtn.addEventListener('click', closeValidateAll);
+
+        var relatedBtn = document.getElementById('missing-related-btn');
+        if (relatedBtn) relatedBtn.addEventListener('click', findMissingRelated);
+
+        var closeRelatedBtn = document.getElementById('close-missing-related-btn');
+        if (closeRelatedBtn) closeRelatedBtn.addEventListener('click', closeMissingRelated);
+
+        var connectBtn = document.getElementById('connect-folder-btn');
+        if (connectBtn) connectBtn.addEventListener('click', connectProjectFolder);
     }
 
     if (document.readyState === 'loading') {
@@ -391,7 +519,10 @@
         validateAllRecipes: validateAllRecipes,
         validateCurrent:   validateCurrent,
         closeValidateAll:  closeValidateAll,
-        loadRecipeForEditing: loadRecipeForEditing
+        loadRecipeForEditing: loadRecipeForEditing,
+        findMissingRelated: findMissingRelated,
+        closeMissingRelated: closeMissingRelated,
+        connectProjectFolder: connectProjectFolder
     };
 
 })();

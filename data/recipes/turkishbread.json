@@ -10,16 +10,13 @@
   "servings": "2 loaves",
   "yieldPerBatch": "2 loaves",
   "tags": [
-    "Baked",
     "Baking",
     "Bread",
     "Classic",
     "Greek",
     "Make Ahead",
-    "Middle Eastern",
     "Savoury",
     "Turkish",
-    "Vegan",
     "Vegetarian"
   ],
   "ingredients": [
@@ -148,9 +145,67 @@
       "content": "Perfect for kebabs, doner wraps, or torn and served alongside dips like hummus, baba ganoush, or labneh."
     }
   ],
+  "related": [
+    {
+      "id": "pizzadough",
+      "title": "Ultimate Homemade Pizza Dough",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Classic",
+        "Make Ahead",
+        "Savoury",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "highhydraciab",
+      "title": "Airy High-Hydration Ciabatta",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Greek",
+        "Savoury",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "focaccia",
+      "title": "Focaccia",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Make Ahead",
+        "Savoury",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "focaccia-high",
+      "title": "High-Hydration Focaccia",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Make Ahead",
+        "Savoury",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "swbtm",
+      "title": "Soft White Bread (Tangzhong Method)",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Classic",
+        "Make Ahead",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 2,
-    "cal": 934,
+    "cal": 935,
     "kj": 3910,
     "protein": 31,
     "carbs": 168,
@@ -160,14 +215,15 @@
     "fiber": 9,
     "sodium": 294,
     "coverage": 100,
-    "foundCount": 10,
-    "totalCount": 10,
+    "foundCount": 7,
+    "totalCount": 7,
     "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 128,
     "iron_mg": 4,
     "potassium_mg": 531,
     "magnesium_mg": 122,
     "zinc_mg": 3
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-09-09"
 }

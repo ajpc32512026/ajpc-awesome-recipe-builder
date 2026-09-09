@@ -12,7 +12,6 @@
   "tags": [
     "Baking",
     "Bread",
-    "Greek",
     "Italian",
     "Make Ahead",
     "Savoury",
@@ -29,7 +28,8 @@
     {
       "quantity": "450",
       "unit": "ml",
-      "item": "Warm Water"
+      "item": "Water",
+      "notes": "warm"
     },
     {
       "quantity": "30",
@@ -104,6 +104,70 @@
       "content": "Focaccia is best on the day it is baked. Store leftovers in an airtight container for up to 2 days. Refresh in a warm oven to restore the crust."
     }
   ],
+  "related": [
+    {
+      "id": "focaccia",
+      "title": "Focaccia",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Italian",
+        "Make Ahead",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "pizzadough",
+      "title": "Ultimate Homemade Pizza Dough",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Italian",
+        "Make Ahead",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "highhydraciab",
+      "title": "Airy High-Hydration Ciabatta",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Italian",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "darkrye",
+      "title": "Dark Rye Bread",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Make Ahead",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "swbtm2",
+      "title": "Soft White Bread 2 (Tangzhong)",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Make Ahead",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 8,
     "cal": 259,
@@ -116,14 +180,15 @@
     "fiber": 2,
     "sodium": 213,
     "coverage": 100,
-    "foundCount": 6,
-    "totalCount": 6,
+    "foundCount": 4,
+    "totalCount": 4,
     "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 17,
     "iron_mg": 1,
     "potassium_mg": 133,
     "magnesium_mg": 26,
     "zinc_mg": 1
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-09-09"
 }

@@ -1,6 +1,6 @@
 {
   "id": "lasagne",
-  "title": "Classic Lasagne — Ragù & Béchamel",
+  "title": "Classic Lasagne — Ragu & Bechamel",
   "category": "Dinner",
   "difficulty": "Intermediate",
   "description": "A traditional layered lasagne that warms the ribs and calms the spirit.",
@@ -10,13 +10,10 @@
   "servings": "8 servings",
   "yieldPerBatch": "8 servings",
   "tags": [
-    "Baked",
     "Baking",
     "Beef",
-    "Chinese",
     "Classic",
     "Dinner",
-    "Greek",
     "Italian",
     "Lunch",
     "Make Ahead",
@@ -195,30 +192,101 @@
       "content": "Assemble the lasagne completely, cover, and refrigerate for up to 24 hours before baking. Add 10 minutes to the covered baking time when cooking from cold."
     }
   ],
+  "related": [
+    {
+      "id": "beefstockpot",
+      "title": "20 Minute Beef Stock Pot",
+      "matchingTags": [
+        "Baking",
+        "Beef",
+        "Chinese",
+        "Dinner",
+        "Greek",
+        "Italian",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "potatognocchi",
+      "title": "Potato Gnocchi with Tomato Sauce",
+      "matchingTags": [
+        "Baking",
+        "Chinese",
+        "Classic",
+        "Dinner",
+        "Italian",
+        "Pasta",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "bistro-vealmozzarella",
+      "title": "Veal Mozzarella",
+      "matchingTags": [
+        "Baked",
+        "Baking",
+        "Classic",
+        "Dinner",
+        "Italian",
+        "Lunch",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "chickencacciatore",
+      "title": "Chicken Cacciatore",
+      "matchingTags": [
+        "Chinese",
+        "Classic",
+        "Dinner",
+        "Greek",
+        "Italian",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "meatpie",
+      "title": "Classic Aussie Meat Pies",
+      "matchingTags": [
+        "Baked",
+        "Baking",
+        "Beef",
+        "Classic",
+        "Dinner",
+        "Lunch",
+        "Savoury"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 8,
-    "cal": 666,
-    "kj": 2785,
-    "protein": 27,
-    "carbs": 37,
-    "sugars": 7,
-    "fat": 45,
-    "saturated_fat": 25.9,
+    "cal": 459,
+    "kj": 1920,
+    "protein": 28,
+    "carbs": 39,
+    "sugars": 9,
+    "fat": 20,
+    "saturated_fat": 10,
     "fiber": 7,
-    "sodium": 276,
+    "sodium": 282,
     "coverage": 100,
     "foundCount": 17,
     "totalCount": 17,
     "unmatchedItems": [],
-    "calcium_mg": 186,
+    "noQuantityItems": [],
+    "calcium_mg": 221,
     "iron_mg": 2,
-    "potassium_mg": 801,
-    "magnesium_mg": 61,
+    "potassium_mg": 845,
+    "magnesium_mg": 64,
     "zinc_mg": 3,
-    "cholesterol_mg": 156,
-    "vitamin_a_ug": 350,
+    "cholesterol_mg": 81,
+    "vitamin_a_ug": 173,
     "vitamin_c_mg": 19,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-08-22"
+  "lastModified": "2026-09-09"
 }

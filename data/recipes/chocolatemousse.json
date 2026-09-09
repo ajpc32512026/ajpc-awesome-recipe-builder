@@ -8,6 +8,7 @@
   "cookTime": "5 min",
   "totalTime": "15 min",
   "servings": "6 servings",
+  "yieldPerBatch": "6 servings",
   "tags": [
     "Chocolate",
     "Creamy",
@@ -99,6 +100,75 @@
       "content": "Adapted from The Australian Women's Weekly Home Library — Sweet Old-Fashioned Favourites, page 34."
     }
   ],
+  "related": [
+    {
+      "id": "plaincheesecakeclassicnobake",
+      "title": "Plain Cheesecake (Classic No Bake)",
+      "matchingTags": [
+        "Creamy",
+        "Dessert",
+        "Gluten-Free",
+        "Make Ahead",
+        "No-Bake",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chocolaterumballs",
+      "title": "Chocolate Rum Balls",
+      "matchingTags": [
+        "Chocolate",
+        "Dessert",
+        "Gluten-Free",
+        "Make Ahead",
+        "No-Bake",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "baked-cheesecake",
+      "title": "Baked Cheesecake",
+      "matchingTags": [
+        "Creamy",
+        "Dessert",
+        "Gluten-Free",
+        "Make Ahead",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chefstyletiramisugateau",
+      "title": "Chef-Style Tiramisu Gateau",
+      "matchingTags": [
+        "Creamy",
+        "Dessert",
+        "Gluten-Free",
+        "Make Ahead",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "cremecaramel",
+      "title": "Crème Caramel",
+      "matchingTags": [
+        "Creamy",
+        "Dessert",
+        "French",
+        "Gluten-Free",
+        "Make Ahead",
+        "Rich",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 6,
     "cal": 493,
@@ -114,6 +184,7 @@
     "foundCount": 4,
     "totalCount": 4,
     "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 91,
     "iron_mg": 3,
     "potassium_mg": 261,
@@ -123,6 +194,5 @@
     "vitamin_a_ug": 383,
     "vitamin_d_ug": 7
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "6 servings"
+  "lastModified": "2026-09-09"
 }

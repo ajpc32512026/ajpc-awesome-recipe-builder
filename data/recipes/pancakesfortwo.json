@@ -8,23 +8,20 @@
   "cookTime": "15 min",
   "totalTime": "20 min",
   "servings": "2",
-  "yieldPerBatch": "6-8 pancakes",
+  "yieldPerBatch": "6 pancakes",
   "tags": [
-    "American",
-    "Baking",
     "Breakfast",
     "Dessert",
     "Easy",
     "Make Ahead",
     "Sweet",
-    "Under 30 Minutes",
     "Vegetarian"
   ],
   "ingredients": [
     {
       "quantity": "185",
       "unit": "ml",
-      "item": "Milk Full-Cream"
+      "item": "Milk Full-cream"
     },
     {
       "quantity": "1",
@@ -124,29 +121,89 @@
       "content": "Fold in 50g chocolate chips, fresh blueberries, or sliced banana after mixing the batter."
     }
   ],
+  "related": [
+    {
+      "id": "applepie",
+      "title": "Apple Pie",
+      "matchingTags": [
+        "Baking",
+        "Dessert",
+        "Make Ahead",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "applestrudel",
+      "title": "Apple Strudel",
+      "matchingTags": [
+        "Baking",
+        "Breakfast",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bananabread",
+      "title": "Banana Bread",
+      "matchingTags": [
+        "Baking",
+        "Breakfast",
+        "Make Ahead",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bananacake",
+      "title": "Banana Cake with Lemon Frosting",
+      "matchingTags": [
+        "Baking",
+        "Breakfast",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "muffinmix",
+      "title": "Basic Muffin Mix",
+      "matchingTags": [
+        "Baking",
+        "Breakfast",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 2,
-    "cal": 606,
-    "kj": 2537,
+    "cal": 509,
+    "kj": 2131,
     "protein": 23,
-    "carbs": 86,
-    "sugars": 32,
+    "carbs": 61,
+    "sugars": 7,
     "fat": 19,
     "saturated_fat": 8.8,
     "fiber": 2,
     "sodium": 910,
-    "coverage": 100,
-    "foundCount": 7,
+    "coverage": 86,
+    "foundCount": 6,
     "totalCount": 7,
-    "unmatchedItems": [],
+    "unmatchedItems": [
+      "Caster Sugar"
+    ],
+    "noQuantityItems": [],
     "calcium_mg": 191,
     "iron_mg": 3,
-    "potassium_mg": 593,
+    "potassium_mg": 592,
     "magnesium_mg": 46,
     "zinc_mg": 2,
     "cholesterol_mg": 510,
     "vitamin_a_ug": 235,
     "vitamin_d_ug": 6
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-09-09"
 }

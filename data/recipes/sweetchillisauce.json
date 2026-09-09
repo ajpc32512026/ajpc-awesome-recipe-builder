@@ -8,19 +8,14 @@
   "cookTime": "5 min",
   "totalTime": "10 min",
   "servings": "6 servings",
+  "yieldPerBatch": "6 servings",
   "tags": [
-    "Baking",
-    "Chinese",
-    "Condiment",
-    
     "Gluten-Free",
     "Make Ahead",
     "Sauce",
-    "Snack",
     "Spicy",
     "Sweet",
     "Thai",
-    "Under 30 Minutes",
     "Vegan",
     "Vegetarian"
   ],
@@ -43,18 +38,18 @@
     {
       "quantity": "30",
       "unit": "ml",
-      "item": "Chilli Garlic Sauce"
+      "item": "Chilli Sauce"
+    },
+    {
+      "quantity": "4",
+      "unit": "cloves",
+      "item": "Garlic",
+      "notes": "crushed"
     },
     {
       "quantity": "10",
       "unit": "g",
       "item": "Cornflour"
-    },
-    {
-      "quantity": "5",
-      "unit": "cloves",
-      "item": "Garlic",
-      "notes": "minced"
     }
   ],
   "method": [
@@ -86,29 +81,92 @@
       "content": "Excellent with spring rolls, fried chicken, or as a marinade. Can also be used as a dipping sauce for dumplings or drizzled over grilled meats."
     }
   ],
+  "related": [
+    {
+      "id": "sataysauce",
+      "title": "Satay Sauce",
+      "matchingTags": [
+        "Gluten-Free",
+        "Make Ahead",
+        "Sauce",
+        "Spicy",
+        "Thai",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chilligarlicoil",
+      "title": "Chilli Garlic Oil",
+      "matchingTags": [
+        "Gluten-Free",
+        "Make Ahead",
+        "Sauce",
+        "Spicy",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce",
+      "matchingTags": [
+        "Gluten-Free",
+        "Make Ahead",
+        "Sauce",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sweetsoursauce_flex",
+      "title": "Sweet & Sour Sauce – Home Chef Flex",
+      "matchingTags": [
+        "Gluten-Free",
+        "Make Ahead",
+        "Sauce",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sweetspicyorangesauce",
+      "title": "Sweet & Spicy Orange Sauce",
+      "matchingTags": [
+        "Gluten-Free",
+        "Sauce",
+        "Spicy",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 6,
-    "cal": 159,
-    "kj": 665,
-    "protein": 5,
-    "carbs": 21,
-    "sugars": 12,
+    "cal": 138,
+    "kj": 576,
+    "protein": 4,
+    "carbs": 20,
+    "sugars": 13,
     "fat": 2,
-    "saturated_fat": 0.7,
-    "fiber": 15,
-    "sodium": 8,
+    "saturated_fat": 0.5,
+    "fiber": 11,
+    "sodium": 73,
     "coverage": 100,
     "foundCount": 5,
     "totalCount": 5,
     "unmatchedItems": [],
-    "calcium_mg": 27,
-    "iron_mg": 2,
-    "potassium_mg": 451,
-    "magnesium_mg": 22,
+    "noQuantityItems": [],
+    "calcium_mg": 21,
+    "iron_mg": 1,
+    "potassium_mg": 344,
+    "magnesium_mg": 18,
     "zinc_mg": 1,
-    "vitamin_a_ug": 2,
-    "vitamin_c_mg": 10
+    "vitamin_a_ug": 4,
+    "vitamin_c_mg": 7
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "6 servings"
+  "lastModified": "2026-09-09"
 }

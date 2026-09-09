@@ -8,12 +8,11 @@
   "cookTime": "15",
   "totalTime": "25",
   "servings": "1",
+  "yieldPerBatch": "1 batch",
   "tags": [
     "Australian",
-    "Baked",
     "Bakery-Style",
     "Classic",
-    "Condiment",
     "Gluten-Free",
     "Make-Ahead",
     "No-Bake",
@@ -29,7 +28,7 @@
     {
       "quantity": "40",
       "unit": "ml",
-      "item": "Milk Full-Cream"
+      "item": "Milk Full-cream"
     },
     {
       "quantity": "80",
@@ -79,31 +78,86 @@
       "content": "1.5 g gelatine is roughly the equivalent of the traditional 1/2 tsp measure, weighed for accuracy."
     }
   ],
+  "related": [
+    {
+      "id": "chocolaterumballs",
+      "title": "Chocolate Rum Balls",
+      "matchingTags": [
+        "Australian",
+        "Gluten-Free",
+        "No-Bake",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bistro-pavlova",
+      "title": "Pavlova",
+      "matchingTags": [
+        "Australian",
+        "Classic",
+        "Gluten-Free",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "plaincheesecakeclassicnobake",
+      "title": "Plain Cheesecake (Classic No Bake)",
+      "matchingTags": [
+        "Classic",
+        "Gluten-Free",
+        "No-Bake",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "roulade",
+      "title": "Strawberry Meringue Roulade",
+      "matchingTags": [
+        "Australian",
+        "Classic",
+        "Gluten-Free",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "applecinnscrolls",
+      "title": "Apple & Cinnamon Scrolls",
+      "matchingTags": [
+        "Australian",
+        "Classic",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 1,
-    "cal": 1388,
-    "kj": 5809,
-    "protein": 3,
-    "carbs": 5,
-    "sugars": 5,
+    "cal": 1390,
+    "kj": 5815,
+    "protein": 5,
+    "carbs": 3,
+    "sugars": 3,
     "fat": 153,
     "saturated_fat": 106.2,
     "fiber": 0,
-    "sodium": 33,
-    "coverage": 60,
-    "foundCount": 3,
+    "sodium": 40,
+    "coverage": 80,
+    "foundCount": 4,
     "totalCount": 5,
     "unmatchedItems": [
-      "Castor Sugar",
-      "Geletine"
+      "Caster Sugar"
     ],
-    "calcium_mg": 74,
-    "potassium_mg": 99,
+    "noQuantityItems": [],
+    "calcium_mg": 79,
+    "potassium_mg": 100,
     "magnesium_mg": 8,
     "cholesterol_mg": 313,
     "vitamin_a_ug": 1605,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-07-25",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-09-09"
 }

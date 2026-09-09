@@ -1,19 +1,16 @@
 {
-  "id": "filipinoportoccino",
+  "id": "filipinoporktoccino",
   "title": "Filipino Pork Toccino",
-  "category": "Dinner",
+  "category": "Filipino",
   "difficulty": "Beginner",
   "description": "Sweet, caramelised pork — juicy, tender, and perfect for a classic Filipino breakfast or dinner.",
   "prepTime": "10 min",
   "cookTime": "12 min",
   "totalTime": "24 hr 22 min",
   "servings": "4 servings",
+  "yieldPerBatch": "4 servings",
   "tags": [
-    "Asian",
-    "Breakfast",
-    "Chinese",
     "Dinner",
-    "Drinks",
     "Filipino",
     "Gluten-Free",
     "Make Ahead",
@@ -113,6 +110,74 @@
       "content": "Try chicken tocino for a lighter version. For natural colouring, use annatto powder or beet juice instead of food colouring."
     }
   ],
+  "related": [
+    {
+      "id": "pancitfilipinostirfriednoodles",
+      "title": "Pancit (Filipino Stir-Fried Noodles)",
+      "matchingTags": [
+        
+        "Chinese",
+        "Dinner",
+        "Drinks",
+        "Filipino",
+        "Gluten-Free",
+        "Pork",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "sweetsourpork",
+      "title": "Better Than Takeaway Sweet & Sour Pork",
+      "matchingTags": [
+        
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Pork",
+        "Savoury",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "chickenpineapple",
+      "title": "Chicken Pineapple",
+      "matchingTags": [
+        "Chinese",
+        "Dinner",
+        "Drinks",
+        "Filipino",
+        "Gluten-Free",
+        "Savoury",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "honeysoychicken",
+      "title": "Honey Soy Chicken",
+      "matchingTags": [
+        
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Make Ahead",
+        "Savoury",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "pancitbihon",
+      "title": "Pancit Bihon",
+      "matchingTags": [
+        
+        "Chinese",
+        "Dinner",
+        "Filipino",
+        "Gluten-Free",
+        "Pork",
+        "Savoury"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 4,
     "cal": 542,
@@ -128,6 +193,7 @@
     "foundCount": 9,
     "totalCount": 9,
     "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 91,
     "iron_mg": 4,
     "potassium_mg": 1039,
@@ -138,6 +204,5 @@
     "vitamin_c_mg": 12,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "4 servings"
+  "lastModified": "2026-09-09"
 }

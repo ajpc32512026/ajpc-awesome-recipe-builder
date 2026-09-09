@@ -15,7 +15,6 @@
     "Cake",
     "Chocolate",
     "Dessert",
-    "Drinks",
     "Rich",
     "Sweet",
     "Vegetarian"
@@ -156,32 +155,96 @@
       "content": "This cake improves with time. Make it a day ahead — the crumb becomes denser and more fudgy overnight in the refrigerator."
     }
   ],
+  "related": [
+    {
+      "id": "orangepoppyseed",
+      "title": "Orange & Poppy Seed Cake",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "lamington",
+      "title": "Classic Lamingtons",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Chocolate",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bananacake",
+      "title": "Banana Cake with Lemon Frosting",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "cherrycoconutcake",
+      "title": "Cherry and Coconut Cake",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "hummingbirdcafestyle",
+      "title": "Hummingbird — Cafe Style",
+      "matchingTags": [
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 10,
-    "cal": 744,
-    "kj": 3113,
-    "protein": 13,
-    "carbs": 76,
-    "sugars": 56,
-    "fat": 44,
-    "saturated_fat": 27.4,
+    "cal": 680,
+    "kj": 2846,
+    "protein": 15,
+    "carbs": 54,
+    "sugars": 35,
+    "fat": 46,
+    "saturated_fat": 28.4,
     "fiber": 2,
-    "sodium": 373,
-    "coverage": 85,
-    "foundCount": 11,
+    "sodium": 389,
+    "coverage": 92,
+    "foundCount": 12,
     "totalCount": 13,
     "unmatchedItems": [
-      "Milk Full-cream",
-      "Vanilla Extract"
+      "Caster Sugar"
     ],
-    "calcium_mg": 99,
+    "noQuantityItems": [],
+    "calcium_mg": 145,
     "iron_mg": 4,
-    "potassium_mg": 648,
-    "magnesium_mg": 69,
+    "potassium_mg": 710,
+    "magnesium_mg": 74,
     "zinc_mg": 2,
-    "cholesterol_mg": 404,
-    "vitamin_a_ug": 394,
+    "cholesterol_mg": 408,
+    "vitamin_a_ug": 413,
     "vitamin_d_ug": 5
   },
-  "lastModified": "2026-08-31"
+  "lastModified": "2026-09-09"
 }

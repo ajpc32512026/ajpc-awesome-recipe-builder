@@ -148,29 +148,104 @@
       "content": "This Mongolian Beef Stir-Fry draws inspiration from traditional Chinese banquet cooking methods."
     }
   ],
+  "related": [
+    {
+      "id": "mongolianlamb",
+      "title": "Mongolian Lamb",
+      "matchingTags": [
+        "Alcohol",
+        "Asian",
+        "Baking",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Stir-Fried",
+        "Stovetop",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce",
+      "matchingTags": [
+        "Alcohol",
+        "Asian",
+        "Baking",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Stovetop",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "pineapplecoconutchicken",
+      "title": "Pineapple Coconut Chicken",
+      "matchingTags": [
+        "Asian",
+        "Baking",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Stovetop",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "sweetsourpork",
+      "title": "Better Than Takeaway Sweet & Sour Pork",
+      "matchingTags": [
+        "Asian",
+        "Baking",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "chickenteriyaki",
+      "title": "Chicken Teriyaki",
+      "matchingTags": [
+        "Asian",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Stovetop",
+        "Sweet"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 2,
-    "cal": 737,
-    "kj": 3083,
-    "protein": 23,
-    "carbs": 74,
-    "sugars": 22,
-    "fat": 32,
-    "saturated_fat": 3.6,
-    "fiber": 23,
-    "sodium": 1253,
+    "cal": 713,
+    "kj": 2983,
+    "protein": 58,
+    "carbs": 33,
+    "sugars": 18,
+    "fat": 33,
+    "saturated_fat": 4.3,
+    "fiber": 21,
+    "sodium": 1142,
     "coverage": 100,
-    "foundCount": 17,
-    "totalCount": 17,
+    "foundCount": 14,
+    "totalCount": 14,
     "unmatchedItems": [],
-    "calcium_mg": 92,
-    "iron_mg": 4,
-    "potassium_mg": 1104,
-    "magnesium_mg": 75,
-    "zinc_mg": 4,
-    "cholesterol_mg": 23,
-    "vitamin_a_ug": 187,
-    "vitamin_c_mg": 70
+    "noQuantityItems": [],
+    "calcium_mg": 87,
+    "iron_mg": 6,
+    "potassium_mg": 1438,
+    "magnesium_mg": 95,
+    "zinc_mg": 11,
+    "cholesterol_mg": 95,
+    "vitamin_a_ug": 166,
+    "vitamin_c_mg": 64,
+    "vitamin_d_ug": 2
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-09-09"
 }

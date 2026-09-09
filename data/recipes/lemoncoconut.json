@@ -15,7 +15,6 @@
     "Cake",
     "Coconut",
     "Dessert",
-    "Drinks",
     "Lemon",
     "Sweet",
     "Vegetarian"
@@ -124,33 +123,97 @@
       "content": "Add lemon juice a little at a time — the icing should be thick enough to spread but not runny. If it becomes too thin, add more sifted icing sugar."
     }
   ],
+  "related": [
+    {
+      "id": "cherrycoconutcake",
+      "title": "Cherry and Coconut Cake",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Coconut",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "lamington",
+      "title": "Classic Lamingtons",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Coconut",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bananacake",
+      "title": "Banana Cake with Lemon Frosting",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "orangepoppyseed",
+      "title": "Orange & Poppy Seed Cake",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "theultimatechocolatemudcake",
+      "title": "The Ultimate Chocolate Mud Cake",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 12,
-    "cal": 352,
-    "kj": 1474,
-    "protein": 8,
+    "cal": 288,
+    "kj": 1207,
+    "protein": 7,
     "carbs": 31,
     "sugars": 22,
-    "fat": 20,
-    "saturated_fat": 13.8,
-    "fiber": 11,
-    "sodium": 68,
-    "coverage": 78,
-    "foundCount": 7,
+    "fat": 14,
+    "saturated_fat": 7.7,
+    "fiber": 9,
+    "sodium": 70,
+    "coverage": 89,
+    "foundCount": 8,
     "totalCount": 9,
     "unmatchedItems": [
-      "Milk Full-cream",
-      "Lemon Juice"
+      "Desiccated Coconut"
     ],
-    "calcium_mg": 135,
+    "noQuantityItems": [],
+    "calcium_mg": 145,
     "iron_mg": 2,
-    "potassium_mg": 295,
-    "magnesium_mg": 33,
+    "potassium_mg": 255,
+    "magnesium_mg": 27,
     "zinc_mg": 1,
-    "cholesterol_mg": 182,
-    "vitamin_a_ug": 152,
-    "vitamin_c_mg": 108,
+    "cholesterol_mg": 183,
+    "vitamin_a_ug": 156,
+    "vitamin_c_mg": 109,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-08-31"
+  "lastModified": "2026-09-09"
 }

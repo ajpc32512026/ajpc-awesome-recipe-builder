@@ -8,15 +8,13 @@
   "cookTime": "25 min",
   "totalTime": "35 min",
   "servings": "4 servings",
+  "yieldPerBatch": "4 servings",
   "tags": [
-    "Chinese",
     "Classic",
     "Gluten-Free",
-    "Greek",
     "Italian",
     "Sauce",
     "Tomato",
-    "Under 30 Minutes",
     "Vegan",
     "Vegetarian"
   ],
@@ -57,14 +55,9 @@
       "notes": "dried"
     },
     {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Salt"
-    },
-    {
-      "quantity": "2",
-      "unit": "g",
-      "item": "Black Pepper"
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once, You can't take it out once it's in."
     }
   ],
   "method": [
@@ -100,29 +93,87 @@
       "content": "A versatile sauce perfect for pasta, pizza, or as a base for other dishes. Freezes beautifully for up to 3 months."
     }
   ],
+  "related": [
+    {
+      "id": "arrabbiatasauce",
+      "title": "Arrabbiata Sauce",
+      "matchingTags": [
+        "Gluten-Free",
+        "Italian",
+        "Sauce",
+        "Tomato",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "pestosauce",
+      "title": "Pesto Sauce",
+      "matchingTags": [
+        "Classic",
+        "Gluten-Free",
+        "Italian",
+        "Sauce",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "redsauce",
+      "title": "Red Sauce",
+      "matchingTags": [
+        "Classic",
+        "Italian",
+        "Sauce",
+        "Tomato",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "alfredosauce",
+      "title": "Alfredo Sauce",
+      "matchingTags": [
+        "Gluten-Free",
+        "Italian",
+        "Sauce",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chilligarlicoil",
+      "title": "Chilli Garlic Oil",
+      "matchingTags": [
+        "Gluten-Free",
+        "Sauce",
+        "Vegan",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 4,
-    "cal": 198,
-    "kj": 828,
-    "protein": 6,
-    "carbs": 15,
-    "sugars": 6,
-    "fat": 10,
-    "saturated_fat": 1.8,
-    "fiber": 16,
-    "sodium": 120,
+    "cal": 7847,
+    "kj": 32830,
+    "protein": 318,
+    "carbs": 1109,
+    "sugars": 1103,
+    "fat": 160,
+    "saturated_fat": 39.3,
+    "fiber": 464,
+    "sodium": 2508,
     "coverage": 100,
-    "foundCount": 8,
-    "totalCount": 8,
+    "foundCount": 6,
+    "totalCount": 6,
     "unmatchedItems": [],
-    "calcium_mg": 67,
-    "iron_mg": 2,
-    "potassium_mg": 759,
-    "magnesium_mg": 42,
-    "zinc_mg": 1,
-    "vitamin_a_ug": 64,
-    "vitamin_c_mg": 27
+    "noQuantityItems": [],
+    "calcium_mg": 8426,
+    "iron_mg": 527,
+    "potassium_mg": 67824,
+    "magnesium_mg": 4026,
+    "zinc_mg": 55,
+    "vitamin_a_ug": 11,
+    "vitamin_c_mg": 885
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "4 servings"
+  "lastModified": "2026-09-09"
 }

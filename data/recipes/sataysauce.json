@@ -8,14 +8,11 @@
   "cookTime": "10 min",
   "totalTime": "15 min",
   "servings": "4 servings",
+  "yieldPerBatch": "4 servings",
   "tags": [
-    "Asian",
-    "Chinese",
     "Coconut",
-    "Condiment",
     "Dinner",
     "Gluten-Free",
-    "Indian",
     "Make Ahead",
     "Sauce",
     "Savoury",
@@ -83,6 +80,71 @@
       "content": "Serve warm over grilled chicken skewers, beef strips, lamb, or roasted vegetables. Also excellent as a dipping sauce for spring rolls or satay skewers."
     }
   ],
+  "related": [
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce",
+      "matchingTags": [
+        "Dinner",
+        "Gluten-Free",
+        "Make Ahead",
+        "Sauce",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sweetchillisauce",
+      "title": "Sweet Chilli Sauce",
+      "matchingTags": [
+        "Gluten-Free",
+        "Make Ahead",
+        "Sauce",
+        "Spicy",
+        "Thai",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "teriyakimarinade",
+      "title": "Teriyaki Marinade",
+      "matchingTags": [
+        "Dinner",
+        "Gluten-Free",
+        "Make Ahead",
+        "Sauce",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chilligarlicoil",
+      "title": "Chilli Garlic Oil",
+      "matchingTags": [
+        "Gluten-Free",
+        "Make Ahead",
+        "Sauce",
+        "Spicy",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "kormapaste",
+      "title": "Homemade Korma Paste",
+      "matchingTags": [
+        "Gluten-Free",
+        "Make Ahead",
+        "Savoury",
+        "Spicy",
+        "Vegan",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 4,
     "cal": 324,
@@ -98,6 +160,7 @@
     "foundCount": 4,
     "totalCount": 4,
     "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 74,
     "iron_mg": 2,
     "potassium_mg": 276,
@@ -107,6 +170,5 @@
     "vitamin_a_ug": 33,
     "vitamin_c_mg": 1
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "4 servings"
+  "lastModified": "2026-09-09"
 }

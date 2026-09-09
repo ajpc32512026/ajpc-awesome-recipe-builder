@@ -7,11 +7,9 @@
   "prepTime": "15 min",
   "cookTime": "45 min",
   "totalTime": "1 hr",
-  "servings": "10 servings",
+  "servings": "8 servings",
   "yieldPerBatch": "1 cake",
   "tags": [
-    "American",
-    "Baked",
     "Baking",
     "Cake",
     "Caramel",
@@ -19,7 +17,8 @@
     "Drinks",
     "Fruit",
     "Sweet",
-    "Vegetarian"
+    "Vegetarian",
+    "Australian"
   ],
   "ingredients": [
     {
@@ -188,30 +187,96 @@
       "content": "Made with 86 g brown sugar and 150 ml pineapple juice at the time. Used a water basin — added 10 minutes to bake time. Flipped at exactly 5 minutes. Didn't stick. Looked awesome. Dish pig survived."
     }
   ],
+  "related": [
+    {
+      "id": "bananacake",
+      "title": "Banana Cake with Lemon Frosting",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Drinks",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "orangepoppyseed",
+      "title": "Orange & Poppy Seed Cake",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Drinks",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "theultimatechocolatemudcake",
+      "title": "The Ultimate Chocolate Mud Cake",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Drinks",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "cherrycoconutcake",
+      "title": "Cherry and Coconut Cake",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "lemoncoconut",
+      "title": "Lemon Coconut Cake",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
-    "servings": 10,
-    "cal": 349,
-    "kj": 1461,
-    "protein": 7,
-    "carbs": 48,
-    "sugars": 32,
-    "fat": 15,
-    "saturated_fat": 1.8,
-    "fiber": 1,
-    "sodium": 154,
+    "servings": 8,
+    "cal": 436,
+    "kj": 1826,
+    "protein": 9,
+    "carbs": 60,
+    "sugars": 40,
+    "fat": 19,
+    "saturated_fat": 2.2,
+    "fiber": 2,
+    "sodium": 192,
     "coverage": 100,
     "foundCount": 9,
     "totalCount": 9,
     "unmatchedItems": [],
-    "calcium_mg": 44,
-    "iron_mg": 1,
-    "potassium_mg": 276,
-    "magnesium_mg": 22,
+    "noQuantityItems": [],
+    "calcium_mg": 55,
+    "iron_mg": 2,
+    "potassium_mg": 344,
+    "magnesium_mg": 27,
     "zinc_mg": 1,
-    "cholesterol_mg": 195,
-    "vitamin_a_ug": 52,
-    "vitamin_c_mg": 6,
-    "vitamin_d_ug": 2
+    "cholesterol_mg": 244,
+    "vitamin_a_ug": 65,
+    "vitamin_c_mg": 7,
+    "vitamin_d_ug": 3
   },
-  "lastModified": "2026-08-31"
+  "lastModified": "2026-09-09"
 }

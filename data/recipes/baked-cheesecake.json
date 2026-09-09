@@ -166,33 +166,107 @@
       "content": "Suitable. Freeze whole or in slices, well wrapped. Thaw overnight in the refrigerator."
     }
   ],
+  "related": [
+    {
+      "id": "plaincheesecakeclassicnobake",
+      "title": "Plain Cheesecake (Classic No Bake)",
+      "matchingTags": [
+        "American",
+        "Baked",
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Gluten-Free",
+        "Make Ahead",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chefstyletiramisugateau",
+      "title": "Chef-Style Tiramisu Gateau",
+      "matchingTags": [
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Drinks",
+        "Gluten-Free",
+        "Make Ahead",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "classiccarrotcake",
+      "title": "Classic Carrot Cake",
+      "matchingTags": [
+        "American",
+        "Baked",
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Drinks",
+        "Party",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "cremecaramel",
+      "title": "Crème Caramel",
+      "matchingTags": [
+        "Baked",
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Gluten-Free",
+        "Make Ahead",
+        "Rich",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "lemonmeringuepie",
+      "title": "Lemon Meringue Pie",
+      "matchingTags": [
+        "American",
+        "Baked",
+        "Classic",
+        "Dessert",
+        "Drinks",
+        "Gluten-Free",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 8,
-    "cal": 850,
-    "kj": 3558,
+    "cal": 852,
+    "kj": 3564,
     "protein": 20,
     "carbs": 53,
     "sugars": 37,
     "fat": 62,
     "saturated_fat": 16.3,
     "fiber": 7,
-    "sodium": 140,
-    "coverage": 78,
-    "foundCount": 7,
+    "sodium": 141,
+    "coverage": 100,
+    "foundCount": 9,
     "totalCount": 9,
-    "unmatchedItems": [
-      "Natural Vanilla Extract",
-      "Lemon Juice"
-    ],
-    "calcium_mg": 151,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 152,
     "iron_mg": 2,
-    "potassium_mg": 298,
+    "potassium_mg": 305,
     "magnesium_mg": 37,
     "zinc_mg": 1,
     "cholesterol_mg": 419,
     "vitamin_a_ug": 299,
-    "vitamin_c_mg": 81,
+    "vitamin_c_mg": 82,
     "vitamin_d_ug": 5
   },
-  "lastModified": "2026-08-31"
+  "lastModified": "2026-09-09"
 }

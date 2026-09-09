@@ -120,32 +120,102 @@
       "content": "To retain alcohol content, remove the pan from heat before adding. If the recipe calls for flambéing, that's intentional — but for sauces and braises where you want the flavour without burning off the alcohol, keep the heat low and never boil after adding."
     }
   ],
+  "related": [
+    {
+      "id": "bistro-profiteroles",
+      "title": "Profiteroles",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "French",
+        "Pastry",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "stickydates",
+      "title": "Sticky Date Pudding with Caramel Sauce",
+      "matchingTags": [
+        "Alcohol",
+        "Australian",
+        "Baking",
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chefstyletiramisugateau",
+      "title": "Chef-Style Tiramisu Gateau",
+      "matchingTags": [
+        "Alcohol",
+        "Baking",
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "applepie",
+      "title": "Apple Pie",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Dessert",
+        "Pastry",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bistro-pavlova",
+      "title": "Pavlova",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 8,
-    "cal": 648,
-    "kj": 2713,
-    "protein": 11,
-    "carbs": 86,
-    "sugars": 63,
-    "fat": 29,
-    "saturated_fat": 14.9,
+    "cal": 669,
+    "kj": 2797,
+    "protein": 13,
+    "carbs": 88,
+    "sugars": 65,
+    "fat": 30,
+    "saturated_fat": 15.6,
     "fiber": 2,
-    "sodium": 90,
-    "coverage": 82,
-    "foundCount": 9,
+    "sodium": 101,
+    "coverage": 100,
+    "foundCount": 11,
     "totalCount": 11,
-    "unmatchedItems": [
-      "Natural Vanilla Extract",
-      "Milk Full-cream"
-    ],
-    "calcium_mg": 69,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 103,
     "iron_mg": 2,
-    "potassium_mg": 211,
-    "magnesium_mg": 43,
+    "potassium_mg": 255,
+    "magnesium_mg": 46,
     "zinc_mg": 1,
-    "cholesterol_mg": 291,
-    "vitamin_a_ug": 252,
+    "cholesterol_mg": 294,
+    "vitamin_a_ug": 265,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-08-31"
+  "lastModified": "2026-09-09"
 }

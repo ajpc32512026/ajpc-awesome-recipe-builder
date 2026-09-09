@@ -8,6 +8,7 @@
   "cookTime": "12 min",
   "totalTime": "1 hr 27 min",
   "servings": "2 servings",
+  "yieldPerBatch": "2 servings",
   "tags": [
     "Asian",
     "Chicken",
@@ -113,6 +114,78 @@
       "content": "This also works on a hot grill or baked at 200°C for approximately 20 minutes. Brush reserved marinade during the last 5 minutes to create the glaze."
     }
   ],
+  "related": [
+    {
+      "id": "apricotchicken",
+      "title": "Apricot Chicken",
+      "matchingTags": [
+        "Asian",
+        "Chicken",
+        "Chinese",
+        "Classic",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "chickenshawarma",
+      "title": "Chicken Shawarma",
+      "matchingTags": [
+        "Chicken",
+        "Chinese",
+        "Classic",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Stovetop",
+        "Under 30 Minutes"
+      ]
+    },
+    {
+      "id": "pineapplecoconutchicken",
+      "title": "Pineapple Coconut Chicken",
+      "matchingTags": [
+        "Asian",
+        "Chicken",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Stovetop",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce",
+      "matchingTags": [
+        "Asian",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Stovetop",
+        "Sweet",
+        "Under 30 Minutes"
+      ]
+    },
+    {
+      "id": "teriyakimarinade",
+      "title": "Teriyaki Marinade",
+      "matchingTags": [
+        "Asian",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Japanese",
+        "Savoury",
+        "Stovetop",
+        "Sweet"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 2,
     "cal": 709,
@@ -128,6 +201,7 @@
     "foundCount": 8,
     "totalCount": 8,
     "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 60,
     "iron_mg": 3,
     "potassium_mg": 1479,
@@ -138,6 +212,5 @@
     "vitamin_c_mg": 17,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "2 servings"
+  "lastModified": "2026-09-09"
 }

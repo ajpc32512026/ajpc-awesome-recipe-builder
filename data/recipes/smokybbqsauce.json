@@ -8,21 +8,15 @@
   "cookTime": "5 Min",
   "totalTime": "10 Min",
   "servings": "2",
+  "yieldPerBatch": "1 batch",
   "tags": [
-    "American",
-    "Chinese",
-    "Condiment",
-    
     "Gluten-Free",
-    "Grilled/BBQ",
-    "No-Cook",
     "Sauce",
     "Savoury",
-    "Stovetop",
     "Sweet",
-    "Under 15 Minutes",
     "Vegan",
-    "Vegetarian"
+    "Vegetarian",
+    "Australian"
   ],
   "ingredients": [
     {
@@ -81,16 +75,9 @@
       "item": "Onion Powder"
     },
     {
-      "quantity": "0.5",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "about 1/4 teaspoon"
-    },
-    {
-      "quantity": "0.2",
-      "unit": "g",
-      "item": "Black Pepper",
-      "notes": "a small pinch"
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once, you can't take it out once it's in."
     }
   ],
   "method": [
@@ -124,28 +111,88 @@
       "content": "Keep stored in an airtight container in the refrigerator for up to 5 days."
     }
   ],
+  "related": [
+    {
+      "id": "honeygarlicsauce",
+      "title": "Honey Garlic Sauce",
+      "matchingTags": [
+        "Gluten-Free",
+        "Sauce",
+        "Savoury",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce",
+      "matchingTags": [
+        "Gluten-Free",
+        "Sauce",
+        "Savoury",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "teriyakimarinade",
+      "title": "Teriyaki Marinade",
+      "matchingTags": [
+        "Gluten-Free",
+        "Sauce",
+        "Savoury",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "honeymustardsauce",
+      "title": "Honey Mustard Sauce",
+      "matchingTags": [
+        "Gluten-Free",
+        "Sauce",
+        "Savoury",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sataysauce",
+      "title": "Satay Sauce",
+      "matchingTags": [
+        "Gluten-Free",
+        "Sauce",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 2,
-    "cal": 66,
-    "kj": 275,
+    "cal": 63,
+    "kj": 263,
     "protein": 2,
     "carbs": 11,
     "sugars": 10,
     "fat": 1,
     "saturated_fat": 0.1,
-    "fiber": 2,
-    "sodium": 210,
+    "fiber": 1,
+    "sodium": 195,
     "coverage": 100,
-    "foundCount": 11,
-    "totalCount": 11,
+    "foundCount": 9,
+    "totalCount": 9,
     "unmatchedItems": [],
-    "calcium_mg": 28,
+    "noQuantityItems": [],
+    "calcium_mg": 26,
     "iron_mg": 1,
-    "potassium_mg": 391,
-    "magnesium_mg": 32,
-    "vitamin_a_ug": 99,
+    "potassium_mg": 368,
+    "magnesium_mg": 30,
+    "vitamin_a_ug": 55,
     "vitamin_c_mg": 4
   },
-  "lastModified": "2026-08-18",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-09-09"
 }

@@ -1,18 +1,16 @@
 {
   "id": "pancitfilipinostirfriednoodles",
   "title": "Pancit (Filipino Stir-Fried Noodles)",
-  "category": "Dinner",
+  "category": "Filipino",
   "difficulty": "Intermediate",
   "description": "A vibrant, savoury noodle dish with pork, chicken, and crisp vegetables — classic Filipino comfort food.",
   "prepTime": "20 min",
   "cookTime": "20 min",
   "totalTime": "40 min",
   "servings": "6 servings",
+  "yieldPerBatch": "6 servings",
   "tags": [
-    "Asian",
     "Chicken",
-    "Chinese",
-    "Dairy-Free",
     "Dinner",
     "Drinks",
     "Filipino",
@@ -20,8 +18,7 @@
     "Noodles",
     "Pork",
     "Savoury",
-    "Stir-Fried",
-    "Thai"
+    "Stir-Fried"
   ],
   "ingredients": [
     {
@@ -166,31 +163,106 @@
       "content": "For a more colourful dish, add capsicum or snow peas. Adjust seasoning with soy sauce or fish sauce to taste. Serve immediately for the best texture."
     }
   ],
+  "related": [
+    {
+      "id": "pancitbihon",
+      "title": "Pancit Bihon",
+      "matchingTags": [
+        
+        "Chicken",
+        "Chinese",
+        "Dairy-Free",
+        "Dinner",
+        "Filipino",
+        "Gluten-Free",
+        "Noodles",
+        "Pork",
+        "Savoury",
+        "Stir-Fried",
+        "Thai"
+      ]
+    },
+    {
+      "id": "pancitcanton",
+      "title": "Pancit Canton",
+      "matchingTags": [
+        
+        "Chinese",
+        "Dairy-Free",
+        "Dinner",
+        "Filipino",
+        "Noodles",
+        "Pork",
+        "Savoury",
+        "Stir-Fried"
+      ]
+    },
+    {
+      "id": "filipinoportoccino",
+      "title": "Filipino Pork Toccino",
+      "matchingTags": [
+        
+        "Chinese",
+        "Dinner",
+        "Drinks",
+        "Filipino",
+        "Gluten-Free",
+        "Pork",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "chickenpineapple",
+      "title": "Chicken Pineapple",
+      "matchingTags": [
+        "Chicken",
+        "Chinese",
+        "Dinner",
+        "Drinks",
+        "Filipino",
+        "Gluten-Free",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "pineapplecoconutchicken",
+      "title": "Pineapple Coconut Chicken",
+      "matchingTags": [
+        
+        "Chicken",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Thai"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 6,
-    "cal": 485,
-    "kj": 2030,
-    "protein": 30,
-    "carbs": 36,
-    "sugars": 16,
-    "fat": 21,
-    "saturated_fat": 3.6,
-    "fiber": 16,
-    "sodium": 1423,
+    "cal": 437,
+    "kj": 1828,
+    "protein": 34,
+    "carbs": 26,
+    "sugars": 11,
+    "fat": 18,
+    "saturated_fat": 2.8,
+    "fiber": 15,
+    "sodium": 1339,
     "coverage": 100,
     "foundCount": 18,
     "totalCount": 18,
     "unmatchedItems": [],
-    "calcium_mg": 107,
+    "noQuantityItems": [],
+    "calcium_mg": 94,
     "iron_mg": 3,
-    "potassium_mg": 1129,
-    "magnesium_mg": 78,
+    "potassium_mg": 1146,
+    "magnesium_mg": 77,
     "zinc_mg": 3,
-    "cholesterol_mg": 98,
-    "vitamin_a_ug": 646,
-    "vitamin_c_mg": 38,
-    "vitamin_d_ug": 1
+    "cholesterol_mg": 117,
+    "vitamin_a_ug": 60,
+    "vitamin_c_mg": 36,
+    "vitamin_d_ug": 2
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "6 servings"
+  "lastModified": "2026-09-09"
 }

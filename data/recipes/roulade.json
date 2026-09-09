@@ -2,21 +2,20 @@
   "id": "roulade",
   "title": "Strawberry Meringue Roulade",
   "category": "Desserts",
-  "difficulty": "Intermediate",
+  "difficulty": "Beginner",
   "description": "A light and airy meringue roulade filled with whipped cream and fresh strawberries.",
   "prepTime": "20 min",
   "cookTime": "15 min",
   "totalTime": "35 min",
   "servings": "6 servings",
+  "yieldPerBatch": "6 servings",
   "tags": [
     "Australian",
-    "Baked",
     "Baking",
     "Classic",
     "Creamy",
     "Dessert",
     "Gluten-Free",
-    "No-Cook",
     "Sweet",
     "Vegetarian"
   ],
@@ -102,21 +101,90 @@
       "content": "Ensure the bowl and beaters are completely clean and grease-free before beating egg whites. Any trace of fat or yolk will prevent them from whipping properly."
     }
   ],
+  "related": [
+    {
+      "id": "apricotflan",
+      "title": "Apricot Flan",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chefstyletiramisugateau",
+      "title": "Chef-Style Tiramisu Gateau",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Gluten-Free",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bistro-pavlova",
+      "title": "Pavlova",
+      "matchingTags": [
+        "Australian",
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Gluten-Free",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "stickydates",
+      "title": "Sticky Date Pudding with Caramel Sauce",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "baked-cheesecake",
+      "title": "Baked Cheesecake",
+      "matchingTags": [
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Gluten-Free",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 6,
-    "cal": 294,
-    "kj": 1232,
+    "cal": 231,
+    "kj": 965,
     "protein": 7,
-    "carbs": 25,
-    "sugars": 24,
+    "carbs": 9,
+    "sugars": 7,
     "fat": 19,
     "saturated_fat": 12.1,
     "fiber": 1,
     "sodium": 105,
-    "coverage": 100,
-    "foundCount": 7,
+    "coverage": 86,
+    "foundCount": 6,
     "totalCount": 7,
-    "unmatchedItems": [],
+    "unmatchedItems": [
+      "Caster Sugar"
+    ],
+    "noQuantityItems": [],
     "calcium_mg": 41,
     "potassium_mg": 189,
     "magnesium_mg": 16,
@@ -124,6 +192,5 @@
     "vitamin_a_ug": 146,
     "vitamin_c_mg": 32
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "6 servings"
+  "lastModified": "2026-09-09"
 }

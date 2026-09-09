@@ -8,18 +8,15 @@
   "cookTime": "10 min",
   "totalTime": "15 min",
   "servings": "1 batch",
+  "yieldPerBatch": "1 batch",
   "tags": [
-    "Asian",
     "Baking",
-    "Chinese",
     "Condiment",
-    
     "Drinks",
     "Gluten-Free",
     "Make Ahead",
     "Sauce",
     "Sweet",
-    "Under 30 Minutes",
     "Vegan",
     "Vegetarian"
   ],
@@ -53,6 +50,24 @@
       "quantity": "5",
       "unit": "g",
       "item": "Cornflour"
+    },
+    {
+      "quantity": "2",
+      "unit": "ea",
+      "item": "Capsicum",
+      "notes": "large cubes"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Pineapple",
+      "notes": "pieces"
+    },
+    {
+      "quantity": "1",
+      "unit": "ea",
+      "item": "Carrot",
+      "notes": "sliced"
     }
   ],
   "method": [
@@ -78,6 +93,10 @@
     },
     {
       "step": 6,
+      "instruction": "Add vegetables. Cook until slightly tender."
+    },
+    {
+      "step": 7,
       "instruction": "Remove from heat and use immediately, or let cool and store in an airtight container in the refrigerator for up to 1 week."
     }
   ],
@@ -98,30 +117,100 @@
       "content": "Perfect for sweet and sour pork, chicken stir-fries, spring rolls, or as a dipping sauce for fried appetisers."
     }
   ],
+  "related": [
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce",
+      "matchingTags": [
+        "Baking",
+        "Condiment",
+        "Gluten-Free",
+        "Make Ahead",
+        "Sauce",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sweetsoursauce_quick",
+      "title": "Sweet & Sour Sauce – Quick Takeout Style",
+      "matchingTags": [
+        "Baking",
+        "Condiment",
+        "Drinks",
+        "Gluten-Free",
+        "Sauce",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sweetchillisauce",
+      "title": "Sweet Chilli Sauce",
+      "matchingTags": [
+        "Baking",
+        "Condiment",
+        "Gluten-Free",
+        "Make Ahead",
+        "Sauce",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sweetspicyorangesauce",
+      "title": "Sweet & Spicy Orange Sauce",
+      "matchingTags": [
+        "Condiment",
+        "Drinks",
+        "Gluten-Free",
+        "Sauce",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "teriyakimarinade",
+      "title": "Teriyaki Marinade",
+      "matchingTags": [
+        "Condiment",
+        "Gluten-Free",
+        "Make Ahead",
+        "Sauce",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 1,
-    "cal": 642,
-    "kj": 2684,
-    "protein": 9,
-    "carbs": 140,
-    "sugars": 118,
-    "fat": 5,
-    "saturated_fat": 1.2,
-    "fiber": 3,
-    "sodium": 545,
+    "cal": 5738,
+    "kj": 24009,
+    "protein": 61,
+    "carbs": 1469,
+    "sugars": 1114,
+    "fat": 16,
+    "saturated_fat": 2.2,
+    "fiber": 151,
+    "sodium": 1596,
     "coverage": 100,
-    "foundCount": 6,
-    "totalCount": 6,
+    "foundCount": 9,
+    "totalCount": 9,
     "unmatchedItems": [],
-    "calcium_mg": 202,
-    "iron_mg": 3,
-    "potassium_mg": 678,
-    "magnesium_mg": 64,
+    "noQuantityItems": [],
+    "calcium_mg": 1528,
+    "iron_mg": 32,
+    "potassium_mg": 11844,
+    "magnesium_mg": 1275,
     "zinc_mg": 1,
     "cholesterol_mg": 9,
-    "vitamin_a_ug": 33,
-    "vitamin_c_mg": 8
+    "vitamin_a_ug": 1673,
+    "vitamin_c_mg": 1011
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-09-09"
 }

@@ -8,17 +8,14 @@
   "cookTime": "5 min",
   "totalTime": "10 min",
   "servings": "6 servings",
+  "yieldPerBatch": "6 servings",
   "tags": [
-    "Asian",
     "Baking",
     "Chinese",
     "Condiment",
-    
-    "Drinks",
     "Gluten-Free",
     "Sauce",
     "Sweet",
-    "Under 30 Minutes",
     "Vegan",
     "Vegetarian"
   ],
@@ -57,6 +54,24 @@
       "quantity": "30",
       "unit": "ml",
       "item": "Water"
+    },
+    {
+      "quantity": "2",
+      "unit": "ea",
+      "item": "Capsicum",
+      "notes": "cubed, red & green"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Pineapple",
+      "notes": "pieces"
+    },
+    {
+      "quantity": "1",
+      "unit": "ea",
+      "item": "Carrot",
+      "notes": "sliced"
     }
   ],
   "method": [
@@ -74,6 +89,10 @@
     },
     {
       "step": 4,
+      "instruction": "Add vegetables, cook until just tender"
+    },
+    {
+      "step": 5,
       "instruction": "Continue stirring until the sauce thickens, about 1–2 minutes. Remove from heat and cool slightly before serving."
     }
   ],
@@ -84,28 +103,110 @@
       "content": "Perfect with fried chicken, pork, or prawns. Also great as a dipping sauce for spring rolls or drizzled over stir-fried vegetables."
     }
   ],
+  "related": [
+    {
+      "id": "sweetsoursauce_flex",
+      "title": "Sweet & Sour Sauce – Home Chef Flex",
+      "matchingTags": [
+        "Asian",
+        "Baking",
+        "Chinese",
+        "Condiment",
+        "Drinks",
+        "Gluten-Free",
+        "Sauce",
+        "Sweet",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce",
+      "matchingTags": [
+        "Asian",
+        "Baking",
+        "Chinese",
+        "Condiment",
+        "Gluten-Free",
+        "Sauce",
+        "Sweet",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sweetspicyorangesauce",
+      "title": "Sweet & Spicy Orange Sauce",
+      "matchingTags": [
+        "Asian",
+        "Chinese",
+        "Condiment",
+        "Drinks",
+        "Gluten-Free",
+        "Sauce",
+        "Sweet",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sweetchillisauce",
+      "title": "Sweet Chilli Sauce",
+      "matchingTags": [
+        "Baking",
+        "Chinese",
+        "Condiment",
+        "Gluten-Free",
+        "Sauce",
+        "Sweet",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "teriyakisauce",
+      "title": "Teriyaki Sauce",
+      "matchingTags": [
+        "Asian",
+        "Chinese",
+        "Condiment",
+        "Gluten-Free",
+        "Sauce",
+        "Sweet",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 6,
-    "cal": 95,
-    "kj": 399,
-    "protein": 1,
-    "carbs": 23,
-    "sugars": 19,
-    "fat": 0,
-    "saturated_fat": 0.1,
-    "fiber": 0,
-    "sodium": 99,
+    "cal": 945,
+    "kj": 3953,
+    "protein": 9,
+    "carbs": 244,
+    "sugars": 185,
+    "fat": 2,
+    "saturated_fat": 0.3,
+    "fiber": 25,
+    "sodium": 274,
     "coverage": 100,
-    "foundCount": 6,
-    "totalCount": 6,
+    "foundCount": 9,
+    "totalCount": 9,
     "unmatchedItems": [],
-    "calcium_mg": 4,
-    "potassium_mg": 33,
-    "magnesium_mg": 4,
+    "noQuantityItems": [],
+    "calcium_mg": 225,
+    "iron_mg": 5,
+    "potassium_mg": 1894,
+    "magnesium_mg": 206,
     "cholesterol_mg": 1,
-    "vitamin_a_ug": 2,
-    "vitamin_c_mg": 1
+    "vitamin_a_ug": 275,
+    "vitamin_c_mg": 168
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "6 servings"
+  "lastModified": "2026-09-09"
 }

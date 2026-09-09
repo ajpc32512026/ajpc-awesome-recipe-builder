@@ -10,14 +10,11 @@
   "servings": "12 muffins",
   "yieldPerBatch": "12 muffins",
   "tags": [
-    "American",
-    "Baked",
     "Baking",
     "Breakfast",
-    "Muffins",
     "Sweet",
-    "Under 1 Hour",
-    "Vegetarian"
+    "Vegetarian",
+    "Australian"
   ],
   "ingredients": [
     {
@@ -117,31 +114,86 @@
       "content": "Best eaten warm on the day, but excellent toasted lightly the next morning."
     }
   ],
+  "related": [
+    {
+      "id": "applecinnscrolls",
+      "title": "Apple & Cinnamon Scrolls",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Breakfast",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bananacake",
+      "title": "Banana Cake with Lemon Frosting",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Breakfast",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sultanabread",
+      "title": "Sultana Rolls with Sugar Glaze",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Breakfast",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "traditionalanzacbiscuits",
+      "title": "Traditional ANZAC Biscuits",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Breakfast",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bananabread",
+      "title": "Banana Bread",
+      "matchingTags": [
+        "Baking",
+        "Breakfast",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 12,
-    "cal": 250,
-    "kj": 1045,
-    "protein": 7,
+    "cal": 258,
+    "kj": 1081,
+    "protein": 8,
     "carbs": 27,
-    "sugars": 11,
+    "sugars": 12,
     "fat": 13,
-    "saturated_fat": 2.3,
+    "saturated_fat": 2.6,
     "fiber": 1,
-    "sodium": 112,
-    "coverage": 89,
-    "foundCount": 8,
+    "sodium": 116,
+    "coverage": 100,
+    "foundCount": 9,
     "totalCount": 9,
-    "unmatchedItems": [
-      "Milk Full-cream"
-    ],
-    "calcium_mg": 22,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 36,
     "iron_mg": 1,
-    "potassium_mg": 156,
-    "magnesium_mg": 13,
+    "potassium_mg": 175,
+    "magnesium_mg": 14,
     "zinc_mg": 1,
-    "cholesterol_mg": 164,
-    "vitamin_a_ug": 50,
+    "cholesterol_mg": 165,
+    "vitamin_a_ug": 56,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-08-31"
+  "lastModified": "2026-09-09"
 }

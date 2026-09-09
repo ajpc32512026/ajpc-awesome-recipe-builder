@@ -13,12 +13,11 @@
     "Baking",
     "Cake",
     "Dessert",
-    "Jamaican",
     "Party",
     "Rich",
-    "Southern",
     "Sweet",
-    "Vegetarian"
+    "Vegetarian",
+    "Jamaica"
   ],
   "ingredients": [
     {
@@ -155,34 +154,95 @@
       "content": "Keep refrigerated due to the cream cheese frosting. Bring to room temperature before serving. The cake improves overnight as the flavours meld — it is even better on day two."
     }
   ],
+  "related": [
+    {
+      "id": "classiccarrotcake",
+      "title": "Classic Carrot Cake",
+      "matchingTags": [
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Party",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "orangepoppyseed",
+      "title": "Orange & Poppy Seed Cake",
+      "matchingTags": [
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "theultimatechocolatemudcake",
+      "title": "The Ultimate Chocolate Mud Cake",
+      "matchingTags": [
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chefstyletiramisugateau",
+      "title": "Chef-Style Tiramisu Gateau",
+      "matchingTags": [
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "lamington",
+      "title": "Classic Lamingtons",
+      "matchingTags": [
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Party",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 16,
-    "cal": 1554,
-    "kj": 6504,
-    "protein": 24,
-    "carbs": 261,
-    "sugars": 191,
-    "fat": 56,
-    "saturated_fat": 14.7,
-    "fiber": 24,
-    "sodium": 791,
-    "coverage": 79,
-    "foundCount": 11,
+    "cal": 20919,
+    "kj": 87524,
+    "protein": 111,
+    "carbs": 2137,
+    "sugars": 1490,
+    "fat": 1316,
+    "saturated_fat": 1106.7,
+    "fiber": 312,
+    "sodium": 979,
+    "coverage": 93,
+    "foundCount": 13,
     "totalCount": 14,
     "unmatchedItems": [
-      "Ground Cinnamon",
-      "Bananas",
-      "Vanilla Extract"
+      "Caster Sugar"
     ],
-    "calcium_mg": 507,
-    "iron_mg": 7,
-    "potassium_mg": 1965,
-    "magnesium_mg": 227,
-    "zinc_mg": 2,
+    "noQuantityItems": [],
+    "calcium_mg": 1182,
+    "iron_mg": 54,
+    "potassium_mg": 22065,
+    "magnesium_mg": 3077,
+    "zinc_mg": 30,
     "cholesterol_mg": 410,
-    "vitamin_a_ug": 249,
-    "vitamin_c_mg": 156,
+    "vitamin_a_ug": 549,
+    "vitamin_c_mg": 381,
     "vitamin_d_ug": 4
   },
-  "lastModified": "2026-08-31"
+  "lastModified": "2026-09-09"
 }

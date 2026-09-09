@@ -114,30 +114,97 @@
       "content": "Keep the butter cold and handle the dough as little as possible for a shorter, flakier pastry. A food processor makes this easier — pulse the butter into the flour until it resembles breadcrumbs, then add cold water gradually until the dough just comes together."
     }
   ],
+  "related": [
+    {
+      "id": "doublechocolatechipcookies",
+      "title": "Double Chocolate Chip Cookies",
+      "matchingTags": [
+        "American",
+        "Baking",
+        "Classic",
+        "Dessert",
+        "Make Ahead",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "apricotflan",
+      "title": "Apricot Flan",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Dessert",
+        "Pastry",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "baked-cheesecake",
+      "title": "Baked Cheesecake",
+      "matchingTags": [
+        "American",
+        "Classic",
+        "Dessert",
+        "Make Ahead",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chefstyletiramisugateau",
+      "title": "Chef-Style Tiramisu Gateau",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Dessert",
+        "Make Ahead",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "lemonmeringuepie",
+      "title": "Lemon Meringue Pie",
+      "matchingTags": [
+        "American",
+        "Baking",
+        "Classic",
+        "Dessert",
+        "Pastry",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 8,
-    "cal": 303,
-    "kj": 1269,
-    "protein": 3,
-    "carbs": 43,
-    "sugars": 20,
+    "cal": 366,
+    "kj": 1530,
+    "protein": 4,
+    "carbs": 57,
+    "sugars": 33,
     "fat": 13,
-    "saturated_fat": 8.9,
-    "fiber": 1,
-    "sodium": 59,
-    "coverage": 71,
-    "foundCount": 5,
+    "saturated_fat": 9,
+    "fiber": 4,
+    "sodium": 61,
+    "coverage": 100,
+    "foundCount": 7,
     "totalCount": 7,
-    "unmatchedItems": [
-      "Granny Smith Apples",
-      "Ground Cloves"
-    ],
+    "unmatchedItems": [],
     "noQuantityItems": [],
-    "calcium_mg": 12,
-    "potassium_mg": 56,
-    "magnesium_mg": 11,
+    "calcium_mg": 18,
+    "iron_mg": 1,
+    "potassium_mg": 197,
+    "magnesium_mg": 17,
     "cholesterol_mg": 26,
-    "vitamin_a_ug": 134
+    "vitamin_a_ug": 137,
+    "vitamin_c_mg": 5
   },
-  "lastModified": "2026-09-08"
+  "lastModified": "2026-09-09"
 }

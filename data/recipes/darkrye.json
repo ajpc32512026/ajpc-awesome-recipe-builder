@@ -8,9 +8,8 @@
   "cookTime": "40 min",
   "totalTime": "3 hr 45 min",
   "servings": "1 large loaf",
+  "yieldPerBatch": "1 loaf",
   "tags": [
-    "Baked",
-    "Baking",
     "Bread",
     "German",
     "Make Ahead",
@@ -137,6 +136,63 @@
       "content": "Excellent toasted with butter, or served with smoked fish, pickles, and cream cheese for a traditional pairing."
     }
   ],
+  "related": [
+    {
+      "id": "focaccia",
+      "title": "Focaccia",
+      "matchingTags": [
+        "Bread",
+        "Make Ahead",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "focaccia-high",
+      "title": "High-Hydration Focaccia",
+      "matchingTags": [
+        "Bread",
+        "Make Ahead",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "swbtm2",
+      "title": "Soft White Bread 2 (Tangzhong)",
+      "matchingTags": [
+        "Bread",
+        "Make Ahead",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "tangzhongseed",
+      "title": "Tangzhong Grain & Seed Bread",
+      "matchingTags": [
+        "Bread",
+        "Make Ahead",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "turkishbread",
+      "title": "Traditional Turkish Bread",
+      "matchingTags": [
+        "Bread",
+        "Make Ahead",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 1,
     "cal": 2348,
@@ -152,6 +208,7 @@
     "foundCount": 9,
     "totalCount": 9,
     "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 302,
     "iron_mg": 23,
     "potassium_mg": 2750,
@@ -159,6 +216,5 @@
     "zinc_mg": 10,
     "vitamin_a_ug": 4
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "1 loaf"
+  "lastModified": "2026-09-09"
 }

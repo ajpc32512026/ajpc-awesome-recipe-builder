@@ -8,18 +8,13 @@
   "cookTime": "0 min",
   "totalTime": "5 min",
   "servings": "1 batch",
+  "yieldPerBatch": "1 batch",
   "tags": [
-    "Baking",
-    "Chinese",
-    "Condiment",
-    
-    "Indian",
-    "Italian",
     "Make Ahead",
     "Mexican",
-    "Under 30 Minutes",
-    "Vegan",
-    "Vegetarian"
+    "Vegetarian",
+    "Spice Mix",
+    "Spicy"
   ],
   "ingredients": [
     {
@@ -62,21 +57,14 @@
       "notes": "dried"
     },
     {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
-    },
-    {
-      "quantity": "2",
-      "unit": "g",
-      "item": "White Pepper",
-      "notes": "ground"
-    },
-    {
       "quantity": "2",
       "unit": "g",
       "item": "Plain Flour"
+    },
+    {
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once, you can't take it out once it's in."
     }
   ],
   "method": [
@@ -115,31 +103,76 @@
       "content": "To make a bulk jar, multiply everything by 4 or 6 and store. Use 2 heaped tablespoons per 500 g of mince — same as the packet instructions."
     }
   ],
+  "related": [
+    {
+      "id": "chilligarlicoil",
+      "title": "Chilli Garlic Oil",
+      "matchingTags": [
+        "Make Ahead",
+        "Spicy",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "kormapaste",
+      "title": "Homemade Korma Paste",
+      "matchingTags": [
+        "Make Ahead",
+        "Spicy",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sataysauce",
+      "title": "Satay Sauce",
+      "matchingTags": [
+        "Make Ahead",
+        "Spicy",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sweetchillisauce",
+      "title": "Sweet Chilli Sauce",
+      "matchingTags": [
+        "Make Ahead",
+        "Spicy",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "vindaloopaste",
+      "title": "Vindaloo Paste",
+      "matchingTags": [
+        "Make Ahead",
+        "Spicy",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 1,
-    "cal": 112,
-    "kj": 470,
-    "protein": 4,
-    "carbs": 13,
-    "sugars": 3,
+    "cal": 98,
+    "kj": 410,
+    "protein": 3,
+    "carbs": 12,
+    "sugars": 2,
     "fat": 3,
     "saturated_fat": 0.4,
-    "fiber": 9,
-    "sodium": 439,
-    "coverage": 90,
-    "foundCount": 9,
-    "totalCount": 10,
-    "unmatchedItems": [
-      "Red Chilli Powder"
-    ],
-    "calcium_mg": 191,
-    "iron_mg": 8,
-    "potassium_mg": 416,
-    "magnesium_mg": 69,
+    "fiber": 6,
+    "sodium": 29,
+    "coverage": 100,
+    "foundCount": 8,
+    "totalCount": 8,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 166,
+    "iron_mg": 6,
+    "potassium_mg": 272,
+    "magnesium_mg": 53,
     "zinc_mg": 1,
-    "vitamin_a_ug": 235,
-    "vitamin_c_mg": 2
+    "vitamin_a_ug": 42,
+    "vitamin_c_mg": 12
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-09-09"
 }

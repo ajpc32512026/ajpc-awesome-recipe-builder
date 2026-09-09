@@ -169,32 +169,99 @@
       "content": "Add an extra tablespoon of oil if you prefer an ultra-soft, tender crumb. These muffins are intentionally soft — if they feel crumbly when cold, reduce baking time by 2–3 minutes next time."
     }
   ],
+  "related": [
+    {
+      "id": "blueberrymuffins",
+      "title": "Heavenly Blueberry Muffins",
+      "matchingTags": [
+        "American",
+        "Baked",
+        "Baking",
+        "Breakfast",
+        "Muffins",
+        "Sweet",
+        "Under 1 Hour",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "cinntwists",
+      "title": "Cinnamon Twists",
+      "matchingTags": [
+        "American",
+        "Baked",
+        "Baking",
+        "Breakfast",
+        "Dessert",
+        "Drinks",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "muffinmix",
+      "title": "Basic Muffin Mix",
+      "matchingTags": [
+        "American",
+        "Baked",
+        "Baking",
+        "Breakfast",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "baked-cheesecake",
+      "title": "Baked Cheesecake",
+      "matchingTags": [
+        "American",
+        "Baked",
+        "Dessert",
+        "Drinks",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "cinnbun",
+      "title": "Bakery-Style Cinnamon Buns",
+      "matchingTags": [
+        "American",
+        "Baked",
+        "Baking",
+        "Breakfast",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 12,
-    "cal": 481,
-    "kj": 2012,
-    "protein": 8,
+    "cal": 491,
+    "kj": 2052,
+    "protein": 9,
     "carbs": 34,
     "sugars": 19,
-    "fat": 35,
-    "saturated_fat": 19.1,
+    "fat": 36,
+    "saturated_fat": 19.4,
     "fiber": 1,
-    "sodium": 207,
-    "coverage": 85,
-    "foundCount": 11,
+    "sodium": 212,
+    "coverage": 100,
+    "foundCount": 13,
     "totalCount": 13,
-    "unmatchedItems": [
-      "Milk Full-cream",
-      "Vanilla Extract"
-    ],
-    "calcium_mg": 50,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 66,
     "iron_mg": 2,
-    "potassium_mg": 317,
-    "magnesium_mg": 42,
+    "potassium_mg": 338,
+    "magnesium_mg": 43,
     "zinc_mg": 1,
-    "cholesterol_mg": 245,
-    "vitamin_a_ug": 250,
+    "cholesterol_mg": 247,
+    "vitamin_a_ug": 256,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-08-31"
+  "lastModified": "2026-09-09"
 }

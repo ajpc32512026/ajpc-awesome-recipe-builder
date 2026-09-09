@@ -10,15 +10,11 @@
   "servings": "1 flat loaf",
   "yieldPerBatch": "1 flat loaf",
   "tags": [
-    "Baked",
     "Baking",
     "Bread",
-    "Chinese",
-    "Greek",
     "Italian",
     "Make Ahead",
     "Savoury",
-    "Vegan",
     "Vegetarian"
   ],
   "ingredients": [
@@ -31,7 +27,8 @@
     {
       "quantity": "250",
       "unit": "ml",
-      "item": "Warm Water"
+      "item": "Water",
+      "notes": "Warm"
     },
     {
       "quantity": "5",
@@ -52,8 +49,7 @@
     {
       "quantity": "15",
       "unit": "g",
-      "item": "Milk Powder Full-Cream",
-      "notes": "full-cream"
+      "item": "Milk Powder Full-cream"
     },
     {
       "quantity": "3",
@@ -68,7 +64,7 @@
     },
     {
       "quantity": "12",
-      "unit": "",
+      "unit": "ea",
       "item": "Kalamata Olives",
       "notes": "pitted"
     },
@@ -144,29 +140,90 @@
       "content": "Adapted from The Essential Vegetarian Cook Book, published by Murdoch Books."
     }
   ],
+  "related": [
+    {
+      "id": "focaccia-high",
+      "title": "High-Hydration Focaccia",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Italian",
+        "Make Ahead",
+        "Savoury",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "pizzadough",
+      "title": "Ultimate Homemade Pizza Dough",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Italian",
+        "Make Ahead",
+        "Savoury",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "highhydraciab",
+      "title": "Airy High-Hydration Ciabatta",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Italian",
+        "Savoury",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "darkrye",
+      "title": "Dark Rye Bread",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Make Ahead",
+        "Savoury",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "garlicbread",
+      "title": "Garlic Butter Crusty Bread",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Italian",
+        "Savoury",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 1,
-    "cal": 5319,
-    "kj": 22254,
-    "protein": 97,
-    "carbs": 376,
-    "sugars": 66,
-    "fat": 347,
-    "saturated_fat": 56.1,
+    "cal": 5320,
+    "kj": 22257,
+    "protein": 96,
+    "carbs": 368,
+    "sugars": 58,
+    "fat": 351,
+    "saturated_fat": 58.6,
     "fiber": 171,
-    "sodium": 18396,
-    "coverage": 100,
-    "foundCount": 12,
-    "totalCount": 12,
-    "unmatchedItems": [],
-    "calcium_mg": 3550,
+    "sodium": 18389,
+    "coverage": 91,
+    "foundCount": 10,
+    "totalCount": 11,
+    "unmatchedItems": [
+      "Caster Sugar"
+    ],
+    "noQuantityItems": [],
+    "calcium_mg": 3385,
     "iron_mg": 89,
-    "potassium_mg": 4919,
-    "magnesium_mg": 802,
-    "zinc_mg": 16,
-    "cholesterol_mg": 4,
-    "vitamin_a_ug": 689,
-    "vitamin_c_mg": 146
+    "potassium_mg": 4649,
+    "magnesium_mg": 786,
+    "zinc_mg": 15,
+    "vitamin_a_ug": 688,
+    "vitamin_c_mg": 144
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-09-09"
 }

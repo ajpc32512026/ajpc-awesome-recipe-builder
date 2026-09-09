@@ -149,35 +149,99 @@
       "content": "Best eaten within 2 days. Store in an airtight container in a cool place. The toasted coconut adds a lovely crunch and nutty contrast to the soft cake."
     }
   ],
+  "related": [
+    {
+      "id": "orangepoppyseed",
+      "title": "Orange & Poppy Seed Cake",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Citrus",
+        "Dessert",
+        "Drinks",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "lemoncoconut",
+      "title": "Lemon Coconut Cake",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Drinks",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "theultimatechocolatemudcake",
+      "title": "The Ultimate Chocolate Mud Cake",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Drinks",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "cherrycoconutcake",
+      "title": "Cherry and Coconut Cake",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "classiccarrotcake",
+      "title": "Classic Carrot Cake",
+      "matchingTags": [
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Drinks",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 8,
-    "cal": 595,
-    "kj": 2489,
-    "protein": 11,
-    "carbs": 56,
-    "sugars": 29,
-    "fat": 37,
-    "saturated_fat": 14.3,
-    "fiber": 2,
-    "sodium": 538,
-    "coverage": 64,
-    "foundCount": 9,
+    "cal": 841,
+    "kj": 3521,
+    "protein": 12,
+    "carbs": 82,
+    "sugars": 48,
+    "fat": 52,
+    "saturated_fat": 27,
+    "fiber": 5,
+    "sodium": 545,
+    "coverage": 93,
+    "foundCount": 13,
     "totalCount": 14,
     "unmatchedItems": [
-      "Vanilla Extract",
-      "Bananas",
-      "Milk Full-cream",
-      "Ground Cinnamon",
-      "Lemon Juice"
+      "Desiccated Coconut"
     ],
-    "calcium_mg": 60,
+    "noQuantityItems": [],
+    "calcium_mg": 86,
     "iron_mg": 2,
-    "potassium_mg": 202,
-    "magnesium_mg": 27,
+    "potassium_mg": 474,
+    "magnesium_mg": 64,
     "zinc_mg": 1,
-    "cholesterol_mg": 272,
-    "vitamin_a_ug": 215,
+    "cholesterol_mg": 274,
+    "vitamin_a_ug": 226,
+    "vitamin_c_mg": 4,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-08-31"
+  "lastModified": "2026-09-09"
 }

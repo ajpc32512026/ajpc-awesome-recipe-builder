@@ -13,12 +13,8 @@
     "Australian",
     "Baking",
     "Biscuits",
-    "Breakfast",
     "Classic",
-    "Coconut",
-    
     "Make Ahead",
-    "Rich",
     "Sweet",
     "Vegetarian"
   ],
@@ -29,16 +25,10 @@
       "item": "Plain Flour"
     },
     {
-      "quantity": "110",
+      "quantity": "185",
       "unit": "g",
       "item": "Rolled Oats",
       "notes": "Uncle Tobys Traditional or similar"
-    },
-    {
-      "quantity": "75",
-      "unit": "g",
-      "item": "Desiccated Coconut",
-      "notes": "optional — increase oats by 75g if omitting"
     },
     {
       "quantity": "100",
@@ -48,7 +38,7 @@
     {
       "quantity": "55",
       "unit": "g",
-      "item": "Caster Sugar"
+      "item": "White Sugar"
     },
     {
       "quantity": "125",
@@ -70,6 +60,11 @@
       "quantity": "2.5",
       "unit": "g",
       "item": "Bi-carb Soda"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Salt"
     }
   ],
   "youWillNeed": [
@@ -119,23 +114,8 @@
   "notes": [
     {
       "type": "tip",
-      "title": "Oily Hands When Rolling",
-      "content": "If using coconut, expect oilier hands — coconut releases butter as you roll. This is normal and doesn't affect the finished biscuit. If the dough is too soft to handle, chill it for 10 minutes before rolling."
-    },
-    {
-      "type": "tip",
       "title": "Brown Sugar",
       "content": "Brown sugar adds moisture and a deeper caramel flavour. The combination of brown and caster sugar gives the perfect balance of chew and crisp."
-    },
-    {
-      "type": "variation",
-      "title": "No Coconut",
-      "content": "Omit the coconut and increase oats by 75g. The dough will be less oily and slightly firmer — still delicious, just a different texture."
-    },
-    {
-      "type": "variation",
-      "title": "Double Batch",
-      "content": "For 40 biscuits, double all ingredients. Bake for 20 minutes, rotating trays halfway."
     },
     {
       "type": "storage",
@@ -143,26 +123,86 @@
       "content": "Store in an airtight container for up to 2 weeks — if they last that long."
     }
   ],
+  "related": [
+    {
+      "id": "doublechocolatechipcookies",
+      "title": "Double Chocolate Chip Cookies",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Make Ahead",
+        "Sweet",
+        "Vegetarian",
+        "Australian"
+      ]
+    },
+    {
+      "id": "applecinnscrolls",
+      "title": "Apple & Cinnamon Scrolls",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Classic",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "applepie",
+      "title": "Apple Pie",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Make Ahead",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "apricotflan",
+      "title": "Apricot Flan",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Classic",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bananabread",
+      "title": "Banana Bread",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Make Ahead",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 20,
-    "cal": 153,
-    "kj": 639,
+    "cal": 143,
+    "kj": 597,
     "protein": 2,
-    "carbs": 18,
+    "carbs": 20,
     "sugars": 10,
-    "fat": 8,
-    "saturated_fat": 5.8,
+    "fat": 6,
+    "saturated_fat": 3.7,
     "fiber": 1,
-    "sodium": 39,
+    "sodium": 81,
     "coverage": 100,
     "foundCount": 8,
     "totalCount": 8,
     "unmatchedItems": [],
-    "calcium_mg": 17,
-    "potassium_mg": 80,
-    "magnesium_mg": 13,
+    "noQuantityItems": [],
+    "calcium_mg": 19,
+    "iron_mg": 1,
+    "potassium_mg": 73,
+    "magnesium_mg": 15,
     "cholesterol_mg": 10,
     "vitamin_a_ug": 54
   },
-  "lastModified": "2026-08-31"
+  "lastModified": "2026-09-09"
 }

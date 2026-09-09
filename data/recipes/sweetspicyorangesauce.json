@@ -8,18 +8,13 @@
   "cookTime": "8 min",
   "totalTime": "13 min",
   "servings": "4 servings",
+  "yieldPerBatch": "4 servings",
   "tags": [
-    "Asian",
     "Chinese",
-    "Condiment",
-    
-    "Drinks",
     "Gluten-Free",
     "Orange",
-    "Sauce",
     "Spicy",
     "Sweet",
-    "Under 30 Minutes",
     "Vegan",
     "Vegetarian"
   ],
@@ -47,12 +42,25 @@
     {
       "quantity": "15",
       "unit": "ml",
-      "item": "Chilli Garlic Sauce"
+      "item": "Chilli Sauce",
+      "notes": "more if desired"
+    },
+    {
+      "quantity": "4",
+      "unit": "cloves",
+      "item": "Garlic",
+      "notes": "crushed"
     },
     {
       "quantity": "5",
       "unit": "g",
       "item": "Orange Zest"
+    },
+    {
+      "quantity": "1",
+      "unit": "ea",
+      "item": "Orange",
+      "notes": "segments, optional"
     }
   ],
   "method": [
@@ -85,26 +93,87 @@
       "content": "Adjust the chilli garlic sauce to taste. For milder heat, use half the amount. For extra fire, add a pinch of red chilli flakes."
     }
   ],
+  "related": [
+    {
+      "id": "sweetchillisauce",
+      "title": "Sweet Chilli Sauce",
+      "matchingTags": [
+        "Chinese",
+        "Gluten-Free",
+        "Spicy",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "arrabbiatasauce",
+      "title": "Arrabbiata Sauce",
+      "matchingTags": [
+        "Chinese",
+        "Gluten-Free",
+        "Spicy",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chilligarlicoil",
+      "title": "Chilli Garlic Oil",
+      "matchingTags": [
+        "Chinese",
+        "Gluten-Free",
+        "Spicy",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce",
+      "matchingTags": [
+        "Chinese",
+        "Gluten-Free",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sataysauce",
+      "title": "Satay Sauce",
+      "matchingTags": [
+        "Chinese",
+        "Gluten-Free",
+        "Spicy",
+        "Vegan",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 4,
-    "cal": 79,
-    "kj": 329,
-    "protein": 1,
-    "carbs": 19,
-    "sugars": 18,
-    "fat": 0,
-    "saturated_fat": 0,
-    "fiber": 1,
-    "sodium": 228,
+    "cal": 833,
+    "kj": 3483,
+    "protein": 22,
+    "carbs": 153,
+    "sugars": 144,
+    "fat": 3,
+    "saturated_fat": 0.8,
+    "fiber": 52,
+    "sodium": 286,
     "coverage": 100,
-    "foundCount": 6,
-    "totalCount": 6,
+    "foundCount": 8,
+    "totalCount": 8,
     "unmatchedItems": [],
-    "calcium_mg": 5,
-    "potassium_mg": 64,
-    "magnesium_mg": 4,
-    "vitamin_c_mg": 9
+    "noQuantityItems": [],
+    "calcium_mg": 399,
+    "iron_mg": 2,
+    "potassium_mg": 3372,
+    "magnesium_mg": 211,
+    "zinc_mg": 2,
+    "vitamin_a_ug": 111,
+    "vitamin_c_mg": 774
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "4 servings"
+  "lastModified": "2026-09-09"
 }

@@ -163,34 +163,96 @@
       "content": "Store in an airtight container for 2–3 days, or freeze for up to 2 months."
     }
   ],
+  "related": [
+    {
+      "id": "chocmuffins",
+      "title": "Chocolate Muffins with Ganache",
+      "matchingTags": [
+        "American",
+        "Baked",
+        "Baking",
+        "Breakfast",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "cinntwists",
+      "title": "Cinnamon Twists",
+      "matchingTags": [
+        "American",
+        "Baked",
+        "Baking",
+        "Breakfast",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "pancakesfortwo",
+      "title": "Pancakes for Two",
+      "matchingTags": [
+        "American",
+        "Baking",
+        "Breakfast",
+        "Dessert",
+        "Sweet",
+        "Under 30 Minutes",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "blueberrymuffins",
+      "title": "Heavenly Blueberry Muffins",
+      "matchingTags": [
+        "American",
+        "Baked",
+        "Baking",
+        "Breakfast",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "cinnbun",
+      "title": "Bakery-Style Cinnamon Buns",
+      "matchingTags": [
+        "American",
+        "Baked",
+        "Baking",
+        "Breakfast",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 12,
-    "cal": 299,
-    "kj": 1252,
-    "protein": 9,
-    "carbs": 38,
-    "sugars": 20,
-    "fat": 12,
-    "saturated_fat": 2.6,
+    "cal": 358,
+    "kj": 1497,
+    "protein": 10,
+    "carbs": 43,
+    "sugars": 24,
+    "fat": 16,
+    "saturated_fat": 4.3,
     "fiber": 3,
-    "sodium": 223,
-    "coverage": 81,
-    "foundCount": 13,
+    "sodium": 234,
+    "coverage": 100,
+    "foundCount": 16,
     "totalCount": 16,
-    "unmatchedItems": [
-      "Milk Full-cream",
-      "Vanilla Extract",
-      "Dark Chocolate Chips"
-    ],
-    "calcium_mg": 56,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 87,
     "iron_mg": 2,
-    "potassium_mg": 318,
-    "magnesium_mg": 64,
+    "potassium_mg": 390,
+    "magnesium_mg": 78,
     "zinc_mg": 1,
-    "cholesterol_mg": 87,
-    "vitamin_a_ug": 64,
+    "cholesterol_mg": 90,
+    "vitamin_a_ug": 75,
     "vitamin_c_mg": 2,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-08-31"
+  "lastModified": "2026-09-09"
 }

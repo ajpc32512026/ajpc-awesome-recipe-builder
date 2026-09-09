@@ -1,7 +1,7 @@
 {
   "id": "bulalo",
   "title": "Original Bulalo",
-  "category": "Dinner",
+  "category": "Filipino",
   "difficulty": "Intermediate",
   "description": "A rich, clear Filipino beef bone marrow soup from Batangas. Beef shanks are slow-boiled for hours until fall-off-the-bone tender, paired with corn, cabbage, and bok choy in a deeply flavourful broth.",
   "prepTime": "15 min",
@@ -11,15 +11,11 @@
   "yieldPerBatch": "4 servings",
   "tags": [
     "Beef",
-    "Comfort Food",
-    "Dairy-Free",
     "Dinner",
     "Filipino",
     "Gluten-Free",
     "Slow-Cooked",
-    "Soup",
-    "Stovetop",
-    "Thai"
+    "Soup"
   ],
   "ingredients": [
     {
@@ -146,30 +142,85 @@
       "content": "The broth keeps refrigerated for up to 4 days. The fat will solidify on top when cold — simply lift it off before reheating for a cleaner soup."
     }
   ],
+  "related": [
+    {
+      "id": "pancitfilipinostirfriednoodles",
+      "title": "Pancit (Filipino Stir-Fried Noodles)",
+      "matchingTags": [
+        "Dairy-Free",
+        "Dinner",
+        "Filipino",
+        "Gluten-Free",
+        "Thai"
+      ]
+    },
+    {
+      "id": "pancitbihon",
+      "title": "Pancit Bihon",
+      "matchingTags": [
+        "Dairy-Free",
+        "Dinner",
+        "Filipino",
+        "Gluten-Free",
+        "Thai"
+      ]
+    },
+    {
+      "id": "beefvindaloo",
+      "title": "Beef Vindaloo",
+      "matchingTags": [
+        "Beef",
+        "Dinner",
+        "Gluten-Free",
+        "Slow-Cooked"
+      ]
+    },
+    {
+      "id": "mongolianbeef",
+      "title": "Mongolian Beef Stir-Fry",
+      "matchingTags": [
+        "Beef",
+        "Dinner",
+        "Gluten-Free",
+        "Stovetop"
+      ]
+    },
+    {
+      "id": "pineapplecoconutchicken",
+      "title": "Pineapple Coconut Chicken",
+      "matchingTags": [
+        "Dinner",
+        "Gluten-Free",
+        "Stovetop",
+        "Thai"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 4,
-    "cal": 783,
-    "kj": 3275,
-    "protein": 36,
-    "carbs": 118,
-    "sugars": 24,
-    "fat": 15,
-    "saturated_fat": 2.6,
-    "fiber": 29,
-    "sodium": 767,
+    "cal": 653,
+    "kj": 2731,
+    "protein": 31,
+    "carbs": 113,
+    "sugars": 22,
+    "fat": 8,
+    "saturated_fat": 1.6,
+    "fiber": 15,
+    "sodium": 734,
     "coverage": 100,
-    "foundCount": 11,
-    "totalCount": 11,
+    "foundCount": 10,
+    "totalCount": 10,
     "unmatchedItems": [],
-    "calcium_mg": 210,
-    "iron_mg": 10,
-    "potassium_mg": 1784,
-    "magnesium_mg": 152,
-    "zinc_mg": 6,
+    "noQuantityItems": [],
+    "calcium_mg": 66,
+    "iron_mg": 3,
+    "potassium_mg": 948,
+    "magnesium_mg": 74,
+    "zinc_mg": 5,
     "cholesterol_mg": 44,
-    "vitamin_a_ug": 1399,
-    "vitamin_c_mg": 68,
+    "vitamin_a_ug": 321,
+    "vitamin_c_mg": 131,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-09-09"
 }

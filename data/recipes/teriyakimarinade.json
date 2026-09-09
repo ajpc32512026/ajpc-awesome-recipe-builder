@@ -8,19 +8,14 @@
   "cookTime": "0 min",
   "totalTime": "5 min",
   "servings": "1 batch",
+  "yieldPerBatch": "1 batch",
   "tags": [
-    "Asian",
-    "Chinese",
-    "Condiment",
-    
     "Dinner",
     "Gluten-Free",
-    "Grilled/BBQ",
     "Japanese",
     "Make Ahead",
     "Sauce",
     "Savoury",
-    "Stovetop",
     "Sweet",
     "Vegan",
     "Vegetarian"
@@ -69,6 +64,72 @@
       "content": "This marinade works as both a marinade and a glaze. Always reserve half before adding raw chicken — never reuse marinade that has touched raw meat."
     }
   ],
+  "related": [
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce",
+      "matchingTags": [
+        "Dinner",
+        "Gluten-Free",
+        "Make Ahead",
+        "Sauce",
+        "Savoury",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sataysauce",
+      "title": "Satay Sauce",
+      "matchingTags": [
+        "Dinner",
+        "Gluten-Free",
+        "Make Ahead",
+        "Sauce",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "teriyakisauce",
+      "title": "Teriyaki Sauce",
+      "matchingTags": [
+        "Gluten-Free",
+        "Japanese",
+        "Make Ahead",
+        "Sauce",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "honeygarlicsauce",
+      "title": "Honey Garlic Sauce",
+      "matchingTags": [
+        "Gluten-Free",
+        "Sauce",
+        "Savoury",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "smokybbqsauce",
+      "title": "Smoky BBQ Sauce",
+      "matchingTags": [
+        "Gluten-Free",
+        "Sauce",
+        "Savoury",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 1,
     "cal": 666,
@@ -84,6 +145,7 @@
     "foundCount": 4,
     "totalCount": 4,
     "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 98,
     "iron_mg": 5,
     "potassium_mg": 1613,
@@ -92,6 +154,5 @@
     "vitamin_a_ug": 6,
     "vitamin_c_mg": 33
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-09-09"
 }

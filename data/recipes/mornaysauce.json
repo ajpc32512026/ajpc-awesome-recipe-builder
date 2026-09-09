@@ -8,16 +8,14 @@
   "cookTime": "15 min",
   "totalTime": "20 min",
   "servings": "500 ml",
+  "yieldPerBatch": "1 batch",
   "tags": [
-    "Baking",
     "Cheese",
     "Classic",
     "Creamy",
-    
     "French",
     "Rich",
     "Sauce",
-    "Under 30 Minutes",
     "Vegetarian"
   ],
   "ingredients": [
@@ -34,7 +32,7 @@
     {
       "quantity": "500",
       "unit": "ml",
-      "item": "Milk Full-Cream",
+      "item": "Milk Full-cream",
       "notes": "warmed"
     },
     {
@@ -103,6 +101,88 @@
       "content": "For a thicker sauce, cook longer or add more cheese. For thinner, add more milk. The sauce will thicken slightly as it cools."
     }
   ],
+  "related": [
+    {
+      "id": "whitesauce",
+      "title": "White Sauce (Béchamel)",
+      "matchingTags": [
+        "Classic",
+        "Creamy",
+        "French",
+        "Rich",
+        "Sauce",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "alfredosauce",
+      "title": "Alfredo Sauce",
+      "matchingTags": [
+        "Breakfast",
+        "Chinese",
+        "Creamy",
+        "Gluten-Free",
+        "Italian",
+        "Pasta",
+        "Sauce",
+        "Under 30 Minutes",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "arrabbiatasauce",
+      "title": "Arrabbiata Sauce",
+      "matchingTags": [
+        "Chinese",
+        "Gluten-Free",
+        "Greek",
+        "Italian",
+        "Sauce",
+        "Spicy",
+        "Tomato",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "marinarasauce",
+      "title": "Marinara Sauce",
+      "matchingTags": [
+        "Chinese",
+        "Classic",
+        "Gluten-Free",
+        "Greek",
+        "Italian",
+        "Sauce",
+        "Tomato",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce",
+      "matchingTags": [
+        "Alcohol",
+        "Asian",
+        "Baking",
+        "Chinese",
+        "Condiment",
+        "Dinner",
+        "Gluten-Free",
+        "Make Ahead",
+        "Sauce",
+        "Savoury",
+        "Stovetop",
+        "Sweet",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 500,
     "cal": 2,
@@ -118,10 +198,10 @@
     "foundCount": 6,
     "totalCount": 6,
     "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 3,
     "potassium_mg": 2,
     "vitamin_a_ug": 2
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-09-09"
 }

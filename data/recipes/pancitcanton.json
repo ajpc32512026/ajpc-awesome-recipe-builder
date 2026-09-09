@@ -1,21 +1,18 @@
 {
   "id": "pancitcanton",
   "title": "Pancit Canton",
-  "category": "Dinner",
+  "category": "Filipino",
   "difficulty": "Intermediate",
   "description": "The chewy, savoury-sweet egg noodle version of Filipino Pancit. Richer than Bihon thanks to oyster sauce and Chinese sausage, with a satisfying bite from thick wheat noodles.",
   "prepTime": "15 min",
   "cookTime": "20 min",
   "totalTime": "35 min",
   "servings": "4 servings",
+  "yieldPerBatch": "4 servings",
   "tags": [
-    "Asian",
-    "Chinese",
     "Dairy-Free",
-    
     "Dinner",
     "Filipino",
-    "No-Cook",
     "Noodles",
     "Pork",
     "Savoury",
@@ -152,31 +149,97 @@
       "content": "Combining half Bihon and half Canton noodles in one dish is popular and gives a great contrast of textures. Avoid cutting the noodles before serving — pancit symbolises long life."
     }
   ],
+  "related": [
+    {
+      "id": "pancitfilipinostirfriednoodles",
+      "title": "Pancit (Filipino Stir-Fried Noodles)",
+      "matchingTags": [
+        
+        "Chinese",
+        "Dairy-Free",
+        "Dinner",
+        "Filipino",
+        "Noodles",
+        "Pork",
+        "Savoury",
+        "Stir-Fried"
+      ]
+    },
+    {
+      "id": "pancitbihon",
+      "title": "Pancit Bihon",
+      "matchingTags": [
+        
+        "Chinese",
+        "Dairy-Free",
+        "Dinner",
+        "Filipino",
+        "Noodles",
+        "Pork",
+        "Savoury",
+        "Stir-Fried"
+      ]
+    },
+    {
+      "id": "filipinoportoccino",
+      "title": "Filipino Pork Toccino",
+      "matchingTags": [
+        
+        "Chinese",
+        "Dinner",
+        "Filipino",
+        "Pork",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "sweetsourpork",
+      "title": "Better Than Takeaway Sweet & Sour Pork",
+      "matchingTags": [
+        
+        "Chinese",
+        "Dinner",
+        "Pork",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "mongolianbeef",
+      "title": "Mongolian Beef Stir-Fry",
+      "matchingTags": [
+        
+        "Chinese",
+        "Dinner",
+        "Savoury",
+        "Stir-Fried"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 4,
-    "cal": 715,
-    "kj": 2992,
-    "protein": 39,
-    "carbs": 75,
-    "sugars": 27,
-    "fat": 25,
-    "saturated_fat": 8.2,
-    "fiber": 26,
-    "sodium": 2241,
+    "cal": 648,
+    "kj": 2710,
+    "protein": 45,
+    "carbs": 60,
+    "sugars": 23,
+    "fat": 22,
+    "saturated_fat": 7.1,
+    "fiber": 25,
+    "sodium": 2151,
     "coverage": 100,
     "foundCount": 15,
     "totalCount": 15,
     "unmatchedItems": [],
-    "calcium_mg": 137,
+    "noQuantityItems": [],
+    "calcium_mg": 131,
     "iron_mg": 4,
-    "potassium_mg": 1241,
-    "magnesium_mg": 103,
-    "zinc_mg": 3,
-    "cholesterol_mg": 219,
-    "vitamin_a_ug": 561,
-    "vitamin_c_mg": 119,
+    "potassium_mg": 1381,
+    "magnesium_mg": 106,
+    "zinc_mg": 4,
+    "cholesterol_mg": 244,
+    "vitamin_a_ug": 508,
+    "vitamin_c_mg": 117,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "4 servings"
+  "lastModified": "2026-09-09"
 }

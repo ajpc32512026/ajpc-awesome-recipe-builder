@@ -8,6 +8,7 @@
   "cookTime": "8 min",
   "totalTime": "1 hr 23 min",
   "servings": "4 servings",
+  "yieldPerBatch": "4 servings",
   "tags": [
     "Chicken",
     "Chinese",
@@ -120,31 +121,100 @@
       "content": "Inspired by traditional Middle Eastern shawarma techniques."
     }
   ],
+  "related": [
+    {
+      "id": "chickenteriyaki",
+      "title": "Chicken Teriyaki",
+      "matchingTags": [
+        "Chicken",
+        "Chinese",
+        "Classic",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Stovetop",
+        "Under 30 Minutes"
+      ]
+    },
+    {
+      "id": "bistro-orangethaichicken",
+      "title": "Orange Thai Chicken",
+      "matchingTags": [
+        "Chicken",
+        "Chinese",
+        "Dinner",
+        "Drinks",
+        "Gluten-Free",
+        "Savoury",
+        "Spicy",
+        "Under 30 Minutes"
+      ]
+    },
+    {
+      "id": "chickencacciatore",
+      "title": "Chicken Cacciatore",
+      "matchingTags": [
+        "Chicken",
+        "Chinese",
+        "Classic",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Stovetop"
+      ]
+    },
+    {
+      "id": "chickenpineapple",
+      "title": "Chicken Pineapple",
+      "matchingTags": [
+        "Chicken",
+        "Chinese",
+        "Dinner",
+        "Drinks",
+        "Gluten-Free",
+        "Savoury",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "currychicken",
+      "title": "Curry Chicken with Coconut Cream",
+      "matchingTags": [
+        "Chicken",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Indian",
+        "Savoury",
+        "Spicy"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 4,
     "cal": 454,
     "kj": 1901,
     "protein": 38,
-    "carbs": 16,
+    "carbs": 17,
     "sugars": 3,
     "fat": 20,
     "saturated_fat": 2.6,
     "fiber": 26,
-    "sodium": 158,
+    "sodium": 159,
     "coverage": 100,
     "foundCount": 10,
     "totalCount": 10,
     "unmatchedItems": [],
-    "calcium_mg": 62,
-    "iron_mg": 4,
-    "potassium_mg": 1306,
-    "magnesium_mg": 83,
+    "noQuantityItems": [],
+    "calcium_mg": 61,
+    "iron_mg": 3,
+    "potassium_mg": 1293,
+    "magnesium_mg": 82,
     "zinc_mg": 2,
     "cholesterol_mg": 85,
-    "vitamin_a_ug": 39,
+    "vitamin_a_ug": 12,
     "vitamin_c_mg": 21,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "4 servings"
+  "lastModified": "2026-09-09"
 }

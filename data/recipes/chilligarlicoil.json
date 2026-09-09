@@ -8,10 +8,9 @@
   "cookTime": "10 min",
   "totalTime": "15 min",
   "servings": "8 servings",
+  "yieldPerBatch": "8 servings",
   "tags": [
-    "Asian",
     "Chinese",
-    "Condiment",
     "Garlic",
     "Gluten-Free",
     "Make Ahead",
@@ -25,7 +24,8 @@
     {
       "quantity": "250",
       "unit": "ml",
-      "item": "Vegetable Oil"
+      "item": "Vegetable Oil",
+      "notes": "Or light olive oil"
     },
     {
       "quantity": "30",
@@ -39,11 +39,6 @@
       "notes": "minced"
     },
     {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Salt"
-    },
-    {
       "quantity": "15",
       "unit": "ml",
       "item": "Soy Sauce"
@@ -52,6 +47,11 @@
       "quantity": "5",
       "unit": "g",
       "item": "White Sugar"
+    },
+    {
+      "item": "Salt",
+      "toTaste": true,
+      "notes": "Don't add too much all at once, you can't take it out once it's in."
     }
   ],
   "method": [
@@ -88,28 +88,96 @@
       "content": "Keep the heat low when cooking garlic. If it burns, start again — burnt garlic makes the oil bitter and unusable."
     }
   ],
+  "related": [
+    {
+      "id": "sweetchillisauce",
+      "title": "Sweet Chilli Sauce",
+      "matchingTags": [
+        "Chinese",
+        "Gluten-Free",
+        "Make Ahead",
+        "Sauce",
+        "Spicy",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "arrabbiatasauce",
+      "title": "Arrabbiata Sauce",
+      "matchingTags": [
+        "Chinese",
+        "Gluten-Free",
+        "Sauce",
+        "Spicy",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce",
+      "matchingTags": [
+        "Chinese",
+        "Gluten-Free",
+        "Make Ahead",
+        "Sauce",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sataysauce",
+      "title": "Satay Sauce",
+      "matchingTags": [
+        "Chinese",
+        "Gluten-Free",
+        "Make Ahead",
+        "Sauce",
+        "Spicy",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sweetsoursauce_flex",
+      "title": "Sweet & Sour Sauce – Home Chef Flex",
+      "matchingTags": [
+        "Chinese",
+        "Gluten-Free",
+        "Make Ahead",
+        "Sauce",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 8,
-    "cal": 310,
-    "kj": 1295,
+    "cal": 308,
+    "kj": 1290,
     "protein": 1,
     "carbs": 3,
     "sugars": 2,
     "fat": 32,
     "saturated_fat": 2.5,
     "fiber": 3,
-    "sodium": 112,
+    "sodium": 60,
     "coverage": 100,
-    "foundCount": 6,
-    "totalCount": 6,
+    "foundCount": 5,
+    "totalCount": 5,
     "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 15,
     "iron_mg": 1,
-    "potassium_mg": 141,
-    "magnesium_mg": 11,
+    "potassium_mg": 138,
+    "magnesium_mg": 10,
     "vitamin_a_ug": 101,
     "vitamin_c_mg": 4
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "8 servings"
+  "lastModified": "2026-09-09"
 }

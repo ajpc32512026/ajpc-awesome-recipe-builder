@@ -104,33 +104,91 @@
       "content": "Substitute full-cream milk with oat or almond milk."
     }
   ],
+  "related": [
+    {
+      "id": "chocmuffins",
+      "title": "Chocolate Muffins with Ganache",
+      "matchingTags": [
+        "American",
+        "Baking",
+        "Chocolate",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "doublechocolatechipcookies",
+      "title": "Double Chocolate Chip Cookies",
+      "matchingTags": [
+        "American",
+        "Baking",
+        "Chocolate",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "pancakesfortwo",
+      "title": "Pancakes for Two",
+      "matchingTags": [
+        "American",
+        "Baking",
+        "Dessert",
+        "Easy",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "muffinmix",
+      "title": "Basic Muffin Mix",
+      "matchingTags": [
+        "American",
+        "Baking",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "lamington",
+      "title": "Classic Lamingtons",
+      "matchingTags": [
+        "Baking",
+        "Chocolate",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 1,
-    "cal": 533,
-    "kj": 2229,
-    "protein": 9,
-    "carbs": 43,
-    "sugars": 5,
-    "fat": 35,
-    "saturated_fat": 5.2,
+    "cal": 572,
+    "kj": 2391,
+    "protein": 11,
+    "carbs": 46,
+    "sugars": 8,
+    "fat": 37,
+    "saturated_fat": 6.6,
     "fiber": 5,
-    "sodium": 161,
-    "coverage": 63,
-    "foundCount": 5,
+    "sodium": 182,
+    "coverage": 88,
+    "foundCount": 7,
     "totalCount": 8,
     "unmatchedItems": [
-      "Caster Sugar",
-      "Milk Full-cream",
-      "Natural Vanilla Extract"
+      "Caster Sugar"
     ],
     "noQuantityItems": [],
-    "calcium_mg": 56,
+    "calcium_mg": 120,
     "iron_mg": 5,
-    "potassium_mg": 941,
-    "magnesium_mg": 109,
+    "potassium_mg": 1026,
+    "magnesium_mg": 115,
     "zinc_mg": 2,
-    "cholesterol_mg": 7,
-    "vitamin_a_ug": 36
+    "cholesterol_mg": 13,
+    "vitamin_a_ug": 63
   },
-  "lastModified": "2026-09-06"
+  "lastModified": "2026-09-09"
 }

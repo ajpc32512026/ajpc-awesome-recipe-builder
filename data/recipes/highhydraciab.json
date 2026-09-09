@@ -119,6 +119,70 @@
       "content": "Do not punch down the dough when shaping. The large air bubbles are what give ciabatta its characteristic open crumb. Handle it gently and only fold, never knead."
     }
   ],
+  "related": [
+    {
+      "id": "focaccia",
+      "title": "Focaccia",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Greek",
+        "Italian",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "focaccia-high",
+      "title": "High-Hydration Focaccia",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Greek",
+        "Italian",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "pizzadough",
+      "title": "Ultimate Homemade Pizza Dough",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Greek",
+        "Italian",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "turkishbread",
+      "title": "Traditional Turkish Bread",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Greek",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "darkrye",
+      "title": "Dark Rye Bread",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 6,
     "cal": 695,
@@ -131,14 +195,15 @@
     "fiber": 5,
     "sodium": 77,
     "coverage": 100,
-    "foundCount": 7,
-    "totalCount": 7,
+    "foundCount": 5,
+    "totalCount": 5,
     "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 37,
     "iron_mg": 2,
     "potassium_mg": 309,
     "magnesium_mg": 64,
     "zinc_mg": 2
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-09-09"
 }

@@ -8,17 +8,13 @@
   "cookTime": "5 min",
   "totalTime": "10 min",
   "servings": "4 servings",
+  "yieldPerBatch": "4 servings",
   "tags": [
-    "Asian",
-    "Chinese",
-    "Condiment",
-    
     "Gluten-Free",
     "Japanese",
     "Make Ahead",
     "Sauce",
     "Sweet",
-    "Under 30 Minutes",
     "Vegan",
     "Vegetarian"
   ],
@@ -80,6 +76,68 @@
       "content": "Brush over grilled chicken, salmon, or beef. Also wonderful as a stir-fry sauce or marinade."
     }
   ],
+  "related": [
+    {
+      "id": "teriyakimarinade",
+      "title": "Teriyaki Marinade",
+      "matchingTags": [
+        "Gluten-Free",
+        "Japanese",
+        "Make Ahead",
+        "Sauce",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce",
+      "matchingTags": [
+        "Gluten-Free",
+        "Make Ahead",
+        "Sauce",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sweetsoursauce_flex",
+      "title": "Sweet & Sour Sauce – Home Chef Flex",
+      "matchingTags": [
+        "Gluten-Free",
+        "Make Ahead",
+        "Sauce",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sweetchillisauce",
+      "title": "Sweet Chilli Sauce",
+      "matchingTags": [
+        "Gluten-Free",
+        "Make Ahead",
+        "Sauce",
+        "Sweet",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chilligarlicoil",
+      "title": "Chilli Garlic Oil",
+      "matchingTags": [
+        "Gluten-Free",
+        "Make Ahead",
+        "Sauce",
+        "Vegan",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 4,
     "cal": 111,
@@ -95,12 +153,12 @@
     "foundCount": 5,
     "totalCount": 5,
     "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 10,
     "potassium_mg": 148,
     "magnesium_mg": 9,
     "vitamin_a_ug": 1,
     "vitamin_c_mg": 3
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "4 servings"
+  "lastModified": "2026-09-09"
 }

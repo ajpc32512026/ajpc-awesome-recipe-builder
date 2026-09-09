@@ -8,13 +8,12 @@
   "cookTime": "40 min",
   "totalTime": "55 min",
   "servings": "4 servings",
+  "yieldPerBatch": "4 servings",
   "tags": [
-    "Chinese",
     "Classic",
     "Curry",
     "Dinner",
     "Gluten-Free",
-    "Greek",
     "Indian",
     "Lamb",
     "Rich",
@@ -88,11 +87,6 @@
       "item": "Red Chilli Powder"
     },
     {
-      "quantity": "3",
-      "unit": "g",
-      "item": "Black Pepper"
-    },
-    {
       "quantity": "60",
       "unit": "g",
       "item": "Greek Yoghurt"
@@ -103,10 +97,9 @@
       "item": "Water"
     },
     {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once, You can't take it out once it's in."
     }
   ],
   "method": [
@@ -155,35 +148,104 @@
       "content": "Adapted from traditional Indian korma recipes."
     }
   ],
+  "related": [
+    {
+      "id": "roganjosh",
+      "title": "Lamb Rogan Josh – Restaurant Style",
+      "matchingTags": [
+        "Chinese",
+        "Curry",
+        "Dinner",
+        "Gluten-Free",
+        "Greek",
+        "Indian",
+        "Lamb",
+        "Rich",
+        "Savoury",
+        "Slow-Cooked"
+      ]
+    },
+    {
+      "id": "lambvindaloo",
+      "title": "Lamb Vindaloo",
+      "matchingTags": [
+        "Chinese",
+        "Curry",
+        "Dinner",
+        "Gluten-Free",
+        "Indian",
+        "Lamb",
+        "Rich",
+        "Savoury",
+        "Slow-Cooked"
+      ]
+    },
+    {
+      "id": "beefvindaloo",
+      "title": "Beef Vindaloo",
+      "matchingTags": [
+        "Chinese",
+        "Curry",
+        "Dinner",
+        "Gluten-Free",
+        "Indian",
+        "Rich",
+        "Savoury",
+        "Slow-Cooked"
+      ]
+    },
+    {
+      "id": "chickencacciatore",
+      "title": "Chicken Cacciatore",
+      "matchingTags": [
+        "Chinese",
+        "Classic",
+        "Dinner",
+        "Gluten-Free",
+        "Greek",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "butterchicken",
+      "title": "Restaurant-Style Butter Chicken",
+      "matchingTags": [
+        "Chinese",
+        "Curry",
+        "Dinner",
+        "Greek",
+        "Indian",
+        "Rich",
+        "Savoury"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 4,
-    "cal": 598,
-    "kj": 2503,
-    "protein": 25,
-    "carbs": 73,
-    "sugars": 27,
-    "fat": 25,
-    "saturated_fat": 5.1,
-    "fiber": 30,
-    "sodium": 186,
-    "coverage": 80,
-    "foundCount": 12,
-    "totalCount": 15,
-    "unmatchedItems": [
-      "Dried Red Chilli",
-      "Red Chilli Powder",
-      "Greek Yoghurt"
-    ],
-    "calcium_mg": 104,
-    "iron_mg": 5,
-    "potassium_mg": 734,
-    "magnesium_mg": 58,
-    "zinc_mg": 4,
-    "cholesterol_mg": 48,
-    "vitamin_a_ug": 18,
-    "vitamin_c_mg": 10,
+    "cal": 689,
+    "kj": 2883,
+    "protein": 31,
+    "carbs": 82,
+    "sugars": 28,
+    "fat": 27,
+    "saturated_fat": 6.2,
+    "fiber": 36,
+    "sodium": 91,
+    "coverage": 100,
+    "foundCount": 13,
+    "totalCount": 13,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 146,
+    "iron_mg": 6,
+    "potassium_mg": 1125,
+    "magnesium_mg": 93,
+    "zinc_mg": 5,
+    "cholesterol_mg": 55,
+    "vitamin_a_ug": 50,
+    "vitamin_c_mg": 14,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "4 servings"
+  "lastModified": "2026-09-09"
 }

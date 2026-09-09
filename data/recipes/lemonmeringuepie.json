@@ -10,17 +10,14 @@
   "servings": "8 servings",
   "yieldPerBatch": "1 pie",
   "tags": [
-    "American",
-    "Baked",
     "Baking",
     "Classic",
     "Dessert",
-    "Drinks",
-    "Gluten-Free",
     "Lemon",
     "Pastry",
     "Sweet",
-    "Vegetarian"
+    "Vegetarian",
+    "Australian"
   ],
   "ingredients": [
     {
@@ -43,14 +40,14 @@
     {
       "quantity": "4",
       "unit": "",
-      "item": "Egg Yolks",
-      "notes": "divided: 1 for Pastry, 3 for Filling"
+      "item": "Eggs",
+      "notes": "separated: 1 for Pastry, 3 for Filling"
     },
     {
-      "quantity": "30",
+      "quantity": "340",
       "unit": "ml",
-      "item": "Cold Water",
-      "notes": "approximately"
+      "item": "Water",
+      "notes": "cold: keep 30ml for pastry"
     },
     {
       "quantity": "60",
@@ -69,19 +66,9 @@
       "item": "Lemon Juice"
     },
     {
-      "quantity": "310",
-      "unit": "ml",
-      "item": "Water"
-    },
-    {
       "quantity": "10",
       "unit": "g",
       "item": "Lemon Zest"
-    },
-    {
-      "quantity": "3",
-      "unit": "",
-      "item": "Egg Whites"
     }
   ],
   "method": [
@@ -147,30 +134,96 @@
       "content": "The Australian Women's Weekly Home Library — Sweet Old-Fashioned Favourites, page 71."
     }
   ],
+  "related": [
+    {
+      "id": "apricotflan",
+      "title": "Apricot Flan",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Classic",
+        "Dessert",
+        "Pastry",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "applepie",
+      "title": "Apple Pie",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Dessert",
+        "Pastry",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bistro-pavlova",
+      "title": "Pavlova",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Classic",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bistro-profiteroles",
+      "title": "Profiteroles",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Dessert",
+        "Pastry",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "stickydates",
+      "title": "Sticky Date Pudding with Caramel Sauce",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Classic",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 8,
-    "cal": 616,
-    "kj": 2577,
-    "protein": 19,
-    "carbs": 66,
-    "sugars": 40,
-    "fat": 31,
-    "saturated_fat": 17.2,
-    "fiber": 1,
-    "sodium": 192,
-    "coverage": 100,
-    "foundCount": 12,
-    "totalCount": 12,
-    "unmatchedItems": [],
-    "calcium_mg": 65,
-    "iron_mg": 2,
-    "potassium_mg": 246,
-    "magnesium_mg": 27,
-    "zinc_mg": 1,
-    "cholesterol_mg": 539,
-    "vitamin_a_ug": 371,
-    "vitamin_c_mg": 7,
-    "vitamin_d_ug": 7
+    "cal": 483,
+    "kj": 2023,
+    "protein": 18,
+    "carbs": 29,
+    "sugars": 3,
+    "fat": 30,
+    "saturated_fat": 16.7,
+    "fiber": 14,
+    "sodium": 164,
+    "coverage": 88,
+    "foundCount": 7,
+    "totalCount": 8,
+    "unmatchedItems": [
+      "Caster Sugar"
+    ],
+    "noQuantityItems": [],
+    "calcium_mg": 228,
+    "iron_mg": 3,
+    "potassium_mg": 420,
+    "magnesium_mg": 44,
+    "zinc_mg": 2,
+    "cholesterol_mg": 530,
+    "vitamin_a_ug": 353,
+    "vitamin_c_mg": 167,
+    "vitamin_d_ug": 6
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-09-09"
 }

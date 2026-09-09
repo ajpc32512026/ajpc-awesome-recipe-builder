@@ -8,19 +8,18 @@
   "cookTime": "0 min",
   "totalTime": "4 hr 20 min",
   "servings": "8 servings",
+  "yieldPerBatch": "8 servings",
   "tags": [
-    "American",
-    "Baked",
     "Classic",
     "Creamy",
     "Dessert",
-    "Gluten-Free",
     "Make Ahead",
     "No-Bake",
     "No-Cook",
     "Rich",
     "Sweet",
-    "Vegetarian"
+    "Vegetarian",
+    "Australian"
   ],
   "ingredients": [
     {
@@ -91,6 +90,75 @@
       "content": "Sprinkle gelatine over cold water, let it bloom for 5 minutes, then gently heat until dissolved. Never add dry gelatine directly to the mixture. See the Gelatine Blooming Guide for full details."
     }
   ],
+  "related": [
+    {
+      "id": "chefstyletiramisugateau",
+      "title": "Chef-Style Tiramisu Gateau",
+      "matchingTags": [
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Make Ahead",
+        "No-Cook",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chocolaterumballs",
+      "title": "Chocolate Rum Balls",
+      "matchingTags": [
+        "Australian",
+        "Dessert",
+        "Make Ahead",
+        "No-Bake",
+        "No-Cook",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "apricotflan",
+      "title": "Apricot Flan",
+      "matchingTags": [
+        "Australian",
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "baked-cheesecake",
+      "title": "Baked Cheesecake",
+      "matchingTags": [
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Make Ahead",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chocolatemousse",
+      "title": "Chocolate Mousse",
+      "matchingTags": [
+        "Creamy",
+        "Dessert",
+        "Make Ahead",
+        "No-Bake",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 8,
     "cal": 452,
@@ -106,6 +174,7 @@
     "foundCount": 5,
     "totalCount": 5,
     "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 642,
     "potassium_mg": 236,
     "magnesium_mg": 26,
@@ -113,6 +182,5 @@
     "cholesterol_mg": 83,
     "vitamin_a_ug": 248
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "8 servings"
+  "lastModified": "2026-09-09"
 }

@@ -8,10 +8,9 @@
   "cookTime": "20 min",
   "totalTime": "30 min",
   "servings": "4 servings",
+  "yieldPerBatch": "4 servings",
   "tags": [
-    "Chinese",
     "Classic",
-    "Greek",
     "Italian",
     "Sauce",
     "Tomato",
@@ -93,29 +92,86 @@
       "content": "Great with any pasta shape. Can be stored in the refrigerator for up to 5 days or frozen for up to 3 months."
     }
   ],
+  "related": [
+    {
+      "id": "arrabbiatasauce",
+      "title": "Arrabbiata Sauce",
+      "matchingTags": [
+        "Italian",
+        "Sauce",
+        "Tomato",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "marinarasauce",
+      "title": "Marinara Sauce",
+      "matchingTags": [
+        "Classic",
+        "Italian",
+        "Sauce",
+        "Tomato",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "pestosauce",
+      "title": "Pesto Sauce",
+      "matchingTags": [
+        "Classic",
+        "Italian",
+        "Sauce",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "alfredosauce",
+      "title": "Alfredo Sauce",
+      "matchingTags": [
+        "Italian",
+        "Sauce",
+        "Under 30 Minutes",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chilligarlicoil",
+      "title": "Chilli Garlic Oil",
+      "matchingTags": [
+        "Sauce",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 4,
-    "cal": 195,
-    "kj": 815,
-    "protein": 6,
-    "carbs": 15,
-    "sugars": 6,
-    "fat": 10,
-    "saturated_fat": 1.8,
-    "fiber": 15,
-    "sodium": 120,
+    "cal": 7847,
+    "kj": 32833,
+    "protein": 318,
+    "carbs": 1110,
+    "sugars": 1103,
+    "fat": 160,
+    "saturated_fat": 39.3,
+    "fiber": 464,
+    "sodium": 2614,
     "coverage": 100,
     "foundCount": 7,
     "totalCount": 7,
     "unmatchedItems": [],
-    "calcium_mg": 46,
-    "iron_mg": 2,
-    "potassium_mg": 745,
-    "magnesium_mg": 38,
-    "zinc_mg": 1,
-    "vitamin_a_ug": 62,
-    "vitamin_c_mg": 28
+    "noQuantityItems": [],
+    "calcium_mg": 8409,
+    "iron_mg": 527,
+    "potassium_mg": 67824,
+    "magnesium_mg": 4025,
+    "zinc_mg": 55,
+    "vitamin_a_ug": 10,
+    "vitamin_c_mg": 886
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "4 servings"
+  "lastModified": "2026-09-09"
 }

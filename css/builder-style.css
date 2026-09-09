@@ -1635,46 +1635,6 @@ header span {
     line-height: 1.8;
 }
 
-/* Loading modal */
-.loading-modal-box {
-    background: var(--surface-1);
-    border: 1px solid var(--border-mid);
-    border-radius: 6px;
-    padding: 2rem 3rem;
-    text-align: center;
-    max-width: 400px;
-}
-
-.loading-modal-label {
-    font-family: var(--font-mono);
-    font-size: 0.75rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--copper);
-    margin-bottom: 1rem;
-}
-
-.loading-modal-message {
-    color: var(--cream-dim);
-    font-size: 0.9rem;
-    line-height: 1.6;
-}
-
-.loading-modal-track {
-    margin-top: 1.5rem;
-    height: 3px;
-    background: var(--border-dim);
-    border-radius: 2px;
-    overflow: hidden;
-}
-
-.loading-modal-fill {
-    height: 100%;
-    width: 30%;
-    background: var(--copper);
-    animation: slide 1.5s ease-in-out infinite;
-}
-
 /* Tag picker modal header elements */
 .tag-picker-header-row {
     display: flex;

@@ -11,14 +11,12 @@
   "yieldPerBatch": "1 cake",
   "tags": [
     "American",
-    "Baked",
     "Baking",
     "Cake",
     "Carrot",
     "Classic",
     "Creamy",
     "Dessert",
-    "Drinks",
     "Party",
     "Sweet",
     "Vegetarian"
@@ -35,7 +33,7 @@
       "item": "White Sugar"
     },
     {
-      "quantity": "187.5",
+      "quantity": "180",
       "unit": "g",
       "item": "Self-raising Flour",
       "notes": "sifted"
@@ -52,7 +50,7 @@
       "item": "Vegetable Oil"
     },
     {
-      "quantity": "7.5",
+      "quantity": "7",
       "unit": "g",
       "item": "Baking Powder"
     },
@@ -62,10 +60,9 @@
       "item": "Salt"
     },
     {
-      "quantity": "7.5",
+      "quantity": "7",
       "unit": "g",
-      "item": "Ground Cinnamon",
-      "notes": "ground"
+      "item": "Ground Cinnamon"
     },
     {
       "quantity": "3",
@@ -83,6 +80,9 @@
       "unit": "g",
       "item": "Walnuts",
       "notes": "chopped"
+    },
+    {
+      "heading": "Frosting"
     },
     {
       "quantity": "250",
@@ -189,33 +189,95 @@
       "content": "This recipe is written for a 20cm round tin. If doubling the ingredients, use either two 20cm round tins or one deep 28cm tin (at least 8cm high)."
     }
   ],
+  "related": [
+    {
+      "id": "baked-cheesecake",
+      "title": "Baked Cheesecake",
+      "matchingTags": [
+        "American",
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Party",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chefstyletiramisugateau",
+      "title": "Chef-Style Tiramisu Gateau",
+      "matchingTags": [
+        "Baking",
+        "Cake",
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "lamington",
+      "title": "Classic Lamingtons",
+      "matchingTags": [
+        "Baking",
+        "Cake",
+        "Classic",
+        "Dessert",
+        "Party",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "hummingbirdcafestyle",
+      "title": "Hummingbird — Cafe Style",
+      "matchingTags": [
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Party",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "pineappleupsidedowncake",
+      "title": "Pineapple Upside-Down Cake",
+      "matchingTags": [
+        "American",
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 8,
     "cal": 590,
     "kj": 2467,
     "protein": 16,
     "carbs": 61,
-    "sugars": 40,
+    "sugars": 41,
     "fat": 32,
     "saturated_fat": 9.1,
     "fiber": 2,
-    "sodium": 816,
-    "coverage": 79,
-    "foundCount": 11,
+    "sodium": 805,
+    "coverage": 100,
+    "foundCount": 14,
     "totalCount": 14,
-    "unmatchedItems": [
-      "Natural Vanilla Extract",
-      "Ground Cinnamon",
-      "Lemon Juice"
-    ],
-    "calcium_mg": 310,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 311,
     "iron_mg": 2,
-    "potassium_mg": 349,
+    "potassium_mg": 344,
     "magnesium_mg": 36,
     "zinc_mg": 2,
     "cholesterol_mg": 396,
     "vitamin_a_ug": 185,
     "vitamin_d_ug": 4
   },
-  "lastModified": "2026-08-31"
+  "lastModified": "2026-09-09"
 }

@@ -15,10 +15,7 @@
     "Cake",
     "Citrus",
     "Dessert",
-    "Drinks",
-    "Gluten-Free",
     "Orange",
-    "Rich",
     "Sweet",
     "Vegetarian"
   ],
@@ -75,6 +72,9 @@
       "unit": "ml",
       "item": "Orange Juice",
       "notes": "divided: 80ml for Cake, 15ml for Frosting"
+    },
+    {
+      "heading": "Frosting"
     },
     {
       "quantity": "500",
@@ -153,32 +153,96 @@
       "content": "Keep refrigerated due to the cream cheese frosting. Bring to room temperature before serving."
     }
   ],
+  "related": [
+    {
+      "id": "bananacake",
+      "title": "Banana Cake with Lemon Frosting",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Citrus",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "cherrycoconutcake",
+      "title": "Cherry and Coconut Cake",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "lemoncoconut",
+      "title": "Lemon Coconut Cake",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "theultimatechocolatemudcake",
+      "title": "The Ultimate Chocolate Mud Cake",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "lamington",
+      "title": "Classic Lamingtons",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 8,
-    "cal": 1553,
-    "kj": 6498,
-    "protein": 38,
-    "carbs": 207,
-    "sugars": 187,
+    "cal": 1220,
+    "kj": 5106,
+    "protein": 33,
+    "carbs": 132,
+    "sugars": 112,
     "fat": 56,
-    "saturated_fat": 31,
-    "fiber": 41,
-    "sodium": 1081,
+    "saturated_fat": 31.1,
+    "fiber": 30,
+    "sodium": 1084,
     "coverage": 92,
     "foundCount": 12,
     "totalCount": 13,
     "unmatchedItems": [
-      "Milk Full-cream"
+      "Caster Sugar"
     ],
-    "calcium_mg": 1057,
+    "noQuantityItems": [],
+    "calcium_mg": 946,
     "iron_mg": 3,
-    "potassium_mg": 3466,
-    "magnesium_mg": 271,
-    "zinc_mg": 4,
-    "cholesterol_mg": 476,
-    "vitamin_a_ug": 630,
-    "vitamin_c_mg": 844,
+    "potassium_mg": 2556,
+    "magnesium_mg": 212,
+    "zinc_mg": 3,
+    "cholesterol_mg": 477,
+    "vitamin_a_ug": 599,
+    "vitamin_c_mg": 596,
     "vitamin_d_ug": 5
   },
-  "lastModified": "2026-08-31"
+  "lastModified": "2026-09-09"
 }

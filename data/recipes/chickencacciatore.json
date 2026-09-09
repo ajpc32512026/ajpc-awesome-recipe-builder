@@ -8,6 +8,7 @@
   "cookTime": "45 min",
   "totalTime": "1 hr",
   "servings": "4 servings",
+  "yieldPerBatch": "4 servings",
   "tags": [
     "Alcohol",
     "Chicken",
@@ -94,7 +95,7 @@
     {
       "quantity": "180",
       "unit": "ml",
-      "item": "Milk Full-Cream"
+      "item": "Milk Full-cream"
     },
     {
       "quantity": "8",
@@ -182,31 +183,99 @@
       "content": "Adapted from traditional Italian cacciatore recipes — a classic hunter-style braise."
     }
   ],
+  "related": [
+    {
+      "id": "bistro-steakboston",
+      "title": "Steak Boston",
+      "matchingTags": [
+        "Alcohol",
+        "Chinese",
+        "Classic",
+        "Dinner",
+        "Gluten-Free",
+        "Italian",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "beefstockpot",
+      "title": "20 Minute Beef Stock Pot",
+      "matchingTags": [
+        "Alcohol",
+        "Chinese",
+        "Dinner",
+        "Greek",
+        "Italian",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "chickenshawarma",
+      "title": "Chicken Shawarma",
+      "matchingTags": [
+        "Chicken",
+        "Chinese",
+        "Classic",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Stovetop"
+      ]
+    },
+    {
+      "id": "chickenteriyaki",
+      "title": "Chicken Teriyaki",
+      "matchingTags": [
+        "Chicken",
+        "Chinese",
+        "Classic",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Stovetop"
+      ]
+    },
+    {
+      "id": "lasagne",
+      "title": "Classic Lasagne — Ragù & Béchamel",
+      "matchingTags": [
+        "Chinese",
+        "Classic",
+        "Dinner",
+        "Greek",
+        "Italian",
+        "Rich",
+        "Savoury"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 4,
-    "cal": 531,
-    "kj": 2220,
-    "protein": 35,
-    "carbs": 33,
-    "sugars": 13,
-    "fat": 23,
-    "saturated_fat": 4.6,
-    "fiber": 17,
-    "sodium": 617,
+    "cal": 562,
+    "kj": 2351,
+    "protein": 37,
+    "carbs": 32,
+    "sugars": 14,
+    "fat": 26,
+    "saturated_fat": 6.5,
+    "fiber": 16,
+    "sodium": 9754,
     "coverage": 100,
     "foundCount": 15,
     "totalCount": 15,
     "unmatchedItems": [],
-    "calcium_mg": 125,
-    "iron_mg": 3,
-    "potassium_mg": 1386,
-    "magnesium_mg": 91,
+    "noQuantityItems": [],
+    "calcium_mg": 157,
+    "iron_mg": 4,
+    "potassium_mg": 1441,
+    "magnesium_mg": 97,
     "zinc_mg": 2,
-    "cholesterol_mg": 81,
-    "vitamin_a_ug": 124,
-    "vitamin_c_mg": 36,
+    "cholesterol_mg": 73,
+    "vitamin_a_ug": 118,
+    "vitamin_c_mg": 34,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "4 servings"
+  "lastModified": "2026-09-09"
 }

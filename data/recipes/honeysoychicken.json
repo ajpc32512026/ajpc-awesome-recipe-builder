@@ -48,8 +48,8 @@
     {
       "quantity": "10",
       "unit": "g",
-      "item": "Fresh Ginger",
-      "notes": "grated (about 2 tsp)"
+      "item": "Ginger",
+      "notes": "fresh grated (about 2 tsp)"
     },
     {
       "quantity": "15",
@@ -110,32 +110,162 @@
       "content": "Garnish with sliced spring onion and sesame seeds before serving."
     }
   ],
+  "related": [
+    {
+      "id": "apricotchicken",
+      "title": "Apricot Chicken",
+      "matchingTags": [
+        "Asian",
+        "Chicken",
+        "Chinese",
+        "Dinner",
+        "Easy",
+        "Gluten-Free",
+        "Savoury",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "currychicken",
+      "title": "Curry Chicken with Coconut Cream",
+      "matchingTags": [
+        "Asian",
+        "Chicken",
+        "Chinese",
+        "Dinner",
+        "Easy",
+        "Gluten-Free",
+        "Make Ahead",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "chickenteriyaki",
+      "title": "Chicken Teriyaki",
+      "matchingTags": [
+        "Asian",
+        "Chicken",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "filipinoportoccino",
+      "title": "Filipino Pork Toccino",
+      "matchingTags": [
+        "Asian",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Make Ahead",
+        "Savoury",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "pineapplecoconutchicken",
+      "title": "Pineapple Coconut Chicken",
+      "matchingTags": [
+        "Asian",
+        "Chicken",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce",
+      "matchingTags": [
+        "Asian",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Make Ahead",
+        "Savoury",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "teriyakimarinade",
+      "title": "Teriyaki Marinade",
+      "matchingTags": [
+        "Asian",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Make Ahead",
+        "Savoury",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "sweetsourpork",
+      "title": "Better Than Takeaway Sweet & Sour Pork",
+      "matchingTags": [
+        "Asian",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "chickenpineapple",
+      "title": "Chicken Pineapple",
+      "matchingTags": [
+        "Chicken",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "mongolianbeef",
+      "title": "Mongolian Beef Stir-Fry",
+      "matchingTags": [
+        "Asian",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury",
+        "Sweet"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 2,
-    "cal": 646,
-    "kj": 2702,
-    "protein": 24,
-    "carbs": 85,
-    "sugars": 27,
-    "fat": 17,
-    "saturated_fat": 3,
-    "fiber": 28,
-    "sodium": 869,
-    "coverage": 83,
-    "foundCount": 5,
+    "cal": 553,
+    "kj": 2314,
+    "protein": 48,
+    "carbs": 38,
+    "sugars": 23,
+    "fat": 18,
+    "saturated_fat": 3.5,
+    "fiber": 26,
+    "sodium": 743,
+    "coverage": 100,
+    "foundCount": 6,
     "totalCount": 6,
-    "unmatchedItems": [
-      "Fresh Ginger"
-    ],
-    "calcium_mg": 64,
-    "iron_mg": 3,
-    "potassium_mg": 1078,
-    "magnesium_mg": 67,
-    "zinc_mg": 3,
-    "cholesterol_mg": 34,
-    "vitamin_a_ug": 37,
-    "vitamin_c_mg": 23,
-    "vitamin_d_ug": 1
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 60,
+    "iron_mg": 4,
+    "potassium_mg": 1438,
+    "magnesium_mg": 89,
+    "zinc_mg": 4,
+    "cholesterol_mg": 176,
+    "vitamin_a_ug": 29,
+    "vitamin_c_mg": 17,
+    "vitamin_d_ug": 3
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-09-09"
 }

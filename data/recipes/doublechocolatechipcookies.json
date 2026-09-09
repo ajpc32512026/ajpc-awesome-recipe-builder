@@ -8,19 +8,18 @@
   "cookTime": "12 min",
   "totalTime": "27 min",
   "servings": "24 cookies",
-  "yieldPerBatch": "6",
+  "yieldPerBatch": "1 Batch",
   "tags": [
-    "American",
     "Baking",
     "Chocolate",
     "Classic",
     "Cookies",
-    "Dessert",
     "Make Ahead",
     "Rich",
     "Snack",
     "Sweet",
-    "Vegetarian"
+    "Vegetarian",
+    "Australian"
   ],
   "ingredients": [
     {
@@ -122,10 +121,73 @@
       "content": "Keep in an airtight container for up to 5 days. Cookie dough can be frozen in balls and baked from frozen — add 2 minutes to the baking time."
     }
   ],
+  "related": [
+    {
+      "id": "traditionalanzacbiscuits",
+      "title": "Traditional ANZAC Biscuits",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Classic",
+        "Make Ahead",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "applepie",
+      "title": "Apple Pie",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Make Ahead",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "apricotflan",
+      "title": "Apricot Flan",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Classic",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bananabread",
+      "title": "Banana Bread",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Make Ahead",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chefstyletiramisugateau",
+      "title": "Chef-Style Tiramisu Gateau",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Make Ahead",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 24,
     "cal": 312,
-    "kj": 1306,
+    "kj": 1305,
     "protein": 4,
     "carbs": 25,
     "sugars": 17,
@@ -137,6 +199,7 @@
     "foundCount": 11,
     "totalCount": 11,
     "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 29,
     "iron_mg": 1,
     "potassium_mg": 182,
@@ -146,5 +209,5 @@
     "vitamin_a_ug": 205,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-09-09"
 }

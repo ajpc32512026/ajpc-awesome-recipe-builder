@@ -62,6 +62,9 @@
       "notes": "divided: 60g for Sponge, 15g for Icing"
     },
     {
+      "heading": "Chocolate Glace"
+    },
+    {
       "quantity": "375",
       "unit": "g",
       "item": "Icing Sugar"
@@ -75,6 +78,9 @@
       "quantity": "180",
       "unit": "ml",
       "item": "Boiling Water"
+    },
+    {
+      "heading": "Decoration"
     },
     {
       "quantity": "200",
@@ -144,32 +150,101 @@
       "content": "Split each square and fill with raspberry jam and whipped cream for the full bakery-style experience."
     }
   ],
+  "related": [
+    {
+      "id": "cherrycoconutcake",
+      "title": "Cherry and Coconut Cake",
+      "matchingTags": [
+        "Australian",
+        "Baked",
+        "Baking",
+        "Cake",
+        "Coconut",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "classiccarrotcake",
+      "title": "Classic Carrot Cake",
+      "matchingTags": [
+        "Baked",
+        "Baking",
+        "Cake",
+        "Classic",
+        "Dessert",
+        "Party",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chocolaterumballs",
+      "title": "Chocolate Rum Balls",
+      "matchingTags": [
+        "Australian",
+        "Baked",
+        "Chocolate",
+        "Dessert",
+        "Party",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "lemoncoconut",
+      "title": "Lemon Coconut Cake",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Cake",
+        "Coconut",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bistro-pavlova",
+      "title": "Pavlova",
+      "matchingTags": [
+        "Australian",
+        "Baked",
+        "Baking",
+        "Classic",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 16,
-    "cal": 338,
-    "kj": 1413,
+    "cal": 260,
+    "kj": 1087,
     "protein": 8,
     "carbs": 33,
     "sugars": 29,
-    "fat": 19,
-    "saturated_fat": 12.7,
-    "fiber": 3,
-    "sodium": 110,
-    "coverage": 80,
-    "foundCount": 8,
+    "fat": 11,
+    "saturated_fat": 5.7,
+    "fiber": 1,
+    "sodium": 111,
+    "coverage": 90,
+    "foundCount": 9,
     "totalCount": 10,
     "unmatchedItems": [
-      "Vanilla Extract",
-      "Milk Full-cream"
+      "Desiccated Coconut"
     ],
-    "calcium_mg": 33,
+    "noQuantityItems": [],
+    "calcium_mg": 40,
     "iron_mg": 2,
-    "potassium_mg": 317,
-    "magnesium_mg": 37,
+    "potassium_mg": 256,
+    "magnesium_mg": 29,
     "zinc_mg": 1,
     "cholesterol_mg": 256,
-    "vitamin_a_ug": 133,
+    "vitamin_a_ug": 136,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-08-31"
+  "lastModified": "2026-09-09"
 }

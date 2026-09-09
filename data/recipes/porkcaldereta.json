@@ -1,19 +1,18 @@
 {
   "id": "porkcaldereta",
   "title": "Pork Caldereta",
-  "category": "Dinner",
+  "category": "Filipino",
   "difficulty": "Intermediate",
   "description": "A rich Filipino stew known for its tender meat and savoury, slightly spicy tomato-based sauce thickened with liver spread.",
   "prepTime": "15 min",
   "cookTime": "1 hr 15 min",
   "totalTime": "1 hr 30 min",
   "servings": "6 servings",
+  "yieldPerBatch": "6 servings",
   "tags": [
-    "Chinese",
     "Dinner",
     "Filipino",
     "Gluten-Free",
-    "Greek",
     "Pork",
     "Rich",
     "Savoury",
@@ -166,31 +165,94 @@
       "content": "Caldereta keeps well refrigerated for up to 3 days and the flavour deepens overnight. Reheat gently on the stovetop."
     }
   ],
+  "related": [
+    {
+      "id": "roganjosh",
+      "title": "Lamb Rogan Josh – Restaurant Style",
+      "matchingTags": [
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Greek",
+        "Rich",
+        "Savoury",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "beefvindaloo",
+      "title": "Beef Vindaloo",
+      "matchingTags": [
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "chickencacciatore",
+      "title": "Chicken Cacciatore",
+      "matchingTags": [
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Greek",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "chickenpineapple",
+      "title": "Chicken Pineapple",
+      "matchingTags": [
+        "Chinese",
+        "Dinner",
+        "Filipino",
+        "Gluten-Free",
+        "Savoury",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "filipinoportoccino",
+      "title": "Filipino Pork Toccino",
+      "matchingTags": [
+        "Chinese",
+        "Dinner",
+        "Filipino",
+        "Gluten-Free",
+        "Pork",
+        "Savoury"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 6,
-    "cal": 750,
-    "kj": 3136,
-    "protein": 47,
-    "carbs": 39,
-    "sugars": 9,
-    "fat": 39,
-    "saturated_fat": 13.2,
-    "fiber": 26,
-    "sodium": 4100,
+    "cal": 667,
+    "kj": 2793,
+    "protein": 44,
+    "carbs": 36,
+    "sugars": 8,
+    "fat": 35,
+    "saturated_fat": 12.5,
+    "fiber": 17,
+    "sodium": 4078,
     "coverage": 100,
     "foundCount": 16,
     "totalCount": 16,
     "unmatchedItems": [],
-    "calcium_mg": 236,
-    "iron_mg": 9,
-    "potassium_mg": 1831,
-    "magnesium_mg": 133,
-    "zinc_mg": 7,
+    "noQuantityItems": [],
+    "calcium_mg": 147,
+    "iron_mg": 5,
+    "potassium_mg": 1296,
+    "magnesium_mg": 84,
+    "zinc_mg": 6,
     "cholesterol_mg": 139,
-    "vitamin_a_ug": 2096,
-    "vitamin_c_mg": 101,
+    "vitamin_a_ug": 1378,
+    "vitamin_c_mg": 143,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "6 servings"
+  "lastModified": "2026-09-09"
 }

@@ -8,6 +8,7 @@
   "cookTime": "25 min",
   "totalTime": "40 min",
   "servings": "2",
+  "yieldPerBatch": "1 batch",
   "tags": [
     "Asian",
     "Baking",
@@ -158,31 +159,103 @@
       "content": "Add ground black pepper to taste when serving."
     }
   ],
+  "related": [
+    {
+      "id": "beefvindaloo",
+      "title": "Beef Vindaloo",
+      "matchingTags": [
+        "Chinese",
+        "Curry",
+        "Dinner",
+        "Gluten-Free",
+        "Indian",
+        "Make Ahead",
+        "Savoury",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "honeysoychicken",
+      "title": "Honey Soy Chicken",
+      "matchingTags": [
+        "Asian",
+        "Chicken",
+        "Chinese",
+        "Dinner",
+        "Easy",
+        "Gluten-Free",
+        "Make Ahead",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "lambvindaloo",
+      "title": "Lamb Vindaloo",
+      "matchingTags": [
+        "Chinese",
+        "Curry",
+        "Dinner",
+        "Gluten-Free",
+        "Indian",
+        "Make Ahead",
+        "Savoury",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "butterchicken",
+      "title": "Restaurant-Style Butter Chicken",
+      "matchingTags": [
+        "Baking",
+        "Chicken",
+        "Chinese",
+        "Creamy",
+        "Curry",
+        "Dinner",
+        "Indian",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "sataysauce",
+      "title": "Satay Sauce",
+      "matchingTags": [
+        "Asian",
+        "Chinese",
+        "Dinner",
+        "Gluten-Free",
+        "Indian",
+        "Make Ahead",
+        "Savoury",
+        "Spicy"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 2,
-    "cal": 963,
-    "kj": 4031,
-    "protein": 36,
-    "carbs": 101,
-    "sugars": 15,
-    "fat": 39,
-    "saturated_fat": 18.1,
-    "fiber": 30,
-    "sodium": 612,
+    "cal": 850,
+    "kj": 3556,
+    "protein": 73,
+    "carbs": 28,
+    "sugars": 9,
+    "fat": 44,
+    "saturated_fat": 20.7,
+    "fiber": 26,
+    "sodium": 9559,
     "coverage": 100,
     "foundCount": 10,
     "totalCount": 10,
     "unmatchedItems": [],
-    "calcium_mg": 153,
-    "iron_mg": 7,
-    "potassium_mg": 1375,
-    "magnesium_mg": 132,
-    "zinc_mg": 4,
-    "cholesterol_mg": 62,
-    "vitamin_a_ug": 65,
-    "vitamin_c_mg": 25,
-    "vitamin_d_ug": 1
+    "noQuantityItems": [],
+    "calcium_mg": 179,
+    "iron_mg": 8,
+    "potassium_mg": 1970,
+    "magnesium_mg": 171,
+    "zinc_mg": 6,
+    "cholesterol_mg": 266,
+    "vitamin_a_ug": 47,
+    "vitamin_c_mg": 15,
+    "vitamin_d_ug": 4
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-09-09"
 }

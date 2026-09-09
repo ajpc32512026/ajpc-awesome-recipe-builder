@@ -22,11 +22,12 @@
             <button class="btn" onclick="openJSONFile()">Load JSON</button>
             <input type="file" id="load-file" accept=".json" style="display:none" onchange="loadJSONFile(event)">
             <button class="btn" onclick="duplicateRecipe()" id="duplicate-btn">Duplicate</button>
-            <button class="btn" onclick="document.getElementById('import-file').click()">Import Recipe</button>
-            <input type="file" id="import-file" accept=".pdf,.html,.htm,.docx,.doc" style="display:none" onchange="importRecipeFile(event)">
             <button class="btn" onclick="clearForm()">Clear</button>
             <button class="btn" id="show-diff-btn">Show Diff</button>
             <button class="btn" id="validate-all-btn" title="Scan every recipe in the collection against the schema">Validate All</button>
+            <button class="btn" id="missing-related-btn" title="Find every recipe with no related recipes set">Missing Related</button>
+            <button class="btn" id="connect-folder-btn" title="Connect your project folder so Load in Editor can save straight back to the original file">Connect Folder</button>
+            <span id="folder-connect-status" style="font-size:0.72rem;color:var(--cream-muted);align-self:center;">Not connected — Load in Editor will download on save</span>
             <button class="btn primary" id="save-btn" onclick="saveJSON()">Save</button>
             <button class="btn" onclick="downloadJSON()">Save As...</button>
         </div>
@@ -285,6 +286,22 @@
             </div>
         </div>
 
+        <!-- MISSING RELATED PANEL -->
+        <div class="preview-box" id="missing-related-panel" style="display:none;">
+            <div class="preview-header">
+                <div>
+                    <div class="preview-label">Missing Related Recipes</div>
+                    <div class="section-hint">Every recipe with no related section set — read-only, click one to load it</div>
+                </div>
+                <div class="preview-actions">
+                    <button class="btn" id="close-missing-related-btn">Close</button>
+                </div>
+            </div>
+            <div class="preview-content" id="missing-related-output">
+                <p class="preview-placeholder">Click "Missing Related" to scan the whole collection.</p>
+            </div>
+        </div>
+
         <!-- DIFF PANEL -->
         <div class="preview-box" id="diff-panel" style="display:none;">
             <div class="preview-header">
@@ -305,33 +322,12 @@
 
     <div id="toast">Copied!</div>
 
-    <!-- ── LOADING MODAL ── -->
-    <div id="loading-modal" style="display:none;position:fixed;inset:0;z-index:300;align-items:center;justify-content:center;background:rgba(0,0,0,0.85);">
-        <div class="loading-modal-box">
-            <div class="loading-modal-label">Processing Recipe</div>
-            <div class="loading-modal-message" id="loading-message">Reading file...</div>
-            <div class="loading-modal-track">
-                <div class="loading-modal-fill"></div>
-            </div>
-        </div>
-    </div>
-
     <!-- Scroll to Top Button -->
     <button class="scroll-top-btn" id="scrollTopBtn" title="Scroll to top">↑</button>
 
-    <style>
-    @keyframes slide {
-        0% { transform: translateX(-100%); }
-        100% { transform: translateX(400%); }
-    }
-    </style>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
-    <!-- REMOVED monolithic js/recipe-builder.js to prevent conflicts -->
+<!-- REMOVED monolithic js/recipe-builder.js to prevent conflicts -->
     <script src="js/builder-ui.js"></script>
     <script src="js/builder-data.js"></script>
-    <script src="js/builder-parser.js"></script>
     <script src="js/builder-nutrition.js"></script>
     <script src="js/builder-timeline.js"></script>
     <script src="js/builder-main.js"></script>

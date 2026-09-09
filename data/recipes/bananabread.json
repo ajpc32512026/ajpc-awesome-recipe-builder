@@ -114,6 +114,72 @@
       "content": "Cuts cleanly into 9 slices at approximately 25 mm thick. For thinner slices, slice at 20 mm for up to 12 serves."
     }
   ],
+  "related": [
+    {
+      "id": "applepie",
+      "title": "Apple Pie",
+      "matchingTags": [
+        "American",
+        "Baking",
+        "Classic",
+        "Make Ahead",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "cinnbun",
+      "title": "Bakery-Style Cinnamon Buns",
+      "matchingTags": [
+        "American",
+        "Baking",
+        "Bread",
+        "Breakfast",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "doublechocolatechipcookies",
+      "title": "Double Chocolate Chip Cookies",
+      "matchingTags": [
+        "American",
+        "Baking",
+        "Classic",
+        "Make Ahead",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "traditionalanzacbiscuits",
+      "title": "Traditional ANZAC Biscuits",
+      "matchingTags": [
+        "Baking",
+        "Breakfast",
+        "Classic",
+        "Make Ahead",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chocmuffins",
+      "title": "Chocolate Muffins with Ganache",
+      "matchingTags": [
+        "American",
+        "Baking",
+        "Breakfast",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 9,
     "cal": 449,
@@ -125,13 +191,12 @@
     "saturated_fat": 15.6,
     "fiber": 3,
     "sodium": 202,
-    "coverage": 89,
-    "foundCount": 8,
+    "coverage": 100,
+    "foundCount": 9,
     "totalCount": 9,
-    "unmatchedItems": [
-      "Natural Vanilla Extract"
-    ],
-    "calcium_mg": 53,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 54,
     "iron_mg": 1,
     "potassium_mg": 328,
     "magnesium_mg": 49,
@@ -141,5 +206,5 @@
     "vitamin_c_mg": 2,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-08-31"
+  "lastModified": "2026-09-09"
 }

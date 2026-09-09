@@ -8,11 +8,11 @@
   "cookTime": "0 Min",
   "totalTime": "5 Min",
   "servings": "2",
+  "yieldPerBatch": "1 batch",
   "tags": [
     "American",
     "Chinese",
     "Condiment",
-    
     "Gluten-Free",
     "Greek",
     "Sauce",
@@ -93,6 +93,73 @@
       "content": "Keep stored in an airtight container in the refrigerator for up to 5 days. Stir well before using, as some minor separation may occur over time."
     }
   ],
+  "related": [
+    {
+      "id": "smokybbqsauce",
+      "title": "Smoky BBQ Sauce",
+      "matchingTags": [
+        "American",
+        "Chinese",
+        "Condiment",
+        "Gluten-Free",
+        "Sauce",
+        "Savoury",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "honeygarlicsauce",
+      "title": "Honey Garlic Sauce",
+      "matchingTags": [
+        "Chinese",
+        "Condiment",
+        "Gluten-Free",
+        "Sauce",
+        "Savoury",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce",
+      "matchingTags": [
+        "Chinese",
+        "Condiment",
+        "Gluten-Free",
+        "Sauce",
+        "Savoury",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "teriyakimarinade",
+      "title": "Teriyaki Marinade",
+      "matchingTags": [
+        "Chinese",
+        "Condiment",
+        "Gluten-Free",
+        "Sauce",
+        "Savoury",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "pestosauce",
+      "title": "Pesto Sauce",
+      "matchingTags": [
+        "Chinese",
+        "Condiment",
+        "Gluten-Free",
+        "Greek",
+        "Sauce",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 2,
     "cal": 197,
@@ -108,6 +175,7 @@
     "foundCount": 7,
     "totalCount": 7,
     "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 105,
     "iron_mg": 1,
     "potassium_mg": 240,
@@ -117,6 +185,5 @@
     "vitamin_a_ug": 73,
     "vitamin_c_mg": 1
   },
-  "lastModified": "2026-08-18",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-09-09"
 }
