@@ -2,20 +2,20 @@
   "id": "pizzadough",
   "title": "Ultimate Homemade Pizza Dough",
   "category": "Baking",
+  "difficulty": "Beginner",
   "description": "A versatile dough that works beautifully for both pizza bases and bread rolls. Simple ingredients, minimal fuss, and results that are worth every minute of the knead.",
   "prepTime": "20 min",
+  "cookTime": "0 min",
   "totalTime": "2 hr 20 min",
   "servings": "1",
-  "difficulty": "Beginner",
+  "yieldPerBatch": "1 batch",
   "tags": [
     "Baking",
     "Bread",
     "Classic",
-    "Greek",
     "Italian",
     "Make Ahead",
     "Savoury",
-    "Vegan",
     "Vegetarian"
   ],
   "ingredients": [
@@ -50,8 +50,7 @@
     {
       "quantity": "10",
       "unit": "g",
-      "item": "Bread Improver",
-      "notes": "Wallaby bread improver available at Woolworths and Coles"
+      "item": "Bread Improver"
     },
     {
       "quantity": "20",
@@ -63,7 +62,79 @@
   "method": [
     {
       "step": 1,
-      "instruction": "In a large bowl, combine all ingredients and mix until a shaggy dough forms — note that salt can inhibit yeast activity, so try to keep them on opposite sides of the bowl before mixing. Tip out onto a lightly floured bench and knead for a full 15 minutes until smooth, elastic, and no longer sticky."
+      "instruction": "In a large bowl, combine all ingredients and mix until a shaggy dough forms — note that salt can inhibit yeast activity, so try to keep them on opposite sides of the bowl before mixing."
+    },
+    {
+      "step": 2,
+      "instruction": "Tip out onto a lightly floured bench and knead for a full 15 minutes until smooth, elastic, and no longer sticky."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "Kneading",
+      "content": "Knead for 15 minutes by hand for best results... Do Not add amy more flour, if the dough is slightly sticky use a scraper to help."
+    }
+  ],
+  "related": [
+    {
+      "id": "focaccia",
+      "title": "Focaccia",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Italian",
+        "Make Ahead",
+        "Savoury",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "garlicbread",
+      "title": "Garlic Butter Crusty Bread",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Classic",
+        "Italian",
+        "Savoury",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "focaccia-high",
+      "title": "High-Hydration Focaccia",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Italian",
+        "Make Ahead",
+        "Savoury",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "turkishbread",
+      "title": "Traditional Turkish Bread",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Classic",
+        "Make Ahead",
+        "Savoury",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "highhydraciab",
+      "title": "Airy High-Hydration Ciabatta",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Italian",
+        "Savoury",
+        "Vegetarian"
+      ]
     }
   ],
   "nutrition": {
@@ -74,10 +145,14 @@
     "carbs": 442,
     "sugars": 34,
     "fat": 40,
-    "saturated_fat": 6,
+    "saturated_fat": 6.1,
     "fiber": 18,
     "sodium": 885,
     "coverage": 100,
+    "foundCount": 6,
+    "totalCount": 6,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 138,
     "iron_mg": 9,
     "potassium_mg": 1167,
@@ -85,8 +160,5 @@
     "zinc_mg": 6,
     "vitamin_a_ug": 2
   },
-  "lastModified": "2026-06-03",
-  "yieldPerBatch": "1 batch",
-  "cookTime": "0 min",
-  "notes": []
+  "lastModified": "2026-09-09"
 }

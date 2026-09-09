@@ -132,11 +132,12 @@
       "Granny Smith Apples",
       "Ground Cloves"
     ],
+    "noQuantityItems": [],
     "calcium_mg": 12,
     "potassium_mg": 56,
     "magnesium_mg": 11,
     "cholesterol_mg": 26,
     "vitamin_a_ug": 134
   },
-  "lastModified": "2026-08-31"
+  "lastModified": "2026-09-08"
 }

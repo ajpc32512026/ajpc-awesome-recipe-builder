@@ -2,27 +2,22 @@
   "id": "bistro-vealoscar",
   "title": "Veal Oscar",
   "category": "Bistro",
+  "difficulty": "Intermediate",
   "description": "Crumbed and deep-fried veal topped with blanched asparagus, seafood Mornay, and melted cheese — finished under the grill. A classic fine dining preparation.",
   "prepTime": "10 min",
   "cookTime": "10 min",
   "totalTime": "20 min",
   "servings": "1 serving",
-  "difficulty": "Intermediate",
+  "yieldPerBatch": "1 serving",
   "tags": [
     "Bistro",
     "Classic",
     "Creamy",
-    "Deep Fried",
-    "Deep-Fried",
     "Dinner",
-    "Gluten-Free",
-    "Grilled/BBQ",
     "Rich",
     "Savoury",
     "Seafood",
-    "Swedish",
-    "Under 30 Minutes",
-    "Veal"
+    "Swedish"
   ],
   "ingredients": [
     {
@@ -41,7 +36,7 @@
       "quantity": "100",
       "unit": "g",
       "item": "Seafood Mix",
-      "notes": "prawns, scallops, or crab"
+      "notes": "see step 1"
     },
     {
       "quantity": "50",
@@ -50,9 +45,8 @@
       "notes": "extra, grated, for topping"
     },
     {
-      "quantity": "",
-      "unit": "",
       "item": "Salt & Pepper",
+      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -118,48 +112,95 @@
   ],
   "related": [
     {
-      "id": "mornaysauce",
-      "title": "Mornay / Cheese Sauce"
-    },
-    {
-      "id": "bistro-reefandbeef",
-      "title": "Reef and Beef"
-    },
-    {
-      "id": "bistro-vealscaloppine",
-      "title": "Veal Scaloppine"
-    },
-    {
-      "id": "bistro-vealmadagascar",
-      "title": "Veal Madagascar"
+      "id": "bistro-chickenpapion",
+      "title": "Chicken Papion",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury",
+        "Seafood"
+      ]
     },
     {
       "id": "bistro-fishoftheday",
-      "title": "Fish of the Day"
+      "title": "Fish of the Day",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury",
+        "Seafood"
+      ]
+    },
+    {
+      "id": "bistro-mediterraneansteak",
+      "title": "Mediterranean Steak",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury",
+        "Seafood"
+      ]
+    },
+    {
+      "id": "bistro-reefandbeef",
+      "title": "Reef and Beef",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury",
+        "Seafood"
+      ]
+    },
+    {
+      "id": "bistro-brandymustardsteak",
+      "title": "Brandy Mustard Steak",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury"
+      ]
     }
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 483,
-    "kj": 2019,
-    "protein": 60,
-    "carbs": 7,
-    "sugars": 1,
-    "fat": 23,
-    "saturated_fat": 12,
-    "fibre": 1,
-    "sodium": 1144,
-    "coverage": 80,
-    "calcium_mg": 321,
-    "iron_mg": 18,
-    "potassium_mg": 1045,
-    "magnesium_mg": 96,
-    "zinc_mg": 13,
+    "cal": 1522,
+    "kj": 6369,
+    "protein": 184,
+    "carbs": 76,
+    "sugars": 71,
+    "fat": 28,
+    "saturated_fat": 11.7,
+    "fiber": 110,
+    "sodium": 1243,
+    "coverage": 100,
+    "foundCount": 4,
+    "totalCount": 4,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 866,
+    "iron_mg": 68,
+    "potassium_mg": 16885,
+    "magnesium_mg": 839,
+    "zinc_mg": 23,
     "cholesterol_mg": 604,
-    "vitamin_a_ug": 24277,
-    "vitamin_c_mg": 39,
+    "vitamin_a_ug": 25564,
+    "vitamin_c_mg": 782,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-05-24",
-  "yieldPerBatch": "1 serving"
+  "lastModified": "2026-09-09"
 }

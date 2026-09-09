@@ -2,37 +2,40 @@
   "id": "beefstockpot",
   "title": "20 Minute Beef Stock Pot",
   "category": "Dinner",
+  "difficulty": "Intermediate",
   "description": "A fast, deeply flavoured beef stock base — perfect for rich stews, braises, and hearty sauces.",
   "prepTime": "10 min",
   "cookTime": "20 min",
   "totalTime": "30 min",
   "servings": "4 servings",
-  "difficulty": "Intermediate",
+  "yieldPerBatch": "4 servings",
   "tags": [
     "Alcohol",
     "Baking",
     "Beef",
-    "Chinese",
     "Dinner",
     "French",
-    "Greek",
     "Hearty",
-    "Italian",
     "Rich",
     "Sauce",
     "Savoury",
-    "Under 30 Minutes"
+    "Australian"
   ],
   "ingredients": [
     {
+      "quantity": "800",
+      "unit": "g",
+      "item": "Beef, Scotch Fillet"
+    },
+    {
       "quantity": "1",
-      "unit": "",
+      "unit": "ea",
       "item": "Brown Onion",
       "notes": "sliced"
     },
     {
       "quantity": "1",
-      "unit": "",
+      "unit": "ea",
       "item": "Carrots",
       "notes": "peeled and diced"
     },
@@ -93,12 +96,6 @@
       "item": "Beef Stock"
     },
     {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
-    },
-    {
       "quantity": "20",
       "unit": "g",
       "item": "Plain Flour"
@@ -109,9 +106,9 @@
       "item": "Unsalted Butter"
     },
     {
-      "quantity": "800",
-      "unit": "g",
-      "item": "Beef, Scotch Fillet"
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
   "method": [
@@ -241,26 +238,29 @@
   ],
   "nutrition": {
     "servings": 4,
-    "cal": 982,
-    "kj": 4108,
-    "protein": 32,
-    "carbs": 101,
-    "sugars": 24,
-    "fat": 28,
-    "saturated_fat": 13,
-    "fiber": 58,
-    "sodium": 1303,
+    "cal": 934,
+    "kj": 3907,
+    "protein": 65,
+    "carbs": 54,
+    "sugars": 18,
+    "fat": 30,
+    "saturated_fat": 14.5,
+    "fiber": 55,
+    "sodium": 718,
     "coverage": 100,
-    "calcium_mg": 1843,
-    "iron_mg": 84,
-    "potassium_mg": 2367,
-    "magnesium_mg": 325,
-    "zinc_mg": 8,
-    "cholesterol_mg": 51,
-    "vitamin_a_ug": 868,
-    "vitamin_c_mg": 48,
-    "vitamin_d_ug": 1
+    "foundCount": 15,
+    "totalCount": 15,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 1834,
+    "iron_mg": 87,
+    "potassium_mg": 2762,
+    "magnesium_mg": 350,
+    "zinc_mg": 13,
+    "cholesterol_mg": 141,
+    "vitamin_a_ug": 434,
+    "vitamin_c_mg": 42,
+    "vitamin_d_ug": 3
   },
-  "lastModified": "2026-05-31",
-  "yieldPerBatch": "4 servings"
+  "lastModified": "2026-09-09"
 }

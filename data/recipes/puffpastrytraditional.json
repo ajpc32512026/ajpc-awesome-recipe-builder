@@ -2,17 +2,16 @@
   "id": "puffpastrytraditional",
   "title": "Traditional Puff Pastry",
   "category": "Pastry",
+  "difficulty": "Advanced",
   "description": "The full classic method with butter block and multiple turns. Ultimate rise, ethereal flakiness, and deep satisfaction. A project worth the effort — make this when pastry is the centrepiece and you have a Sunday afternoon.",
   "prepTime": "45 min",
   "cookTime": "0 min",
   "totalTime": "3+ hours",
   "servings": "1 batch",
   "yieldPerBatch": "1 batch",
-  "difficulty": "Advanced",
   "tags": [
     "Baking",
     "Classic",
-    
     "French",
     "Make Ahead",
     "Pastry",
@@ -33,7 +32,8 @@
     {
       "quantity": "250",
       "unit": "ml",
-      "item": "Water"
+      "item": "Water",
+      "notes": "iced water is best"
     },
     {
       "quantity": "5",
@@ -129,29 +129,34 @@
       "id": "puffpastryrough",
       "title": "Rough Puff Pastry",
       "matchingTags": [
-        "puff pastry",
-        "rough puff",
-        "pastry dough",
-        "butter",
-        "flaky",
-        "quick pastry",
-        "make ahead",
-        "freezer friendly"
+        "Baking",
+        "Classic",
+        "French",
+        "Make Ahead",
+        "Pastry",
+        "Vegetarian"
       ]
     },
     {
-      "id": "sausageroll",
-      "title": "Classic Aussie Sausage Rolls",
+      "id": "applepie",
+      "title": "Apple Pie",
       "matchingTags": [
-        "Australian",
-        "Baked",
+        "Baking",
         "Classic",
-        "Dinner",
         "Make Ahead",
         "Pastry",
-        "Pork",
-        "Savoury",
-        "Snack"
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "apricotflan",
+      "title": "Apricot Flan",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "French",
+        "Pastry",
+        "Vegetarian"
       ]
     },
     {
@@ -160,11 +165,28 @@
       "matchingTags": [
         "Australian",
         "Baked",
+        "Baking",
         "Beef",
         "Classic",
         "Dinner",
+        "Lunch",
         "Pastry",
         "Savoury"
+      ]
+    },
+    {
+      "id": "sausageroll",
+      "title": "Classic Aussie Sausage Rolls",
+      "matchingTags": [
+        "Australian",
+        "Baked",
+        "Baking",
+        "Classic",
+        "Lunch",
+        "Make Ahead",
+        "Pastry",
+        "Savoury",
+        "Snack"
       ]
     }
   ],
@@ -176,10 +198,14 @@
     "carbs": 370,
     "sugars": 14,
     "fat": 335,
-    "saturated_fat": 229,
-    "fibre": 11,
+    "saturated_fat": 228.5,
+    "fiber": 11,
     "sodium": 475,
-    "coverage": 80,
+    "coverage": 100,
+    "foundCount": 3,
+    "totalCount": 3,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 180,
     "iron_mg": 7,
     "potassium_mg": 973,
@@ -189,5 +215,5 @@
     "vitamin_a_ug": 3432,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-09-09"
 }

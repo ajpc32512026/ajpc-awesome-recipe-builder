@@ -2,12 +2,13 @@
   "id": "bistro-chickenpicante",
   "title": "Chicken Picante",
   "category": "Bistro",
+  "difficulty": "Intermediate",
   "description": "Breast chicken in a cream sauce punched up with Dijon mustard and green peppercorns. Sharp, creamy, and satisfying.",
   "prepTime": "5 min",
   "cookTime": "8 min",
   "totalTime": "13 min",
   "servings": "1 serving",
-  "difficulty": "Intermediate",
+  "yieldPerBatch": "1 serving",
   "tags": [
     "Alcohol",
     "Bistro",
@@ -16,10 +17,7 @@
     "Creamy",
     "Dinner",
     "French",
-    "Gluten-Free",
-    "Rich",
-    "Savoury",
-    "Under 30 Minutes"
+    "Rich"
   ],
   "ingredients": [
     {
@@ -61,10 +59,9 @@
       "item": "White Wine"
     },
     {
-      "quantity": "",
-      "unit": "",
       "item": "Salt & Pepper",
-      "notes": "Don't add too much all at once — you can't take it out once it's in.(used 5x)"
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
   "method": [
@@ -182,10 +179,14 @@
     "carbs": 11,
     "sugars": 8,
     "fat": 54,
-    "saturated_fat": 32,
+    "saturated_fat": 32.3,
     "fiber": 3,
     "sodium": 119,
-    "coverage": 88,
+    "coverage": 100,
+    "foundCount": 7,
+    "totalCount": 7,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 99,
     "iron_mg": 2,
     "potassium_mg": 768,
@@ -196,6 +197,5 @@
     "vitamin_c_mg": 8,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-05-31",
-  "yieldPerBatch": "1 serving"
+  "lastModified": "2026-09-09"
 }

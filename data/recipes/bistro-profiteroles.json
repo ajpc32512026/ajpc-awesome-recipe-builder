@@ -161,10 +161,14 @@
     "carbs": 66,
     "sugars": 53,
     "fat": 144,
-    "saturated_fat": 93,
-    "fibre": 1,
+    "saturated_fat": 92.8,
+    "fiber": 1,
     "sodium": 634,
     "coverage": 100,
+    "foundCount": 2,
+    "totalCount": 2,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 189,
     "iron_mg": 4,
     "potassium_mg": 621,
@@ -174,5 +178,5 @@
     "vitamin_a_ug": 936,
     "vitamin_d_ug": 5
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-09-09"
 }

@@ -2,12 +2,13 @@
   "id": "bistro-vealscaloppine",
   "title": "Veal Scaloppine",
   "category": "Bistro",
+  "difficulty": "Intermediate",
   "description": "Thin pan-fried veal with a creamy onion and mushroom sauce. Quick, simple, and deeply satisfying.",
   "prepTime": "5 min",
   "cookTime": "8 min",
   "totalTime": "13 min",
   "servings": "1 serving",
-  "difficulty": "Intermediate",
+  "yieldPerBatch": "1 serving",
   "tags": [
     "Bistro",
     "Classic",
@@ -55,9 +56,8 @@
       "item": "Demi Glace"
     },
     {
-      "quantity": "",
-      "unit": "",
       "item": "Salt & Pepper",
+      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -112,23 +112,76 @@
   "related": [
     {
       "id": "bistro-mediterraneansteak",
-      "title": "Mediterranean Steak"
-    },
-    {
-      "id": "bistro-vealmozzarella",
-      "title": "Veal Mozzarella"
+      "title": "Mediterranean Steak",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Gluten-Free",
+        "Italian",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "bistro-vealmadagascar",
-      "title": "Veal Madagascar"
+      "title": "Veal Madagascar",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes",
+        "Veal"
+      ]
     },
     {
       "id": "bistro-vealoscar",
-      "title": "Veal Oscar"
+      "title": "Veal Oscar",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes",
+        "Veal"
+      ]
     },
     {
-      "id": "potatognocchi",
-      "title": "Potato Gnocchi with Tomato Sauce"
+      "id": "bistro-brandymustardsteak",
+      "title": "Brandy Mustard Steak",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
+    },
+    {
+      "id": "bistro-chickenpapion",
+      "title": "Chicken Papion",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     }
   ],
   "nutrition": {
@@ -139,10 +192,14 @@
     "carbs": 16,
     "sugars": 9,
     "fat": 58,
-    "saturated_fat": 35,
-    "fibre": 7,
+    "saturated_fat": 35.1,
+    "fiber": 7,
     "sodium": 378,
-    "coverage": 86,
+    "coverage": 100,
+    "foundCount": 6,
+    "totalCount": 6,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 244,
     "iron_mg": 17,
     "potassium_mg": 1571,
@@ -153,6 +210,5 @@
     "vitamin_c_mg": 75,
     "vitamin_d_ug": 4
   },
-  "lastModified": "2026-05-24",
-  "yieldPerBatch": "1 serving"
+  "lastModified": "2026-09-09"
 }

@@ -2,12 +2,13 @@
   "id": "bistro-chickenriverina",
   "title": "Chicken Riverina",
   "category": "Bistro",
+  "difficulty": "Intermediate",
   "description": "Chicken breast stuffed with dried apricots and almonds, finished with a cream and apricot sauce. Named for the Riverina region of New South Wales.",
   "prepTime": "15 min",
   "cookTime": "10 min",
   "totalTime": "25 min",
   "servings": "1",
-  "difficulty": "Intermediate",
+  "yieldPerBatch": "1 batch",
   "tags": [
     "Australian",
     "Bistro",
@@ -15,10 +16,8 @@
     "Classic",
     "Creamy",
     "Dinner",
-    "Gluten-Free",
     "Rich",
-    "Savoury",
-    "Under 30 Minutes"
+    "Savoury"
   ],
   "ingredients": [
     {
@@ -55,10 +54,9 @@
       "notes": "reserved juice from canned apricots, or soak dried apricots in hot water"
     },
     {
-      "quantity": "",
-      "unit": "",
       "item": "Salt & Pepper",
-      "notes": "Don't add too much all at once — you can't take it out once it's in.(used 5x)"
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
   "method": [
@@ -102,43 +100,94 @@
   "related": [
     {
       "id": "bistro-chickenkiev",
-      "title": "Chicken Kiev"
+      "title": "Chicken Kiev",
+      "matchingTags": [
+        "Bistro",
+        "Chicken",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "bistro-chickenpapion",
+      "title": "Chicken Papion",
+      "matchingTags": [
+        "Bistro",
+        "Chicken",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante",
+      "matchingTags": [
+        "Bistro",
+        "Chicken",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury"
+      ]
     },
     {
       "id": "bistro-reefandbeef",
-      "title": "Reef and Beef"
+      "title": "Reef and Beef",
+      "matchingTags": [
+        "Australian",
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury"
+      ]
     },
     {
-      "id": "bistro-carpetbag",
-      "title": "Carpet Bag"
-    },
-    {
-      "id": "bistro-lambcutlets",
-      "title": "Lamb Cutlets"
+      "id": "bistro-brandymustardsteak",
+      "title": "Brandy Mustard Steak",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury"
+      ]
     }
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 961,
-    "kj": 4021,
-    "protein": 19,
-    "carbs": 67,
-    "sugars": 44,
-    "fat": 65,
-    "saturated_fat": 33,
-    "fibre": 12,
-    "sodium": 166,
-    "coverage": 86,
-    "calcium_mg": 186,
+    "cal": 907,
+    "kj": 3795,
+    "protein": 34,
+    "carbs": 43,
+    "sugars": 42,
+    "fat": 63,
+    "saturated_fat": 32.6,
+    "fiber": 11,
+    "sodium": 87,
+    "coverage": 100,
+    "foundCount": 6,
+    "totalCount": 6,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 182,
     "iron_mg": 4,
-    "potassium_mg": 1690,
-    "magnesium_mg": 144,
-    "zinc_mg": 3,
-    "cholesterol_mg": 133,
-    "vitamin_a_ug": 800,
-    "vitamin_c_mg": 6,
+    "potassium_mg": 1940,
+    "magnesium_mg": 162,
+    "zinc_mg": 2,
+    "cholesterol_mg": 184,
+    "vitamin_a_ug": 787,
+    "vitamin_c_mg": 3,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-05-24",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-09-09"
 }

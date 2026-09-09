@@ -8,15 +8,13 @@
   "cookTime": "0 min",
   "totalTime": "10 min",
   "servings": "4 servings",
+  "yieldPerBatch": "4 servings",
   "tags": [
-    "Chinese",
     "Classic",
     "Condiment",
     "Gluten-Free",
-    "Greek",
     "Italian",
     "Sauce",
-    "Under 30 Minutes",
     "Vegan",
     "Vegetarian"
   ],
@@ -50,9 +48,8 @@
       "item": "Garlic"
     },
     {
-      "quantity": "",
-      "unit": "",
       "item": "Salt & Pepper",
+      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -94,6 +91,64 @@
       "content": "Keep refrigerated for up to 1 week with a thin layer of olive oil covering the surface to prevent oxidation. Freeze in ice cube trays for easy portions."
     }
   ],
+  "related": [
+    {
+      "id": "marinarasauce",
+      "title": "Marinara Sauce",
+      "matchingTags": [
+        "Classic",
+        "Gluten-Free",
+        "Italian",
+        "Sauce",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "arrabbiatasauce",
+      "title": "Arrabbiata Sauce",
+      "matchingTags": [
+        "Gluten-Free",
+        "Italian",
+        "Sauce",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chilligarlicoil",
+      "title": "Chilli Garlic Oil",
+      "matchingTags": [
+        "Condiment",
+        "Gluten-Free",
+        "Sauce",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "honeygarlicsauce",
+      "title": "Honey Garlic Sauce",
+      "matchingTags": [
+        "Condiment",
+        "Gluten-Free",
+        "Sauce",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce",
+      "matchingTags": [
+        "Condiment",
+        "Gluten-Free",
+        "Sauce",
+        "Vegan",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 4,
     "cal": 507,
@@ -105,7 +160,11 @@
     "saturated_fat": 8.3,
     "fiber": 14,
     "sodium": 133,
-    "coverage": 83,
+    "coverage": 100,
+    "foundCount": 5,
+    "totalCount": 5,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 175,
     "iron_mg": 2,
     "potassium_mg": 533,
@@ -115,6 +174,5 @@
     "vitamin_a_ug": 119,
     "vitamin_c_mg": 9
   },
-  "lastModified": "2026-06-04",
-  "yieldPerBatch": "4 servings"
+  "lastModified": "2026-09-09"
 }

@@ -2,12 +2,13 @@
   "id": "bistro-filetmignon",
   "title": "Filet Mignon",
   "category": "Bistro",
+  "difficulty": "Intermediate",
   "description": "Scotch fillet wrapped in bacon with a mushroom and demi glace cream sauce. Simple, rich, and timeless.",
   "prepTime": "5 min",
   "cookTime": "8 min",
   "totalTime": "13 min",
   "servings": "1 serving",
-  "difficulty": "Intermediate",
+  "yieldPerBatch": "1 serving",
   "tags": [
     "Beef",
     "Bistro",
@@ -56,9 +57,8 @@
       "item": "Thickened Cream"
     },
     {
-      "quantity": "",
-      "unit": "",
       "item": "Salt & Pepper",
+      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -93,48 +93,110 @@
   ],
   "related": [
     {
-      "id": "bistro-mediterraneansteak",
-      "title": "Mediterranean Steak"
-    },
-    {
       "id": "bistro-brandymustardsteak",
-      "title": "Brandy Mustard Steak"
+      "title": "Brandy Mustard Steak",
+      "matchingTags": [
+        "Beef",
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     },
     {
-      "id": "bistro-steakboston",
-      "title": "Steak Boston"
+      "id": "bistro-fishoftheday",
+      "title": "Fish of the Day",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Gluten-Free",
+        "Lunch",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     },
     {
-      "id": "bistro-carpetbag",
-      "title": "Carpet Bag"
+      "id": "bistro-chickenpapion",
+      "title": "Chicken Papion",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     },
     {
-      "id": "bistro-reefandbeef",
-      "title": "Reef and Beef"
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
+    },
+    {
+      "id": "bistro-mediterraneansteak",
+      "title": "Mediterranean Steak",
+      "matchingTags": [
+        "Beef",
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     }
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 882,
-    "kj": 3692,
-    "protein": 25,
-    "carbs": 54,
-    "sugars": 8,
-    "fat": 62,
-    "saturated_fat": 37,
-    "fibre": 4,
-    "sodium": 927,
-    "coverage": 86,
-    "calcium_mg": 119,
+    "cal": 586,
+    "kj": 2452,
+    "protein": 29,
+    "carbs": 4,
+    "sugars": 3,
+    "fat": 51,
+    "saturated_fat": 32.8,
+    "fiber": 1,
+    "sodium": 272,
+    "coverage": 83,
+    "foundCount": 5,
+    "totalCount": 6,
+    "unmatchedItems": [
+      "Middle Bacon"
+    ],
+    "noQuantityItems": [],
+    "calcium_mg": 48,
     "iron_mg": 2,
-    "potassium_mg": 578,
-    "magnesium_mg": 45,
-    "zinc_mg": 2,
-    "cholesterol_mg": 241,
-    "vitamin_a_ug": 483,
-    "vitamin_c_mg": 4,
+    "potassium_mg": 630,
+    "magnesium_mg": 36,
+    "zinc_mg": 4,
+    "cholesterol_mg": 174,
+    "vitamin_a_ug": 427,
+    "vitamin_c_mg": 1,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-05-24",
-  "yieldPerBatch": "1 serving"
+  "lastModified": "2026-09-08"
 }

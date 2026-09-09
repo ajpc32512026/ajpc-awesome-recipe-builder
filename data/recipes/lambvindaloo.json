@@ -2,12 +2,13 @@
   "id": "lambvindaloo",
   "title": "Lamb Vindaloo",
   "category": "Dinner",
+  "difficulty": "Intermediate",
   "description": "Succulent lamb cooked low and slow in a classic, fiery vindaloo sauce.",
   "prepTime": "15 min",
   "cookTime": "1 hr 15 min",
   "totalTime": "1 hr 30 min",
   "servings": "4 servings",
-  "difficulty": "Intermediate",
+  "yieldPerBatch": "4 servings",
   "tags": [
     "Chinese",
     "Curry",
@@ -79,19 +80,19 @@
     {
       "quantity": "250",
       "unit": "ml",
-      "item": "Hot Water"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
+      "item": "Water",
+      "notes": "Hot"
     },
     {
       "quantity": "5",
       "unit": "g",
       "item": "Coriander (Fresh)",
       "notes": "chopped, for garnish"
+    },
+    {
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
   "method": [
@@ -147,48 +148,106 @@
   ],
   "related": [
     {
-      "id": "vindaloopaste",
-      "title": "Vindaloo Paste"
-    },
-    {
       "id": "beefvindaloo",
-      "title": "Beef Vindaloo"
+      "title": "Beef Vindaloo",
+      "matchingTags": [
+        "Chinese",
+        "Curry",
+        "Dinner",
+        "Gluten-Free",
+        "Indian",
+        "Make Ahead",
+        "Rich",
+        "Savoury",
+        "Slow-Cooked",
+        "Spicy"
+      ]
     },
     {
       "id": "roganjosh",
-      "title": "Lamb Rogan Josh – Restaurant Style"
+      "title": "Lamb Rogan Josh – Restaurant Style",
+      "matchingTags": [
+        "Chinese",
+        "Curry",
+        "Dinner",
+        "Gluten-Free",
+        "Indian",
+        "Lamb",
+        "Rich",
+        "Savoury",
+        "Slow-Cooked",
+        "Spicy"
+      ]
     },
     {
       "id": "lambkorma",
-      "title": "Lamb Korma"
+      "title": "Lamb Korma",
+      "matchingTags": [
+        "Chinese",
+        "Curry",
+        "Dinner",
+        "Gluten-Free",
+        "Indian",
+        "Lamb",
+        "Rich",
+        "Savoury",
+        "Slow-Cooked"
+      ]
     },
     {
-      "id": "butterchicken",
-      "title": "Restaurant-Style Butter Chicken"
+      "id": "currychicken",
+      "title": "Curry Chicken with Coconut Cream",
+      "matchingTags": [
+        "Chinese",
+        "Curry",
+        "Dinner",
+        "Gluten-Free",
+        "Indian",
+        "Make Ahead",
+        "Savoury",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "kormapaste",
+      "title": "Homemade Korma Paste",
+      "matchingTags": [
+        "Chinese",
+        "Curry",
+        "Gluten-Free",
+        "Indian",
+        "Make Ahead",
+        "Savoury",
+        "Spicy"
+      ]
     }
   ],
   "nutrition": {
     "servings": 4,
-    "cal": 604,
-    "kj": 2528,
-    "protein": 59,
-    "carbs": 21,
-    "sugars": 14,
-    "fat": 28,
-    "saturated_fat": 7,
-    "fibre": 18,
-    "sodium": 336,
-    "coverage": 100,
-    "calcium_mg": 129,
-    "iron_mg": 9,
-    "potassium_mg": 1669,
-    "magnesium_mg": 109,
-    "zinc_mg": 11,
-    "cholesterol_mg": 150,
-    "vitamin_a_ug": 59,
-    "vitamin_c_mg": 22,
-    "vitamin_d_ug": 2
+    "cal": 214,
+    "kj": 897,
+    "protein": 7,
+    "carbs": 17,
+    "sugars": 9,
+    "fat": 10,
+    "saturated_fat": 1.2,
+    "fiber": 16,
+    "sodium": 79,
+    "coverage": 82,
+    "foundCount": 9,
+    "totalCount": 11,
+    "unmatchedItems": [
+      "Diced Lamb",
+      "Red Chilli Powder"
+    ],
+    "noQuantityItems": [],
+    "calcium_mg": 59,
+    "iron_mg": 2,
+    "potassium_mg": 794,
+    "magnesium_mg": 44,
+    "zinc_mg": 1,
+    "vitamin_a_ug": 50,
+    "vitamin_c_mg": 24
   },
-  "lastModified": "2026-05-23",
-  "yieldPerBatch": "4 servings"
+  "lastModified": "2026-09-09"
 }

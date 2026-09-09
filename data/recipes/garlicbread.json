@@ -10,12 +10,8 @@
   "servings": "1 loaf",
   "yieldPerBatch": "1 loaf",
   "tags": [
-    "Baked",
-    "Baking",
     "Bread",
-    "Chinese",
     "Classic",
-    "Garlic",
     "Italian",
     "Savoury",
     "Vegetarian"
@@ -29,7 +25,7 @@
     {
       "quantity": "165",
       "unit": "ml",
-      "item": "Milk Full-Cream",
+      "item": "Milk Full-cream",
       "notes": "lukewarm"
     },
     {
@@ -66,11 +62,6 @@
       "unit": "g",
       "item": "Garlic",
       "notes": "minced"
-    },
-    {
-      "quantity": "10",
-      "unit": "g",
-      "item": "Honey"
     },
     {
       "quantity": "10",
@@ -137,27 +128,84 @@
       "content": "Serve warm with extra garlic butter on the side for dipping, or alongside pasta, soups, or salads."
     }
   ],
+  "related": [
+    {
+      "id": "pizzadough",
+      "title": "Ultimate Homemade Pizza Dough",
+      "matchingTags": [
+        "Bread",
+        "Classic",
+        "Italian",
+        "Savoury",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "highhydraciab",
+      "title": "Airy High-Hydration Ciabatta",
+      "matchingTags": [
+        "Bread",
+        "Italian",
+        "Savoury",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "focaccia",
+      "title": "Focaccia",
+      "matchingTags": [
+        "Bread",
+        "Italian",
+        "Savoury",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "focaccia-high",
+      "title": "High-Hydration Focaccia",
+      "matchingTags": [
+        "Bread",
+        "Italian",
+        "Savoury",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "turkishbread",
+      "title": "Traditional Turkish Bread",
+      "matchingTags": [
+        "Bread",
+        "Classic",
+        "Savoury",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 1,
-    "cal": 1788,
-    "kj": 7480,
-    "protein": 68,
-    "carbs": 244,
-    "sugars": 40,
-    "fat": 57,
-    "saturated_fat": 29.1,
-    "fiber": 11,
-    "sodium": 938,
+    "cal": 2748,
+    "kj": 11499,
+    "protein": 117,
+    "carbs": 318,
+    "sugars": 44,
+    "fat": 79,
+    "saturated_fat": 35.2,
+    "fiber": 145,
+    "sodium": 1000,
     "coverage": 100,
-    "calcium_mg": 362,
-    "iron_mg": 9,
-    "potassium_mg": 1230,
-    "magnesium_mg": 166,
-    "zinc_mg": 6,
+    "foundCount": 9,
+    "totalCount": 9,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 599,
+    "iron_mg": 22,
+    "potassium_mg": 5262,
+    "magnesium_mg": 364,
+    "zinc_mg": 14,
     "cholesterol_mg": 1051,
-    "vitamin_a_ug": 704,
-    "vitamin_c_mg": 19,
+    "vitamin_a_ug": 719,
+    "vitamin_c_mg": 106,
     "vitamin_d_ug": 12
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-09-09"
 }

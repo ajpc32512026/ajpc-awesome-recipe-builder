@@ -14,7 +14,6 @@
     "Baking",
     "Breakfast",
     "Classic",
-    "Drinks",
     "Pastry",
     "Sweet",
     "Vegetarian"
@@ -23,7 +22,7 @@
     {
       "quantity": "250",
       "unit": "ml",
-      "item": "Milk Full-Cream"
+      "item": "Milk Full-cream"
     },
     {
       "quantity": "80",
@@ -163,29 +162,95 @@
       "content": "Walnuts can be swapped for pecans for a sweeter, softer crunch."
     }
   ],
+  "related": [
+    {
+      "id": "apricotflan",
+      "title": "Apricot Flan",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Classic",
+        "Pastry",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "traditionalanzacbiscuits",
+      "title": "Traditional ANZAC Biscuits",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Breakfast",
+        "Classic",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chouxpastry",
+      "title": "Choux Pastry (Profiteroles)",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Pastry",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sultanabread",
+      "title": "Sultana Rolls with Sugar Glaze",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Breakfast",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "applepie",
+      "title": "Apple Pie",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Pastry",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 12,
-    "cal": 439,
-    "kj": 1837,
-    "protein": 9,
-    "carbs": 59,
-    "sugars": 35,
-    "fat": 18,
-    "saturated_fat": 7.3,
-    "fiber": 4,
-    "sodium": 153,
-    "coverage": 100,
-    "foundCount": 20,
-    "totalCount": 20,
-    "unmatchedItems": [],
-    "calcium_mg": 69,
-    "iron_mg": 2,
-    "potassium_mg": 400,
-    "magnesium_mg": 36,
+    "cal": 1647,
+    "kj": 6893,
+    "protein": 16,
+    "carbs": 389,
+    "sugars": 15,
+    "fat": 22,
+    "saturated_fat": 6.1,
+    "fiber": 62,
+    "sodium": 54,
+    "coverage": 78,
+    "foundCount": 14,
+    "totalCount": 18,
+    "unmatchedItems": [
+      "Milk Full-cream",
+      "Apple Juice",
+      "Ground Cinnamon",
+      "Natural Vanilla Extract"
+    ],
+    "noQuantityItems": [],
+    "calcium_mg": 36,
+    "iron_mg": 1,
+    "potassium_mg": 194,
+    "magnesium_mg": 28,
     "zinc_mg": 1,
-    "cholesterol_mg": 188,
-    "vitamin_a_ug": 151,
-    "vitamin_d_ug": 2
+    "cholesterol_mg": 98,
+    "vitamin_a_ug": 102,
+    "vitamin_c_mg": 13,
+    "vitamin_d_ug": 1
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-09-08"
 }

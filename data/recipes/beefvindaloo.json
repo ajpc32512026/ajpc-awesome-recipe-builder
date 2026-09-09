@@ -8,12 +8,11 @@
   "cookTime": "1 hr",
   "totalTime": "1 hr 15 min",
   "servings": "4 servings",
+  "yieldPerBatch": "4 servings",
   "tags": [
     "Beef",
-    "Chinese",
     "Curry",
     "Dinner",
-    "Gluten-Free",
     "Indian",
     "Make Ahead",
     "Rich",
@@ -79,7 +78,8 @@
     {
       "quantity": "250",
       "unit": "ml",
-      "item": "Hot Water"
+      "item": "Water",
+      "notes": "boiling"
     },
     {
       "quantity": "5",
@@ -88,9 +88,8 @@
       "notes": "for garnish"
     },
     {
-      "quantity": "",
-      "unit": "",
       "item": "Salt & Pepper",
+      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -145,33 +144,96 @@
       "content": "The vindaloo paste recipe yields approximately 80–100 g — exactly the right amount for 1 kg of beef. Use the full batch."
     }
   ],
+  "related": [
+    {
+      "id": "lambvindaloo",
+      "title": "Lamb Vindaloo",
+      "matchingTags": [
+        "Curry",
+        "Dinner",
+        "Indian",
+        "Make Ahead",
+        "Rich",
+        "Savoury",
+        "Slow-Cooked",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "roganjosh",
+      "title": "Lamb Rogan Josh – Restaurant Style",
+      "matchingTags": [
+        "Curry",
+        "Dinner",
+        "Indian",
+        "Rich",
+        "Savoury",
+        "Slow-Cooked",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "currychicken",
+      "title": "Curry Chicken with Coconut Cream",
+      "matchingTags": [
+        "Curry",
+        "Dinner",
+        "Indian",
+        "Make Ahead",
+        "Savoury",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "lambkorma",
+      "title": "Lamb Korma",
+      "matchingTags": [
+        "Curry",
+        "Dinner",
+        "Indian",
+        "Rich",
+        "Savoury",
+        "Slow-Cooked"
+      ]
+    },
+    {
+      "id": "lasagne",
+      "title": "Classic Lasagne — Ragù & Béchamel",
+      "matchingTags": [
+        "Beef",
+        "Dinner",
+        "Make Ahead",
+        "Rich",
+        "Savoury"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 4,
-    "cal": 613,
-    "kj": 2566,
-    "protein": 25,
-    "carbs": 76,
-    "sugars": 15,
-    "fat": 19,
-    "saturated_fat": 2.5,
-    "fiber": 19,
-    "sodium": 332,
-    "coverage": 91,
-    "foundCount": 10,
+    "cal": 247,
+    "kj": 1035,
+    "protein": 7,
+    "carbs": 17,
+    "sugars": 9,
+    "fat": 14,
+    "saturated_fat": 1.5,
+    "fiber": 16,
+    "sodium": 79,
+    "coverage": 82,
+    "foundCount": 9,
     "totalCount": 11,
     "unmatchedItems": [
+      "Diced Beef",
       "Red Chilli Powder"
     ],
-    "calcium_mg": 77,
-    "iron_mg": 4,
-    "potassium_mg": 1166,
-    "magnesium_mg": 77,
-    "zinc_mg": 4,
-    "cholesterol_mg": 33,
-    "vitamin_a_ug": 85,
-    "vitamin_c_mg": 34,
-    "vitamin_d_ug": 1
+    "noQuantityItems": [],
+    "calcium_mg": 59,
+    "iron_mg": 2,
+    "potassium_mg": 794,
+    "magnesium_mg": 44,
+    "zinc_mg": 1,
+    "vitamin_a_ug": 50,
+    "vitamin_c_mg": 24
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "4 servings"
+  "lastModified": "2026-09-09"
 }

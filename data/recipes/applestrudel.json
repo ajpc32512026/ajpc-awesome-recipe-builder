@@ -2,12 +2,13 @@
   "id": "applestrudel",
   "title": "Apple Strudel",
   "category": "Desserts",
+  "difficulty": "Beginner",
   "description": "Easy apple strudel recipe using store-bought puff pastry and staples like apples, walnuts, and cinnamon. Perfect for dessert or a sweet breakfast treat!",
   "prepTime": "20 minutes",
   "cookTime": "45 minutes",
   "totalTime": "65 minutes",
   "servings": "6",
-  "difficulty": "Beginner",
+  "yieldPerBatch": "1 batch",
   "tags": [
     "Austrian",
     "Baking",
@@ -208,24 +209,28 @@
   ],
   "nutrition": {
     "servings": 6,
-    "cal": 453,
-    "kj": 1897,
+    "cal": 431,
+    "kj": 1804,
     "protein": 7,
-    "carbs": 55,
-    "sugars": 24,
+    "carbs": 48,
+    "sugars": 19,
     "fat": 23,
-    "saturated_fat": 10,
-    "fiber": 5,
-    "sodium": 144,
-    "coverage": 100,
-    "calcium_mg": 37,
+    "saturated_fat": 10.2,
+    "fiber": 4,
+    "sodium": 133,
+    "coverage": 88,
+    "foundCount": 7,
+    "totalCount": 8,
+    "unmatchedItems": [
+      "Granny Smith Apples"
+    ],
+    "noQuantityItems": [],
+    "calcium_mg": 32,
     "iron_mg": 1,
-    "potassium_mg": 183,
-    "magnesium_mg": 33,
+    "potassium_mg": 126,
+    "magnesium_mg": 29,
     "cholesterol_mg": 28,
-    "vitamin_a_ug": 115,
-    "vitamin_c_mg": 2
+    "vitamin_a_ug": 114
   },
-  "lastModified": "2026-05-31",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-09-09"
 }

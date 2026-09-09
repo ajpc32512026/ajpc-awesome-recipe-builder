@@ -2,24 +2,20 @@
   "id": "bistro-vealmozzarella",
   "title": "Veal Mozzarella",
   "category": "Bistro",
+  "difficulty": "Intermediate",
   "description": "Veal wrapped with mushroom, bacon, and shallots in puff pastry, topped with melted mozzarella. A Wellington-style preparation from the bistro kitchen.",
   "prepTime": "20 min",
   "cookTime": "15 min",
   "totalTime": "35 min",
   "servings": "1 serving",
-  "difficulty": "Intermediate",
+  "yieldPerBatch": "1 serving",
   "tags": [
-    "Baked",
-    "Baking",
     "Bistro",
     "Classic",
     "Dinner",
     "Italian",
-    "Lunch",
     "Rich",
-    "Savoury",
-    "Under 1 Hour",
-    "Veal"
+    "Savoury"
   ],
   "ingredients": [
     {
@@ -70,9 +66,8 @@
       "notes": "for filling and sauce"
     },
     {
-      "quantity": "",
-      "unit": "",
       "item": "Salt & Pepper",
+      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -126,48 +121,91 @@
   ],
   "related": [
     {
-      "id": "bistro-carpetbag",
-      "title": "Carpet Bag"
+      "id": "bistro-mediterraneansteak",
+      "title": "Mediterranean Steak",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Dinner",
+        "Italian",
+        "Rich",
+        "Savoury"
+      ]
     },
     {
-      "id": "bistro-reefandbeef",
-      "title": "Reef and Beef"
-    },
-    {
-      "id": "bistro-vealoscar",
-      "title": "Veal Oscar"
+      "id": "bistro-steakboston",
+      "title": "Steak Boston",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Dinner",
+        "Italian",
+        "Rich",
+        "Savoury"
+      ]
     },
     {
       "id": "bistro-vealscaloppine",
-      "title": "Veal Scaloppine"
+      "title": "Veal Scaloppine",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Dinner",
+        "Italian",
+        "Rich",
+        "Savoury"
+      ]
     },
     {
-      "id": "bistro-vealmadagascar",
-      "title": "Veal Madagascar"
+      "id": "bistro-brandymustardsteak",
+      "title": "Brandy Mustard Steak",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Dinner",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "bistro-chickenkiev",
+      "title": "Chicken Kiev",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Dinner",
+        "Rich",
+        "Savoury"
+      ]
     }
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 1564,
-    "kj": 6542,
-    "protein": 80,
-    "carbs": 100,
-    "sugars": 15,
-    "fat": 92,
-    "saturated_fat": 49,
-    "fibre": 10,
-    "sodium": 2001,
-    "coverage": 89,
-    "calcium_mg": 535,
-    "iron_mg": 20,
-    "potassium_mg": 1621,
-    "magnesium_mg": 133,
-    "zinc_mg": 15,
-    "cholesterol_mg": 714,
-    "vitamin_a_ug": 24641,
+    "cal": 1021,
+    "kj": 4270,
+    "protein": 56,
+    "carbs": 47,
+    "sugars": 8,
+    "fat": 66,
+    "saturated_fat": 40.1,
+    "fiber": 7,
+    "sodium": 779,
+    "coverage": 88,
+    "foundCount": 7,
+    "totalCount": 8,
+    "unmatchedItems": [
+      "Middle Bacon"
+    ],
+    "noQuantityItems": [],
+    "calcium_mg": 395,
+    "iron_mg": 17,
+    "potassium_mg": 1263,
+    "magnesium_mg": 87,
+    "zinc_mg": 13,
+    "cholesterol_mg": 490,
+    "vitamin_a_ug": 24553,
     "vitamin_c_mg": 38,
-    "vitamin_d_ug": 7
+    "vitamin_d_ug": 4
   },
-  "lastModified": "2026-05-24",
-  "yieldPerBatch": "1 serving"
+  "lastModified": "2026-09-09"
 }

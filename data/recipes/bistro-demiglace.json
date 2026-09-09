@@ -2,19 +2,18 @@
   "id": "bistro-demiglace",
   "title": "Demi-Glace",
   "category": "Sauces",
+  "difficulty": "Intermediate",
   "description": "Deep, rich, concentrated beef sauce. Makes about 2-3 litres.",
   "prepTime": "20 min",
   "cookTime": "8-10 hours",
   "totalTime": "8.5-10.5 hours",
   "servings": "Makes approx 2-3 litres",
-  "difficulty": "Intermediate",
+  "yieldPerBatch": "1 batch",
   "tags": [
     "Bistro",
     "Classic",
     "Dinner",
-    "Freezer Friendly",
     "French",
-    "Gluten-Free",
     "Make Ahead",
     "Sauce"
   ],
@@ -66,10 +65,9 @@
       "notes": "or enough to cover bones by 5cm"
     },
     {
-      "quantity": "",
-      "unit": "",
-      "item": "Salt",
-      "notes": "Add at the end. Don't add too much all at once - you can't take it out."
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
   "youWillNeed": [
@@ -158,44 +156,83 @@
   ],
   "related": [
     {
-      "id": "bistro-mediterraneansteak",
-      "title": "Mediterranean Steak",
+      "id": "bistro-brandymustardsteak",
+      "title": "Brandy Mustard Steak",
       "matchingTags": [
-        "Alcohol",
-        "Beef",
+        "Bistro",
         "Classic",
-        "Creamy",
         "Dinner",
-        "Gluten-Free",
-        "Rich",
-        "Savoury",
-        "Seafood",
-        "Under 30 Minutes"
+        "French"
+      ]
+    },
+    {
+      "id": "bistro-chickenkiev",
+      "title": "Chicken Kiev",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Dinner",
+        "French"
+      ]
+    },
+    {
+      "id": "bistro-chickenpapion",
+      "title": "Chicken Papion",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Dinner",
+        "French"
+      ]
+    },
+    {
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Dinner",
+        "French"
+      ]
+    },
+    {
+      "id": "bistro-filetmignon",
+      "title": "Filet Mignon",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Dinner",
+        "French"
       ]
     }
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 4398,
-    "kj": 18400,
-    "protein": 202,
-    "carbs": 759,
-    "sugars": 69,
-    "fat": 65,
-    "saturated_fat": 15,
-    "fibre": 92,
-    "sodium": 2816,
-    "coverage": 88,
-    "calcium_mg": 333,
-    "iron_mg": 20,
-    "potassium_mg": 4779,
-    "magnesium_mg": 378,
-    "zinc_mg": 33,
-    "cholesterol_mg": 325,
-    "vitamin_a_ug": 2117,
-    "vitamin_c_mg": 143,
-    "vitamin_d_ug": 5
+    "cal": 730,
+    "kj": 3055,
+    "protein": 18,
+    "carbs": 169,
+    "sugars": 9,
+    "fat": 17,
+    "saturated_fat": 4.6,
+    "fiber": 60,
+    "sodium": 231,
+    "coverage": 57,
+    "foundCount": 4,
+    "totalCount": 7,
+    "unmatchedItems": [
+      "Beef Bones",
+      "Beef Scraps",
+      "Black Peppercorns"
+    ],
+    "noQuantityItems": [],
+    "calcium_mg": 107,
+    "iron_mg": 1,
+    "potassium_mg": 722,
+    "magnesium_mg": 33,
+    "zinc_mg": 1,
+    "vitamin_a_ug": 20,
+    "vitamin_c_mg": 14
   },
-  "lastModified": "2026-06-08",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-09-09"
 }

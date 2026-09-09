@@ -8,6 +8,7 @@
   "cookTime": "8 min",
   "totalTime": "18 min",
   "servings": "1 serving",
+  "yieldPerBatch": "1 serving",
   "tags": [
     "Alcohol",
     "Australian",
@@ -16,11 +17,7 @@
     "Cheese",
     "Classic",
     "Dinner",
-    "Drinks",
-    "Gluten-Free",
-    "Rich",
-    "Seafood",
-    "Under 1 Hour"
+    "Rich"
   ],
   "ingredients": [
     {
@@ -64,9 +61,8 @@
       "notes": "full-bodied, like Shiraz or Cabernet"
     },
     {
-      "quantity": "",
-      "unit": "",
       "item": "Salt & Pepper",
+      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -121,28 +117,94 @@
       "content": "Reserve the oyster liquor and add it to the sauce. It adds a subtle brininess that ties the surf and turf elements together beautifully."
     }
   ],
+  "related": [
+    {
+      "id": "bistro-brandymustardsteak",
+      "title": "Brandy Mustard Steak",
+      "matchingTags": [
+        "Alcohol",
+        "Beef",
+        "Bistro",
+        "Classic",
+        "Dinner",
+        "Rich"
+      ]
+    },
+    {
+      "id": "bistro-mediterraneansteak",
+      "title": "Mediterranean Steak",
+      "matchingTags": [
+        "Alcohol",
+        "Beef",
+        "Bistro",
+        "Classic",
+        "Dinner",
+        "Rich"
+      ]
+    },
+    {
+      "id": "bistro-reefandbeef",
+      "title": "Reef and Beef",
+      "matchingTags": [
+        "Australian",
+        "Beef",
+        "Bistro",
+        "Classic",
+        "Dinner",
+        "Rich"
+      ]
+    },
+    {
+      "id": "bistro-steakboston",
+      "title": "Steak Boston",
+      "matchingTags": [
+        "Alcohol",
+        "Beef",
+        "Bistro",
+        "Classic",
+        "Dinner",
+        "Rich"
+      ]
+    },
+    {
+      "id": "bistro-chickenpapion",
+      "title": "Chicken Papion",
+      "matchingTags": [
+        "Alcohol",
+        "Bistro",
+        "Classic",
+        "Dinner",
+        "Rich"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 1,
-    "cal": 783,
-    "kj": 3276,
-    "protein": 68,
-    "carbs": 8,
-    "sugars": 5,
-    "fat": 47,
-    "saturated_fat": 28.1,
+    "cal": 633,
+    "kj": 2649,
+    "protein": 59,
+    "carbs": 7,
+    "sugars": 4,
+    "fat": 35,
+    "saturated_fat": 20.1,
     "fiber": 3,
-    "sodium": 2575,
-    "coverage": 88,
-    "calcium_mg": 974,
+    "sodium": 1865,
+    "coverage": 86,
+    "foundCount": 6,
+    "totalCount": 7,
+    "unmatchedItems": [
+      "Camembert Cheese"
+    ],
+    "noQuantityItems": [],
+    "calcium_mg": 680,
     "iron_mg": 15,
-    "potassium_mg": 1465,
-    "magnesium_mg": 315,
-    "zinc_mg": 58,
-    "cholesterol_mg": 346,
-    "vitamin_a_ug": 583,
+    "potassium_mg": 1402,
+    "magnesium_mg": 302,
+    "zinc_mg": 56,
+    "cholesterol_mg": 312,
+    "vitamin_a_ug": 404,
     "vitamin_c_mg": 26,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-06-04",
-  "yieldPerBatch": "1 serving"
+  "lastModified": "2026-09-09"
 }

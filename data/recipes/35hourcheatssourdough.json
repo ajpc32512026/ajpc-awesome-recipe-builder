@@ -19,7 +19,8 @@
     "No Oil",
     "Sourdough Style",
     "Vegan",
-    "Vegetarian"
+    "Vegetarian",
+    "No Sugar"
   ],
   "ingredients": [
     {
@@ -211,6 +212,7 @@
     "foundCount": 7,
     "totalCount": 7,
     "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 141,
     "iron_mg": 9,
     "potassium_mg": 1166,
@@ -218,5 +220,5 @@
     "zinc_mg": 6,
     "vitamin_a_ug": 1
   },
-  "lastModified": "2026-09-04"
+  "lastModified": "2026-09-08"
 }

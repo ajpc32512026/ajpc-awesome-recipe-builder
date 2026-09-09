@@ -8,17 +8,14 @@
   "cookTime": "8 min",
   "totalTime": "18 min",
   "servings": "1 serving",
+  "yieldPerBatch": "1 serving",
   "tags": [
-    "Air Fryer",
     "Australian",
-    "Baking",
     "Bistro",
-    "Deep-Fried",
     "Dinner",
     "Lamb",
     "Lunch",
-    "Savoury",
-    "Side Dish"
+    "Savoury"
   ],
   "ingredients": [
     {
@@ -68,9 +65,8 @@
       "notes": "diced"
     },
     {
-      "quantity": "",
-      "unit": "",
       "item": "Salt & Pepper",
+      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -107,28 +103,86 @@
       "content": "The gravy is a simple demi glace reduction — no additional wine, herbs, or mushroom. The richness of the demi carries the dish, balanced by the crisp bacon and crumbed lamb."
     }
   ],
+  "related": [
+    {
+      "id": "bistro-chickenriverina",
+      "title": "Chicken Riverina",
+      "matchingTags": [
+        "Australian",
+        "Bistro",
+        "Dinner",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "bistro-filetmignon",
+      "title": "Filet Mignon",
+      "matchingTags": [
+        "Bistro",
+        "Dinner",
+        "Lunch",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "bistro-fishoftheday",
+      "title": "Fish of the Day",
+      "matchingTags": [
+        "Bistro",
+        "Dinner",
+        "Lunch",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "bistro-rackoflamb",
+      "title": "Rack of Lamb",
+      "matchingTags": [
+        "Bistro",
+        "Dinner",
+        "Lamb",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "bistro-reefandbeef",
+      "title": "Reef and Beef",
+      "matchingTags": [
+        "Australian",
+        "Bistro",
+        "Dinner",
+        "Savoury"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 1,
-    "cal": 1564,
-    "kj": 6543,
-    "protein": 87,
-    "carbs": 107,
-    "sugars": 17,
-    "fat": 86,
-    "saturated_fat": 36.2,
-    "fiber": 8,
-    "sodium": 2245,
-    "coverage": 78,
-    "calcium_mg": 404,
-    "iron_mg": 11,
-    "potassium_mg": 1221,
-    "magnesium_mg": 132,
-    "zinc_mg": 7,
-    "cholesterol_mg": 2226,
-    "vitamin_a_ug": 865,
+    "cal": 1093,
+    "kj": 4572,
+    "protein": 65,
+    "carbs": 67,
+    "sugars": 8,
+    "fat": 62,
+    "saturated_fat": 26.8,
+    "fiber": 5,
+    "sodium": 804,
+    "coverage": 75,
+    "foundCount": 6,
+    "totalCount": 8,
+    "unmatchedItems": [
+      "Lamb Cutlets",
+      "Middle Bacon"
+    ],
+    "noQuantityItems": [],
+    "calcium_mg": 222,
+    "iron_mg": 8,
+    "potassium_mg": 798,
+    "magnesium_mg": 71,
+    "zinc_mg": 5,
+    "cholesterol_mg": 2002,
+    "vitamin_a_ug": 777,
     "vitamin_c_mg": 7,
-    "vitamin_d_ug": 26
+    "vitamin_d_ug": 23
   },
-  "lastModified": "2026-06-04",
-  "yieldPerBatch": "1 serving"
+  "lastModified": "2026-09-09"
 }

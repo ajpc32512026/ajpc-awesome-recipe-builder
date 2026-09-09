@@ -8,14 +8,13 @@
   "cookTime": "10 min",
   "totalTime": "15 min",
   "servings": "4 servings",
+  "yieldPerBatch": "4 servings",
   "tags": [
-    "Baking",
     "Classic",
     "Creamy",
     "French",
     "Rich",
     "Sauce",
-    "Under 30 Minutes",
     "Vegetarian"
   ],
   "ingredients": [
@@ -32,17 +31,12 @@
     {
       "quantity": "500",
       "unit": "ml",
-      "item": "Milk Full-Cream"
+      "item": "Milk Full-cream"
     },
     {
-      "quantity": "3",
-      "unit": "g",
-      "item": "Salt"
-    },
-    {
-      "quantity": "1",
-      "unit": "g",
-      "item": "White Pepper"
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Tip out onto a lightly floured bench and knead for a full 15 minutes until smooth, elastic, and no longer sticky."
     }
   ],
   "method": [
@@ -79,24 +73,84 @@
       "content": "The foundation for lasagne, gratins, creamy pasta dishes, and as a base for cheese sauce. Add grated cheese for an instant Mornay sauce."
     }
   ],
+  "related": [
+    {
+      "id": "mornaysauce",
+      "title": "Mornay / Cheese Sauce",
+      "matchingTags": [
+        "Classic",
+        "Creamy",
+        "French",
+        "Rich",
+        "Sauce",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "apricotflan",
+      "title": "Apricot Flan",
+      "matchingTags": [
+        "Classic",
+        "Creamy",
+        "French",
+        "Rich",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "cremecaramel",
+      "title": "Crème Caramel",
+      "matchingTags": [
+        "Classic",
+        "Creamy",
+        "French",
+        "Rich",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bistro-profiteroles",
+      "title": "Profiteroles",
+      "matchingTags": [
+        "Classic",
+        "Creamy",
+        "French",
+        "Rich",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "baked-cheesecake",
+      "title": "Baked Cheesecake",
+      "matchingTags": [
+        "Classic",
+        "Creamy",
+        "Rich",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 4,
-    "cal": 164,
-    "kj": 688,
+    "cal": 162,
+    "kj": 678,
     "protein": 5,
-    "carbs": 13,
+    "carbs": 12,
     "sugars": 7,
     "fat": 11,
     "saturated_fat": 7.1,
     "fiber": 0,
-    "sodium": 108,
+    "sodium": 45,
     "coverage": 100,
-    "calcium_mg": 137,
-    "potassium_mg": 200,
-    "magnesium_mg": 17,
+    "foundCount": 3,
+    "totalCount": 3,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 135,
+    "potassium_mg": 192,
+    "magnesium_mg": 15,
     "cholesterol_mg": 25,
-    "vitamin_a_ug": 120
+    "vitamin_a_ug": 119
   },
-  "lastModified": "2026-06-04",
-  "yieldPerBatch": "4 servings"
+  "lastModified": "2026-09-09"
 }

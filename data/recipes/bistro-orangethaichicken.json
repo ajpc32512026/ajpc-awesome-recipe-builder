@@ -2,20 +2,19 @@
   "id": "bistro-orangethaichicken",
   "title": "Orange Thai Chicken",
   "category": "Bistro",
+  "difficulty": "Intermediate",
   "description": "The Thai Chicken's sibling — same ginger and chilli base but brightened with fresh orange juice for a citrus-forward cream sauce.",
   "prepTime": "5 min",
   "cookTime": "8 min",
   "totalTime": "13 min",
   "servings": "1 serving",
-  "difficulty": "Intermediate",
+  "yieldPerBatch": "1 serving",
   "tags": [
     "Bistro",
     "Chicken",
-    "Chinese",
     "Citrus",
     "Creamy",
     "Dinner",
-    "Drinks",
     "Gluten-Free",
     "Orange",
     "Rich",
@@ -71,9 +70,8 @@
       "notes": "diced"
     },
     {
-      "quantity": "",
-      "unit": "",
       "item": "Salt & Pepper",
+      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -113,47 +111,103 @@
   "related": [
     {
       "id": "bistro-thaichicken",
-      "title": "Thai Chicken"
-    },
-    {
-      "id": "bistro-chickenpicante",
-      "title": "Chicken Picante"
-    },
-    {
-      "id": "bistro-chickenriverina",
-      "title": "Chicken Riverina"
+      "title": "Thai Chicken",
+      "matchingTags": [
+        "Bistro",
+        "Chicken",
+        "Creamy",
+        "Dinner",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Spicy",
+        "Thai",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "bistro-chickenpapion",
-      "title": "Chicken Papion"
+      "title": "Chicken Papion",
+      "matchingTags": [
+        "Bistro",
+        "Chicken",
+        "Creamy",
+        "Dinner",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     },
     {
-      "id": "bistro-chickenkiev",
-      "title": "Chicken Kiev"
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante",
+      "matchingTags": [
+        "Bistro",
+        "Chicken",
+        "Creamy",
+        "Dinner",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
+    },
+    {
+      "id": "bistro-chickenriverina",
+      "title": "Chicken Riverina",
+      "matchingTags": [
+        "Bistro",
+        "Chicken",
+        "Creamy",
+        "Dinner",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
+    },
+    {
+      "id": "bistro-brandymustardsteak",
+      "title": "Brandy Mustard Steak",
+      "matchingTags": [
+        "Bistro",
+        "Creamy",
+        "Dinner",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     }
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 648,
-    "kj": 2709,
-    "protein": 28,
-    "carbs": 18,
-    "sugars": 16,
-    "fat": 50,
-    "saturated_fat": 32,
-    "fibre": 11,
-    "sodium": 115,
-    "coverage": 89,
-    "calcium_mg": 89,
-    "iron_mg": 2,
-    "potassium_mg": 997,
-    "magnesium_mg": 71,
-    "zinc_mg": 1,
+    "cal": 1841,
+    "kj": 7702,
+    "protein": 56,
+    "carbs": 258,
+    "sugars": 256,
+    "fat": 49,
+    "saturated_fat": 32.4,
+    "fiber": 71,
+    "sodium": 112,
+    "coverage": 88,
+    "foundCount": 7,
+    "totalCount": 8,
+    "unmatchedItems": [
+      "Red Chilli"
+    ],
+    "noQuantityItems": [],
+    "calcium_mg": 795,
+    "iron_mg": 1,
+    "potassium_mg": 6229,
+    "magnesium_mg": 409,
+    "zinc_mg": 3,
     "cholesterol_mg": 193,
-    "vitamin_a_ug": 820,
-    "vitamin_c_mg": 198,
+    "vitamin_a_ug": 653,
+    "vitamin_c_mg": 1510,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-05-24",
-  "yieldPerBatch": "1 serving"
+  "lastModified": "2026-09-08"
 }

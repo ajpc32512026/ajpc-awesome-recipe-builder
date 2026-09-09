@@ -12,18 +12,12 @@
   "tags": [
     "Bistro",
     "Chicken",
-    "Chinese",
     "Classic",
     "Creamy",
-    "Deep-Fried",
     "Dinner",
     "French",
     "Garlic",
-    "Gluten-Free",
-    "Main Course",
-    "Rich",
-    "Savoury",
-    "Ukrainian"
+    "Rich"
   ],
   "ingredients": [
     {
@@ -73,10 +67,9 @@
       "item": "Tomato Sauce"
     },
     {
-      "quantity": "",
-      "unit": "",
       "item": "Salt & Pepper",
-      "notes": "to taste"
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
   "youWillNeed": [
@@ -143,27 +136,95 @@
       "content": "Double crumbing (flour, egg, breadcrumbs, egg, breadcrumbs again) gives a better seal and a thicker, crunchier crust that holds the butter in during frying."
     }
   ],
+  "related": [
+    {
+      "id": "bistro-chickenpapion",
+      "title": "Chicken Papion",
+      "matchingTags": [
+        "Bistro",
+        "Chicken",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Rich"
+      ]
+    },
+    {
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante",
+      "matchingTags": [
+        "Bistro",
+        "Chicken",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Rich"
+      ]
+    },
+    {
+      "id": "bistro-brandymustardsteak",
+      "title": "Brandy Mustard Steak",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Rich"
+      ]
+    },
+    {
+      "id": "bistro-chickenriverina",
+      "title": "Chicken Riverina",
+      "matchingTags": [
+        "Bistro",
+        "Chicken",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich"
+      ]
+    },
+    {
+      "id": "bistro-filetmignon",
+      "title": "Filet Mignon",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Rich"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 1,
-    "cal": 1920,
-    "kj": 8035,
-    "protein": 54,
-    "carbs": 59,
-    "sugars": 20,
-    "fat": 150,
-    "saturated_fat": 97.3,
-    "fiber": 73,
-    "sodium": 187,
-    "coverage": 90,
-    "calcium_mg": 244,
-    "iron_mg": 8,
-    "potassium_mg": 3259,
-    "magnesium_mg": 179,
-    "zinc_mg": 5,
+    "cal": 2007,
+    "kj": 8399,
+    "protein": 57,
+    "carbs": 69,
+    "sugars": 32,
+    "fat": 152,
+    "saturated_fat": 97.9,
+    "fiber": 78,
+    "sodium": 217,
+    "coverage": 100,
+    "foundCount": 8,
+    "totalCount": 8,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 358,
+    "iron_mg": 16,
+    "potassium_mg": 3863,
+    "magnesium_mg": 221,
+    "zinc_mg": 6,
     "cholesterol_mg": 369,
-    "vitamin_a_ug": 1539,
-    "vitamin_c_mg": 96,
+    "vitamin_a_ug": 1455,
+    "vitamin_c_mg": 83,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-09-09"
 }

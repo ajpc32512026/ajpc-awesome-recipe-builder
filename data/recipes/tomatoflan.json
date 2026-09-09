@@ -2,13 +2,13 @@
   "id": "tomatoflan",
   "title": "Tomato and Olive Flan",
   "category": "Entree",
+  "difficulty": "Intermediate",
   "description": "A savoury baked flan filled with tomatoes, olives, basil, and Gruyère cheese.",
   "prepTime": "30 min",
   "cookTime": "35 min",
   "totalTime": "1 hr 35 min",
   "servings": "4 servings",
   "yieldPerBatch": "1 flan",
-  "difficulty": "Intermediate",
   "tags": [
     "Baked",
     "Baking",
@@ -37,7 +37,8 @@
     {
       "quantity": "1",
       "unit": "",
-      "item": "Egg Yolks"
+      "item": "Eggs",
+      "notes": "Separated"
     },
     {
       "quantity": "15",
@@ -89,6 +90,11 @@
       "unit": "g",
       "item": "Gruyere",
       "notes": "grated"
+    },
+    {
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
   "method": [
@@ -155,43 +161,93 @@
   ],
   "related": [
     {
-      "id": "chouxpastry",
-      "title": "Choux Pastry (Profiteroles)"
+      "id": "beefstockpot",
+      "title": "20 Minute Beef Stock Pot",
+      "matchingTags": [
+        "Baking",
+        "Dinner",
+        "French",
+        "Greek",
+        "Italian",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "lasagne",
+      "title": "Classic Lasagne — Ragù & Béchamel",
+      "matchingTags": [
+        "Baked",
+        "Baking",
+        "Dinner",
+        "Greek",
+        "Italian",
+        "Rich",
+        "Savoury"
+      ]
     },
     {
       "id": "mushroomcups",
-      "title": "Mushrooms with Herb Nut Butter"
+      "title": "Mushrooms with Herb Nut Butter",
+      "matchingTags": [
+        "Baked",
+        "French",
+        "Greek",
+        "Rich",
+        "Savoury",
+        "Vegetarian"
+      ]
     },
     {
-      "id": "garlicbread",
-      "title": "Garlic Butter Crusty Bread"
+      "id": "chickencacciatore",
+      "title": "Chicken Cacciatore",
+      "matchingTags": [
+        "Dinner",
+        "Greek",
+        "Italian",
+        "Rich",
+        "Savoury",
+        "Tomato"
+      ]
     },
     {
-      "id": "potatognocchi",
-      "title": "Potato Gnocchi with Tomato Sauce"
+      "id": "chickenmushroombaconpies",
+      "title": "Chicken, Mushroom & Bacon Pies",
+      "matchingTags": [
+        "Baked",
+        "Baking",
+        "Dinner",
+        "Greek",
+        "Pastry",
+        "Savoury"
+      ]
     }
   ],
   "nutrition": {
     "servings": 4,
-    "cal": 887,
-    "kj": 3712,
+    "cal": 807,
+    "kj": 3378,
     "protein": 25,
-    "carbs": 65,
-    "sugars": 20,
-    "fat": 57,
-    "saturated_fat": 26,
-    "fibre": 10,
-    "sodium": 730,
+    "carbs": 58,
+    "sugars": 11,
+    "fat": 53,
+    "saturated_fat": 24.8,
+    "fiber": 6,
+    "sodium": 768,
     "coverage": 100,
-    "calcium_mg": 454,
-    "iron_mg": 9,
-    "potassium_mg": 1156,
-    "magnesium_mg": 105,
+    "foundCount": 11,
+    "totalCount": 11,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 367,
+    "iron_mg": 3,
+    "potassium_mg": 747,
+    "magnesium_mg": 78,
     "zinc_mg": 3,
-    "cholesterol_mg": 332,
-    "vitamin_a_ug": 430,
-    "vitamin_c_mg": 16,
-    "vitamin_d_ug": 5
+    "cholesterol_mg": 314,
+    "vitamin_a_ug": 446,
+    "vitamin_c_mg": 26,
+    "vitamin_d_ug": 3
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-09-09"
 }

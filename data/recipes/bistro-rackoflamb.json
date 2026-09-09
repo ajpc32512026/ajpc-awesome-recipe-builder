@@ -2,25 +2,24 @@
   "id": "bistro-rackoflamb",
   "title": "Rack of Lamb",
   "category": "Bistro",
+  "difficulty": "Intermediate",
   "description": "French-trimmed rack of lamb oven-roasted and served with a spiced plum and demi glace sauce.",
   "prepTime": "10 min",
   "cookTime": "18 min",
   "totalTime": "28 min",
   "servings": "1 serving",
-  "difficulty": "Intermediate",
+  "yieldPerBatch": "1 serving",
   "tags": [
     "Alcohol",
-    "Asian",
     "Baked",
     "Bistro",
-    "Chinese",
     "Classic",
     "Dinner",
-    "French",
     "Gluten-Free",
     "Lamb",
     "Savoury",
-    "Under 1 Hour"
+    "Under 1 Hour",
+    "Australian"
   ],
   "ingredients": [
     {
@@ -62,9 +61,8 @@
       "item": "Demi Glace"
     },
     {
-      "quantity": "",
-      "unit": "",
       "item": "Salt & Pepper",
+      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -108,48 +106,94 @@
   ],
   "related": [
     {
-      "id": "bistro-lambcutlets",
-      "title": "Lamb Cutlets"
-    },
-    {
       "id": "bistro-carpetbag",
-      "title": "Carpet Bag"
+      "title": "Carpet Bag Steak",
+      "matchingTags": [
+        "Alcohol",
+        "Australian",
+        "Bistro",
+        "Classic",
+        "Dinner",
+        "Gluten-Free",
+        "Under 1 Hour"
+      ]
     },
     {
-      "id": "bistro-mediterraneansteak",
-      "title": "Mediterranean Steak"
+      "id": "bistro-brandymustardsteak",
+      "title": "Brandy Mustard Steak",
+      "matchingTags": [
+        "Alcohol",
+        "Bistro",
+        "Classic",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury"
+      ]
     },
     {
-      "id": "bistro-filetmignon",
-      "title": "Filet Mignon"
+      "id": "bistro-chickenpapion",
+      "title": "Chicken Papion",
+      "matchingTags": [
+        "Alcohol",
+        "Bistro",
+        "Classic",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury"
+      ]
     },
     {
-      "id": "bistro-reefandbeef",
-      "title": "Reef and Beef"
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante",
+      "matchingTags": [
+        "Alcohol",
+        "Bistro",
+        "Classic",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "bistro-chickenriverina",
+      "title": "Chicken Riverina",
+      "matchingTags": [
+        "Australian",
+        "Bistro",
+        "Classic",
+        "Dinner",
+        "Gluten-Free",
+        "Savoury"
+      ]
     }
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 928,
-    "kj": 3883,
-    "protein": 51,
-    "carbs": 90,
-    "sugars": 53,
-    "fat": 19,
-    "saturated_fat": 6,
-    "fibre": 77,
-    "sodium": 752,
-    "coverage": 88,
-    "calcium_mg": 150,
-    "iron_mg": 10,
-    "potassium_mg": 2794,
-    "magnesium_mg": 158,
+    "cal": 883,
+    "kj": 3693,
+    "protein": 49,
+    "carbs": 87,
+    "sugars": 50,
+    "fat": 18,
+    "saturated_fat": 5.9,
+    "fiber": 68,
+    "sodium": 749,
+    "coverage": 86,
+    "foundCount": 6,
+    "totalCount": 7,
+    "unmatchedItems": [
+      "Red Chilli"
+    ],
+    "noQuantityItems": [],
+    "calcium_mg": 138,
+    "iron_mg": 9,
+    "potassium_mg": 2489,
+    "magnesium_mg": 139,
     "zinc_mg": 7,
     "cholesterol_mg": 67,
-    "vitamin_a_ug": 398,
-    "vitamin_c_mg": 221,
+    "vitamin_a_ug": 22,
+    "vitamin_c_mg": 49,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-05-24",
-  "yieldPerBatch": "1 serving"
+  "lastModified": "2026-09-09"
 }

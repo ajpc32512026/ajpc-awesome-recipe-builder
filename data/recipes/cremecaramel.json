@@ -1,6 +1,6 @@
 {
   "id": "cremecaramel",
-  "title": "Crème Caramel",
+  "title": "Creme Caramel",
   "category": "Desserts",
   "difficulty": "Intermediate",
   "description": "A French classic — silky custard topped with a thin layer of amber caramel. Made possible with the LG Kitchen collection.",
@@ -41,7 +41,7 @@
     {
       "quantity": "430",
       "unit": "ml",
-      "item": "Milk Full-Cream"
+      "item": "Milk Full-cream"
     },
     {
       "quantity": "6",
@@ -122,18 +122,94 @@
       "content": "Straining the custard removes any bits of cooked egg and ensures a perfectly smooth, silky texture."
     }
   ],
+  "related": [
+    {
+      "id": "baked-cheesecake",
+      "title": "Baked Cheesecake",
+      "matchingTags": [
+        "Baked",
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Gluten-Free",
+        "Make Ahead",
+        "Rich",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "plaincheesecakeclassicnobake",
+      "title": "Plain Cheesecake (Classic No Bake)",
+      "matchingTags": [
+        "Baked",
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Gluten-Free",
+        "Make Ahead",
+        "Rich",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chefstyletiramisugateau",
+      "title": "Chef-Style Tiramisu Gateau",
+      "matchingTags": [
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Gluten-Free",
+        "Make Ahead",
+        "Rich",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chocolatemousse",
+      "title": "Chocolate Mousse",
+      "matchingTags": [
+        "Creamy",
+        "Dessert",
+        "French",
+        "Gluten-Free",
+        "Make Ahead",
+        "Rich",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bistro-profiteroles",
+      "title": "Profiteroles",
+      "matchingTags": [
+        "Baked",
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "French",
+        "Rich",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 8,
-    "cal": 468,
-    "kj": 1959,
+    "cal": 353,
+    "kj": 1478,
     "protein": 21,
-    "carbs": 34,
-    "sugars": 34,
+    "carbs": 4,
+    "sugars": 4,
     "fat": 28,
     "saturated_fat": 13.5,
     "fiber": 0,
     "sodium": 254,
-    "coverage": 100,
+    "coverage": 60,
+    "foundCount": 3,
+    "totalCount": 5,
+    "unmatchedItems": [
+      "Caster Sugar",
+      "Natural Vanilla Extract"
+    ],
+    "noQuantityItems": [],
     "calcium_mg": 150,
     "iron_mg": 3,
     "potassium_mg": 318,
@@ -143,5 +219,5 @@
     "vitamin_a_ug": 324,
     "vitamin_d_ug": 9
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-09-09"
 }

@@ -8,6 +8,7 @@
   "cookTime": "25 min",
   "totalTime": "40 min",
   "servings": "24 profiteroles",
+  "yieldPerBatch": "1 batch",
   "tags": [
     "Baking",
     "Classic",
@@ -26,7 +27,7 @@
     {
       "quantity": "100",
       "unit": "ml",
-      "item": "Milk Full-Cream"
+      "item": "Milk Full-cream"
     },
     {
       "quantity": "85",
@@ -109,6 +110,70 @@
       "content": "Fill with whipped cream, custard, or ice cream. Drizzle with chocolate ganache for classic profiteroles, or fill savoury with herbed cream cheese."
     }
   ],
+  "related": [
+    {
+      "id": "apricotflan",
+      "title": "Apricot Flan",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Dessert",
+        "French",
+        "Pastry",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bistro-profiteroles",
+      "title": "Profiteroles",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Dessert",
+        "French",
+        "Pastry",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "applepie",
+      "title": "Apple Pie",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Dessert",
+        "Pastry",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "crepes",
+      "title": "Crepes with Maple Syrup & Butter",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Dessert",
+        "French",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "lemonmeringuepie",
+      "title": "Lemon Meringue Pie",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Dessert",
+        "Pastry",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 24,
     "cal": 84,
@@ -121,6 +186,10 @@
     "fiber": 0,
     "sodium": 47,
     "coverage": 100,
+    "foundCount": 6,
+    "totalCount": 6,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 18,
     "iron_mg": 1,
     "potassium_mg": 53,
@@ -129,6 +198,5 @@
     "vitamin_a_ug": 65,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-06-04",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-09-09"
 }

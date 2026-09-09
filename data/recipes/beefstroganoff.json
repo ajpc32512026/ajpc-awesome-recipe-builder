@@ -2,12 +2,13 @@
   "id": "beefstroganoff",
   "title": "Beef & Mushroom Stroganoff",
   "category": "Dinner",
+  "difficulty": "Beginner",
   "description": "Rich, creamy, and anchored by mushrooms — a classic dinner that works for weeknights or company.",
   "prepTime": "10 min",
   "cookTime": "20 min",
   "totalTime": "30 min",
   "servings": "4 servings",
-  "difficulty": "Beginner",
+  "yieldPerBatch": "4 servings",
   "tags": [
     "Beef",
     "Creamy",
@@ -30,17 +31,6 @@
       "quantity": "5",
       "unit": "g",
       "item": "Sweet Paprika"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
-    },
-    {
-      "quantity": "2",
-      "unit": "g",
-      "item": "Black Pepper"
     },
     {
       "quantity": "15",
@@ -91,6 +81,11 @@
       "unit": "g",
       "item": "Egg Noodles",
       "notes": "to serve; or substitute wholegrain toast"
+    },
+    {
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
   "method": [
@@ -221,26 +216,32 @@
   ],
   "nutrition": {
     "servings": 4,
-    "cal": 502,
-    "kj": 2100,
-    "protein": 17,
-    "carbs": 50,
-    "sugars": 8,
-    "fat": 24,
-    "saturated_fat": 12,
-    "fiber": 6,
-    "sodium": 887,
-    "coverage": 100,
-    "calcium_mg": 82,
-    "iron_mg": 2,
-    "potassium_mg": 752,
-    "magnesium_mg": 60,
-    "zinc_mg": 2,
-    "cholesterol_mg": 63,
-    "vitamin_a_ug": 251,
-    "vitamin_c_mg": 9,
+    "cal": 314,
+    "kj": 1313,
+    "protein": 8,
+    "carbs": 20,
+    "sugars": 5,
+    "fat": 21,
+    "saturated_fat": 11.3,
+    "fiber": 4,
+    "sodium": 276,
+    "coverage": 82,
+    "foundCount": 9,
+    "totalCount": 11,
+    "unmatchedItems": [
+      "Beef Strips",
+      "Sweet Paprika"
+    ],
+    "noQuantityItems": [],
+    "calcium_mg": 68,
+    "iron_mg": 1,
+    "potassium_mg": 531,
+    "magnesium_mg": 40,
+    "zinc_mg": 1,
+    "cholesterol_mg": 46,
+    "vitamin_a_ug": 179,
+    "vitamin_c_mg": 4,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-05-31",
-  "yieldPerBatch": "4 servings"
+  "lastModified": "2026-09-09"
 }

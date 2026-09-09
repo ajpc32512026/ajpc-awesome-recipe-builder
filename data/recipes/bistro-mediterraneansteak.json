@@ -2,12 +2,13 @@
   "id": "bistro-mediterraneansteak",
   "title": "Mediterranean Steak",
   "category": "Bistro",
+  "difficulty": "Intermediate",
   "description": "Scotch fillet in a rich cream sauce with king prawns and green peppercorns. Surf and turf done properly — the bistro way.",
   "prepTime": "5 min",
   "cookTime": "8 min",
   "totalTime": "13 min",
   "servings": "1 serving",
-  "difficulty": "Intermediate",
+  "yieldPerBatch": "1 serving",
   "tags": [
     "Alcohol",
     "Beef",
@@ -15,13 +16,10 @@
     "Classic",
     "Creamy",
     "Dinner",
-    "Drinks",
     "Gluten-Free",
     "Italian",
-    "No-Cook",
     "Rich",
     "Savoury",
-    "Seafood",
     "Under 30 Minutes"
   ],
   "ingredients": [
@@ -70,9 +68,8 @@
       "item": "Brandy"
     },
     {
-      "quantity": "",
-      "unit": "",
       "item": "Salt & Pepper",
+      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -115,48 +112,108 @@
   ],
   "related": [
     {
-      "id": "bistro-reefandbeef",
-      "title": "Reef and Beef"
+      "id": "bistro-brandymustardsteak",
+      "title": "Brandy Mustard Steak",
+      "matchingTags": [
+        "Alcohol",
+        "Beef",
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     },
     {
-      "id": "bistro-brandymustardsteak",
-      "title": "Brandy Mustard Steak"
+      "id": "bistro-steakboston",
+      "title": "Steak Boston",
+      "matchingTags": [
+        "Alcohol",
+        "Beef",
+        "Bistro",
+        "Classic",
+        "Dinner",
+        "Gluten-Free",
+        "Italian",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
+    },
+    {
+      "id": "bistro-chickenpapion",
+      "title": "Chicken Papion",
+      "matchingTags": [
+        "Alcohol",
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
+    },
+    {
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante",
+      "matchingTags": [
+        "Alcohol",
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "bistro-filetmignon",
-      "title": "Filet Mignon"
-    },
-    {
-      "id": "bistro-fishoftheday",
-      "title": "Fish of the Day"
-    },
-    {
-      "id": "bistro-carpetbag",
-      "title": "Carpet Bag"
+      "title": "Filet Mignon",
+      "matchingTags": [
+        "Beef",
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     }
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 845,
-    "kj": 3534,
-    "protein": 44,
-    "carbs": 34,
-    "sugars": 11,
-    "fat": 52,
-    "saturated_fat": 33,
-    "fibre": 4,
-    "sodium": 880,
-    "coverage": 89,
-    "calcium_mg": 182,
-    "iron_mg": 1,
-    "potassium_mg": 867,
-    "magnesium_mg": 98,
-    "zinc_mg": 4,
-    "cholesterol_mg": 740,
-    "vitamin_a_ug": 449,
-    "vitamin_c_mg": 11,
+    "cal": 820,
+    "kj": 3430,
+    "protein": 61,
+    "carbs": 10,
+    "sugars": 8,
+    "fat": 53,
+    "saturated_fat": 33.5,
+    "fiber": 2,
+    "sodium": 836,
+    "coverage": 100,
+    "foundCount": 8,
+    "totalCount": 8,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 181,
+    "iron_mg": 3,
+    "potassium_mg": 1098,
+    "magnesium_mg": 112,
+    "zinc_mg": 6,
+    "cholesterol_mg": 785,
+    "vitamin_a_ug": 437,
+    "vitamin_c_mg": 8,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-05-24",
-  "yieldPerBatch": "1 serving"
+  "lastModified": "2026-09-08"
 }

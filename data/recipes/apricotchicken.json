@@ -2,12 +2,13 @@
   "id": "apricotchicken",
   "title": "Apricot Chicken",
   "category": "Dinner",
+  "difficulty": "Beginner",
   "description": "Classic retro apricot chicken — sticky, sweet, savoury, and impossibly easy. Chicken thigh fillets baked in a glossy apricot glaze.",
   "prepTime": "10 min",
   "cookTime": "35 min",
   "totalTime": "45 min",
   "servings": "6",
-  "difficulty": "Beginner",
+  "yieldPerBatch": "1 batch",
   "tags": [
     "Asian",
     "Australian",
@@ -17,7 +18,6 @@
     "Classic",
     "Dinner",
     "Easy",
-    "Gluten-Free",
     "Retro",
     "Savoury",
     "Sweet"
@@ -52,16 +52,9 @@
       "notes": "minced"
     },
     {
-      "quantity": "3",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
-    },
-    {
-      "quantity": "2",
-      "unit": "g",
-      "item": "Black Pepper",
-      "notes": "to taste"
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
   "method": [
@@ -190,25 +183,29 @@
   ],
   "nutrition": {
     "servings": 6,
-    "cal": 353,
-    "kj": 1477,
-    "protein": 11,
-    "carbs": 62,
-    "sugars": 37,
-    "fat": 4,
-    "saturated_fat": 1,
-    "fiber": 10,
-    "sodium": 482,
-    "coverage": 100,
-    "calcium_mg": 44,
-    "iron_mg": 2,
-    "potassium_mg": 612,
-    "magnesium_mg": 38,
+    "cal": 196,
+    "kj": 820,
+    "protein": 3,
+    "carbs": 38,
+    "sugars": 13,
+    "fat": 1,
+    "saturated_fat": 0.3,
+    "fiber": 8,
+    "sodium": 159,
+    "coverage": 80,
+    "foundCount": 4,
+    "totalCount": 5,
+    "unmatchedItems": [
+      "Chicken Thigh Fillets"
+    ],
+    "noQuantityItems": [],
+    "calcium_mg": 27,
+    "iron_mg": 1,
+    "potassium_mg": 435,
+    "magnesium_mg": 23,
     "zinc_mg": 1,
-    "cholesterol_mg": 17,
-    "vitamin_a_ug": 154,
-    "vitamin_c_mg": 14
+    "vitamin_a_ug": 133,
+    "vitamin_c_mg": 11
   },
-  "lastModified": "2026-05-31",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-09-09"
 }

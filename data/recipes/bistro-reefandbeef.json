@@ -8,6 +8,7 @@
   "cookTime": "10 min",
   "totalTime": "20 min",
   "servings": "1 serving",
+  "yieldPerBatch": "1 serving",
   "tags": [
     "Australian",
     "Baking",
@@ -17,9 +18,7 @@
     "Creamy",
     "Dinner",
     "Rich",
-    "Savoury",
-    "Seafood",
-    "Under 30 Minutes"
+    "Savoury"
   ],
   "ingredients": [
     {
@@ -47,7 +46,7 @@
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Milk Full-Cream",
+      "item": "Milk Full-cream",
       "notes": "warmed"
     },
     {
@@ -63,9 +62,8 @@
       "notes": "ground"
     },
     {
-      "quantity": "",
-      "unit": "",
       "item": "Salt & Pepper",
+      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -102,28 +100,97 @@
       "content": "No demi glace is used — this is a pure béchamel-cheese sauce. The same Mornay base is used for oysters Mornay and Veal Oscar. Keep the heat gentle once the seafood is added to prevent toughening."
     }
   ],
+  "related": [
+    {
+      "id": "bistro-brandymustardsteak",
+      "title": "Brandy Mustard Steak",
+      "matchingTags": [
+        "Beef",
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "bistro-chickenriverina",
+      "title": "Chicken Riverina",
+      "matchingTags": [
+        "Australian",
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "bistro-filetmignon",
+      "title": "Filet Mignon",
+      "matchingTags": [
+        "Beef",
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "bistro-mediterraneansteak",
+      "title": "Mediterranean Steak",
+      "matchingTags": [
+        "Beef",
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "bistro-carpetbag",
+      "title": "Carpet Bag Steak",
+      "matchingTags": [
+        "Australian",
+        "Beef",
+        "Bistro",
+        "Classic",
+        "Dinner",
+        "Rich"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 1,
-    "cal": 784,
-    "kj": 3278,
-    "protein": 47,
-    "carbs": 50,
-    "sugars": 7,
-    "fat": 43,
-    "saturated_fat": 27.7,
-    "fiber": 2,
-    "sodium": 1262,
-    "coverage": 88,
-    "calcium_mg": 394,
-    "iron_mg": 3,
-    "potassium_mg": 592,
-    "magnesium_mg": 99,
-    "zinc_mg": 5,
-    "cholesterol_mg": 402,
-    "vitamin_a_ug": 478,
-    "vitamin_c_mg": 6,
-    "vitamin_d_ug": 1
+    "cal": 759,
+    "kj": 3174,
+    "protein": 63,
+    "carbs": 27,
+    "sugars": 5,
+    "fat": 44,
+    "saturated_fat": 28.3,
+    "fiber": 1,
+    "sodium": 1218,
+    "coverage": 100,
+    "foundCount": 7,
+    "totalCount": 7,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 393,
+    "iron_mg": 5,
+    "potassium_mg": 823,
+    "magnesium_mg": 113,
+    "zinc_mg": 8,
+    "cholesterol_mg": 447,
+    "vitamin_a_ug": 466,
+    "vitamin_c_mg": 3,
+    "vitamin_d_ug": 2
   },
-  "lastModified": "2026-06-04",
-  "yieldPerBatch": "1 serving"
+  "lastModified": "2026-09-09"
 }

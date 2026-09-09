@@ -1070,6 +1070,7 @@ select:focus {
 /* ── Autocomplete & Dropdowns ── */
 .autocomplete-wrapper {
     position: relative;
+    width: 100%;
 }
 
 .autocomplete-dropdown {
@@ -1329,4 +1330,1573 @@ select:focus {
 
 .occurrence-edit-input {
     flex: 1;
+}
+
+/* =============================================================
+   RECIPE BUILDER TAB
+   (merged in from builder-style.css — see that file's original
+   header for its own table of contents. Its variable-bridge
+   :root block and duplicate .btn/.tag-chip/.scroll-top-btn/
+   .autocomplete-* rules were removed/renamed during the merge;
+   see chat history for the reasoning.)
+============================================================= */
+
+/* ============================================================
+   builder-style.css — Recipe Builder UI
+   Rebuilt to use main.css variables throughout.
+   Semi-detached from main site but visually consistent.
+
+   Table of Contents:
+   1. Variable Bridge & Global Reset
+   2. Base Layout & Structural Panels
+   3. Typography, Fields & Inputs
+   4. Action Buttons & Grid Layouts
+   5. Tag / Chip Components
+   6. Dynamic Form Rows (Ingredients, Steps, Notes)
+   7. Autocomplete & Link Picker Popups
+   8. Tag Picker Modal
+   9. Real-Time Code Preview & Syntax Highlighting
+   10. Notification Toasts & Back-to-Top
+   11. Duplicate Warning & Diff Panel
+   12. Media Queries
+============================================================ */
+
+/* =========================================================
+   1. GLOBAL RESET
+   This file used to define its own :root variable-bridge block
+   here, aliasing shorthand names (--bg, --gold, --text, --mono...)
+   onto main.css's tokens. None of those shorthand names were
+   actually used anywhere else in this file — every rule below
+   already calls the real variable names (var(--ink), var(--copper),
+   var(--cream), var(--border-dim)...) directly. The bridge block
+   was dead weight, and worse, it silently redefined --red and
+   --green to different hex values than the ones already canonical
+   in the merged tool's styles.css — removed rather than merged.
+========================================================= */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* =========================================================
+   2. BASE LAYOUT & STRUCTURAL PANELS
+   The standalone Recipe Builder page used to own the whole
+   document — its own <html>/<body>/<header> rules controlled the
+   entire page's layout. As a tab inside the Master Suite, it only
+   owns the content INSIDE .tab-panel#tab-builder — Master's own
+   body/.master-header (in the earlier part of this file) remain
+   the one authority for the page shell. Everything below is
+   rescoped to .builder-layout / .builder-toolbar so it can never
+   again silently override the other five tabs' layout.
+========================================================= */
+.builder-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    background: var(--ink);
+    color: var(--cream);
+    font-family: var(--font-sans);
+    font-weight: 300;
+    border: 1px solid var(--border-dim);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.builder-toolbar {
+    grid-column: 1 / -1;
+    background: var(--ink-soft);
+    border-bottom: 1px solid var(--border-dim);
+    padding: 1.25rem 2rem;
+    display: flex;
+    align-items: baseline;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.builder-toolbar h1 {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--copper);
+    letter-spacing: 0.02em;
+}
+
+.builder-toolbar span {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--cream-muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.header-actions {
+    margin-left: auto;
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#form-panel {
+    padding: 1.75rem 2rem;
+    border-right: 1px solid var(--border-dim);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#preview-panel {
+    padding: 1.75rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* =========================================================
+   3. TYPOGRAPHY, FIELDS & INPUTS
+========================================================= */
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.section-title {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--copper-dark);
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-dim);
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.field label {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--cream-muted);
+}
+
+.field input,
+.field textarea,
+.field select {
+    background: var(--ink-medium);
+    border: 1px solid var(--border-dim);
+    color: var(--cream);
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding: 0.55rem 0.75rem;
+    border-radius: 3px;
+    transition: border-color 0.15s;
+    outline: none;
+    width: 100%;
+}
+
+.field input:focus,
+.field textarea:focus,
+.field select:focus {
+    border-color: var(--copper-dark);
+}
+
+.field textarea {
+    resize: vertical;
+    min-height: 70px;
+    line-height: 1.5;
+    white-space: pre-wrap;
+}
+
+.field select option {
+    background: var(--ink-medium);
+}
+
+/* =========================================================
+   4. ACTION BUTTONS & GRID LAYOUTS
+========================================================= */
+
+.btn:hover {
+    border-color: var(--copper-dark);
+    color: var(--copper);
+}
+
+.btn.primary {
+    background: var(--copper);
+    color: var(--ink);
+    border-color: var(--copper);
+    font-weight: 500;
+}
+
+.btn.primary:hover {
+    background: var(--copper-warm);
+    border-color: var(--copper-warm);
+}
+
+.btn.danger {
+    border-color: transparent;
+    color: var(--cream-muted);
+    padding: 0.3rem 0.5rem;
+    font-size: 0.65rem;
+}
+
+.btn.danger:hover {
+    color: var(--red);
+    border-color: transparent;
+}
+
+.btn.add {
+    border-style: dashed;
+    border-color: var(--border-mid);
+    color: var(--cream-muted);
+    width: 100%;
+    padding: 0.6rem;
+    margin-top: 0.5rem;
+}
+
+.btn.add:hover {
+    border-color: var(--copper-dark);
+    color: var(--copper);
+}
+
+.add-buttons-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.add-buttons-row.three-col {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.btn.add-half,
+.btn.add-third {
+    border-style: dashed;
+    border-color: var(--border-mid);
+    color: var(--cream-muted);
+    padding: 0.6rem;
+}
+
+.btn.add-half:hover,
+.btn.add-third:hover {
+    border-color: var(--copper-dark);
+    color: var(--copper);
+}
+
+.row { display: grid; gap: 0.75rem; }
+.row-2 { grid-template-columns: 1fr 1fr; }
+.row-3 { grid-template-columns: 1fr 1fr 1fr; }
+.row-4 { grid-template-columns: 1fr 1fr 1fr 1fr; }
+.row-5 { grid-template-columns: repeat(5, 1fr); }
+
+/* =========================================================
+   5. TAG / CHIP COMPONENTS
+========================================================= */
+.tags-input-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    background: var(--ink-medium);
+    border: 1px solid var(--border-dim);
+    border-radius: 3px;
+    padding: 0.4rem 0.6rem;
+    min-height: 2.4rem;
+    align-items: center;
+    cursor: text;
+    transition: border-color 0.15s;
+}
+
+.tags-input-wrap:focus-within {
+    border-color: var(--copper-dark);
+}
+
+.builder-tag-chip {
+    background: var(--border-mid);
+    color: var(--cream-dim);
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.builder-tag-chip button {
+    background: none;
+    border: none;
+    color: var(--cream-muted);
+    cursor: pointer;
+    font-size: 0.8rem;
+    line-height: 1;
+    padding: 0;
+}
+
+.builder-tag-chip button:hover {
+    color: var(--red);
+}
+
+.tags-input-wrap input {
+    background: none;
+    border: none;
+    outline: none;
+    color: var(--cream);
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    font-weight: 300;
+    min-width: 80px;
+    flex: 1;
+    padding: 0.15rem 0;
+}
+
+/* =========================================================
+   6. DYNAMIC FORM ROWS (INGREDIENTS, STEPS, NOTES)
+========================================================= */
+.dynamic-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.drag-handle {
+    color: var(--cream-muted);
+    font-size: 1rem;
+    line-height: 1.4;
+    cursor: grab;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.2rem;
+}
+
+.drag-handle:active { cursor: grabbing; }
+
+/* Ingredient rows */
+.ingredient-row {
+    display: grid;
+    grid-template-columns: 30px 90px 75px 1fr 1fr auto;
+    gap: 0.5rem;
+    align-items: center;
+    background: var(--ink-medium);
+    border: 1px solid var(--border-dim);
+    border-radius: 3px;
+    padding: 0.5rem 0.6rem;
+    cursor: grab;
+    transition: all 0.15s ease;
+}
+
+.ingredient-row:active { cursor: grabbing; }
+.ingredient-row.dragging { opacity: 0.5; border-color: var(--copper-dark); }
+.ingredient-row.drag-over { border-top: 2px solid var(--copper); padding-top: calc(0.5rem - 1px); }
+
+.ingredient-row input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--border-dim);
+    color: var(--cream);
+    font-family: var(--font-sans);
+    font-size: 0.88rem;
+    font-weight: 300;
+    padding: 0.2rem 0.1rem;
+    outline: none;
+    width: 100%;
+    transition: border-color 0.15s;
+}
+
+.ingredient-row input:focus { border-bottom-color: var(--copper-dark); }
+.ingredient-row input::placeholder { color: var(--cream-muted); font-size: 0.8rem; }
+
+/* To-taste row */
+.ingredient-totaste-row {
+    display: grid;
+    grid-template-columns: 30px 1fr 1.4fr auto;
+    gap: 0.5rem;
+    align-items: center;
+    background: var(--ink-medium);
+    border: 1px dashed var(--border-dim);
+    border-radius: 3px;
+    padding: 0.4rem 0.75rem;
+    opacity: 0.8;
+}
+
+.ingredient-totaste-row.dragging { opacity: 0.3; }
+.ingredient-totaste-row.drag-over { border-top: 2px solid var(--copper); }
+
+.ingredient-totaste-row input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--border-dim);
+    color: var(--cream-muted);
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-style: italic;
+    font-weight: 300;
+    padding: 0.2rem 0.1rem;
+    outline: none;
+    width: 100%;
+    transition: border-color 0.15s;
+}
+
+.ingredient-totaste-row input:focus {
+    border-bottom-color: var(--copper-dark);
+    color: var(--cream);
+}
+
+.ingredient-totaste-badge {
+    font-size: 0.65rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--cream-muted);
+    white-space: nowrap;
+}
+
+/* Group heading rows */
+.ingredient-heading-row {
+    display: grid;
+    grid-template-columns: 30px 1fr auto;
+    gap: 0.75rem;
+    align-items: center;
+    background: var(--ink-soft);
+    border: 1px solid var(--copper-dark);
+    border-radius: 3px;
+    padding: 0.6rem 0.75rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.25rem;
+    cursor: grab;
+    transition: all 0.15s ease;
+}
+
+.ingredient-heading-row:active { cursor: grabbing; }
+.ingredient-heading-row.dragging { opacity: 0.5; border-color: var(--copper); }
+.ingredient-heading-row.drag-over { border-top: 2px solid var(--copper); padding-top: calc(0.6rem - 1px); }
+
+.ingredient-heading-input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--copper-dark);
+    color: var(--copper);
+    font-family: var(--font-display);
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    padding: 0.3rem 0.2rem;
+    outline: none;
+    width: 100%;
+    transition: border-color 0.15s;
+}
+
+.ingredient-heading-input:focus { border-bottom-color: var(--copper); }
+.ingredient-heading-input::placeholder { color: var(--copper-dark); font-size: 0.9rem; font-style: italic; }
+
+/* Step rows */
+.step-row {
+    display: grid;
+    grid-template-columns: 36px 1fr auto;
+    gap: 0.75rem;
+    align-items: start;
+    background: var(--ink-medium);
+    border: 1px solid var(--border-dim);
+    border-radius: 3px;
+    padding: 0.65rem 0.75rem;
+    cursor: default;
+}
+
+.step-row.dragging { opacity: 0.4; }
+.step-row.drag-over { border-top: 2px solid var(--copper); }
+
+.step-num-handle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    padding-top: 0.1rem;
+}
+
+.step-num {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 1.1rem;
+    color: var(--copper-dark);
+    line-height: 1.4;
+    min-width: 20px;
+    text-align: center;
+}
+
+.step-row textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--border-dim);
+    color: var(--cream);
+    font-family: var(--font-sans);
+    font-size: 0.88rem;
+    font-weight: 300;
+    padding: 0.2rem 0.1rem;
+    outline: none;
+    width: 100%;
+    resize: none;
+    min-height: 50px;
+    transition: border-color 0.15s;
+    line-height: 1.5;
+}
+
+.step-row textarea:focus { border-bottom-color: var(--copper-dark); }
+
+.step-heading-row {
+    display: grid;
+    grid-template-columns: 30px 1fr auto;
+    gap: 0.5rem;
+    align-items: center;
+    background: var(--ink-soft);
+    border: 1px solid var(--copper-dark);
+    border-left: 3px solid var(--copper);
+    border-radius: 3px;
+    padding: 0.5rem 0.75rem;
+    cursor: grab;
+}
+
+.step-heading-row:active { cursor: grabbing; }
+
+.step-heading-row input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--copper-dark);
+    color: var(--copper);
+    font-family: var(--font-display);
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 600;
+    padding: 0.2rem 0.1rem;
+    outline: none;
+    width: 100%;
+    transition: border-color 0.15s;
+}
+
+.step-heading-row input:focus { border-bottom-color: var(--copper); }
+
+/* Equipment rows */
+.equipment-item-row {
+    display: grid;
+    grid-template-columns: 30px 1fr 1.6fr auto;
+    gap: 0.5rem;
+    align-items: center;
+    background: var(--ink-medium);
+    border: 1px solid var(--border-dim);
+    border-radius: 3px;
+    padding: 0.5rem 0.6rem;
+    margin-bottom: 0.4rem;
+    cursor: grab;
+    transition: all 0.15s ease;
+}
+
+.equipment-item-row:active { cursor: grabbing; }
+.equipment-item-row.dragging { opacity: 0.5; border-color: var(--copper-dark); }
+.equipment-item-row.drag-over { border-top: 2px solid var(--copper); padding-top: calc(0.5rem - 1px); }
+
+.equipment-item-row input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--border-dim);
+    color: var(--cream);
+    font-family: var(--font-sans);
+    font-size: 0.88rem;
+    font-weight: 300;
+    padding: 0.2rem 0.1rem;
+    outline: none;
+    width: 100%;
+    transition: border-color 0.15s;
+}
+
+.equipment-item-row input:focus { border-bottom-color: var(--copper-dark); }
+.equipment-item-row input::placeholder { color: var(--cream-muted); font-size: 0.8rem; }
+
+.equipment-notes-input {
+    font-style: italic;
+    color: var(--cream-muted) !important;
+}
+
+.equipment-notes-input::placeholder {
+    color: var(--cream-faint) !important;
+}
+
+.equipment-item-row .item-text {
+    font-family: var(--font-sans);
+    font-size: 0.88rem;
+    color: var(--cream);
+    word-break: break-word;
+}
+
+.equipment-item-row .item-notes {
+    font-size: 0.7rem;
+    color: var(--cream-muted);
+    font-style: italic;
+    margin-top: 0.15rem;
+}
+
+/* Note rows */
+.note-row {
+    display: grid;
+    grid-template-columns: 30px 130px 1fr auto;
+    gap: 0.5rem;
+    align-items: start;
+    background: var(--ink-medium);
+    border: 1px solid var(--border-dim);
+    border-radius: 3px;
+    padding: 0.5rem 0.6rem;
+    cursor: grab;
+    transition: all 0.15s ease;
+}
+
+.note-row:active { cursor: grabbing; }
+.note-row.dragging { opacity: 0.5; border-color: var(--copper-dark); }
+.note-row.drag-over { border-top: 2px solid var(--copper); padding-top: calc(0.5rem - 1px); }
+
+.note-row select,
+.note-row input,
+.note-row textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--border-dim);
+    color: var(--cream);
+    font-family: var(--font-sans);
+    font-size: 0.88rem;
+    font-weight: 300;
+    padding: 0.2rem 0.1rem;
+    outline: none;
+    width: 100%;
+    transition: border-color 0.15s;
+}
+
+.note-row select {
+    cursor: pointer;
+    background: var(--ink-medium);
+    color: var(--cream);
+}
+
+.note-row select option {
+    background: var(--ink-medium);
+    color: var(--cream);
+}
+
+.note-row textarea {
+    resize: none;
+    min-height: 40px;
+    line-height: 1.5;
+}
+
+.note-row select:focus,
+.note-row input:focus,
+.note-row textarea:focus {
+    border-bottom-color: var(--copper-dark);
+}
+
+.note-row input::placeholder,
+.note-row textarea::placeholder {
+    color: var(--cream-muted);
+    font-size: 0.8rem;
+}
+
+.note-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+/* Journal rows */
+.journal-row {
+    display: grid;
+    grid-template-columns: 30px 120px 1fr auto;
+    gap: 0.5rem;
+    align-items: start;
+    background: var(--ink-soft);
+    border: 1px solid var(--copper-dark);
+    border-left: 3px solid var(--copper);
+    border-radius: 3px;
+    padding: 0.6rem 0.75rem;
+    cursor: grab;
+    transition: all 0.15s ease;
+}
+
+.journal-row:active { cursor: grabbing; }
+.journal-row.dragging { opacity: 0.5; border-color: var(--copper); }
+.journal-row.drag-over { border-top: 2px solid var(--copper); padding-top: calc(0.6rem - 1px); }
+
+.journal-row input[type="date"] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--copper-dark);
+    color: var(--copper);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.2rem 0.1rem;
+    outline: none;
+    width: 100%;
+    transition: border-color 0.15s;
+}
+
+.journal-row input[type="date"]:focus { border-bottom-color: var(--copper); }
+
+.journal-row textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--border-dim);
+    color: var(--cream);
+    font-family: var(--font-sans);
+    font-size: 0.88rem;
+    font-weight: 300;
+    padding: 0.2rem 0.1rem;
+    outline: none;
+    width: 100%;
+    resize: none;
+    min-height: 50px;
+    transition: border-color 0.15s;
+    line-height: 1.5;
+}
+
+.journal-row textarea:focus { border-bottom-color: var(--copper-dark); }
+.journal-row textarea::placeholder { color: var(--cream-muted); font-size: 0.8rem; font-style: italic; }
+
+/* Related recipes */
+.related-add-controls {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.related-add-controls select {
+    background: var(--ink-medium);
+    border: 1px solid var(--border-dim);
+    color: var(--cream);
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    padding: 0.5rem;
+    border-radius: 3px;
+    outline: none;
+}
+
+.related-add-controls select:focus { border-color: var(--copper-dark); }
+
+.related-row {
+    display: grid;
+    grid-template-columns: 30px 1fr 150px auto;
+    gap: 0.5rem;
+    align-items: start;
+    background: var(--ink-medium);
+    border: 1px solid var(--border-dim);
+    border-radius: 3px;
+    padding: 0.65rem 0.75rem;
+    cursor: grab;
+}
+
+.related-row:active { cursor: grabbing; }
+
+.related-row input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--border-dim);
+    color: var(--cream);
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    padding: 0.2rem 0.1rem;
+    outline: none;
+    width: 100%;
+}
+
+.related-row input:focus { border-bottom-color: var(--copper-dark); }
+
+.related-row .tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    align-items: center;
+}
+
+.related-row .tag-pill {
+    background: var(--copper-dark);
+    color: var(--ink);
+    padding: 0.15rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    cursor: pointer;
+    user-select: none;
+}
+
+.related-row .tag-pill:hover { background: var(--copper); }
+
+.related-row .add-tag-btn {
+    background: transparent;
+    border: 1px dashed var(--border-mid);
+    color: var(--cream-muted);
+    padding: 0.15rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+.related-row .add-tag-btn:hover {
+    border-color: var(--copper-dark);
+    color: var(--copper);
+}
+
+/* =========================================================
+   7. AUTOCOMPLETE & LINK PICKER POPUPS
+========================================================= */
+
+
+.autocomplete-dropdown.show { display: block; }
+
+
+.autocomplete-item:last-child { border-bottom: none; }
+
+.autocomplete-item:hover,
+.autocomplete-item.selected {
+    background: var(--copper-dark);
+    color: var(--ink);
+}
+
+
+/* Inline recipe link picker */
+.recipe-link-picker {
+    position: absolute;
+    z-index: 500;
+    background: var(--ink-medium);
+    border: 1px solid var(--copper-dark);
+    border-radius: 6px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    min-width: 280px;
+    max-width: 360px;
+    overflow: hidden;
+}
+
+.recipe-link-picker-header {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--copper-dark);
+    border-bottom: 1px solid var(--border-dim);
+    background: var(--ink-soft);
+}
+
+.recipe-link-picker-list {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.recipe-link-picker-item {
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    font-size: 0.88rem;
+    color: var(--cream);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-bottom: 1px solid var(--border-dim);
+    transition: background 0.1s;
+}
+
+.recipe-link-picker-item:last-child { border-bottom: none; }
+
+.recipe-link-picker-item:hover,
+.recipe-link-picker-item.active {
+    background: var(--copper-dark);
+    color: var(--ink);
+}
+
+.recipe-link-picker-item .rlp-title { font-weight: 400; }
+.recipe-link-picker-item .rlp-cat {
+    font-size: 0.72rem;
+    color: var(--cream-muted);
+    margin-left: auto;
+}
+
+.recipe-link-picker-empty {
+    padding: 0.6rem 0.75rem;
+    color: var(--cream-muted);
+    font-style: italic;
+    font-size: 0.85rem;
+}
+
+/* =========================================================
+   8. TAG PICKER MODAL
+========================================================= */
+.tag-picker-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+}
+
+.tag-picker-content {
+    background: var(--ink-soft);
+    border: 1px solid var(--border-dim);
+    border-radius: 8px;
+    padding: 1.5rem;
+    max-width: 540px;
+    width: 92%;
+    max-height: 88vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.tag-picker-sticky-header {
+    background: var(--ink-soft);
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-dim);
+    margin-bottom: 0.75rem;
+    flex-shrink: 0;
+}
+
+.tag-picker-content .tag-picker-grid {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+}
+
+.tag-picker-content h3 {
+    margin-bottom: 1rem;
+    color: var(--copper);
+}
+
+.tag-picker-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.tag-picker-item {
+    background: var(--ink-medium);
+    border: 1px solid var(--border-dim);
+    padding: 0.4rem 0.6rem;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.15s;
+    color: var(--cream);
+}
+
+.tag-picker-item:hover {
+    background: var(--copper-dark);
+    color: var(--ink);
+}
+
+.tag-picker-item.selected {
+    background: var(--copper);
+    color: var(--ink);
+    border-color: var(--copper);
+}
+
+.tag-category-btn {
+    background: var(--ink-medium);
+    border: 1px solid var(--border-dim);
+    color: var(--cream-muted);
+    padding: 0.3rem 0.6rem;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-size: 0.75rem;
+}
+
+.tag-category-btn:hover {
+    background: var(--border-mid);
+    color: var(--cream);
+}
+
+.tag-category-btn.active {
+    background: var(--copper-dark);
+    color: var(--ink);
+    border-color: var(--copper-dark);
+}
+
+/* =========================================================
+   9. REAL-TIME CODE PREVIEW & SYNTAX HIGHLIGHTING
+========================================================= */
+.preview-box {
+    background: var(--ink-soft);
+    border: 1px solid var(--border-dim);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.preview-header {
+    background: var(--ink-medium);
+    border-bottom: 1px solid var(--border-dim);
+    padding: 0.75rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.preview-label {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--copper-dark);
+}
+
+.preview-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.preview-content {
+    padding: 1.25rem;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    line-height: 1.6;
+    color: var(--cream-dim);
+    overflow-x: auto;
+}
+
+.preview-content pre {
+    margin: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* JSON syntax colours — kept intentionally vivid for readability */
+.j-key  { color: #8ab4f8; }
+.j-str  { color: #c4b798; }
+.j-num  { color: #f28b82; }
+.j-bool { color: #81c995; }
+.j-null { color: #aaa; }
+
+.h-comment { color: var(--cream-muted); font-style: italic; }
+.h-tag     { color: #f28b82; }
+.h-attr    { color: #8ab4f8; }
+.h-val     { color: #c4b798; }
+.h-text    { color: var(--cream); }
+
+/* =========================================================
+   10. NOTIFICATION TOASTS & BACK-TO-TOP
+========================================================= */
+#toast {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--copper);
+    color: var(--ink);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.7rem 1.2rem;
+    border-radius: 3px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    z-index: 300;
+}
+
+#toast.show { opacity: 1; }
+
+
+.scroll-top-btn:hover {
+    background: var(--copper-warm);
+    transform: translateY(-3px);
+}
+
+.scroll-top-btn.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* =========================================================
+   11. DUPLICATE WARNING & DIFF PANEL
+========================================================= */
+#duplicate-id-warning {
+    display: none;
+    background: rgba(192, 57, 43, 0.15);
+    border: 1px solid var(--red);
+    border-left: 3px solid var(--red);
+    color: #e07060;
+    font-size: 0.8rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 3px;
+    margin-top: 0.35rem;
+}
+
+#diff-panel {
+    display: none;
+    background: var(--ink-soft);
+    border: 1px solid var(--border-dim);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.diff-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+}
+
+.diff-table th {
+    background: var(--ink-medium);
+    color: var(--cream-muted);
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-dim);
+}
+
+.diff-row td {
+    padding: 0.45rem 0.75rem;
+    border-bottom: 1px solid var(--border-dim);
+    vertical-align: top;
+}
+
+.diff-field {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--cream-muted);
+    white-space: nowrap;
+    width: 120px;
+}
+
+.diff-old {
+    color: #e07060;
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+.diff-new {
+    color: #81c995;
+}
+
+.diff-note {
+    padding: 0.6rem 0.75rem;
+    font-size: 0.8rem;
+    color: var(--cream-muted);
+    font-style: italic;
+}
+
+.diff-clean {
+    color: #81c995;
+}
+
+/* Required field star */
+.required-star {
+    color: var(--red);
+    margin-left: 2px;
+}
+
+/* Mode label */
+#mode-label {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
+    color: var(--cream-muted);
+}
+
+/* Filename label */
+#filename-label {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    color: var(--copper);
+    letter-spacing: 0.05em;
+}
+
+/* =========================================================
+   12. MEDIA QUERIES
+========================================================= */
+@media (max-width: 1024px) {
+    body {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+    }
+
+    #form-panel {
+        border-right: none;
+        border-bottom: 1px solid var(--border-dim);
+    }
+
+    .row-4 { grid-template-columns: 1fr 1fr; }
+    .row-5 { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 640px) {
+    header {
+        padding: 1rem;
+        gap: 0.75rem;
+    }
+
+    #form-panel,
+    #preview-panel {
+        padding: 1.25rem 1rem;
+    }
+
+    .ingredient-row {
+        grid-template-columns: 30px 70px 60px 1fr auto;
+    }
+
+    .note-row {
+        grid-template-columns: 30px 1fr auto;
+        grid-template-rows: auto auto;
+    }
+
+    .row-3 { grid-template-columns: 1fr 1fr; }
+    .add-buttons-row.three-col { grid-template-columns: 1fr 1fr; }
+}
+
+/* =========================================================
+   13. GENERATED HTML COMPONENTS
+   Classes used by JS-rendered HTML (nutrition panel,
+   timeline, related rows, nav snippet placeholder).
+   No inline styles permitted — all styling lives here.
+========================================================= */
+
+/* Notes input (italic muted — to-taste & equipment notes) */
+.notes-input {
+    font-style: italic;
+    color: var(--cream-muted) !important;
+}
+
+.notes-input::placeholder {
+    color: var(--cream-faint) !important;
+    font-style: italic;
+}
+
+/* Nav snippet waiting state */
+.nav-waiting {
+    color: var(--cream-muted);
+    font-style: italic;
+}
+
+/* ── Nutrition Facts Panel ── */
+.nf-box {
+    border: 2px solid var(--border-mid);
+    border-radius: 6px;
+    padding: 1rem;
+    max-width: 400px;
+    font-family: var(--font-sans);
+}
+
+.nf-title {
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-bottom: 4px solid var(--cream);
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--cream);
+}
+
+.nf-serving {
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+    color: var(--cream-muted);
+}
+
+.nf-calories {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 0.1rem;
+    color: var(--cream);
+}
+
+.nf-kj {
+    font-size: 0.8rem;
+    color: var(--cream-muted);
+    margin-bottom: 0.5rem;
+}
+
+.nf-divider {
+    border-top: 4px solid var(--cream);
+    margin: 0.5rem 0;
+}
+
+.nf-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--border-dim);
+    color: var(--cream-muted);
+}
+
+.nf-row-indent {
+    padding-left: 1rem;
+}
+
+.nf-row-bold span:first-child {
+    font-weight: 600;
+}
+
+.nf-footnote {
+    margin-top: 0.75rem;
+    font-size: 0.72rem;
+    color: var(--cream-muted);
+    font-style: italic;
+}
+
+.nf-missing {
+    margin-top: 0.5rem;
+    font-size: 0.7rem;
+    color: #e07060;
+    border-top: 1px dashed var(--border-dim);
+    padding-top: 0.5rem;
+    line-height: 1.4;
+}
+
+/* ── Cooking Timeline ── */
+.tl-row {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    align-items: start;
+}
+
+.tl-row-start {
+    margin-bottom: 0.75rem;
+    align-items: center;
+}
+
+.tl-row-end {
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+    align-items: center;
+    border-top: 1px solid var(--border-dim);
+    padding-top: 0.75rem;
+}
+
+.tl-time {
+    font-family: var(--font-mono);
+    color: var(--copper-dark);
+    font-size: 0.8rem;
+    padding-top: 0.1rem;
+}
+
+.tl-time-start { color: #81c995; }
+.tl-time-end   { color: var(--copper); }
+
+.tl-label {
+    font-weight: 600;
+}
+
+.tl-label-start { color: #81c995; }
+.tl-label-end   { color: var(--copper); }
+
+.tl-step {
+    line-height: 1.5;
+    color: var(--cream-dim);
+}
+
+/* ── Related Recipe Rows ── */
+.related-row-info {
+    flex: 1;
+}
+
+.related-row-title {
+    font-weight: 500;
+    margin-bottom: 0.15rem;
+    color: var(--cream);
+}
+
+.related-row-id {
+    font-size: 0.7rem;
+    color: var(--cream-muted);
+    font-family: var(--font-mono);
+}
+
+/* ── Related select control ── */
+.related-select {
+    background: var(--ink-medium);
+    border: 1px solid var(--border-dim);
+    color: var(--cream);
+    font-family: var(--font-sans);
+    font-size: 0.88rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 3px;
+    outline: none;
+    flex: 1;
+    cursor: pointer;
+    transition: border-color 0.15s;
+}
+
+.related-select:focus {
+    border-color: var(--copper-dark);
+}
+
+.related-select option {
+    background: var(--ink-medium);
+    color: var(--cream);
+}
+
+/* ── Section hint text ── */
+.section-hint {
+    font-family: var(--font-sans);
+    font-size: 0.7rem;
+    color: var(--cream-muted);
+    text-transform: none;
+    letter-spacing: 0;
+    font-style: italic;
+    margin-left: 0.4rem;
+}
+
+/* =========================================================
+   14. RECIPE BUILDER HTML COMPONENT CLASSES
+   Replaces all inline styles from recipe-builder.html
+========================================================= */
+
+/* Textarea wrapper with floating break button */
+.textarea-wrapper {
+    position: relative;
+}
+
+.btn-para-break {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.7rem;
+    border-color: var(--copper-dark);
+}
+
+/* Preview panel subtitles */
+.preview-subtitle {
+    font-size: 0.7rem;
+    color: var(--cream-muted);
+    margin-top: 0.25rem;
+}
+
+/* Preview panel placeholders */
+.preview-placeholder {
+    color: var(--cream-muted);
+    font-style: italic;
+}
+
+/* Timeline content area */
+.preview-content-timeline {
+    font-family: var(--font-sans);
+    line-height: 1.8;
+}
+
+/* Loading modal */
+.loading-modal-box {
+    background: var(--ink-soft);
+    border: 1px solid var(--border-mid);
+    border-radius: 6px;
+    padding: 2rem 3rem;
+    text-align: center;
+    max-width: 400px;
+}
+
+.loading-modal-label {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--copper);
+    margin-bottom: 1rem;
+}
+
+.loading-modal-message {
+    color: var(--cream-dim);
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.loading-modal-track {
+    margin-top: 1.5rem;
+    height: 3px;
+    background: var(--border-dim);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.loading-modal-fill {
+    height: 100%;
+    width: 30%;
+    background: var(--copper);
+    animation: slide 1.5s ease-in-out infinite;
+}
+
+/* Tag picker modal header elements */
+.tag-picker-header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.6rem;
+}
+
+.tag-picker-title {
+    margin: 0;
+    color: var(--cream);
+}
+
+.tag-picker-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btn-tag-done {
+    padding: 0.4rem 1.1rem;
+    font-size: 0.85rem;
+}
+
+.btn-tag-close {
+    background: var(--red);
+    border-color: var(--red);
+    color: var(--ink);
+    padding: 0.4rem 0.75rem;
+    font-size: 0.85rem;
+}
+
+.btn-tag-close:hover {
+    background: #a93226;
+    border-color: #a93226;
+    color: var(--ink);
+}
+
+.tag-picker-search-row {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+    align-items: center;
+}
+
+.tag-picker-category-row {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+}
+
+/* Shopping empty state */
+.shopping-empty {
+    color: var(--cream-muted);
+    font-style: italic;
+}
+
+/* Tag cloud — CSS custom property for dynamic font-size */
+.tag-cloud-item {
+    font-size: var(--tag-size, 1rem);
+}
+
+.tag-cloud-item[data-weight="600"] {
+    font-weight: 600;
 }

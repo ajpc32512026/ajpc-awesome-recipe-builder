@@ -24,7 +24,7 @@
     {
       "quantity": "280",
       "unit": "ml",
-      "item": "Milk Full-Cream",
+      "item": "Milk Full-cream",
       "notes": "divided: 250ml for Dough, 30ml for Glaze"
     },
     {
@@ -133,6 +133,71 @@
       "content": "Best eaten warm on the day they are baked. Reheat leftover buns in the microwave for 20–30 seconds to soften the glaze."
     }
   ],
+  "related": [
+    {
+      "id": "cinntwists",
+      "title": "Cinnamon Twists",
+      "matchingTags": [
+        "American",
+        "Baked",
+        "Baking",
+        "Bread",
+        "Breakfast",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bananabread",
+      "title": "Banana Bread",
+      "matchingTags": [
+        "American",
+        "Baking",
+        "Bread",
+        "Breakfast",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chocmuffins",
+      "title": "Chocolate Muffins with Ganache",
+      "matchingTags": [
+        "American",
+        "Baked",
+        "Baking",
+        "Breakfast",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "muffinmix",
+      "title": "Basic Muffin Mix",
+      "matchingTags": [
+        "American",
+        "Baked",
+        "Baking",
+        "Breakfast",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "blueberrymuffins",
+      "title": "Heavenly Blueberry Muffins",
+      "matchingTags": [
+        "American",
+        "Baked",
+        "Baking",
+        "Breakfast",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 10,
     "cal": 450,
@@ -144,7 +209,13 @@
     "saturated_fat": 10.5,
     "fiber": 2,
     "sodium": 124,
-    "coverage": 100,
+    "coverage": 91,
+    "foundCount": 10,
+    "totalCount": 11,
+    "unmatchedItems": [
+      "Natural Vanilla Extract"
+    ],
+    "noQuantityItems": [],
     "calcium_mg": 71,
     "iron_mg": 1,
     "potassium_mg": 235,
@@ -154,5 +225,5 @@
     "vitamin_a_ug": 182,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-09-09"
 }

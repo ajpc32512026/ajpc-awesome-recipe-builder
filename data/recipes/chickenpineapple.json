@@ -2,22 +2,17 @@
   "id": "chickenpineapple",
   "title": "Chicken Pineapple",
   "category": "Dinner",
+  "difficulty": "Beginner",
   "description": "A sweet and slightly spicy dish that deserves complimenting.",
   "prepTime": "15 min",
   "cookTime": "45 min",
   "totalTime": "1 hr",
   "servings": "4",
-  "difficulty": "Beginner",
+  "yieldPerBatch": "1 batch",
   "tags": [
     "Chicken",
-    "Chinese",
     "Dinner",
-    "Drinks",
     "Filipino",
-    "Fruit",
-    "Gluten-Free",
-    "Grilled/BBQ",
-    "Italian",
     "Savoury",
     "Spicy",
     "Sweet"
@@ -54,7 +49,7 @@
     {
       "quantity": "20",
       "unit": "g",
-      "item": "BBQ Sauce"
+      "item": "Bbq Sauce"
     },
     {
       "quantity": "20",
@@ -86,9 +81,8 @@
       "notes": "1 can"
     },
     {
-      "quantity": "",
-      "unit": "",
       "item": "Salt & Pepper",
+      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -119,29 +113,85 @@
       "instruction": "Allow to cook for 45 minutes. | If using a stock pot cook on medium heat."
     }
   ],
+  "related": [
+    {
+      "id": "apricotchicken",
+      "title": "Apricot Chicken",
+      "matchingTags": [
+        "Chicken",
+        "Dinner",
+        "Savoury",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "chickenshawarma",
+      "title": "Chicken Shawarma",
+      "matchingTags": [
+        "Chicken",
+        "Dinner",
+        "Savoury",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "chickenteriyaki",
+      "title": "Chicken Teriyaki",
+      "matchingTags": [
+        "Chicken",
+        "Dinner",
+        "Savoury",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "currychicken",
+      "title": "Curry Chicken with Coconut Cream",
+      "matchingTags": [
+        "Chicken",
+        "Dinner",
+        "Savoury",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "filipinoportoccino",
+      "title": "Filipino Pork Toccino",
+      "matchingTags": [
+        "Dinner",
+        "Filipino",
+        "Savoury",
+        "Sweet"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 4,
-    "cal": 710,
-    "kj": 2969,
-    "protein": 23,
-    "carbs": 138,
-    "sugars": 32,
-    "fat": 14,
-    "saturated_fat": 4,
-    "fiber": 30,
-    "sodium": 340,
-    "coverage": 83,
-    "calcium_mg": 133,
-    "iron_mg": 4,
-    "potassium_mg": 712,
-    "magnesium_mg": 67,
-    "zinc_mg": 2,
-    "cholesterol_mg": 39,
-    "vitamin_a_ug": 239,
-    "vitamin_c_mg": 34,
-    "vitamin_d_ug": 1
+    "cal": 349,
+    "kj": 1459,
+    "protein": 8,
+    "carbs": 75,
+    "sugars": 16,
+    "fat": 8,
+    "saturated_fat": 2.5,
+    "fiber": 25,
+    "sodium": 83,
+    "coverage": 73,
+    "foundCount": 8,
+    "totalCount": 11,
+    "unmatchedItems": [
+      "Chicken Drumsticks",
+      "Ketchup",
+      "Pineapple Slices"
+    ],
+    "noQuantityItems": [],
+    "calcium_mg": 111,
+    "iron_mg": 3,
+    "potassium_mg": 334,
+    "magnesium_mg": 36,
+    "cholesterol_mg": 5,
+    "vitamin_a_ug": 150,
+    "vitamin_c_mg": 10
   },
-  "lastModified": "2026-06-02",
-  "yieldPerBatch": "1 batch",
-  "notes": []
+  "lastModified": "2026-09-09"
 }

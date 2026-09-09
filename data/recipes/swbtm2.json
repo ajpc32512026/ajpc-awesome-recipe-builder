@@ -10,10 +10,8 @@
   "servings": "1 loaf",
   "yieldPerBatch": "1 loaf",
   "tags": [
-    "Asian",
     "Baking",
     "Bread",
-    "Make Ahead",
     "Savoury",
     "Vegan",
     "Vegetarian"
@@ -60,7 +58,7 @@
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Milk Full-Cream",
+      "item": "Milk Full-cream",
       "notes": "for brushing before baking"
     },
     {
@@ -141,6 +139,63 @@
       "content": "Brushing with milk before baking gives a soft, golden crust. Brushing with melted butter after baking adds flavour and a glossy finish."
     }
   ],
+  "related": [
+    {
+      "id": "highhydraciab",
+      "title": "Airy High-Hydration Ciabatta",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "darkrye",
+      "title": "Dark Rye Bread",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "focaccia",
+      "title": "Focaccia",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "focaccia-high",
+      "title": "High-Hydration Focaccia",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "tangzhongseed",
+      "title": "Tangzhong Grain & Seed Bread",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 1,
     "cal": 2603,
@@ -153,6 +208,10 @@
     "fiber": 18,
     "sodium": 906,
     "coverage": 100,
+    "foundCount": 8,
+    "totalCount": 8,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 208,
     "iron_mg": 9,
     "potassium_mg": 1303,
@@ -161,5 +220,5 @@
     "cholesterol_mg": 56,
     "vitamin_a_ug": 285
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-09-09"
 }

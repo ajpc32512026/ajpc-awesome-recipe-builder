@@ -8,6 +8,7 @@
   "cookTime": "0 min",
   "totalTime": "4 hours 5 min",
   "servings": "1",
+  "yieldPerBatch": "1 batch",
   "tags": [
     "Australian",
     "Breakfast",
@@ -23,7 +24,7 @@
     {
       "quantity": "180",
       "unit": "ml",
-      "item": "Milk Full-Cream",
+      "item": "Milk Full-cream",
       "notes": "Full cream or any milk"
     },
     {
@@ -46,7 +47,8 @@
     {
       "quantity": "20",
       "unit": "g",
-      "item": "Honey"
+      "item": "Honey",
+      "notes": "add more if you like it sweeter."
     },
     {
       "quantity": "5",
@@ -115,29 +117,92 @@
       "content": "Keeps in the fridge for up to 5 days in a sealed container."
     }
   ],
+  "related": [
+    {
+      "id": "chocolaterumballs",
+      "title": "Chocolate Rum Balls",
+      "matchingTags": [
+        "Australian",
+        "Dessert",
+        "Gluten-Free",
+        "No-Bake",
+        "No-Cook",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bistro-pavlova",
+      "title": "Pavlova",
+      "matchingTags": [
+        "Australian",
+        "Creamy",
+        "Dessert",
+        "Gluten-Free",
+        "No-Cook",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "plaincheesecakeclassicnobake",
+      "title": "Plain Cheesecake (Classic No Bake)",
+      "matchingTags": [
+        "Creamy",
+        "Dessert",
+        "Gluten-Free",
+        "No-Bake",
+        "No-Cook",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "roulade",
+      "title": "Strawberry Meringue Roulade",
+      "matchingTags": [
+        "Australian",
+        "Creamy",
+        "Dessert",
+        "Gluten-Free",
+        "No-Cook",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chefstyletiramisugateau",
+      "title": "Chef-Style Tiramisu Gateau",
+      "matchingTags": [
+        "Creamy",
+        "Dessert",
+        "Gluten-Free",
+        "No-Cook",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 1,
-    "cal": 489,
-    "kj": 2045,
-    "protein": 18,
-    "carbs": 37,
-    "sugars": 26,
-    "fat": 27,
-    "saturated_fat": 11.1,
-    "fiber": 15,
-    "sodium": 70,
-    "coverage": 100,
-    "foundCount": 6,
+    "cal": 195,
+    "kj": 818,
+    "protein": 3,
+    "carbs": 26,
+    "sugars": 15,
+    "fat": 9,
+    "saturated_fat": 6,
+    "fiber": 2,
+    "sodium": 7,
+    "coverage": 50,
+    "foundCount": 3,
     "totalCount": 6,
-    "unmatchedItems": [],
-    "calcium_mg": 413,
-    "iron_mg": 6,
-    "potassium_mg": 658,
-    "magnesium_mg": 197,
-    "zinc_mg": 3,
-    "cholesterol_mg": 18,
-    "vitamin_a_ug": 79
+    "unmatchedItems": [
+      "Milk Full-cream",
+      "Black Chia Seeds",
+      "Natural Vanilla Extract"
+    ],
+    "noQuantityItems": [],
+    "calcium_mg": 10,
+    "iron_mg": 1,
+    "potassium_mg": 114,
+    "magnesium_mg": 27,
+    "zinc_mg": 1
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-09-08"
 }

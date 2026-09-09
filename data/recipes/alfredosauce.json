@@ -8,9 +8,8 @@
   "cookTime": "10 min",
   "totalTime": "15 min",
   "servings": "4 servings",
+  "yieldPerBatch": "4 servings",
   "tags": [
-    "Breakfast",
-    "Chinese",
     "Creamy",
     "Gluten-Free",
     "Italian",
@@ -43,9 +42,8 @@
       "notes": "freshly grated"
     },
     {
-      "quantity": "",
-      "unit": "",
       "item": "Salt & Pepper",
+      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -87,30 +85,90 @@
       "content": "If the sauce thickens too much, loosen gently with reserved pasta water rather than extra cream."
     }
   ],
+  "related": [
+    {
+      "id": "arrabbiatasauce",
+      "title": "Arrabbiata Sauce",
+      "matchingTags": [
+        "Chinese",
+        "Gluten-Free",
+        "Italian",
+        "Sauce",
+        "Under 30 Minutes",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "marinarasauce",
+      "title": "Marinara Sauce",
+      "matchingTags": [
+        "Chinese",
+        "Gluten-Free",
+        "Italian",
+        "Sauce",
+        "Under 30 Minutes",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "pestosauce",
+      "title": "Pesto Sauce",
+      "matchingTags": [
+        "Chinese",
+        "Gluten-Free",
+        "Italian",
+        "Sauce",
+        "Under 30 Minutes",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chilligarlicoil",
+      "title": "Chilli Garlic Oil",
+      "matchingTags": [
+        "Chinese",
+        "Gluten-Free",
+        "Sauce",
+        "Under 30 Minutes",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "honeygarlicsauce",
+      "title": "Honey Garlic Sauce",
+      "matchingTags": [
+        "Chinese",
+        "Gluten-Free",
+        "Sauce",
+        "Under 30 Minutes",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 4,
-    "cal": 432,
-    "kj": 1809,
-    "protein": 9,
+    "cal": 451,
+    "kj": 1886,
+    "protein": 12,
     "carbs": 7,
-    "sugars": 3,
-    "fat": 39,
-    "saturated_fat": 25.5,
+    "sugars": 2,
+    "fat": 40,
+    "saturated_fat": 26.2,
     "fiber": 8,
-    "sodium": 377,
+    "sodium": 272,
     "coverage": 100,
     "foundCount": 4,
     "totalCount": 4,
     "unmatchedItems": [],
-    "calcium_mg": 201,
+    "noQuantityItems": [],
+    "calcium_mg": 291,
     "iron_mg": 1,
-    "potassium_mg": 341,
-    "magnesium_mg": 23,
-    "zinc_mg": 1,
-    "cholesterol_mg": 105,
-    "vitamin_a_ug": 362,
+    "potassium_mg": 330,
+    "magnesium_mg": 27,
+    "zinc_mg": 2,
+    "cholesterol_mg": 110,
+    "vitamin_a_ug": 330,
     "vitamin_c_mg": 6
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "4 servings"
+  "lastModified": "2026-09-08"
 }

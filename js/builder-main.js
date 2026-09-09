@@ -88,6 +88,9 @@ function update() {
 
     // 6. Misc UI
     updateDuplicateButton();
+
+    // 7. Live schema validation — driven by builder-validator.js
+    if (window.BuilderValidator) BuilderValidator.validateCurrent();
 }
 
 // ── Global Helpers ────────────────────────────────────────

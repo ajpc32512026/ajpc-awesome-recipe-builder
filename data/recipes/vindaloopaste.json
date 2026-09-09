@@ -2,12 +2,13 @@
   "id": "vindaloopaste",
   "title": "Vindaloo Paste",
   "category": "Sauces",
+  "difficulty": "Beginner",
   "description": "A bold, tangy, fire-forward paste — the beating heart of a proper vindaloo.",
   "prepTime": "5 min",
   "cookTime": "2 min",
   "totalTime": "7 min",
   "servings": "1 batch",
-  "difficulty": "Beginner",
+  "yieldPerBatch": "1 batch",
   "tags": [
     "Chinese",
     "Condiment",
@@ -113,47 +114,108 @@
   ],
   "related": [
     {
-      "id": "beefvindaloo",
-      "title": "Beef Vindaloo"
-    },
-    {
-      "id": "lambvindaloo",
-      "title": "Lamb Vindaloo"
-    },
-    {
       "id": "kormapaste",
-      "title": "Homemade Korma Paste"
+      "title": "Homemade Korma Paste",
+      "matchingTags": [
+        "Chinese",
+        "Condiment",
+        "Curry",
+        "Gluten-Free",
+        "Indian",
+        "Make Ahead",
+        "Savoury",
+        "Spicy",
+        "Vegan",
+        "Vegetarian"
+      ]
     },
     {
-      "id": "butterchicken",
-      "title": "Restaurant-Style Butter Chicken"
+      "id": "sataysauce",
+      "title": "Satay Sauce",
+      "matchingTags": [
+        "Chinese",
+        "Condiment",
+        "Gluten-Free",
+        "Indian",
+        "Make Ahead",
+        "Savoury",
+        "Spicy",
+        "Vegan",
+        "Vegetarian"
+      ]
     },
     {
-      "id": "roganjosh",
-      "title": "Lamb Rogan Josh"
+      "id": "chilligarlicoil",
+      "title": "Chilli Garlic Oil",
+      "matchingTags": [
+        "Chinese",
+        "Condiment",
+        "Gluten-Free",
+        "Make Ahead",
+        "Spicy",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce",
+      "matchingTags": [
+        "Chinese",
+        "Condiment",
+        "Gluten-Free",
+        "Make Ahead",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sweetsoursauce_flex",
+      "title": "Sweet & Sour Sauce – Home Chef Flex",
+      "matchingTags": [
+        "Chinese",
+        "Condiment",
+        "Drinks",
+        "Gluten-Free",
+        "Make Ahead",
+        "Vegan",
+        "Vegetarian"
+      ]
     }
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 5080,
-    "kj": 21256,
-    "protein": 141,
-    "carbs": 569,
-    "sugars": 178,
-    "fat": 138,
-    "saturated_fat": 51,
-    "fibre": 521,
-    "sodium": 1908,
-    "coverage": 100,
-    "calcium_mg": 6489,
-    "iron_mg": 174,
-    "potassium_mg": 17676,
-    "magnesium_mg": 3235,
-    "zinc_mg": 65,
+    "cal": 2328,
+    "kj": 9740,
+    "protein": 86,
+    "carbs": 448,
+    "sugars": 9,
+    "fat": 49,
+    "saturated_fat": 4.3,
+    "fiber": 221,
+    "sodium": 99,
+    "coverage": 36,
+    "foundCount": 4,
+    "totalCount": 11,
+    "unmatchedItems": [
+      "Dried Red Chilli",
+      "Fenugreek Seeds",
+      "Cumin Seeds",
+      "Cloves Whole",
+      "Cinnamon Stick",
+      "Black Peppercorns",
+      "Lemon Juice"
+    ],
+    "noQuantityItems": [],
+    "calcium_mg": 137,
+    "iron_mg": 6,
+    "potassium_mg": 1617,
+    "magnesium_mg": 95,
+    "zinc_mg": 3,
     "cholesterol_mg": 18,
-    "vitamin_a_ug": 3872,
-    "vitamin_c_mg": 1896
+    "vitamin_a_ug": 33,
+    "vitamin_c_mg": 34
   },
-  "lastModified": "2026-05-23",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-09-09"
 }

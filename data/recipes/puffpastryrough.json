@@ -2,12 +2,13 @@
   "id": "puffpastryrough",
   "title": "Rough Puff Pastry",
   "category": "Pastry",
+  "difficulty": "Intermediate",
   "description": "A smart compromise between traditional puff pastry and store-bought. Quick to make with excellent rise and flakiness — the perfect everyday laminated dough. Keep everything cold and don't overwork it.",
   "prepTime": "15 min",
   "cookTime": "0 min",
   "totalTime": "~1 hour",
   "servings": "1 batch",
-  "difficulty": "Intermediate",
+  "yieldPerBatch": "1 batch",
   "tags": [
     "Baking",
     "Classic",
@@ -160,6 +161,30 @@
         "Savoury",
         "Snack"
       ]
+    },
+    {
+      "id": "applepie",
+      "title": "Apple Pie",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Dessert",
+        "Make Ahead",
+        "Pastry",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "apricotflan",
+      "title": "Apricot Flan",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Dessert",
+        "French",
+        "Pastry",
+        "Vegetarian"
+      ]
     }
   ],
   "nutrition": {
@@ -170,10 +195,14 @@
     "carbs": 370,
     "sugars": 14,
     "fat": 335,
-    "saturated_fat": 229,
-    "fibre": 11,
+    "saturated_fat": 228.5,
+    "fiber": 11,
     "sodium": 475,
-    "coverage": 75,
+    "coverage": 100,
+    "foundCount": 3,
+    "totalCount": 3,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 180,
     "iron_mg": 7,
     "potassium_mg": 973,
@@ -183,6 +212,5 @@
     "vitamin_a_ug": 3432,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-06-08",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-09-09"
 }

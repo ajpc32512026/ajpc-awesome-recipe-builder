@@ -5,6 +5,7 @@
   "difficulty": "Beginner",
   "description": "Warmly spiced, tender sultana rolls portioned into individual buns. Ground allspice and brown sugar provide depth, spreadable butter keeps the crumb soft, and a shiny sugar glaze made with glucose syrup to prevent crystallization is brushed on top after baking.",
   "prepTime": "30 min",
+  "cookTime": "0 min",
   "totalTime": "2 hr 15 min",
   "servings": "9",
   "yieldPerBatch": "9 rolls",
@@ -120,26 +121,87 @@
       "content": "Soaking sultanas in warm water before kneading prevents them from absorbing moisture from the dough itself, keeping the final baked rolls soft and tender."
     }
   ],
+  "related": [
+    {
+      "id": "applecinnscrolls",
+      "title": "Apple & Cinnamon Scrolls",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Breakfast",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "cinnbun",
+      "title": "Bakery-Style Cinnamon Buns",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Breakfast",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "cinntwists",
+      "title": "Cinnamon Twists",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Breakfast",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bananabread",
+      "title": "Banana Bread",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Breakfast",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bananacake",
+      "title": "Banana Cake with Lemon Frosting",
+      "matchingTags": [
+        "Australian",
+        "Baking",
+        "Breakfast",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 9,
-    "cal": 355,
-    "kj": 1486,
+    "cal": 310,
+    "kj": 1295,
     "protein": 9,
-    "carbs": 70,
-    "sugars": 24,
-    "fat": 4,
-    "saturated_fat": 2.1,
+    "carbs": 65,
+    "sugars": 18,
+    "fat": 1,
+    "saturated_fat": 0.2,
     "fiber": 3,
-    "sodium": 104,
-    "coverage": 100,
-    "calcium_mg": 32,
+    "sodium": 103,
+    "coverage": 80,
+    "foundCount": 8,
+    "totalCount": 10,
+    "unmatchedItems": [
+      "Spreadable Butter",
+      "Caster Sugar"
+    ],
+    "noQuantityItems": [],
+    "calcium_mg": 31,
     "iron_mg": 1,
-    "potassium_mg": 282,
+    "potassium_mg": 281,
     "magnesium_mg": 32,
-    "zinc_mg": 1,
-    "cholesterol_mg": 6,
-    "vitamin_a_ug": 29
+    "zinc_mg": 1
   },
-  "lastModified": "2026-08-19",
-  "cookTime": "0 min"
+  "lastModified": "2026-09-09"
 }

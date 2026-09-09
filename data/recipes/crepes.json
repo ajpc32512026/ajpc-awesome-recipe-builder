@@ -8,15 +8,14 @@
   "cookTime": "15 min",
   "totalTime": "20 min",
   "servings": "12 crepes",
+  "yieldPerBatch": "1 batch",
   "tags": [
     "Baking",
     "Breakfast",
     "Classic",
     "Dessert",
     "French",
-    "No-Cook",
     "Sweet",
-    "Under 30 Minutes",
     "Vegetarian"
   ],
   "ingredients": [
@@ -38,12 +37,15 @@
     {
       "quantity": "500",
       "unit": "ml",
-      "item": "Milk Full-Cream"
+      "item": "Milk Full-cream"
     },
     {
       "quantity": "250",
       "unit": "g",
       "item": "Plain Flour"
+    },
+    {
+      "heading": "Toppings"
     },
     {
       "quantity": "30",
@@ -121,6 +123,66 @@
       "content": "The batter should be very thin, like pouring cream. If it is too thick, add a splash of milk. Letting the batter rest for 30 minutes improves the texture but is not essential."
     }
   ],
+  "related": [
+    {
+      "id": "apricotflan",
+      "title": "Apricot Flan",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Dessert",
+        "French",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bistro-profiteroles",
+      "title": "Profiteroles",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Dessert",
+        "French",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chouxpastry",
+      "title": "Choux Pastry (Profiteroles)",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Dessert",
+        "French",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "applepie",
+      "title": "Apple Pie",
+      "matchingTags": [
+        "Baking",
+        "Classic",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "applestrudel",
+      "title": "Apple Strudel",
+      "matchingTags": [
+        "Baking",
+        "Breakfast",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 12,
     "cal": 345,
@@ -133,6 +195,10 @@
     "fiber": 1,
     "sodium": 172,
     "coverage": 100,
+    "foundCount": 12,
+    "totalCount": 12,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 113,
     "iron_mg": 2,
     "potassium_mg": 331,
@@ -143,6 +209,5 @@
     "vitamin_c_mg": 7,
     "vitamin_d_ug": 6
   },
-  "lastModified": "2026-06-04",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-09-09"
 }

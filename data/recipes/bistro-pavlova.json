@@ -8,15 +8,13 @@
   "cookTime": "1 hr 30 min",
   "totalTime": "1 hr 45 min",
   "servings": "8 servings",
+  "yieldPerBatch": "8 servings",
   "tags": [
     "Australian",
-    "Baked",
-    "Baking",
     "Classic",
     "Creamy",
     "Dessert",
     "Gluten-Free",
-    "No-Cook",
     "Sweet",
     "Vegetarian"
   ],
@@ -119,25 +117,94 @@
       "content": "Leave the pavlova in the turned-off oven with the door closed until completely cool. Rapid temperature change causes cracking and collapse. Overnight cooling gives the best result."
     }
   ],
+  "related": [
+    {
+      "id": "roulade",
+      "title": "Strawberry Meringue Roulade",
+      "matchingTags": [
+        "Australian",
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Gluten-Free",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "apricotflan",
+      "title": "Apricot Flan",
+      "matchingTags": [
+        "Australian",
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "baked-cheesecake",
+      "title": "Baked Cheesecake",
+      "matchingTags": [
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Gluten-Free",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chefstyletiramisugateau",
+      "title": "Chef-Style Tiramisu Gateau",
+      "matchingTags": [
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Gluten-Free",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "plaincheesecakeclassicnobake",
+      "title": "Plain Cheesecake (Classic No Bake)",
+      "matchingTags": [
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Gluten-Free",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 8,
-    "cal": 343,
-    "kj": 1435,
+    "cal": 199,
+    "kj": 834,
     "protein": 10,
-    "carbs": 54,
-    "sugars": 52,
+    "carbs": 16,
+    "sugars": 15,
     "fat": 10,
     "saturated_fat": 6,
     "fiber": 4,
     "sodium": 142,
-    "coverage": 100,
+    "coverage": 80,
+    "foundCount": 8,
+    "totalCount": 10,
+    "unmatchedItems": [
+      "Caster Sugar",
+      "Natural Vanilla Extract"
+    ],
+    "noQuantityItems": [],
     "calcium_mg": 33,
-    "potassium_mg": 309,
+    "potassium_mg": 308,
     "magnesium_mg": 25,
     "cholesterol_mg": 28,
     "vitamin_a_ug": 111,
     "vitamin_c_mg": 36
   },
-  "lastModified": "2026-06-04",
-  "yieldPerBatch": "8 servings"
+  "lastModified": "2026-09-09"
 }

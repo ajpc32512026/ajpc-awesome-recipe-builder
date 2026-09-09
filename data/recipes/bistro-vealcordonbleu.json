@@ -2,27 +2,22 @@
   "id": "bistro-vealcordonbleu",
   "title": "Veal Cordon Bleu",
   "category": "Bistro",
+  "difficulty": "Intermediate",
   "description": "Thin veal escalopes wrapped around smoked ham and Swiss cheese, crumbed and deep-fried to golden perfection. Served with a Dijon cream sauce.",
   "prepTime": "15 min",
   "cookTime": "5 min",
   "totalTime": "20 min",
   "servings": "1 serving",
-  "difficulty": "Intermediate",
+  "yieldPerBatch": "1 serving",
   "tags": [
     "Alcohol",
     "Bistro",
     "Classic",
     "Creamy",
-    "Deep Fried",
-    "Deep-Fried",
     "Dinner",
     "French",
-    "Gluten-Free",
-    "Lunch",
-    "Pork",
     "Savoury",
-    "Under 30 Minutes",
-    "Veal"
+    "Under 30 Minutes"
   ],
   "ingredients": [
     {
@@ -70,9 +65,8 @@
       "item": "Dijon Mustard"
     },
     {
-      "quantity": "",
-      "unit": "",
-      "item": "Salt & Pepper",
+      "item": "Salte & Pepper",
+      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -142,24 +136,73 @@
   ],
   "related": [
     {
-      "id": "bistro-chickenkiev",
-      "title": "Chicken Kiev"
+      "id": "bistro-brandymustardsteak",
+      "title": "Brandy Mustard Steak",
+      "matchingTags": [
+        "Alcohol",
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
+    },
+    {
+      "id": "bistro-chickenpapion",
+      "title": "Chicken Papion",
+      "matchingTags": [
+        "Alcohol",
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "bistro-chickenpicante",
-      "title": "Chicken Picante"
+      "title": "Chicken Picante",
+      "matchingTags": [
+        "Alcohol",
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     },
     {
-      "id": "bistro-vealscaloppine",
-      "title": "Veal Scaloppine"
+      "id": "bistro-fishoftheday",
+      "title": "Fish of the Day",
+      "matchingTags": [
+        "Alcohol",
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     },
     {
-      "id": "bistro-vealoscar",
-      "title": "Veal Oscar"
-    },
-    {
-      "id": "bistro-vealmozzarella",
-      "title": "Veal Mozzarella"
+      "id": "bistro-filetmignon",
+      "title": "Filet Mignon",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     }
   ],
   "nutrition": {
@@ -170,10 +213,14 @@
     "carbs": 17,
     "sugars": 9,
     "fat": 67,
-    "saturated_fat": 37,
-    "fibre": 4,
+    "saturated_fat": 37.2,
+    "fiber": 4,
     "sodium": 1139,
-    "coverage": 89,
+    "coverage": 100,
+    "foundCount": 8,
+    "totalCount": 8,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 549,
     "iron_mg": 18,
     "potassium_mg": 1268,
@@ -184,6 +231,5 @@
     "vitamin_c_mg": 39,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-05-24",
-  "yieldPerBatch": "1 serving"
+  "lastModified": "2026-09-09"
 }

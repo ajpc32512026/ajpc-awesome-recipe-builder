@@ -2,12 +2,13 @@
   "id": "arrabbiatasauce",
   "title": "Arrabbiata Sauce",
   "category": "Sauces",
+  "difficulty": "Beginner",
   "description": "A fiery Italian tomato sauce — bold, spicy, and full of passion. Not for the faint-hearted.",
   "prepTime": "10 min",
   "cookTime": "20 min",
   "totalTime": "30 min",
   "servings": "4 servings",
-  "difficulty": "Beginner",
+  "yieldPerBatch": "4 servings",
   "tags": [
     "Chinese",
     "Gluten-Free",
@@ -49,9 +50,8 @@
       "item": "Brown Onion"
     },
     {
-      "quantity": "",
-      "unit": "",
       "item": "Salt & Pepper",
+      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -159,23 +159,27 @@
   ],
   "nutrition": {
     "servings": 4,
-    "cal": 107,
-    "kj": 447,
-    "protein": 2,
-    "carbs": 7,
-    "sugars": 5,
-    "fat": 8,
-    "saturated_fat": 1,
-    "fiber": 3,
-    "sodium": 10,
-    "coverage": 83,
-    "calcium_mg": 23,
-    "iron_mg": 1,
-    "potassium_mg": 391,
-    "magnesium_mg": 20,
-    "vitamin_a_ug": 86,
-    "vitamin_c_mg": 20
+    "cal": 8377,
+    "kj": 35049,
+    "protein": 343,
+    "carbs": 1153,
+    "sugars": 1109,
+    "fat": 172,
+    "saturated_fat": 42.6,
+    "fiber": 536,
+    "sodium": 2543,
+    "coverage": 100,
+    "foundCount": 5,
+    "totalCount": 5,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 8534,
+    "iron_mg": 534,
+    "potassium_mg": 69994,
+    "magnesium_mg": 4130,
+    "zinc_mg": 59,
+    "vitamin_a_ug": 44,
+    "vitamin_c_mg": 933
   },
-  "lastModified": "2026-05-31",
-  "yieldPerBatch": "4 servings"
+  "lastModified": "2026-09-09"
 }

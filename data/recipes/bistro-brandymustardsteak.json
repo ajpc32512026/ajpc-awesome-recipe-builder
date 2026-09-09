@@ -8,6 +8,7 @@
   "cookTime": "6 min",
   "totalTime": "11 min",
   "servings": "1",
+  "yieldPerBatch": "1 batch",
   "tags": [
     "Alcohol",
     "Beef",
@@ -16,12 +17,9 @@
     "Classic",
     "Creamy",
     "Dinner",
-    "Drinks",
     "French",
-    "Gluten-Free",
     "Rich",
-    "Savoury",
-    "Under 30 Minutes"
+    "Savoury"
   ],
   "ingredients": [
     {
@@ -55,9 +53,8 @@
       "item": "Unsalted Butter"
     },
     {
-      "quantity": "",
-      "unit": "",
       "item": "Salt & Pepper",
+      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -90,28 +87,103 @@
       "content": "No demi — brandy, mustard and cream only. ??? Dijon or wholegrain mustard? ??? Flambé or just reduce?"
     }
   ],
+  "related": [
+    {
+      "id": "bistro-chickenpapion",
+      "title": "Chicken Papion",
+      "matchingTags": [
+        "Alcohol",
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante",
+      "matchingTags": [
+        "Alcohol",
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "bistro-filetmignon",
+      "title": "Filet Mignon",
+      "matchingTags": [
+        "Beef",
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "bistro-fishoftheday",
+      "title": "Fish of the Day",
+      "matchingTags": [
+        "Alcohol",
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "bistro-mediterraneansteak",
+      "title": "Mediterranean Steak",
+      "matchingTags": [
+        "Alcohol",
+        "Beef",
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 1,
-    "cal": 749,
-    "kj": 3133,
-    "protein": 15,
-    "carbs": 33,
-    "sugars": 9,
+    "cal": 721,
+    "kj": 3017,
+    "protein": 31,
+    "carbs": 10,
+    "sugars": 8,
     "fat": 55,
-    "saturated_fat": 31.9,
-    "fiber": 4,
-    "sodium": 134,
-    "coverage": 86,
-    "calcium_mg": 94,
-    "iron_mg": 2,
-    "potassium_mg": 444,
-    "magnesium_mg": 75,
-    "zinc_mg": 2,
-    "cholesterol_mg": 129,
-    "vitamin_a_ug": 544,
-    "vitamin_c_mg": 37,
+    "saturated_fat": 32.5,
+    "fiber": 3,
+    "sodium": 82,
+    "coverage": 100,
+    "foundCount": 6,
+    "totalCount": 6,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 90,
+    "iron_mg": 3,
+    "potassium_mg": 675,
+    "magnesium_mg": 89,
+    "zinc_mg": 5,
+    "cholesterol_mg": 174,
+    "vitamin_a_ug": 428,
+    "vitamin_c_mg": 8,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-06-04",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-09-09"
 }

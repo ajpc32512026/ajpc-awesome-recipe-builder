@@ -2,24 +2,22 @@
   "id": "bistro-vealmadagascar",
   "title": "Veal Madagascar",
   "category": "Bistro",
+  "difficulty": "Intermediate",
   "description": "Veal in a rich cream and demi glace sauce with bacon, capsicum, tomato, onion, garlic, and green peppercorns. Served hot or mild — the customer's choice.",
   "prepTime": "10 min",
   "cookTime": "10 min",
   "totalTime": "20 min",
   "servings": "1 serving",
-  "difficulty": "Intermediate",
+  "yieldPerBatch": "1 serving",
   "tags": [
     "Bistro",
-    "Chinese",
     "Classic",
     "Creamy",
     "Dinner",
     "French",
-    "Gluten-Free",
     "Rich",
     "Savoury",
-    "Under 30 Minutes",
-    "Veal"
+    "Under 30 Minutes"
   ],
   "ingredients": [
     {
@@ -85,9 +83,8 @@
       "item": "Unsalted Butter"
     },
     {
-      "quantity": "",
-      "unit": "",
       "item": "Salt & Pepper",
+      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -145,48 +142,104 @@
   ],
   "related": [
     {
-      "id": "bistro-vealscaloppine",
-      "title": "Veal Scaloppine"
+      "id": "bistro-brandymustardsteak",
+      "title": "Brandy Mustard Steak",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     },
     {
-      "id": "bistro-vealoscar",
-      "title": "Veal Oscar"
-    },
-    {
-      "id": "bistro-vealmozzarella",
-      "title": "Veal Mozzarella"
-    },
-    {
-      "id": "bistro-mediterraneansteak",
-      "title": "Mediterranean Steak"
+      "id": "bistro-chickenpapion",
+      "title": "Chicken Papion",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "bistro-chickenpicante",
-      "title": "Chicken Picante"
+      "title": "Chicken Picante",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
+    },
+    {
+      "id": "bistro-filetmignon",
+      "title": "Filet Mignon",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
+    },
+    {
+      "id": "bistro-fishoftheday",
+      "title": "Fish of the Day",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     }
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 1960,
-    "kj": 8201,
-    "protein": 95,
-    "carbs": 132,
-    "sugars": 45,
-    "fat": 97,
-    "saturated_fat": 48,
-    "fibre": 91,
-    "sodium": 1688,
-    "coverage": 92,
-    "calcium_mg": 488,
-    "iron_mg": 35,
-    "potassium_mg": 4879,
-    "magnesium_mg": 295,
-    "zinc_mg": 18,
-    "cholesterol_mg": 712,
-    "vitamin_a_ug": 25004,
-    "vitamin_c_mg": 438,
-    "vitamin_d_ug": 5
+    "cal": 1372,
+    "kj": 5740,
+    "protein": 69,
+    "carbs": 76,
+    "sugars": 34,
+    "fat": 71,
+    "saturated_fat": 39,
+    "fiber": 79,
+    "sodium": 463,
+    "coverage": 82,
+    "foundCount": 9,
+    "totalCount": 11,
+    "unmatchedItems": [
+      "Middle Bacon",
+      "Red Chilli"
+    ],
+    "noQuantityItems": [],
+    "calcium_mg": 336,
+    "iron_mg": 32,
+    "potassium_mg": 4216,
+    "magnesium_mg": 230,
+    "zinc_mg": 16,
+    "cholesterol_mg": 488,
+    "vitamin_a_ug": 24540,
+    "vitamin_c_mg": 266,
+    "vitamin_d_ug": 3
   },
-  "lastModified": "2026-05-24",
-  "yieldPerBatch": "1 serving"
+  "lastModified": "2026-09-09"
 }

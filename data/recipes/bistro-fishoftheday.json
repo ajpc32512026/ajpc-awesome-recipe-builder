@@ -62,9 +62,8 @@
       "notes": "fresh, chopped"
     },
     {
-      "quantity": "",
-      "unit": "",
       "item": "Salt & Pepper",
+      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -97,32 +96,116 @@
       "content": "No demi glace is used — this is a light cream, wine and lemon sauce designed to complement rather than overpower the fish. The fish variety changes with market availability, but the sauce and method remain the same."
     }
   ],
+  "related": [
+    {
+      "id": "bistro-brandymustardsteak",
+      "title": "Brandy Mustard Steak",
+      "matchingTags": [
+        "Alcohol",
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Drinks",
+        "French",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
+    },
+    {
+      "id": "bistro-chickenpapion",
+      "title": "Chicken Papion",
+      "matchingTags": [
+        "Alcohol",
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Seafood",
+        "Under 30 Minutes"
+      ]
+    },
+    {
+      "id": "bistro-mediterraneansteak",
+      "title": "Mediterranean Steak",
+      "matchingTags": [
+        "Alcohol",
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Drinks",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Seafood",
+        "Under 30 Minutes"
+      ]
+    },
+    {
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante",
+      "matchingTags": [
+        "Alcohol",
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
+    },
+    {
+      "id": "bistro-filetmignon",
+      "title": "Filet Mignon",
+      "matchingTags": [
+        "Bistro",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Gluten-Free",
+        "Lunch",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 1,
-    "cal": 599,
-    "kj": 2508,
-    "protein": 17,
+    "cal": 470,
+    "kj": 1966,
+    "protein": 2,
     "carbs": 2,
     "sugars": 2,
-    "fat": 53,
-    "saturated_fat": 32.8,
+    "fat": 47,
+    "saturated_fat": 31.2,
     "fiber": 1,
-    "sodium": 2026,
-    "coverage": 86,
-    "foundCount": 6,
-    "totalCount": 7,
+    "sodium": 35,
+    "coverage": 67,
+    "foundCount": 4,
+    "totalCount": 6,
     "unmatchedItems": [
-      "Salt & Pepper"
+      "Fish Fillet",
+      "Lemon Juice"
     ],
-    "calcium_mg": 84,
-    "iron_mg": 1,
-    "potassium_mg": 273,
-    "magnesium_mg": 31,
-    "zinc_mg": 2,
-    "cholesterol_mg": 438,
-    "vitamin_a_ug": 530,
-    "vitamin_c_mg": 30,
-    "vitamin_d_ug": 2
+    "noQuantityItems": [],
+    "calcium_mg": 58,
+    "potassium_mg": 157,
+    "magnesium_mg": 13,
+    "cholesterol_mg": 116,
+    "vitamin_a_ug": 495,
+    "vitamin_c_mg": 18
   },
-  "lastModified": "2026-08-22"
+  "lastModified": "2026-09-09"
 }

@@ -8,20 +8,25 @@
   "cookTime": "18 min",
   "totalTime": "2 hr 35 min",
   "servings": "8 buns",
+  "yieldPerBatch": "8 buns",
   "tags": [
-    "American",
-    "Baked",
     "Baking",
     "Bread",
     "Lunch",
     "Savoury",
-    "Vegetarian"
+    "Vegetarian",
+    "Australian"
   ],
   "ingredients": [
     {
+      "quantity": "470",
+      "unit": "g",
+      "item": "Bread Flour"
+    },
+    {
       "quantity": "180",
       "unit": "ml",
-      "item": "Milk Full-Cream",
+      "item": "Milk Full-cream",
       "notes": "lukewarm"
     },
     {
@@ -37,7 +42,7 @@
     },
     {
       "quantity": "2",
-      "unit": "",
+      "unit": "ea",
       "item": "Eggs",
       "notes": "divided: 1, 1 (large)"
     },
@@ -56,11 +61,6 @@
       "quantity": "3",
       "unit": "g",
       "item": "Salt"
-    },
-    {
-      "quantity": "470",
-      "unit": "g",
-      "item": "Bread Flour"
     }
   ],
   "method": [
@@ -130,6 +130,59 @@
       "content": "Store in an airtight container for 2–3 days, or freeze for up to 2 months. Thaw and warm before using."
     }
   ],
+  "related": [
+    {
+      "id": "multigrainbread",
+      "title": "Multigrain Seeded Bread",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Lunch",
+        "Savoury",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "highhydraciab",
+      "title": "Airy High-Hydration Ciabatta",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Savoury",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "darkrye",
+      "title": "Dark Rye Bread",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Savoury",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "focaccia",
+      "title": "Focaccia",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Savoury",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "garlicbread",
+      "title": "Garlic Butter Crusty Bread",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Savoury",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 8,
     "cal": 310,
@@ -142,6 +195,10 @@
     "fiber": 2,
     "sodium": 118,
     "coverage": 100,
+    "foundCount": 7,
+    "totalCount": 7,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
     "calcium_mg": 60,
     "iron_mg": 2,
     "potassium_mg": 217,
@@ -151,6 +208,5 @@
     "vitamin_a_ug": 75,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-06-04",
-  "yieldPerBatch": "8 buns"
+  "lastModified": "2026-09-09"
 }
