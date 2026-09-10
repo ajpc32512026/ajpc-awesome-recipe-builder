@@ -16,7 +16,7 @@
     "Dinner",
     "Italian",
     "Lunch",
-    "Make Ahead",
+    "Make-Ahead",
     "Pasta",
     "Rich",
     "Savoury"
@@ -188,7 +188,7 @@
     },
     {
       "type": "storage",
-      "title": "Make Ahead",
+      "title": "Make-Ahead",
       "content": "Assemble the lasagne completely, cover, and refrigerate for up to 24 hours before baking. Add 10 minutes to the covered baking time when cooking from cold."
     }
   ],
@@ -225,7 +225,7 @@
       "id": "bistro-vealmozzarella",
       "title": "Veal Mozzarella",
       "matchingTags": [
-        "Baked",
+        ,
         "Baking",
         "Classic",
         "Dinner",
@@ -252,7 +252,7 @@
       "id": "meatpie",
       "title": "Classic Aussie Meat Pies",
       "matchingTags": [
-        "Baked",
+        ,
         "Baking",
         "Beef",
         "Classic",

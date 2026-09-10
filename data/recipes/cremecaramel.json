@@ -10,13 +10,13 @@
   "servings": "8",
   "yieldPerBatch": "8 servings",
   "tags": [
-    "Baked",
+    ,
     "Classic",
     "Creamy",
     "Dessert",
     "French",
     "Gluten-Free",
-    "Make Ahead",
+    "Make-Ahead",
     "Rich",
     "Vegetarian"
   ],
@@ -103,7 +103,7 @@
   "notes": [
     {
       "type": "tip",
-      "title": "Make Ahead",
+      "title": "Make-Ahead",
       "content": "Crème caramel needs to be refrigerated overnight to set properly. Start this recipe a day before serving."
     },
     {
@@ -127,12 +127,12 @@
       "id": "baked-cheesecake",
       "title": "Baked Cheesecake",
       "matchingTags": [
-        "Baked",
+        ,
         "Classic",
         "Creamy",
         "Dessert",
         "Gluten-Free",
-        "Make Ahead",
+        "Make-Ahead",
         "Rich",
         "Vegetarian"
       ]
@@ -141,12 +141,12 @@
       "id": "plaincheesecakeclassicnobake",
       "title": "Plain Cheesecake (Classic No Bake)",
       "matchingTags": [
-        "Baked",
+        ,
         "Classic",
         "Creamy",
         "Dessert",
         "Gluten-Free",
-        "Make Ahead",
+        "Make-Ahead",
         "Rich",
         "Vegetarian"
       ]
@@ -159,7 +159,7 @@
         "Creamy",
         "Dessert",
         "Gluten-Free",
-        "Make Ahead",
+        "Make-Ahead",
         "Rich",
         "Vegetarian"
       ]
@@ -172,7 +172,7 @@
         "Dessert",
         "French",
         "Gluten-Free",
-        "Make Ahead",
+        "Make-Ahead",
         "Rich",
         "Vegetarian"
       ]
@@ -181,7 +181,7 @@
       "id": "bistro-profiteroles",
       "title": "Profiteroles",
       "matchingTags": [
-        "Baked",
+        ,
         "Classic",
         "Creamy",
         "Dessert",

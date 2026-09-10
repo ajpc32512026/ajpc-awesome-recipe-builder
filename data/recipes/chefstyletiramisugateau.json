@@ -17,11 +17,8 @@
     "Coffee",
     "Creamy",
     "Dessert",
-    "Drinks",
-    "Gluten-Free",
     "Italian",
-    "Make Ahead",
-    "No-Cook",
+    "Make-Ahead",
     "Rich",
     "Sweet",
     "Vegetarian"
@@ -64,7 +61,7 @@
       "notes": "sifted"
     },
     {
-      "quantity": "1",
+      "quantity": "5",
       "unit": "g",
       "item": "Salt"
     },
@@ -234,7 +231,7 @@
         "Creamy",
         "Dessert",
         "French",
-        "Make Ahead",
+        "Make-Ahead",
         "No-Bake",
         "Rich",
         "Sweet",
@@ -246,7 +243,7 @@
       "id": "bistro-profiteroles",
       "title": "Profiteroles",
       "matchingTags": [
-        "Baked",
+        ,
         "Chocolate",
         "Classic",
         "Creamy",
@@ -265,7 +262,7 @@
         "Classic",
         "Creamy",
         "Dessert",
-        "Make Ahead",
+        "Make-Ahead",
         "No-Bake",
         "Rich",
         "Sweet",
@@ -287,7 +284,7 @@
       "id": "lemonmeringuepie",
       "title": "Lemon Meringue Pie",
       "matchingTags": [
-        "Baked",
+        ,
         "Classic",
         "Dessert",
         "Lemon",
@@ -299,22 +296,25 @@
   ],
   "nutrition": {
     "servings": 10,
-    "cal": 833,
-    "kj": 3485,
+    "cal": 757,
+    "kj": 3166,
     "protein": 24,
-    "carbs": 58,
-    "sugars": 45,
+    "carbs": 38,
+    "sugars": 25,
     "fat": 55,
     "saturated_fat": 29.9,
     "fiber": 1,
-    "sodium": 349,
-    "coverage": 100,
-    "foundCount": 19,
-    "totalCount": 19,
-    "unmatchedItems": [],
-    "calcium_mg": 145,
-    "iron_mg": 3,
-    "potassium_mg": 368,
+    "sodium": 382,
+    "coverage": 93,
+    "foundCount": 14,
+    "totalCount": 15,
+    "unmatchedItems": [
+      "Caster Sugar"
+    ],
+    "noQuantityItems": [],
+    "calcium_mg": 146,
+    "iron_mg": 4,
+    "potassium_mg": 370,
     "magnesium_mg": 36,
     "zinc_mg": 2,
     "cholesterol_mg": 919,
@@ -322,5 +322,5 @@
     "vitamin_c_mg": 8,
     "vitamin_d_ug": 10
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-09-09"
 }

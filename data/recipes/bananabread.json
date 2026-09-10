@@ -10,16 +10,15 @@
   "servings": "9 slices",
   "yieldPerBatch": "1 batch",
   "tags": [
-    "American",
     "Baking",
-    "Banana",
     "Bread",
     "Breakfast",
     "Classic",
-    "Make Ahead",
+    "Make-Ahead",
     "Rich",
     "Sweet",
-    "Vegetarian"
+    "Vegetarian",
+    "Australian"
   ],
   "ingredients": [
     {
@@ -122,7 +121,7 @@
         "American",
         "Baking",
         "Classic",
-        "Make Ahead",
+        "Make-Ahead",
         "Rich",
         "Sweet",
         "Vegetarian"
@@ -148,7 +147,7 @@
         "American",
         "Baking",
         "Classic",
-        "Make Ahead",
+        "Make-Ahead",
         "Rich",
         "Sweet",
         "Vegetarian"
@@ -161,7 +160,7 @@
         "Baking",
         "Breakfast",
         "Classic",
-        "Make Ahead",
+        "Make-Ahead",
         "Rich",
         "Sweet",
         "Vegetarian"

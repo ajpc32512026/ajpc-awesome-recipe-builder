@@ -15,12 +15,12 @@
     "Bread",
     "Crusty",
     "European",
-    "Make Ahead",
-    "No Oil",
+    "Make-Ahead"
     "Sourdough Style",
     "Vegan",
     "Vegetarian",
-    "No Sugar"
+    "No Sugar",
+    "Make-Ahead"
   ],
   "ingredients": [
     {
@@ -156,7 +156,7 @@
       "title": "Banana Bread",
       "matchingTags": [
         "Bread",
-        "Make Ahead",
+        "Make-Ahead",
         "Vegetarian"
       ]
     },
@@ -165,7 +165,7 @@
       "title": "Dark Rye Bread",
       "matchingTags": [
         "Bread",
-        "Make Ahead",
+        "Make-Ahead",
         "Vegetarian"
       ]
     },
@@ -174,7 +174,7 @@
       "title": "Focaccia",
       "matchingTags": [
         "Bread",
-        "Make Ahead",
+        "Make-Ahead",
         "Vegetarian"
       ]
     },
@@ -183,7 +183,7 @@
       "title": "High-Hydration Focaccia",
       "matchingTags": [
         "Bread",
-        "Make Ahead",
+        "Make-Ahead",
         "Vegetarian"
       ]
     },
@@ -192,7 +192,7 @@
       "title": "Soft White Bread (Tangzhong Method)",
       "matchingTags": [
         "Bread",
-        "Make Ahead",
+        "Make-Ahead",
         "Vegetarian"
       ]
     }
@@ -220,5 +220,5 @@
     "zinc_mg": 6,
     "vitamin_a_ug": 1
   },
-  "lastModified": "2026-09-08"
+  "lastModified": "2026-09-09"
 }

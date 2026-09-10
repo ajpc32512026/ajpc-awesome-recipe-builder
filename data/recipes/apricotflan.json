@@ -10,8 +10,6 @@
   "servings": "8 servings",
   "yieldPerBatch": "1 flan",
   "tags": [
-    "Alcohol",
-    "Apricot",
     "Australian",
     "Baking",
     "Brandy",
@@ -111,7 +109,7 @@
   "notes": [
     {
       "type": "tip",
-      "title": "Make Ahead",
+      "title": "Make-Ahead",
       "content": "The pastry shell can be baked a day in advance. Assemble the flan on the day of serving to keep the base crisp."
     },
     {

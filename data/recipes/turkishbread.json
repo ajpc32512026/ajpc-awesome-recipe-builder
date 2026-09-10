@@ -13,11 +13,10 @@
     "Baking",
     "Bread",
     "Classic",
-    "Greek",
-    "Make Ahead",
+    "Make-Ahead",
     "Savoury",
-    "Turkish",
-    "Vegetarian"
+    "Vegetarian",
+    "Turkish"
   ],
   "ingredients": [
     {
@@ -153,7 +152,7 @@
         "Baking",
         "Bread",
         "Classic",
-        "Make Ahead",
+        "Make-Ahead",
         "Savoury",
         "Vegetarian"
       ]
@@ -175,7 +174,7 @@
       "matchingTags": [
         "Baking",
         "Bread",
-        "Make Ahead",
+        "Make-Ahead",
         "Savoury",
         "Vegetarian"
       ]
@@ -186,7 +185,7 @@
       "matchingTags": [
         "Baking",
         "Bread",
-        "Make Ahead",
+        "Make-Ahead",
         "Savoury",
         "Vegetarian"
       ]
@@ -198,7 +197,7 @@
         "Baking",
         "Bread",
         "Classic",
-        "Make Ahead",
+        "Make-Ahead",
         "Vegetarian"
       ]
     }
@@ -225,5 +224,5 @@
     "magnesium_mg": 122,
     "zinc_mg": 3
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-10"
 }

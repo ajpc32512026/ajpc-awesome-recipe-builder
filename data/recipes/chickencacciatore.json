@@ -10,18 +10,12 @@
   "servings": "4 servings",
   "yieldPerBatch": "4 servings",
   "tags": [
-    "Alcohol",
-    "Chicken",
-    "Chinese",
     "Classic",
     "Dinner",
     "Gluten-Free",
-    "Greek",
     "Italian",
     "Rich",
     "Savoury",
-    "Slow Cooker",
-    "Stovetop",
     "Tomato"
   ],
   "ingredients": [
@@ -277,5 +271,5 @@
     "vitamin_c_mg": 34,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-10"
 }

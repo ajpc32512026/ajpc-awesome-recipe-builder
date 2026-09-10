@@ -10,19 +10,18 @@
   "servings": "8 serves",
   "yieldPerBatch": "1 batch",
   "tags": [
-    "American",
-    "Baked",
+    
     "Classic",
     "Creamy",
     "Dessert",
-    "Drinks",
     "Gluten-Free",
-    "Make Ahead",
+    "Make-Ahead",
     "Overnight",
     "Party",
     "Rich",
     "Sweet",
-    "Vegetarian"
+    "Vegetarian",
+    "Australian"
   ],
   "ingredients": [
     {
@@ -172,12 +171,12 @@
       "title": "Plain Cheesecake (Classic No Bake)",
       "matchingTags": [
         "American",
-        "Baked",
+        
         "Classic",
         "Creamy",
         "Dessert",
         "Gluten-Free",
-        "Make Ahead",
+        "Make-Ahead",
         "Rich",
         "Sweet",
         "Vegetarian"
@@ -192,7 +191,7 @@
         "Dessert",
         "Drinks",
         "Gluten-Free",
-        "Make Ahead",
+        "Make-Ahead",
         "Rich",
         "Sweet",
         "Vegetarian"
@@ -203,7 +202,7 @@
       "title": "Classic Carrot Cake",
       "matchingTags": [
         "American",
-        "Baked",
+        
         "Classic",
         "Creamy",
         "Dessert",
@@ -217,12 +216,12 @@
       "id": "cremecaramel",
       "title": "Crème Caramel",
       "matchingTags": [
-        "Baked",
+        
         "Classic",
         "Creamy",
         "Dessert",
         "Gluten-Free",
-        "Make Ahead",
+        "Make-Ahead",
         "Rich",
         "Vegetarian"
       ]
@@ -232,7 +231,7 @@
       "title": "Lemon Meringue Pie",
       "matchingTags": [
         "American",
-        "Baked",
+        
         "Classic",
         "Dessert",
         "Drinks",

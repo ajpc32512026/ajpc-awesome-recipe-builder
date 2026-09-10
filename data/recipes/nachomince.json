@@ -13,7 +13,7 @@
     "Beef",
     "Dinner",
     "Gluten-Free",
-    "Make Ahead",
+    "Make-Ahead",
     "Mexican",
     "Savoury",
     "Spicy"
@@ -125,7 +125,7 @@
     },
     {
       "type": "storage",
-      "title": "Make Ahead",
+      "title": "Make-Ahead",
       "content": "The beef mince reheats beautifully. Make a double batch, refrigerate for up to 3 days, or freeze in portions for up to 3 months. Reheat in a pan with a splash of water to loosen."
     }
   ],
@@ -136,7 +136,7 @@
       "matchingTags": [
         "Beef",
         "Dinner",
-        "Make Ahead",
+        "Make-Ahead",
         "Savoury",
         "Spicy"
       ]
@@ -147,7 +147,7 @@
       "matchingTags": [
         "Dinner",
         "Gluten-Free",
-        "Make Ahead",
+        "Make-Ahead",
         "Savoury",
         "Spicy"
       ]
@@ -158,7 +158,7 @@
       "matchingTags": [
         "Dinner",
         "Gluten-Free",
-        "Make Ahead",
+        "Make-Ahead",
         "Savoury",
         "Spicy"
       ]
@@ -169,7 +169,7 @@
       "matchingTags": [
         "Dinner",
         "Gluten-Free",
-        "Make Ahead",
+        "Make-Ahead",
         "Savoury",
         "Spicy"
       ]

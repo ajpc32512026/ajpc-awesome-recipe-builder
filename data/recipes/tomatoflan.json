@@ -10,17 +10,14 @@
   "servings": "4 servings",
   "yieldPerBatch": "1 flan",
   "tags": [
-    "Baked",
-    "Baking",
-    "Dinner",
     "French",
-    "Greek",
-    "Italian",
     "Pastry",
     "Rich",
     "Savoury",
     "Tomato",
-    "Vegetarian"
+    "Vegetarian",
+    "Lunch",
+    "Snack"
   ],
   "ingredients": [
     {
@@ -177,7 +174,7 @@
       "id": "lasagne",
       "title": "Classic Lasagne — Ragù & Béchamel",
       "matchingTags": [
-        "Baked",
+        ,
         "Baking",
         "Dinner",
         "Greek",
@@ -190,7 +187,7 @@
       "id": "mushroomcups",
       "title": "Mushrooms with Herb Nut Butter",
       "matchingTags": [
-        "Baked",
+        ,
         "French",
         "Greek",
         "Rich",
@@ -214,7 +211,7 @@
       "id": "chickenmushroombaconpies",
       "title": "Chicken, Mushroom & Bacon Pies",
       "matchingTags": [
-        "Baked",
+        ,
         "Baking",
         "Dinner",
         "Greek",
@@ -249,5 +246,5 @@
     "vitamin_c_mg": 26,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-10"
 }

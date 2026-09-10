@@ -17,7 +17,7 @@
     "Condiment",
     "Dinner",
     "Gluten-Free",
-    "Make Ahead",
+    "Make-Ahead",
     "Sauce",
     "Savoury",
     "Stovetop",
@@ -94,7 +94,7 @@
   "notes": [
     {
       "type": "technique",
-      "title": "Make Ahead",
+      "title": "Make-Ahead",
       "content": "This sauce can be made in advance and stored in the refrigerator. Reheat gently before using — it will thicken when cold."
     },
     {
@@ -113,7 +113,7 @@
         "Condiment",
         "Dinner",
         "Gluten-Free",
-        "Make Ahead",
+        "Make-Ahead",
         "Sauce",
         "Savoury",
         "Stovetop",
@@ -148,7 +148,7 @@
         "Chinese",
         "Condiment",
         "Gluten-Free",
-        "Make Ahead",
+        "Make-Ahead",
         "Sauce",
         "Sweet",
         "Under 30 Minutes",
@@ -165,7 +165,7 @@
         "Condiment",
         "Dinner",
         "Gluten-Free",
-        "Make Ahead",
+        "Make-Ahead",
         "Sauce",
         "Savoury",
         "Vegan",

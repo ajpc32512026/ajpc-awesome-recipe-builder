@@ -316,8 +316,41 @@ function confirmNewRecipeId(id) {
     return confirm(`This will create a NEW recipe file:\n\n${id || '(empty)'}.json\n\nIs this the correct id? (It's generated from the Title field above.)`);
 }
 
+// Rows with no text in their main field (a heading typed then cleared, an
+// ingredient added then abandoned, etc.) get silently skipped when the JSON
+// is built — by design, so half-started rows don't clutter saved files. But
+// "silently" is the risk: if a heading got accidentally blanked, that's a
+// real loss with zero warning. This catches it before Save, not after.
+function findBlankRows() {
+    const blanks = [];
+    document.querySelectorAll('#ingredients-list > div').forEach((row, i) => {
+        if (row.classList.contains('ingredient-heading-row')) {
+            if (!row.querySelector('input')?.value.trim()) blanks.push('Ingredient heading (row ' + (i+1) + ')');
+        } else if (row.classList.contains('ingredient-row') || row.classList.contains('ingredient-totaste-row')) {
+            const items = row.querySelectorAll('input');
+            const itemField = row.classList.contains('ingredient-totaste-row') ? items[0] : items[2];
+            if (itemField && !itemField.value.trim()) blanks.push('Ingredient (row ' + (i+1) + ')');
+        }
+    });
+    document.querySelectorAll('#method-list > div').forEach((row, i) => {
+        if (row.classList.contains('step-heading-row')) {
+            if (!row.querySelector('input')?.value.trim()) blanks.push('Method heading (row ' + (i+1) + ')');
+        }
+    });
+    return blanks;
+}
+
 async function saveJSON() {
     if (!checkRequiredFields()) return;
+    const blanks = findBlankRows();
+    if (blanks.length) {
+        const proceed = confirm(
+            'These rows have no text and will be permanently removed if you continue:\n\n' +
+            blanks.join('\n') +
+            '\n\nSave anyway?'
+        );
+        if (!proceed) return;
+    }
     const { obj, id } = buildJSON();
     if (!obj.title) return;
     const json = JSON.stringify(obj, null, 2);
@@ -325,7 +358,15 @@ async function saveJSON() {
         try {
             const w = await currentFileHandle.createWritable();
             await w.write(json); await w.close();
-            toast('Saved to ' + currentFileHandle.name);
+            const indexSynced = await syncRecipeIndexEntry(id, obj);
+            toast('Saved to ' + currentFileHandle.name + (indexSynced ? ' · index updated' : ''));
+            const btn = document.getElementById('save-btn');
+            if (btn) {
+                const original = btn.textContent;
+                btn.textContent = '✓ Saved!';
+                btn.style.background = '#3a7a4e';
+                setTimeout(() => { btn.textContent = original; btn.style.background = ''; }, 1800);
+            }
         } catch(e) { alert('Could not save: ' + e.message); }
     } else {
         if (!confirmNewRecipeId(id)) return;
@@ -333,8 +374,55 @@ async function saveJSON() {
     }
 }
 
+// recipe-index.json is a separate cached summary (id/title/category/tags)
+// that the homepage, tag browsing, search, and "What Can I Cook" all read
+// from — it's never been kept in sync with edits made here, so a tag
+// change could be correctly saved to the recipe file and still be
+// invisible everywhere else on the site. This patches just this recipe's
+// entry in the index right after the file itself saves successfully, so
+// the two can't drift apart again. Only runs when a project folder is
+// connected (needs a real handle to json/recipe-index.json); silently
+// does nothing otherwise; a save-file-only edit still works exactly as
+// it always has, this is purely additive.
+async function syncRecipeIndexEntry(id, obj) {
+    const rootHandle = window.BuilderValidator && window.BuilderValidator.getRootHandle();
+    if (!rootHandle) return false;
+    try {
+        const jsonDir = await rootHandle.getDirectoryHandle('json');
+        const indexHandle = await jsonDir.getFileHandle('recipe-index.json');
+        const file = await indexHandle.getFile();
+        const index = JSON.parse(await file.text());
+
+        const entry = { id, title: obj.title, category: obj.category || '', tags: obj.tags || [] };
+        const i = index.findIndex(r => r.id === id);
+        if (i >= 0) index[i] = entry; else index.push(entry);
+
+        const w = await indexHandle.createWritable();
+        await w.write(JSON.stringify(index, null, 2));
+        await w.close();
+        return true;
+    } catch (e) {
+        // Folder connected but json/recipe-index.json didn't resolve, or
+        // some other hiccup — the recipe file itself already saved fine
+        // above, so this only warns rather than treating it as a failure.
+        console.warn('Could not sync recipe-index.json:', e.message);
+        return false;
+    }
+}
+
 function downloadJSON(alreadyConfirmed) {
     if (!checkRequiredFields()) return;
+    if (!alreadyConfirmed) {
+        const blanks = findBlankRows();
+        if (blanks.length) {
+            const proceed = confirm(
+                'These rows have no text and will be permanently removed if you continue:\n\n' +
+                blanks.join('\n') +
+                '\n\nSave anyway?'
+            );
+            if (!proceed) return;
+        }
+    }
     const { obj, id } = buildJSON();
     if (!obj.title) return;
     if (!alreadyConfirmed && !confirmNewRecipeId(id)) return;

@@ -16,20 +16,32 @@
 <body>
 
     <header>
-        <h1>Recipe Builder</h1>
-        <span id="mode-label">New Recipe</span>
-        <div class="header-actions">
-            <button class="btn" onclick="openJSONFile()">Load JSON</button>
-            <input type="file" id="load-file" accept=".json" style="display:none" onchange="loadJSONFile(event)">
-            <button class="btn" onclick="duplicateRecipe()" id="duplicate-btn">Duplicate</button>
-            <button class="btn" onclick="clearForm()">Clear</button>
-            <button class="btn" id="show-diff-btn">Show Diff</button>
-            <button class="btn" id="validate-all-btn" title="Scan every recipe in the collection against the schema">Validate All</button>
-            <button class="btn" id="missing-related-btn" title="Find every recipe with no related recipes set">Missing Related</button>
-            <button class="btn" id="connect-folder-btn" title="Connect your project folder so Load in Editor can save straight back to the original file">Connect Folder</button>
-            <span id="folder-connect-status" style="font-size:0.72rem;color:var(--cream-muted);align-self:center;">Not connected — Load in Editor will download on save</span>
-            <button class="btn primary" id="save-btn" onclick="saveJSON()">Save</button>
-            <button class="btn" onclick="downloadJSON()">Save As...</button>
+        <div class="header-top">
+            <div class="header-title">
+                <h1>Recipe Builder</h1>
+                <span id="mode-label">New Recipe</span>
+            </div>
+            <div class="header-connection">
+                <span id="folder-connect-status">Not connected — Load in Editor will download on save</span>
+                <button class="btn" id="reconnect-folder-btn" style="display:none;"></button>
+                <button class="btn" id="connect-folder-btn" title="Connect your project folder so Load in Editor can save straight back to the original file">Connect Folder</button>
+            </div>
+        </div>
+        <div class="header-toolbar">
+            <div class="toolbar-group">
+                <button class="btn" onclick="openJSONFile()">Load JSON</button>
+                <input type="file" id="load-file" accept=".json" style="display:none" onchange="loadJSONFile(event)">
+                <button class="btn" onclick="duplicateRecipe()" id="duplicate-btn">Duplicate</button>
+                <button class="btn" onclick="clearForm()">Clear</button>
+                <button class="btn" id="show-diff-btn">Show Diff</button>
+                <button class="btn" id="validate-all-btn" title="Scan every recipe in the collection against the schema">Validate All</button>
+                <button class="btn" id="missing-related-btn" title="Find every recipe with no related recipes set">Missing Related</button>
+                <button class="btn" id="manage-tags-btn" title="See every tag across the collection and remove it from some or all recipes">Manage Tags</button>
+            </div>
+            <div class="toolbar-group">
+                <button class="btn primary" id="save-btn" onclick="saveJSON()">Save</button>
+                <button class="btn" onclick="downloadJSON()">Save As...</button>
+            </div>
         </div>
     </header>
 
@@ -302,6 +314,26 @@
             </div>
         </div>
 
+        <!-- MANAGE TAGS PANEL -->
+        <div class="preview-box" id="tags-panel" style="display:none;">
+            <div class="preview-header">
+                <div>
+                    <div class="preview-label">Manage Tags</div>
+                    <div class="section-hint">Every tag across the collection — select one to see which recipes use it</div>
+                </div>
+                <div class="preview-actions">
+                    <button class="btn" id="close-tags-btn">Close</button>
+                </div>
+            </div>
+            <div class="preview-content" id="tags-all-output">
+                <p class="preview-placeholder">Click "Manage Tags" to scan the whole collection.</p>
+            </div>
+            <div class="tags-detail-section">
+                <div class="tags-detail-header" id="tags-detail-header">Select a tag above to see its recipes</div>
+                <div class="preview-content" id="tags-detail-output"></div>
+            </div>
+        </div>
+
         <!-- DIFF PANEL -->
         <div class="preview-box" id="diff-panel" style="display:none;">
             <div class="preview-header">
@@ -321,6 +353,8 @@
 
 
     <div id="toast">Copied!</div>
+
+    <datalist id="all-tags-datalist"></datalist>
 
     <!-- Scroll to Top Button -->
     <button class="scroll-top-btn" id="scrollTopBtn" title="Scroll to top">↑</button>

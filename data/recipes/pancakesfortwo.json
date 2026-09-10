@@ -13,7 +13,7 @@
     "Breakfast",
     "Dessert",
     "Easy",
-    "Make Ahead",
+    "Make-Ahead",
     "Sweet",
     "Vegetarian"
   ],
@@ -128,7 +128,7 @@
       "matchingTags": [
         "Baking",
         "Dessert",
-        "Make Ahead",
+        "Make-Ahead",
         "Sweet",
         "Vegetarian"
       ]
@@ -150,7 +150,7 @@
       "matchingTags": [
         "Baking",
         "Breakfast",
-        "Make Ahead",
+        "Make-Ahead",
         "Sweet",
         "Vegetarian"
       ]

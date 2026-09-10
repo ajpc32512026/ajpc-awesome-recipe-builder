@@ -10,16 +10,16 @@
   "servings": "8 servings",
   "yieldPerBatch": "8 servings",
   "tags": [
-    "American",
     "Baking",
     "Classic",
     "Dessert",
     "Fruit",
-    "Make Ahead",
+    "Make-Ahead",
     "Pastry",
     "Rich",
     "Sweet",
-    "Vegetarian"
+    "Vegetarian",
+    "Australian"
   ],
   "ingredients": [
     {
@@ -123,7 +123,7 @@
         "Baking",
         "Classic",
         "Dessert",
-        "Make Ahead",
+        "Make-Ahead",
         "Rich",
         "Sweet",
         "Vegetarian"
@@ -149,7 +149,7 @@
         "American",
         "Classic",
         "Dessert",
-        "Make Ahead",
+        "Make-Ahead",
         "Rich",
         "Sweet",
         "Vegetarian"
@@ -162,7 +162,7 @@
         "Baking",
         "Classic",
         "Dessert",
-        "Make Ahead",
+        "Make-Ahead",
         "Rich",
         "Sweet",
         "Vegetarian"

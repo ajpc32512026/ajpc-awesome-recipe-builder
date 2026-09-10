@@ -44,35 +44,133 @@
     // same behaviour "Load JSON" already gets via showOpenFilePicker.
     var projectRootHandle = null;
 
+    // FileSystemDirectoryHandle objects are structured-cloneable, so they
+    // can be stored in IndexedDB and survive a page reload — same approach
+    // already used in app.js for the Data Workbench. Browsers still require
+    // a permission re-check on every fresh page load (a page can never
+    // silently regain filesystem write access with zero user action), but
+    // that's a single click with no folder-browsing dialog, not a full
+    // reconnect.
+    function openHandleDB() {
+        return new Promise(function (resolve, reject) {
+            var req = indexedDB.open('kitchen-notebook-tool', 1);
+            req.onupgradeneeded = function () { req.result.createObjectStore('handles'); };
+            req.onsuccess = function () { resolve(req.result); };
+            req.onerror = function () { reject(req.error); };
+        });
+    }
+    function saveRootHandleToDB(handle) {
+        return openHandleDB().then(function (db) {
+            return new Promise(function (resolve, reject) {
+                var tx = db.transaction('handles', 'readwrite');
+                tx.objectStore('handles').put(handle, 'rootHandle');
+                tx.oncomplete = function () { resolve(); };
+                tx.onerror = function () { reject(tx.error); };
+            });
+        });
+    }
+    function loadRootHandleFromDB() {
+        return openHandleDB().then(function (db) {
+            return new Promise(function (resolve, reject) {
+                var tx = db.transaction('handles', 'readonly');
+                var req = tx.objectStore('handles').get('rootHandle');
+                req.onsuccess = function () { resolve(req.result || null); };
+                req.onerror = function () { reject(req.error); };
+            });
+        });
+    }
+
+    async function checkForRememberedFolder() {
+        var handle;
+        try {
+            handle = await loadRootHandleFromDB();
+        } catch (e) { return; } // IndexedDB unavailable — just fall back to manual connect
+        if (!handle) return;
+
+        try {
+            // Already granted from an earlier session in this browser
+            // profile — reconnect completely silently, no click needed.
+            var perm = await handle.queryPermission({ mode: 'readwrite' });
+            if (perm === 'granted') {
+                await finishConnectingFolder(handle);
+                return;
+            }
+        } catch (e) { /* fall through to showing the Reconnect button */ }
+
+        // Permission needs a fresh user gesture — show a one-click
+        // Reconnect button instead of silently doing nothing.
+        var btn = document.getElementById('reconnect-folder-btn');
+        if (btn) {
+            btn.textContent = 'Reconnect: ' + handle.name;
+            btn.style.display = 'inline-block';
+            btn.onclick = async function () {
+                try {
+                    var perm2 = await handle.requestPermission({ mode: 'readwrite' });
+                    if (perm2 !== 'granted') {
+                        alert('Permission denied — use Connect Folder instead.');
+                        return;
+                    }
+                    btn.style.display = 'none';
+                    await finishConnectingFolder(handle);
+                } catch (e) {
+                    alert('Could not reconnect: ' + e.message);
+                }
+            };
+        }
+    }
+
+    // Shared by both a fresh Connect Folder pick and a remembered-handle
+    // reconnect — verifies data/recipes/ resolves and updates the status UI.
+    async function finishConnectingFolder(handle) {
+        var status = document.getElementById('folder-connect-status');
+        try {
+            await handle.getDirectoryHandle('data').then(function (d) {
+                return d.getDirectoryHandle('recipes');
+            });
+            projectRootHandle = handle;
+            if (status) {
+                status.textContent = 'Connected: ' + handle.name + ' — data/recipes found';
+                status.style.color = 'var(--copper)';
+            }
+            if (typeof toast === 'function') toast('Folder connected — saves and tag edits now write straight to disk');
+        } catch (e) {
+            if (status) {
+                status.textContent = 'Connected folder has no data/recipes/ — select your site\'s ROOT folder';
+                status.style.color = 'var(--red, #e07060)';
+            }
+        }
+    }
+
     async function connectProjectFolder() {
         if (!window.showDirectoryPicker) {
             alert('Direct-save requires a Chromium browser (Chrome, Edge, Brave, Opera) served over http(s):// or localhost.');
             return;
         }
+        var handle;
         try {
-            projectRootHandle = await window.showDirectoryPicker({ mode: 'readwrite' });
-            var status = document.getElementById('folder-connect-status');
-            if (status) {
-                status.textContent = 'Connected: ' + projectRootHandle.name;
-                status.style.color = 'var(--copper)';
-            }
-            if (typeof toast === 'function') toast('Folder connected — "Load in Editor" will now save directly back to disk');
+            handle = await window.showDirectoryPicker({ mode: 'readwrite' });
         } catch (e) {
-            // user cancelled the picker — not an error worth surfacing
+            return; // user cancelled the picker
+        }
+        await finishConnectingFolder(handle);
+        if (projectRootHandle) {
+            try { await saveRootHandleToDB(handle); } catch (e) { console.warn('Could not remember folder for next time:', e); }
+            var reconnectBtn = document.getElementById('reconnect-folder-btn');
+            if (reconnectBtn) reconnectBtn.style.display = 'none';
+        } else {
+            alert('Could not find a "data/recipes" folder inside what you selected.\n\nMake sure you pick your site\'s root folder — the one that directly contains index.html, data/, json/, js/, and css/ — not recipe-builder.html\'s folder or any subfolder.');
         }
     }
 
     // Resolves a writable handle for data/recipes/<id>.json from the
-    // connected folder, or null if no folder is connected / it fails.
+    // connected folder. Throws with a specific reason on failure so the
+    // caller can tell the user exactly what went wrong, instead of
+    // silently falling back to a download and looking like nothing happened.
     async function getRecipeFileHandle(id) {
         if (!projectRootHandle) return null;
-        try {
-            var dataDir = await projectRootHandle.getDirectoryHandle('data');
-            var recipesDir = await dataDir.getDirectoryHandle('recipes');
-            return await recipesDir.getFileHandle(id + '.json');
-        } catch (e) {
-            return null; // folder connected but this file/path didn't resolve — fall back to fetch
-        }
+        var dataDir = await projectRootHandle.getDirectoryHandle('data');
+        var recipesDir = await dataDir.getDirectoryHandle('recipes');
+        return await recipesDir.getFileHandle(id + '.json');
     }
 
     // ── Schema definition ─────────────────────────────────
@@ -400,6 +498,332 @@
         if (panel) panel.style.display = 'none';
     }
 
+    // ── Manage Tags: scan, select, remove one or everywhere ─
+    // tagMap: { "Tag Name": [{id, title, category}, ...] }
+    var tagMap = {};
+
+    async function scanAllTags() {
+        var panel  = document.getElementById('tags-panel');
+        var output = document.getElementById('tags-all-output');
+        if (panel) panel.style.display = 'block';
+        if (output) output.innerHTML = '<p class="preview-placeholder">Scanning recipe collection…</p>';
+        if (panel) panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        document.getElementById('tags-detail-header').textContent = 'Select a tag above to see its recipes';
+        document.getElementById('tags-detail-output').innerHTML = '';
+
+        var index;
+        try {
+            var res = await fetch('json/recipe-index.json?t=' + Date.now());
+            index = await res.json();
+        } catch (e) {
+            if (output) output.innerHTML = '<p class="diff-note">Could not load json/recipe-index.json</p>';
+            return;
+        }
+
+        // Read every actual recipe file rather than trusting recipe-index.json's
+        // cached tags — that cache can drift out of sync with the real files
+        // (edits made before the index-sync fix existed, edits made outside
+        // this tool, etc.), and Manage Tags removes things permanently, so it
+        // has to work from the truth, not a copy of it.
+        tagMap = {};
+        var failed = [];
+        for (var i = 0; i < index.length; i++) {
+            var id = index[i].id;
+            try {
+                var data = await readRecipeData(id);
+                (data.tags || []).forEach(function (t) {
+                    if (!tagMap[t]) tagMap[t] = [];
+                    tagMap[t].push({ id: id, title: data.title || id, category: data.category || '' });
+                });
+            } catch (e) {
+                failed.push(id);
+            }
+        }
+
+        renderAllTags();
+        if (failed.length && output) {
+            output.insertAdjacentHTML('afterbegin', '<p class="diff-note">Could not read: ' + failed.join(', ') + '</p>');
+        }
+    }
+
+    // Reads a recipe's real current content — via the connected folder's
+    // live file handle if available (freshest possible), otherwise a plain
+    // HTTP fetch. Shared by the tag scanner so it never trusts a cache.
+    async function readRecipeData(id) {
+        if (projectRootHandle) {
+            try {
+                var handle = await getRecipeFileHandle(id);
+                if (handle) {
+                    var file = await handle.getFile();
+                    return JSON.parse(await file.text());
+                }
+            } catch (e) {
+                // fall through to fetch
+            }
+        }
+        var r = await fetch('data/recipes/' + id + '.json?t=' + Date.now());
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return await r.json();
+    }
+
+    function renderAllTags() {
+        var output = document.getElementById('tags-all-output');
+        if (!output) return;
+
+        var names = Object.keys(tagMap).sort(function (a, b) { return a.localeCompare(b); });
+
+        // Feed every known tag into the shared datalist so the swap inputs
+        // (bulk and per-recipe) offer real autocomplete against what's
+        // actually in use, while still allowing a brand new tag to be typed.
+        var datalist = document.getElementById('all-tags-datalist');
+        if (datalist) {
+            datalist.innerHTML = names.map(function (n) { return '<option value="' + escHtml(n) + '">'; }).join('');
+        }
+
+        if (!names.length) {
+            output.innerHTML = '<p class="preview-placeholder">No tags found across the collection.</p>';
+            return;
+        }
+
+        var html = '<div class="tags-grid">';
+        names.forEach(function (name) {
+            var count = tagMap[name].length;
+            html += '<div class="tag-manage-chip">' +
+                '<span class="tag-manage-name" onclick="BuilderValidator.selectTag(\'' + escHtml(name).replace(/'/g, '&#39;') + '\')">' +
+                    escHtml(name) + ' <span class="tag-manage-count">(' + count + ')</span>' +
+                '</span>' +
+                '<button class="tag-manage-delete" title="Remove this tag from all ' + count + ' recipes" ' +
+                    'onclick="BuilderValidator.deleteTagEverywhere(\'' + escHtml(name).replace(/'/g, '&#39;') + '\')">&times;</button>' +
+                '</div>';
+        });
+        html += '</div>';
+        output.innerHTML = html;
+    }
+
+    function selectTag(name) {
+        var header = document.getElementById('tags-detail-header');
+        var output = document.getElementById('tags-detail-output');
+        if (!header || !output) return;
+
+        var recipes = tagMap[name] || [];
+        header.textContent = '"' + name + '" — used in ' + recipes.length + ' recipe' + (recipes.length !== 1 ? 's' : '');
+
+        if (!recipes.length) {
+            output.innerHTML = '<p class="preview-placeholder">This tag has no recipes left — it will disappear on the next scan.</p>';
+            return;
+        }
+
+        var safeName = escHtml(name).replace(/'/g, '&#39;');
+        var html = '<div class="tags-swap-all-bar">' +
+            '<span>Swap "' + escHtml(name) + '" for a different tag in all ' + recipes.length + ' recipes:</span>' +
+            '<input type="text" list="all-tags-datalist" class="tag-swap-input" id="swap-all-input" placeholder="New tag name…">' +
+            '<button class="btn primary" onclick="BuilderValidator.swapTagEverywhere(\'' + safeName + '\', document.getElementById(\'swap-all-input\').value)">Swap in All ' + recipes.length + '</button>' +
+            '</div>';
+
+        recipes.slice().sort(function (a, b) { return a.title.localeCompare(b.title); }).forEach(function (r) {
+            var rid = escHtml(r.id).replace(/'/g, '&#39;');
+            var inputId = 'swap-input-' + r.id.replace(/[^a-zA-Z0-9]/g, '_');
+            html += '<div class="validate-file">' +
+                '<div class="validate-file-name">' +
+                '<span>' + escHtml(r.title) + ' <span class="validate-count">' + escHtml(r.id) + '.json</span></span>' +
+                '<span class="tags-row-actions">' +
+                '<input type="text" list="all-tags-datalist" class="tag-swap-input" id="' + inputId + '" placeholder="Swap for…">' +
+                '<button class="tag-manage-swap-inline" onclick="BuilderValidator.swapTagInRecipe(\'' + rid + '\',\'' + safeName + '\', document.getElementById(\'' + inputId + '\').value)">Swap</button>' +
+                '<button class="tag-manage-delete-inline" title="Remove just from this recipe" ' +
+                    'onclick="BuilderValidator.removeTagFromRecipe(\'' + rid + '\',\'' + safeName + '\')">Remove</button>' +
+                '</span></div></div>';
+        });
+        output.innerHTML = html;
+    }
+
+    // Reads the real recipe file, strips the tag, writes it back, and keeps
+    // recipe-index.json's cached copy in sync — same as a normal Save does.
+    // Requires a connected project folder; there's no meaningful way to do
+    // a multi-file bulk edit through the download-a-copy fallback.
+    async function removeTagFromRecipe(id, tagName) {
+        var rootHandle = getRootHandleForTags();
+        if (!rootHandle) {
+            alert('Connect your project folder first — removing tags writes directly to your recipe files and needs real file access.');
+            return;
+        }
+        try {
+            var handle = await getRecipeFileHandle(id);
+            if (!handle) throw new Error('could not find data/recipes/' + id + '.json');
+            var file = await handle.getFile();
+            var data = JSON.parse(await file.text());
+
+            data.tags = (data.tags || []).filter(function (t) { return t !== tagName; });
+
+            var w = await handle.createWritable();
+            await w.write(JSON.stringify(data, null, 2));
+            await w.close();
+
+            if (typeof syncRecipeIndexEntry === 'function') {
+                await syncRecipeIndexEntry(id, data);
+            }
+
+            // Update local state + UI without a full rescan
+            if (tagMap[tagName]) {
+                tagMap[tagName] = tagMap[tagName].filter(function (r) { return r.id !== id; });
+                if (!tagMap[tagName].length) delete tagMap[tagName];
+            }
+            renderAllTags();
+            selectTag(tagName);
+            if (typeof toast === 'function') toast('Removed "' + tagName + '" from ' + id + '.json');
+        } catch (e) {
+            alert('Could not remove tag: ' + e.message);
+        }
+    }
+
+    // Reads one recipe file, replaces oldTag with newTag in its tags array
+    // (de-duplicating if newTag is already present), writes it back, and
+    // syncs recipe-index.json — all in one action instead of remove-then-
+    // reopen-then-add-then-save.
+    async function swapTagInRecipe(id, oldTag, newTag) {
+        newTag = (newTag || '').trim();
+        if (!newTag) { alert('Type or pick a tag to swap to first.'); return; }
+        var rootHandle = getRootHandleForTags();
+        if (!rootHandle) {
+            alert('Connect your project folder first — swapping tags writes directly to your recipe files and needs real file access.');
+            return;
+        }
+        try {
+            var handle = await getRecipeFileHandle(id);
+            if (!handle) throw new Error('could not find data/recipes/' + id + '.json');
+            var file = await handle.getFile();
+            var data = JSON.parse(await file.text());
+
+            var tags = (data.tags || []).filter(function (t) { return t !== oldTag; });
+            if (tags.indexOf(newTag) === -1) tags.push(newTag);
+            data.tags = tags;
+
+            var w = await handle.createWritable();
+            await w.write(JSON.stringify(data, null, 2));
+            await w.close();
+
+            if (typeof syncRecipeIndexEntry === 'function') await syncRecipeIndexEntry(id, data);
+
+            // Move this recipe from the old tag's bucket to the new one
+            if (tagMap[oldTag]) {
+                var rec = tagMap[oldTag].find(function (r) { return r.id === id; });
+                tagMap[oldTag] = tagMap[oldTag].filter(function (r) { return r.id !== id; });
+                if (!tagMap[oldTag].length) delete tagMap[oldTag];
+                if (rec) {
+                    if (!tagMap[newTag]) tagMap[newTag] = [];
+                    if (!tagMap[newTag].some(function (r) { return r.id === id; })) tagMap[newTag].push(rec);
+                }
+            }
+            renderAllTags();
+            selectTag(oldTag);
+            if (typeof toast === 'function') toast('Swapped "' + oldTag + '" → "' + newTag + '" on ' + id + '.json');
+        } catch (e) {
+            alert('Could not swap tag: ' + e.message);
+        }
+    }
+
+    async function swapTagEverywhere(oldTag, newTag) {
+        newTag = (newTag || '').trim();
+        if (!newTag) { alert('Type or pick a tag to swap to first.'); return; }
+        var rootHandle = getRootHandleForTags();
+        if (!rootHandle) {
+            alert('Connect your project folder first — swapping tags writes directly to your recipe files and needs real file access.');
+            return;
+        }
+        var recipes = (tagMap[oldTag] || []).slice();
+        if (!recipes.length) return;
+        var proceed = confirm('Swap "' + oldTag + '" for "' + newTag + '" in all ' + recipes.length + ' recipes that use it?');
+        if (!proceed) return;
+
+        var failed = [];
+        for (var i = 0; i < recipes.length; i++) {
+            try {
+                var handle = await getRecipeFileHandle(recipes[i].id);
+                if (!handle) throw new Error('file not found');
+                var file = await handle.getFile();
+                var data = JSON.parse(await file.text());
+                var tags = (data.tags || []).filter(function (t) { return t !== oldTag; });
+                if (tags.indexOf(newTag) === -1) tags.push(newTag);
+                data.tags = tags;
+                var w = await handle.createWritable();
+                await w.write(JSON.stringify(data, null, 2));
+                await w.close();
+                if (typeof syncRecipeIndexEntry === 'function') await syncRecipeIndexEntry(recipes[i].id, data);
+            } catch (e) {
+                failed.push(recipes[i].id);
+            }
+        }
+
+        var moved = recipes.filter(function (r) { return failed.indexOf(r.id) === -1; });
+        delete tagMap[oldTag];
+        if (moved.length) {
+            if (!tagMap[newTag]) tagMap[newTag] = [];
+            moved.forEach(function (r) {
+                if (!tagMap[newTag].some(function (x) { return x.id === r.id; })) tagMap[newTag].push(r);
+            });
+        }
+        renderAllTags();
+        document.getElementById('tags-detail-header').textContent = 'Select a tag above to see its recipes';
+        document.getElementById('tags-detail-output').innerHTML = '';
+
+        if (failed.length) {
+            alert('Swapped ' + moved.length + ' recipes. Failed on: ' + failed.join(', '));
+        } else if (typeof toast === 'function') {
+            toast('Swapped "' + oldTag + '" → "' + newTag + '" in ' + recipes.length + ' recipes');
+        }
+    }
+
+    async function deleteTagEverywhere(tagName) {
+        var rootHandle = getRootHandleForTags();
+        if (!rootHandle) {
+            alert('Connect your project folder first — removing tags writes directly to your recipe files and needs real file access.');
+            return;
+        }
+        var recipes = (tagMap[tagName] || []).slice();
+        if (!recipes.length) return;
+        var proceed = confirm('Remove "' + tagName + '" from all ' + recipes.length + ' recipes that use it? This writes to every one of those files.');
+        if (!proceed) return;
+
+        var failed = [];
+        for (var i = 0; i < recipes.length; i++) {
+            try {
+                var handle = await getRecipeFileHandle(recipes[i].id);
+                if (!handle) throw new Error('file not found');
+                var file = await handle.getFile();
+                var data = JSON.parse(await file.text());
+                data.tags = (data.tags || []).filter(function (t) { return t !== tagName; });
+                var w = await handle.createWritable();
+                await w.write(JSON.stringify(data, null, 2));
+                await w.close();
+                if (typeof syncRecipeIndexEntry === 'function') await syncRecipeIndexEntry(recipes[i].id, data);
+            } catch (e) {
+                failed.push(recipes[i].id);
+            }
+        }
+
+        delete tagMap[tagName];
+        renderAllTags();
+        document.getElementById('tags-detail-header').textContent = 'Select a tag above to see its recipes';
+        document.getElementById('tags-detail-output').innerHTML = '';
+
+        if (failed.length) {
+            alert('Removed "' + tagName + '" from ' + (recipes.length - failed.length) + ' recipes. Failed on: ' + failed.join(', '));
+        } else if (typeof toast === 'function') {
+            toast('Removed "' + tagName + '" from ' + recipes.length + ' recipes');
+        }
+    }
+
+    function getRootHandleForTags() {
+        // projectRootHandle is this same module's private variable — just
+        // reuse it directly rather than round-tripping through the public
+        // getRootHandle() getter.
+        return projectRootHandle;
+    }
+
+    function closeTagsPanel() {
+        var panel = document.getElementById('tags-panel');
+        if (panel) panel.style.display = 'none';
+    }
+
     // ── Load a flagged recipe straight into the editor ─────
     // Re-fetches rather than reusing the scan's cached copy, so this
     // always loads whatever is currently on disk — including any fix
@@ -410,7 +834,15 @@
             return;
         }
         try {
-            var data, handle = await getRecipeFileHandle(id);
+            var data, handle = null;
+
+            if (projectRootHandle) {
+                try {
+                    handle = await getRecipeFileHandle(id);
+                } catch (e) {
+                    alert('Folder is connected, but couldn\'t find data/recipes/' + id + '.json in it (' + e.message + '). Falling back to loading over HTTP — Save will download instead of writing back.');
+                }
+            }
 
             if (handle) {
                 var file = await handle.getFile();
@@ -420,7 +852,7 @@
                 var r = await fetch('data/recipes/' + id + '.json?t=' + Date.now());
                 if (!r.ok) throw new Error('HTTP ' + r.status);
                 data = await r.json();
-                currentFileHandle = null; // no folder connected — Save falls back to a download
+                currentFileHandle = null; // no folder connected (or it failed above) — Save falls back to a download
             }
 
             currentFilename = id;
@@ -491,6 +923,8 @@
 
     // ── Init ───────────────────────────────────────────────
     function initValidator() {
+        checkForRememberedFolder();
+
         var allBtn = document.getElementById('validate-all-btn');
         if (allBtn) allBtn.addEventListener('click', validateAllRecipes);
 
@@ -505,6 +939,12 @@
 
         var connectBtn = document.getElementById('connect-folder-btn');
         if (connectBtn) connectBtn.addEventListener('click', connectProjectFolder);
+
+        var tagsBtn = document.getElementById('manage-tags-btn');
+        if (tagsBtn) tagsBtn.addEventListener('click', scanAllTags);
+
+        var closeTagsBtn = document.getElementById('close-tags-btn');
+        if (closeTagsBtn) closeTagsBtn.addEventListener('click', closeTagsPanel);
     }
 
     if (document.readyState === 'loading') {
@@ -522,7 +962,15 @@
         loadRecipeForEditing: loadRecipeForEditing,
         findMissingRelated: findMissingRelated,
         closeMissingRelated: closeMissingRelated,
-        connectProjectFolder: connectProjectFolder
+        connectProjectFolder: connectProjectFolder,
+        getRootHandle: function () { return projectRootHandle; },
+        scanAllTags: scanAllTags,
+        selectTag: selectTag,
+        removeTagFromRecipe: removeTagFromRecipe,
+        deleteTagEverywhere: deleteTagEverywhere,
+        swapTagInRecipe: swapTagInRecipe,
+        swapTagEverywhere: swapTagEverywhere,
+        closeTagsPanel: closeTagsPanel
     };
 
 })();

@@ -10,7 +10,7 @@
   "servings": "1 batch",
   "yieldPerBatch": "1 batch",
   "tags": [
-    "Make Ahead",
+    "Make-Ahead",
     "Mexican",
     "Vegetarian",
     "Spice Mix",
@@ -108,7 +108,7 @@
       "id": "chilligarlicoil",
       "title": "Chilli Garlic Oil",
       "matchingTags": [
-        "Make Ahead",
+        "Make-Ahead",
         "Spicy",
         "Vegetarian"
       ]
@@ -117,7 +117,7 @@
       "id": "kormapaste",
       "title": "Homemade Korma Paste",
       "matchingTags": [
-        "Make Ahead",
+        "Make-Ahead",
         "Spicy",
         "Vegetarian"
       ]
@@ -126,7 +126,7 @@
       "id": "sataysauce",
       "title": "Satay Sauce",
       "matchingTags": [
-        "Make Ahead",
+        "Make-Ahead",
         "Spicy",
         "Vegetarian"
       ]
@@ -135,7 +135,7 @@
       "id": "sweetchillisauce",
       "title": "Sweet Chilli Sauce",
       "matchingTags": [
-        "Make Ahead",
+        "Make-Ahead",
         "Spicy",
         "Vegetarian"
       ]
@@ -144,7 +144,7 @@
       "id": "vindaloopaste",
       "title": "Vindaloo Paste",
       "matchingTags": [
-        "Make Ahead",
+        "Make-Ahead",
         "Spicy",
         "Vegetarian"
       ]
