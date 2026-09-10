@@ -10,7 +10,6 @@
   "servings": "10 servings",
   "yieldPerBatch": "1 gateau",
   "tags": [
-    "Alcohol",
     "Baking",
     "Cake",
     "Classic",
@@ -243,7 +242,6 @@
       "id": "bistro-profiteroles",
       "title": "Profiteroles",
       "matchingTags": [
-        ,
         "Chocolate",
         "Classic",
         "Creamy",
@@ -284,7 +282,6 @@
       "id": "lemonmeringuepie",
       "title": "Lemon Meringue Pie",
       "matchingTags": [
-        ,
         "Classic",
         "Dessert",
         "Lemon",

@@ -10,7 +10,6 @@
   "servings": "12 muffins",
   "yieldPerBatch": "12 muffins",
   "tags": [
-    ,
     "Baking",
     "Breakfast",
     "Dessert",
@@ -168,8 +167,7 @@
       "id": "chocmuffins",
       "title": "Chocolate Muffins with Ganache",
       "matchingTags": [
-        "American",
-        ,
+        "Australian",
         "Baking",
         "Breakfast",
         "Dessert",
@@ -181,8 +179,7 @@
       "id": "cinntwists",
       "title": "Cinnamon Twists",
       "matchingTags": [
-        "American",
-        ,
+        "Australian",
         "Baking",
         "Breakfast",
         "Dessert",
@@ -194,7 +191,7 @@
       "id": "pancakesfortwo",
       "title": "Pancakes for Two",
       "matchingTags": [
-        "American",
+        "Australian",
         "Baking",
         "Breakfast",
         "Dessert",
@@ -207,8 +204,7 @@
       "id": "blueberrymuffins",
       "title": "Heavenly Blueberry Muffins",
       "matchingTags": [
-        "American",
-        ,
+        "Australian",
         "Baking",
         "Breakfast",
         "Sweet",
@@ -219,8 +215,7 @@
       "id": "cinnbun",
       "title": "Bakery-Style Cinnamon Buns",
       "matchingTags": [
-        "American",
-        ,
+        "Australian",
         "Baking",
         "Breakfast",
         "Sweet",

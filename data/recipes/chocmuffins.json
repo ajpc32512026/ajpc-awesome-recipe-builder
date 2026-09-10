@@ -10,7 +10,6 @@
   "servings": "12 muffins",
   "yieldPerBatch": "12 muffins",
   "tags": [
-    ,
     "Baking",
     "Breakfast",
     "Chocolate",
@@ -173,8 +172,7 @@
       "id": "blueberrymuffins",
       "title": "Heavenly Blueberry Muffins",
       "matchingTags": [
-        "American",
-        ,
+        "Australian",
         "Baking",
         "Breakfast",
         "Muffins",
@@ -187,8 +185,7 @@
       "id": "cinntwists",
       "title": "Cinnamon Twists",
       "matchingTags": [
-        "American",
-        ,
+        "Australian",
         "Baking",
         "Breakfast",
         "Dessert",
@@ -201,8 +198,7 @@
       "id": "muffinmix",
       "title": "Basic Muffin Mix",
       "matchingTags": [
-        "American",
-        ,
+        "Australian",
         "Baking",
         "Breakfast",
         "Dessert",
@@ -214,8 +210,7 @@
       "id": "baked-cheesecake",
       "title": "Baked Cheesecake",
       "matchingTags": [
-        "American",
-        ,
+        "Australian",
         "Dessert",
         "Drinks",
         "Rich",
@@ -227,8 +222,7 @@
       "id": "cinnbun",
       "title": "Bakery-Style Cinnamon Buns",
       "matchingTags": [
-        "American",
-        ,
+        "Australian",
         "Baking",
         "Breakfast",
         "Rich",

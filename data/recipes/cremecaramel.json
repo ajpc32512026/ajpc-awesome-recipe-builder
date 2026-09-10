@@ -10,7 +10,6 @@
   "servings": "8",
   "yieldPerBatch": "8 servings",
   "tags": [
-    ,
     "Classic",
     "Creamy",
     "Dessert",
@@ -127,7 +126,6 @@
       "id": "baked-cheesecake",
       "title": "Baked Cheesecake",
       "matchingTags": [
-        ,
         "Classic",
         "Creamy",
         "Dessert",
@@ -141,7 +139,6 @@
       "id": "plaincheesecakeclassicnobake",
       "title": "Plain Cheesecake (Classic No Bake)",
       "matchingTags": [
-        ,
         "Classic",
         "Creamy",
         "Dessert",
@@ -181,7 +178,6 @@
       "id": "bistro-profiteroles",
       "title": "Profiteroles",
       "matchingTags": [
-        ,
         "Classic",
         "Creamy",
         "Dessert",

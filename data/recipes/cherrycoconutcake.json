@@ -11,7 +11,6 @@
   "yieldPerBatch": "1 cake",
   "tags": [
     "Australian",
-    ,
     "Baking",
     "Cake",
     "Coconut",
@@ -170,7 +169,6 @@
       "title": "Classic Lamingtons",
       "matchingTags": [
         "Australian",
-        ,
         "Baking",
         "Cake",
         "Coconut",
@@ -208,7 +206,6 @@
       "id": "classiccarrotcake",
       "title": "Classic Carrot Cake",
       "matchingTags": [
-        ,
         "Baking",
         "Cake",
         "Dessert",
