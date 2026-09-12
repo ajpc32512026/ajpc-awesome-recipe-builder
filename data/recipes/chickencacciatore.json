@@ -66,8 +66,8 @@
     {
       "quantity": "8",
       "unit": "g",
-      "item": "Basil",
-      "notes": "dried"
+      "item": "Fresh Basil",
+      "notes": "fresh, packed"
     },
     {
       "quantity": "10",
@@ -89,13 +89,14 @@
     {
       "quantity": "180",
       "unit": "ml",
-      "item": "Milk Full-cream"
+      "item": "Milk",
+      "notes": "Full-cream"
     },
     {
       "quantity": "8",
       "unit": "g",
-      "item": "Parsley",
-      "notes": "fresh, chopped"
+      "item": "Fresh Parsley",
+      "notes": "Chopped"
     },
     {
       "quantity": "5",

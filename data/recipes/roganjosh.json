@@ -30,7 +30,7 @@
     {
       "quantity": "15",
       "unit": "g",
-      "item": "Ginger",
+      "item": "Fresh Ginger",
       "notes": "fresh, blended to paste with garlic"
     },
     {
@@ -72,7 +72,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Red Chilli Powder"
+      "item": "Ground Red Chilli"
     },
     {
       "quantity": "60",
@@ -86,8 +86,8 @@
     },
     {
       "quantity": "5",
-      "unit": "",
-      "item": "Cloves Whole"
+      "unit": "ea",
+      "item": "Whole Cloves"
     },
     {
       "quantity": "2",
@@ -102,8 +102,8 @@
     {
       "quantity": "600",
       "unit": "g",
-      "item": "Diced Lamb",
-      "notes": "cut into cubes"
+      "item": "Lamb",
+      "notes": "Diced"
     },
     {
       "quantity": "120",
@@ -119,7 +119,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Coriander (Fresh)",
+      "item": "Fresh Coriander",
       "notes": "chopped, for garnish"
     },
     {

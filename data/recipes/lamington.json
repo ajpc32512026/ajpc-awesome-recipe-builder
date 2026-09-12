@@ -51,7 +51,8 @@
     {
       "quantity": "125",
       "unit": "ml",
-      "item": "Milk Full-cream"
+      "item": "Milk",
+      "notes": "Full-cream"
     },
     {
       "quantity": "75",
@@ -75,7 +76,7 @@
     {
       "quantity": "180",
       "unit": "ml",
-      "item": "Boiling Water"
+      "item": "Water"
     },
     {
       "heading": "Decoration"

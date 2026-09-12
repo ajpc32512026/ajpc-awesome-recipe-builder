@@ -49,7 +49,8 @@
     {
       "quantity": "15",
       "unit": "g",
-      "item": "Milk Powder Full-cream"
+      "item": "Milk Powder",
+      "notes": "Full-cream"
     },
     {
       "quantity": "3",

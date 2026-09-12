@@ -60,7 +60,8 @@
     {
       "quantity": "250",
       "unit": "ml",
-      "item": "Milk Full-cream"
+      "item": "Milk",
+      "notes": "Full-cream"
     },
     {
       "quantity": "150",
@@ -70,7 +71,7 @@
     {
       "quantity": "6–8",
       "unit": "",
-      "item": "Apricot",
+      "item": "Apricots",
       "notes": "halved"
     },
     {

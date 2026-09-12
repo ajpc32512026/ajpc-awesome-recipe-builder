@@ -31,7 +31,8 @@
     {
       "quantity": "500",
       "unit": "ml",
-      "item": "Milk Full-cream"
+      "item": "Milk",
+      "notes": "Full-cream"
     },
     {
       "item": "Salt & Pepper",

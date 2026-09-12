@@ -24,7 +24,7 @@
     {
       "quantity": "1",
       "unit": "kg",
-      "item": "Diced Beef",
+      "item": "Beef",
       "notes": "cut into 2.5 cm cubes"
     },
     {
@@ -52,7 +52,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Red Chilli Powder"
+      "item": "Ground Red Chilli"
     },
     {
       "quantity": "250",
@@ -84,7 +84,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Coriander (Fresh)",
+      "item": "Fresh Coriander",
       "notes": "for garnish"
     },
     {

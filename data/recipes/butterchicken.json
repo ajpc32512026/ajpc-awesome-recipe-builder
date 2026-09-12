@@ -43,7 +43,7 @@
     {
       "quantity": "8",
       "unit": "g",
-      "item": "Ginger",
+      "item": "Fresh Ginger",
       "notes": "fresh, grated"
     },
     {
@@ -73,7 +73,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Red Chilli Powder"
+      "item": "Ground Red Chilli"
     },
     {
       "quantity": "40",
@@ -94,7 +94,8 @@
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Milk Full-cream"
+      "item": "Milk",
+      "notes": "Full-cream"
     },
     {
       "quantity": "2",
@@ -116,8 +117,8 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Coriander",
-      "notes": "fresh, for garnish"
+      "item": "Fresh Coriander",
+      "notes": "for garnish"
     },
     {
       "quantity": "2",

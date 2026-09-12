@@ -70,7 +70,8 @@
     {
       "quantity": "180",
       "unit": "ml",
-      "item": "Milk Full-cream"
+      "item": "Milk",
+      "notes": "Full-cream"
     },
     {
       "quantity": "10",

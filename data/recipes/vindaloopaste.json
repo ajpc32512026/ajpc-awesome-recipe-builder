@@ -25,7 +25,7 @@
     {
       "quantity": "20",
       "unit": "g",
-      "item": "Ginger",
+      "item": "Fresh Ginger",
       "notes": "fresh, chopped"
     },
     {
@@ -37,7 +37,7 @@
     {
       "quantity": "10",
       "unit": "",
-      "item": "Dried Red Chilli"
+      "item": "Red Chilli Flakes"
     },
     {
       "quantity": "5",
@@ -47,7 +47,7 @@
     {
       "quantity": "2",
       "unit": "g",
-      "item": "Fenugreek Seeds"
+      "item": "Fenugreek"
     },
     {
       "quantity": "3",
@@ -61,8 +61,8 @@
     },
     {
       "quantity": "6",
-      "unit": "",
-      "item": "Cloves Whole"
+      "unit": "ea",
+      "item": "Whole Cloves"
     },
     {
       "quantity": "1",

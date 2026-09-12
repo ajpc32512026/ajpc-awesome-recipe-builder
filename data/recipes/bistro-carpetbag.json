@@ -19,10 +19,10 @@
   ],
   "ingredients": [
     {
-      "quantity": "1",
-      "unit": "",
-      "item": "Scotch Fillet",
-      "notes": "approximately 300g"
+      "quantity": "300",
+      "unit": "g",
+      "item": "Beef",
+      "notes": "Scotch Fillet"
     },
     {
       "quantity": "3",
@@ -178,31 +178,29 @@
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 633,
-    "kj": 2649,
-    "protein": 59,
-    "carbs": 7,
-    "sugars": 4,
-    "fat": 35,
-    "saturated_fat": 20.1,
-    "fiber": 3,
-    "sodium": 1865,
-    "coverage": 86,
-    "foundCount": 6,
+    "cal": 1115,
+    "kj": 4664,
+    "protein": 67,
+    "carbs": 78,
+    "sugars": 11,
+    "fat": 52,
+    "saturated_fat": 29.4,
+    "fiber": 7,
+    "sodium": 2396,
+    "coverage": 100,
+    "foundCount": 7,
     "totalCount": 7,
-    "unmatchedItems": [
-      "Camembert Cheese"
-    ],
+    "unmatchedItems": [],
     "noQuantityItems": [],
-    "calcium_mg": 680,
+    "calcium_mg": 940,
     "iron_mg": 15,
-    "potassium_mg": 1402,
-    "magnesium_mg": 302,
-    "zinc_mg": 56,
-    "cholesterol_mg": 312,
-    "vitamin_a_ug": 404,
-    "vitamin_c_mg": 26,
+    "potassium_mg": 1518,
+    "magnesium_mg": 324,
+    "zinc_mg": 58,
+    "cholesterol_mg": 340,
+    "vitamin_a_ug": 707,
+    "vitamin_c_mg": 37,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-12"
 }

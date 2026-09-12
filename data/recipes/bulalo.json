@@ -44,8 +44,8 @@
     {
       "quantity": "3",
       "unit": "",
-      "item": "Corn Cobs",
-      "notes": "cut into pieces"
+      "item": "Corn",
+      "notes": "on the cob, cut into pieces"
     },
     {
       "quantity": "1",
@@ -80,8 +80,8 @@
     {
       "quantity": "2",
       "unit": "",
-      "item": "Red Chilli",
-      "notes": "sliced, optional"
+      "item": "Fresh Red Chilli",
+      "notes": "fresh, finely sliced"
     }
   ],
   "method": [

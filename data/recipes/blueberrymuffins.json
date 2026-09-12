@@ -26,7 +26,8 @@
     {
       "quantity": "160",
       "unit": "ml",
-      "item": "Milk Full-cream"
+      "item": "Milk",
+      "notes": "Full-cream"
     },
     {
       "quantity": "2",
@@ -42,7 +43,8 @@
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Milk Powder Full-cream"
+      "item": "Milk Powder",
+      "notes": "Full-cream"
     },
     {
       "quantity": "100",

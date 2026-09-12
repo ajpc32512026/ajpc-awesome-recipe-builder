@@ -30,8 +30,8 @@
     {
       "quantity": "3",
       "unit": "",
-      "item": "Granny Smith Apples",
-      "notes": "peeled, cored, chopped into 1.5cm cubes"
+      "item": "Apples",
+      "notes": "Granny Smith, peeled, cored, chopped into 1.5cm cubes"
     },
     {
       "quantity": "60",
@@ -58,7 +58,7 @@
     {
       "quantity": "45",
       "unit": "g",
-      "item": "Light Brown Sugar"
+      "item": "Brown Sugar"
     },
     {
       "quantity": "15",

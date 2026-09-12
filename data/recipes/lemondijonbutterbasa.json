@@ -21,8 +21,8 @@
     {
       "quantity": "2",
       "unit": "",
-      "item": "Basa Fillets",
-      "notes": "skinless"
+      "item": "Fish Fillets",
+      "notes": "basa, skinless"
     },
     {
       "quantity": "20",
@@ -73,8 +73,8 @@
     {
       "quantity": "1",
       "unit": "g",
-      "item": "Sweet Smoked Paprika",
-      "notes": "about 1/4 tsp"
+      "item": "Sweet Paprika",
+      "notes": "smoked, about 1/4 tsp"
     },
     {
       "item": "Salt & Pepper",

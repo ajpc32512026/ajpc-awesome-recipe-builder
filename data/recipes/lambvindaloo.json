@@ -26,8 +26,8 @@
     {
       "quantity": "1",
       "unit": "kg",
-      "item": "Diced Lamb",
-      "notes": "cut into 2.5 cm cubes"
+      "item": "Lamb",
+      "notes": "Diced"
     },
     {
       "quantity": "30",
@@ -54,7 +54,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Red Chilli Powder"
+      "item": "Ground Red Chilli"
     },
     {
       "quantity": "40",
@@ -86,7 +86,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Coriander (Fresh)",
+      "item": "Fresh Coriander",
       "notes": "chopped, for garnish"
     },
     {

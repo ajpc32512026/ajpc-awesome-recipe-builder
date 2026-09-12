@@ -24,8 +24,8 @@
     {
       "quantity": "300",
       "unit": "g",
-      "item": "Diced Lamb",
-      "notes": "cut into cubes"
+      "item": "Lamb",
+      "notes": "Diced"
     },
     {
       "quantity": "45",
@@ -47,7 +47,7 @@
     {
       "quantity": "15",
       "unit": "g",
-      "item": "Ginger",
+      "item": "Fresh Ginger",
       "notes": "fresh, grated to a paste"
     },
     {
@@ -63,7 +63,7 @@
     {
       "quantity": "1",
       "unit": "",
-      "item": "Dried Red Chilli"
+      "item": "Red Chilli Flakes"
     },
     {
       "quantity": "5",
@@ -84,7 +84,7 @@
     {
       "quantity": "8",
       "unit": "g",
-      "item": "Red Chilli Powder"
+      "item": "Ground Red Chilli"
     },
     {
       "quantity": "60",
