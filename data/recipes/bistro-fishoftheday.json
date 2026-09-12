@@ -10,7 +10,6 @@
   "servings": "1 serving",
   "yieldPerBatch": "1 serving",
   "tags": [
-    "Alcohol",
     "Bistro",
     "Classic",
     "Creamy",
@@ -21,9 +20,7 @@
     "Lemon",
     "Lunch",
     "Rich",
-    "Savoury",
-    "Seafood",
-    "Under 30 Minutes"
+    "Savoury"
   ],
   "ingredients": [
     {
@@ -51,7 +48,8 @@
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Thickened Cream"
+      "item": "Cream",
+      "notes": "Thickened"
     },
     {
       "quantity": "10",

@@ -13,10 +13,7 @@
     "Baking",
     "Classic",
     "Dessert",
-    "Fruit",
-    "Make-Ahead",
     "Pastry",
-    "Rich",
     "Sweet",
     "Vegetarian",
     "Australian"
@@ -68,7 +65,7 @@
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Cold Water",
+      "item": "Water",
       "notes": "chilled"
     }
   ],
@@ -206,5 +203,5 @@
     "vitamin_a_ug": 137,
     "vitamin_c_mg": 5
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-11"
 }

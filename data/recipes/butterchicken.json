@@ -43,8 +43,8 @@
     {
       "quantity": "8",
       "unit": "g",
-      "item": "Ginger (Fresh)",
-      "notes": "grated"
+      "item": "Ginger",
+      "notes": "fresh, grated"
     },
     {
       "quantity": "3",
@@ -83,7 +83,8 @@
     {
       "quantity": "125",
       "unit": "ml",
-      "item": "Thickened Cream"
+      "item": "Cream",
+      "notes": "Thickened"
     },
     {
       "quantity": "20",

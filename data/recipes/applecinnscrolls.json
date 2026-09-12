@@ -16,7 +16,9 @@
     "Classic",
     "Pastry",
     "Sweet",
-    "Vegetarian"
+    "Vegetarian",
+    "Snack",
+    "Dessert"
   ],
   "ingredients": [
     {
@@ -53,15 +55,10 @@
       "item": "Yeast"
     },
     {
-      "quantity": "1",
-      "unit": "",
-      "item": "Eggs"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Egg Yolks",
-      "notes": "extra for dough"
+      "quantity": "2",
+      "unit": "ea",
+      "item": "Eggs",
+      "notes": "1 separted"
     },
     {
       "quantity": "3",
@@ -110,8 +107,8 @@
     {
       "quantity": "50",
       "unit": "ml",
-      "item": "Thickened Cream",
-      "notes": "thickened cream"
+      "item": "Cream",
+      "notes": "Thickened"
     },
     {
       "quantity": "5",
@@ -223,34 +220,29 @@
   ],
   "nutrition": {
     "servings": 12,
-    "cal": 1647,
-    "kj": 6893,
-    "protein": 16,
+    "cal": 1650,
+    "kj": 6905,
+    "protein": 17,
     "carbs": 389,
-    "sugars": 15,
+    "sugars": 16,
     "fat": 22,
-    "saturated_fat": 6.1,
-    "fiber": 62,
-    "sodium": 54,
-    "coverage": 78,
-    "foundCount": 14,
-    "totalCount": 18,
-    "unmatchedItems": [
-      "Milk Full-cream",
-      "Apple Juice",
-      "Ground Cinnamon",
-      "Natural Vanilla Extract"
-    ],
+    "saturated_fat": 7,
+    "fiber": 61,
+    "sodium": 87,
+    "coverage": 100,
+    "foundCount": 17,
+    "totalCount": 17,
+    "unmatchedItems": [],
     "noQuantityItems": [],
-    "calcium_mg": 36,
+    "calcium_mg": 61,
     "iron_mg": 1,
-    "potassium_mg": 194,
-    "magnesium_mg": 28,
+    "potassium_mg": 211,
+    "magnesium_mg": 30,
     "zinc_mg": 1,
-    "cholesterol_mg": 98,
-    "vitamin_a_ug": 102,
-    "vitamin_c_mg": 13,
-    "vitamin_d_ug": 1
+    "cholesterol_mg": 182,
+    "vitamin_a_ug": 131,
+    "vitamin_c_mg": 3,
+    "vitamin_d_ug": 2
   },
-  "lastModified": "2026-09-08"
+  "lastModified": "2026-09-11"
 }

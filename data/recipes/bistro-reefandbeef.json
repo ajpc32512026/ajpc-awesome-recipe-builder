@@ -22,10 +22,10 @@
   ],
   "ingredients": [
     {
-      "quantity": "1",
-      "unit": "",
-      "item": "Beef, Scotch Fillet",
-      "notes": "approximately 180 g each"
+      "quantity": "180",
+      "unit": "g",
+      "item": "Beef",
+      "notes": "Scotch Fillet"
     },
     {
       "quantity": "150",

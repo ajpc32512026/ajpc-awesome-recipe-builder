@@ -35,7 +35,8 @@
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Slivered Almonds"
+      "item": "Almonds",
+      "notes": "Slivered"
     },
     {
       "quantity": "30",
@@ -45,7 +46,8 @@
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Thickened Cream"
+      "item": "Cream",
+      "notes": "Thickened"
     },
     {
       "quantity": "60",

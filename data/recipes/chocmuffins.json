@@ -14,10 +14,8 @@
     "Breakfast",
     "Chocolate",
     "Dessert",
-    "Muffins",
     "Rich",
     "Sweet",
-    "Under 1 Hour",
     "Vegetarian",
     "Australian"
   ],
@@ -83,8 +81,8 @@
     {
       "quantity": "260",
       "unit": "ml",
-      "item": "Thickened Cream",
-      "notes": "divided: 60ml for Muffins, 200ml for Ganache"
+      "item": "Cream",
+      "notes": "Thickened, divided: 60ml for Muffins, 200ml for Ganache"
     },
     {
       "quantity": "320",

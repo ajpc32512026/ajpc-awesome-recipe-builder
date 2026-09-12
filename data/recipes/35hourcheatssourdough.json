@@ -19,7 +19,9 @@
     "Sourdough Style",
     "Vegan",
     "Vegetarian",
-    "No Sugar"
+    "No Sugar",
+    "No Oil",
+    "No Butter"
   ],
   "ingredients": [
     {
@@ -151,29 +153,12 @@
   ],
   "related": [
     {
-      "id": "bananabread",
-      "title": "Banana Bread",
+      "id": "highhydraciab",
+      "title": "Airy High-Hydration Ciabatta",
       "matchingTags": [
+        "Baking",
         "Bread",
-        "Make-Ahead",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "darkrye",
-      "title": "Dark Rye Bread",
-      "matchingTags": [
-        "Bread",
-        "Make-Ahead",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "focaccia",
-      "title": "Focaccia",
-      "matchingTags": [
-        "Bread",
-        "Make-Ahead",
+        "Vegan",
         "Vegetarian"
       ]
     },
@@ -181,8 +166,9 @@
       "id": "focaccia-high",
       "title": "High-Hydration Focaccia",
       "matchingTags": [
+        "Baking",
         "Bread",
-        "Make-Ahead",
+        "Vegan",
         "Vegetarian"
       ]
     },
@@ -190,8 +176,29 @@
       "id": "swbtm",
       "title": "Soft White Bread (Tangzhong Method)",
       "matchingTags": [
+        "Baking",
         "Bread",
-        "Make-Ahead",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "swbtm2",
+      "title": "Soft White Bread 2 (Tangzhong)",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Vegan",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "tangzhongseed",
+      "title": "Tangzhong Grain & Seed Bread",
+      "matchingTags": [
+        "Baking",
+        "Bread",
+        "Vegan",
         "Vegetarian"
       ]
     }
@@ -219,5 +226,5 @@
     "zinc_mg": 6,
     "vitamin_a_ug": 1
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-10"
 }

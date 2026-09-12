@@ -10,18 +10,14 @@
   "servings": "2 servings",
   "yieldPerBatch": "1 batch",
   "tags": [
-    "Asian",
     "Baking",
     "Chicken",
-    "Chinese",
     "Coconut",
     "Dinner",
     "Gluten-Free",
-    "Pineapple",
     "Savoury",
-    "Stovetop",
     "Sweet",
-    "Thai"
+    "Filipino"
   ],
   "ingredients": [
     {
@@ -67,8 +63,8 @@
     {
       "quantity": "220",
       "unit": "g",
-      "item": "Pineapple Rings",
-      "notes": "drained, juice reserved"
+      "item": "Pineapple",
+      "notes": "slices drained, juice reserved"
     },
     {
       "quantity": "165",

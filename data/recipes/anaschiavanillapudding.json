@@ -15,16 +15,16 @@
     "Creamy",
     "Dessert",
     "Gluten-Free",
-    "Healthy",
     "No-Bake",
     "No-Cook",
-    "Vegetarian"
+    "Vegetarian",
+    "Make-Ahead"
   ],
   "ingredients": [
     {
       "quantity": "180",
       "unit": "ml",
-      "item": "Milk Full-cream",
+      "item": "Milk",
       "notes": "Full cream or any milk"
     },
     {
@@ -131,39 +131,26 @@
       ]
     },
     {
-      "id": "bistro-pavlova",
-      "title": "Pavlova",
-      "matchingTags": [
-        "Australian",
-        "Creamy",
-        "Dessert",
-        "Gluten-Free",
-        "No-Cook",
-        "Vegetarian"
-      ]
-    },
-    {
       "id": "plaincheesecakeclassicnobake",
       "title": "Plain Cheesecake (Classic No Bake)",
       "matchingTags": [
         "Creamy",
         "Dessert",
-        "Gluten-Free",
         "No-Bake",
         "No-Cook",
-        "Vegetarian"
+        "Vegetarian",
+        "Australian"
       ]
     },
     {
-      "id": "roulade",
-      "title": "Strawberry Meringue Roulade",
+      "id": "baked-cheesecake",
+      "title": "Baked Cheesecake",
       "matchingTags": [
-        "Australian",
         "Creamy",
         "Dessert",
         "Gluten-Free",
-        "No-Cook",
-        "Vegetarian"
+        "Vegetarian",
+        "Australian"
       ]
     },
     {
@@ -174,6 +161,17 @@
         "Dessert",
         "Gluten-Free",
         "No-Cook",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chocolatemousse",
+      "title": "Chocolate Mousse",
+      "matchingTags": [
+        "Creamy",
+        "Dessert",
+        "Gluten-Free",
+        "No-Bake",
         "Vegetarian"
       ]
     }
@@ -189,20 +187,18 @@
     "saturated_fat": 6,
     "fiber": 2,
     "sodium": 7,
-    "coverage": 50,
-    "foundCount": 3,
+    "coverage": 83,
+    "foundCount": 5,
     "totalCount": 6,
     "unmatchedItems": [
-      "Milk Full-cream",
-      "Black Chia Seeds",
-      "Natural Vanilla Extract"
+      "Milk"
     ],
     "noQuantityItems": [],
-    "calcium_mg": 10,
+    "calcium_mg": 11,
     "iron_mg": 1,
-    "potassium_mg": 114,
-    "magnesium_mg": 27,
+    "potassium_mg": 121,
+    "magnesium_mg": 28,
     "zinc_mg": 1
   },
-  "lastModified": "2026-09-08"
+  "lastModified": "2026-09-11"
 }

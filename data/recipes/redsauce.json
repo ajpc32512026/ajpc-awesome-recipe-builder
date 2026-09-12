@@ -14,7 +14,6 @@
     "Italian",
     "Sauce",
     "Tomato",
-    "Under 30 Minutes",
     "Vegan",
     "Vegetarian"
   ],
@@ -22,7 +21,7 @@
     {
       "quantity": "500",
       "unit": "g",
-      "item": "Tomato",
+      "item": "Tomatoes",
       "notes": "pureed"
     },
     {

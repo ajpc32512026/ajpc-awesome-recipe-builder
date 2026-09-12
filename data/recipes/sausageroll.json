@@ -23,8 +23,8 @@
     {
       "quantity": "500",
       "unit": "g",
-      "item": "Mince Beef",
-      "notes": "lean or heart smart is best"
+      "item": "Beef",
+      "notes": "Mince, lean or heart smart is best"
     },
     {
       "quantity": "500",
@@ -46,7 +46,7 @@
     },
     {
       "quantity": "1",
-      "unit": "",
+      "unit": "ea",
       "item": "Carrots",
       "notes": "grated"
     },
@@ -170,7 +170,7 @@
       "title": "Classic Lasagne — Ragù & Béchamel",
       "matchingTags": [
         "Italian",
-		"Baking",
+        "Baking",
         "Classic",
         "Lunch",
         "Make-Ahead",
@@ -195,7 +195,7 @@
         "Classic",
         "Make-Ahead",
         "Savoury",
-		"Turkish"
+        "Turkish"
       ]
     },
     {

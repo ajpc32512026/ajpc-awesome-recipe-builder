@@ -18,8 +18,7 @@
     "Gluten-Free",
     "Make-Ahead",
     "Savoury",
-    "Sweet",
-    "Under 1 Hour"
+    "Sweet"
   ],
   "ingredients": [
     {
@@ -49,7 +48,7 @@
       "quantity": "10",
       "unit": "g",
       "item": "Ginger",
-      "notes": "fresh grated (about 2 tsp)"
+      "notes": "fresh, grated (about 2 tsp)"
     },
     {
       "quantity": "15",

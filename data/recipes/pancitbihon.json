@@ -39,8 +39,8 @@
     },
     {
       "quantity": "1",
-      "unit": "",
-      "item": "Carrot",
+      "unit": "ea",
+      "item": "Carrots",
       "notes": "large, julienned"
     },
     {
@@ -148,7 +148,6 @@
       "id": "pancitfilipinostirfriednoodles",
       "title": "Pancit (Filipino Stir-Fried Noodles)",
       "matchingTags": [
-        
         "Chicken",
         "Chinese",
         "Dairy-Free",
@@ -166,7 +165,6 @@
       "id": "pancitcanton",
       "title": "Pancit Canton",
       "matchingTags": [
-        
         "Chinese",
         "Dairy-Free",
         "Dinner",
@@ -181,7 +179,6 @@
       "id": "filipinoportoccino",
       "title": "Filipino Pork Toccino",
       "matchingTags": [
-        
         "Chinese",
         "Dinner",
         "Filipino",
@@ -194,7 +191,6 @@
       "id": "pineapplecoconutchicken",
       "title": "Pineapple Coconut Chicken",
       "matchingTags": [
-        
         "Chicken",
         "Chinese",
         "Dinner",
@@ -207,7 +203,6 @@
       "id": "apricotchicken",
       "title": "Apricot Chicken",
       "matchingTags": [
-        
         "Chicken",
         "Chinese",
         "Dinner",

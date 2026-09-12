@@ -393,8 +393,24 @@ async function syncRecipeIndexEntry(id, obj) {
         const file = await indexHandle.getFile();
         const index = JSON.parse(await file.text());
 
-        const entry = { id, title: obj.title, category: obj.category || '', tags: obj.tags || [] };
+        // Merge onto whatever's already there instead of replacing the whole
+        // entry — recipe-index.json has grown fields over time (description,
+        // difficulty, an embedded ingredients list that search.js reads
+        // directly) that this function predates. Replacing wholesale was
+        // silently deleting any of those it didn't know about on every save.
         const i = index.findIndex(r => r.id === id);
+        const existing = i >= 0 ? index[i] : {};
+        const entry = Object.assign({}, existing, {
+            id,
+            title: obj.title,
+            category: obj.category || '',
+            tags: obj.tags || [],
+            description: obj.description !== undefined ? obj.description : existing.description,
+            difficulty: obj.difficulty !== undefined ? obj.difficulty : existing.difficulty,
+            ingredients: Array.isArray(obj.ingredients)
+                ? obj.ingredients.filter(ing => ing && ing.item).map(ing => ({ item: ing.item }))
+                : existing.ingredients
+        });
         if (i >= 0) index[i] = entry; else index.push(entry);
 
         const w = await indexHandle.createWritable();

@@ -10,7 +10,6 @@
   "servings": "8 servings",
   "yieldPerBatch": "8 servings",
   "tags": [
-    "Alcohol",
     "Australian",
     "Baking",
     "British",
@@ -24,14 +23,14 @@
   "ingredients": [
     {
       "quantity": "1",
-      "unit": "",
-      "item": "Carrot",
+      "unit": "ea",
+      "item": "Carrots",
       "notes": "shredded"
     },
     {
       "quantity": "1",
-      "unit": "",
-      "item": "Apple",
+      "unit": "ea",
+      "item": "Apples",
       "notes": "shredded"
     },
     {
@@ -86,7 +85,8 @@
     {
       "quantity": "150",
       "unit": "ml",
-      "item": "Thickened Cream"
+      "item": "Cream",
+      "notes": "Thickened"
     },
     {
       "quantity": "15",

@@ -10,7 +10,6 @@
   "servings": "1 serving",
   "yieldPerBatch": "1 serving",
   "tags": [
-    "Alcohol",
     "Bistro",
     "Chicken",
     "Classic",
@@ -29,7 +28,8 @@
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Thickened Cream"
+      "item": "Cream",
+      "notes": "Thickened"
     },
     {
       "quantity": "15",

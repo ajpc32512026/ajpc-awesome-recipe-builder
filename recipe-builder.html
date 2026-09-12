@@ -37,6 +37,7 @@
                 <button class="btn" id="validate-all-btn" title="Scan every recipe in the collection against the schema">Validate All</button>
                 <button class="btn" id="missing-related-btn" title="Find every recipe with no related recipes set">Missing Related</button>
                 <button class="btn" id="manage-tags-btn" title="See every tag across the collection and remove it from some or all recipes">Manage Tags</button>
+                <button class="btn" id="manage-ingredients-btn" title="Audit every ingredient line across the collection, rename, edit, or delete it">Manage Ingredients</button>
             </div>
             <div class="toolbar-group">
                 <button class="btn primary" id="save-btn" onclick="saveJSON()">Save</button>
@@ -325,12 +326,33 @@
                     <button class="btn" id="close-tags-btn">Close</button>
                 </div>
             </div>
+            <div class="tags-pending-bar" id="tags-pending-bar" style="display:none;"></div>
             <div class="preview-content" id="tags-all-output">
                 <p class="preview-placeholder">Click "Manage Tags" to scan the whole collection.</p>
             </div>
             <div class="tags-detail-section">
                 <div class="tags-detail-header" id="tags-detail-header">Select a tag above to see its recipes</div>
                 <div class="preview-content" id="tags-detail-output"></div>
+            </div>
+        </div>
+
+        <!-- MANAGE INGREDIENTS PANEL -->
+        <div class="preview-box" id="ingredients-panel" style="display:none;">
+            <div class="preview-header">
+                <div>
+                    <div class="preview-label">Manage Ingredients</div>
+                    <div class="section-hint">Every ingredient line across the collection, grouped by exact text — select one to audit, edit, or rename it</div>
+                </div>
+                <div class="preview-actions">
+                    <button class="btn" id="close-ingredients-btn">Close</button>
+                </div>
+            </div>
+            <div class="preview-content" id="ingredients-all-output">
+                <p class="preview-placeholder">Click "Manage Ingredients" to scan the whole collection.</p>
+            </div>
+            <div class="tags-detail-section">
+                <div class="tags-detail-header" id="ingredients-detail-header">Select an ingredient above to see its recipes</div>
+                <div class="preview-content" id="ingredients-detail-output"></div>
             </div>
         </div>
 
@@ -366,6 +388,7 @@
     <script src="js/builder-timeline.js"></script>
     <script src="js/builder-main.js"></script>
     <script src="js/builder-checks.js"></script>
-    <script src="js/builder-validator.js"></script>
+    <script src="js/builder-validator.js?v=10"></script>
+    <script src="js/builder-ingredients.js?v=3"></script>
 </body>
 </html>

@@ -70,14 +70,18 @@
   "method": [
     {
       "step": 1,
-      "instruction": "Measure all spices into a small bowl."
+      "instruction": "Prepare 1 batch [[nachomince|Nacho Mince]] according to the recipe. Set aside."
     },
     {
       "step": 2,
-      "instruction": "Mix thoroughly until evenly combined."
+      "instruction": "Measure all spices into a small bowl."
     },
     {
       "step": 3,
+      "instruction": "Mix thoroughly until evenly combined."
+    },
+    {
+      "step": 4,
       "instruction": "Use immediately or store in an airtight jar. Label with the date. Keeps well for up to 6 months."
     }
   ],
@@ -174,5 +178,5 @@
     "vitamin_a_ug": 42,
     "vitamin_c_mg": 12
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-12"
 }

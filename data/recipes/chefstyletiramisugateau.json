@@ -13,7 +13,6 @@
     "Baking",
     "Cake",
     "Classic",
-    "Coffee",
     "Creamy",
     "Dessert",
     "Italian",
@@ -38,8 +37,8 @@
     {
       "quantity": "360",
       "unit": "ml",
-      "item": "Thickened Cream",
-      "notes": "divided: 300ml (for filling), 60ml whipped to stiff peaks (for topping)"
+      "item": "Cream",
+      "notes": "Thickened, divided: 300ml (for filling), 60ml whipped to stiff peaks (for topping)"
     },
     {
       "quantity": "10",

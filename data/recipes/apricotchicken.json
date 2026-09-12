@@ -10,14 +10,11 @@
   "servings": "6",
   "yieldPerBatch": "1 batch",
   "tags": [
-    "Asian",
     "Australian",
     "Chicken",
-    "Chinese",
     "Classic",
     "Dinner",
     "Easy",
-    "Retro",
     "Savoury",
     "Sweet"
   ],
@@ -25,7 +22,7 @@
     {
       "quantity": "6",
       "unit": "",
-      "item": "Chicken Thigh Fillets",
+      "item": "Chicken Thigh",
       "notes": "boneless, skinless"
     },
     {

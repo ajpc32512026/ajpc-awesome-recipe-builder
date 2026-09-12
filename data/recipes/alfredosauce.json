@@ -15,14 +15,13 @@
     "Italian",
     "Pasta",
     "Sauce",
-    "Under 30 Minutes",
     "Vegetarian"
   ],
   "ingredients": [
     {
       "quantity": "45",
       "unit": "g",
-      "item": "Unsalted Butter"
+      "item": "Butter"
     },
     {
       "quantity": "2",
@@ -33,7 +32,8 @@
     {
       "quantity": "250",
       "unit": "ml",
-      "item": "Thickened Cream"
+      "item": "Cream",
+      "notes": "Thickened"
     },
     {
       "quantity": "100",
@@ -90,11 +90,9 @@
       "id": "arrabbiatasauce",
       "title": "Arrabbiata Sauce",
       "matchingTags": [
-        "Chinese",
         "Gluten-Free",
         "Italian",
         "Sauce",
-        "Under 30 Minutes",
         "Vegetarian"
       ]
     },
@@ -102,11 +100,9 @@
       "id": "marinarasauce",
       "title": "Marinara Sauce",
       "matchingTags": [
-        "Chinese",
         "Gluten-Free",
         "Italian",
         "Sauce",
-        "Under 30 Minutes",
         "Vegetarian"
       ]
     },
@@ -114,11 +110,9 @@
       "id": "pestosauce",
       "title": "Pesto Sauce",
       "matchingTags": [
-        "Chinese",
         "Gluten-Free",
         "Italian",
         "Sauce",
-        "Under 30 Minutes",
         "Vegetarian"
       ]
     },
@@ -126,10 +120,8 @@
       "id": "chilligarlicoil",
       "title": "Chilli Garlic Oil",
       "matchingTags": [
-        "Chinese",
         "Gluten-Free",
         "Sauce",
-        "Under 30 Minutes",
         "Vegetarian"
       ]
     },
@@ -137,10 +129,8 @@
       "id": "honeygarlicsauce",
       "title": "Honey Garlic Sauce",
       "matchingTags": [
-        "Chinese",
         "Gluten-Free",
         "Sauce",
-        "Under 30 Minutes",
         "Vegetarian"
       ]
     }
@@ -170,5 +160,5 @@
     "vitamin_a_ug": 330,
     "vitamin_c_mg": 6
   },
-  "lastModified": "2026-09-08"
+  "lastModified": "2026-09-11"
 }

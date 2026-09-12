@@ -16,13 +16,15 @@
     "Make-Ahead",
     "Mexican",
     "Savoury",
-    "Spicy"
+    "Spicy",
+    "Lunch"
   ],
   "ingredients": [
     {
       "quantity": "500",
       "unit": "g",
-      "item": "Beef Mince"
+      "item": "Beef",
+      "notes": "Mince"
     },
     {
       "quantity": "15",
@@ -49,14 +51,8 @@
     {
       "quantity": "400",
       "unit": "g",
-      "item": "Tomato",
+      "item": "Tomatoes",
       "notes": "canned, crushed"
-    },
-    {
-      "quantity": "1",
-      "unit": "batch",
-      "item": "Taco Seasoning",
-      "notes": "see recipe, or 1 packet Old El Paso"
     },
     {
       "item": "Salt & Pepper",
@@ -187,29 +183,28 @@
   ],
   "nutrition": {
     "servings": 4,
-    "cal": 6496,
-    "kj": 27180,
-    "protein": 284,
-    "carbs": 898,
-    "sugars": 884,
-    "fat": 134,
-    "saturated_fat": 34.2,
-    "fiber": 373,
-    "sodium": 4153,
+    "cal": 6433,
+    "kj": 26916,
+    "protein": 263,
+    "carbs": 917,
+    "sugars": 886,
+    "fat": 128,
+    "saturated_fat": 31.2,
+    "fiber": 371,
+    "sodium": 2195,
     "coverage": 100,
-    "foundCount": 7,
-    "totalCount": 7,
+    "foundCount": 6,
+    "totalCount": 6,
     "unmatchedItems": [],
     "noQuantityItems": [],
     "calcium_mg": 6732,
-    "iron_mg": 423,
-    "potassium_mg": 54731,
-    "magnesium_mg": 3253,
-    "zinc_mg": 46,
-    "cholesterol_mg": 95,
-    "vitamin_a_ug": 23,
-    "vitamin_c_mg": 709,
-    "vitamin_d_ug": 2
+    "iron_mg": 422,
+    "potassium_mg": 54482,
+    "magnesium_mg": 3236,
+    "zinc_mg": 45,
+    "cholesterol_mg": 16,
+    "vitamin_a_ug": 41,
+    "vitamin_c_mg": 714
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-12"
 }

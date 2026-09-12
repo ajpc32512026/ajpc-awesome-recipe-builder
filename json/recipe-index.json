@@ -3,18 +3,50 @@
     "id": "35hourcheatssourdough",
     "title": "The \"35-Hour\" Cheat's Sourdough",
     "category": "Breads",
+    "description": "White Artisan Loaf with a hard, crunchy crust and a tangy sourdough-style flavour. Uses a \"Poolish\" (overnight starter) and vinegar to mimic the flavour and crunch of store-bought sourdough without the hassle of a permanent starter.",
+    "difficulty": "Intermediate",
     "tags": [
       "Artisan",
       "Baking",
       "Bread",
       "Crusty",
       "European",
-      "No Oil",
+      "Make-Ahead",
       "Sourdough Style",
       "Vegan",
       "Vegetarian",
       "No Sugar",
-      "Make-Ahead"
+      "No Oil",
+      "No Butter"
+    ],
+    "ingredients": [
+      {
+        "item": "Bread Flour"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Yeast"
+      },
+      {
+        "item": "Bread Flour"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "White Vinegar"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Yeast"
+      },
+      {
+        "item": "Bread Improver"
+      }
     ]
   },
   {
@@ -22,16 +54,44 @@
     "title": "Apple Pie",
     "category": "Desserts",
     "tags": [
-      "American",
       "Baking",
       "Classic",
       "Dessert",
-      "Fruit",
-      "Make Ahead",
       "Pastry",
-      "Rich",
       "Sweet",
-      "Vegetarian"
+      "Vegetarian",
+      "Australian"
+    ],
+    "description": "The kind of pie that disappears faster than good intentions — crisp pastry, soft spiced apples, and zero leftovers.",
+    "difficulty": "Beginner",
+    "ingredients": [
+      {
+        "item": "Granny Smith Apples"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Ground Cloves"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Self-raising Flour"
+      },
+      {
+        "item": "Custard Powder"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Water"
+      }
     ]
   },
   {
@@ -44,8 +104,26 @@
       "Italian",
       "Pasta",
       "Sauce",
-      "Under 30 Minutes",
       "Vegetarian"
+    ],
+    "description": "Rich, velvety, and unapologetically indulgent. A classic cream-based Alfredo that coats pasta like silk and demands to be eaten immediately.",
+    "difficulty": "Beginner",
+    "ingredients": [
+      {
+        "item": "Butter"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Cream"
+      },
+      {
+        "item": "Parmesan"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
@@ -58,16 +136,18 @@
       "Creamy",
       "Dessert",
       "Gluten-Free",
-      "Healthy",
       "No-Bake",
       "No-Cook",
-      "Vegetarian"
+      "Vegetarian",
+      "Make-Ahead"
     ]
   },
   {
     "id": "apricotflan",
     "title": "Apricot Flan",
     "category": "Desserts",
+    "description": "Not just dessert — this is the one that makes the room go quiet. Soft custard, buttery pastry, and apricots that know their job.",
+    "difficulty": "Intermediate",
     "tags": [
       "Apricot",
       "Australian",
@@ -81,28 +161,96 @@
       "Rich",
       "Sweet",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Almonds"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Natural Vanilla Extract"
+      },
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "Pure Cream"
+      },
+      {
+        "item": "Apricot"
+      },
+      {
+        "item": "Apricot Jam"
+      },
+      {
+        "item": "Brandy"
+      }
     ]
   },
   {
     "id": "bananabread",
     "title": "Banana Bread",
     "category": "Snacks",
+    "description": "Like Nan used to make — moist, forgiving, and quietly better than it has any right to be.",
+    "difficulty": "Beginner",
     "tags": [
       "Baking",
       "Bread",
       "Breakfast",
       "Classic",
-      "Make Ahead",
+      "Make-Ahead",
       "Rich",
       "Sweet",
       "Vegetarian",
       "Australian"
+    ],
+    "ingredients": [
+      {
+        "item": "Bananas"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Brown Sugar"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Natural Vanilla Extract"
+      },
+      {
+        "item": "Bi-carb Soda"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Walnuts"
+      }
     ]
   },
   {
     "id": "baked-cheesecake",
     "title": "Baked Cheesecake",
     "category": "Desserts",
+    "description": "A classic baked cheesecake with a creamy, dense filling and crisp biscuit base. Rich, smooth, and far more forgiving than its reputation suggests.",
+    "difficulty": "Intermediate",
     "tags": [
       "Baked",
       "Classic",
@@ -116,12 +264,43 @@
       "Sweet",
       "Vegetarian",
       "Australian"
+    ],
+    "ingredients": [
+      {
+        "item": "Arnotts Nice Biscuits"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Philadelphia Cream Cheese"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Natural Vanilla Extract"
+      },
+      {
+        "item": "Lemon Juice"
+      },
+      {
+        "item": "Lemon Zest"
+      },
+      {
+        "item": "Pure Cream"
+      }
     ]
   },
   {
     "id": "bananacake",
     "title": "Banana Cake with Lemon Frosting",
     "category": "Cakes",
+    "description": "A moist, tender banana cake made with oil — no mixer required. Crowned with a tangy lemon buttercream and toasted coconut.",
+    "difficulty": "Beginner",
     "tags": [
       "Australian",
       "Baking",
@@ -131,6 +310,50 @@
       "Dessert",
       "Sweet",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Brown Sugar"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Natural Vanilla Extract"
+      },
+      {
+        "item": "Bananas"
+      },
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "Bi-carb Soda"
+      },
+      {
+        "item": "Ground Cinnamon"
+      },
+      {
+        "item": "Self-raising Flour"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Icing Sugar"
+      },
+      {
+        "item": "Lemon Juice"
+      },
+      {
+        "item": "Desiccated Coconut"
+      }
     ]
   },
   {
@@ -138,17 +361,35 @@
     "title": "Apricot Chicken",
     "category": "Dinner",
     "tags": [
-      "Asian",
       "Australian",
-      "Baked",
       "Chicken",
-      "Chinese",
       "Classic",
       "Dinner",
       "Easy",
-      "Retro",
       "Savoury",
       "Sweet"
+    ],
+    "description": "Classic retro apricot chicken — sticky, sweet, savoury, and impossibly easy. Chicken thigh fillets baked in a glossy apricot glaze.",
+    "difficulty": "Beginner",
+    "ingredients": [
+      {
+        "item": "Chicken Thigh"
+      },
+      {
+        "item": "Apricot Halves"
+      },
+      {
+        "item": "Apricot Jam"
+      },
+      {
+        "item": "Soy Sauce"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
@@ -162,13 +403,72 @@
       "Classic",
       "Pastry",
       "Sweet",
-      "Vegetarian"
+      "Vegetarian",
+      "Snack",
+      "Dessert"
+    ],
+    "description": "Golden, fragrant, and guaranteed to vanish fast. Best enjoyed warm and unapologetically drowned in icing.",
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Honey"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Apple Juice"
+      },
+      {
+        "item": "Yeast"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Orange Zest"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Ground Cinnamon"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Apples"
+      },
+      {
+        "item": "Brown Sugar"
+      },
+      {
+        "item": "Walnuts"
+      },
+      {
+        "item": "Pure Icing Sugar"
+      },
+      {
+        "item": "Cream"
+      },
+      {
+        "item": "Natural Vanilla Extract"
+      }
     ]
   },
   {
     "id": "applestrudel",
     "title": "Apple Strudel",
     "category": "Desserts",
+    "description": "Easy apple strudel recipe using store-bought puff pastry and staples like apples, walnuts, and cinnamon. Perfect for dessert or a sweet breakfast treat!",
+    "difficulty": "Beginner",
     "tags": [
       "Austrian",
       "Baking",
@@ -179,12 +479,40 @@
       "Sweet",
       "Vegan",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Frozen Puff Pastry"
+      },
+      {
+        "item": "Granny Smith Apples"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Ground Cinnamon"
+      },
+      {
+        "item": "Walnuts"
+      },
+      {
+        "item": "Light Brown Sugar"
+      },
+      {
+        "item": "Breadcrumbs"
+      }
     ]
   },
   {
     "id": "arrabbiatasauce",
     "title": "Arrabbiata Sauce",
     "category": "Sauces",
+    "description": "A fiery Italian tomato sauce — bold, spicy, and full of passion. Not for the faint-hearted.",
+    "difficulty": "Beginner",
     "tags": [
       "Gluten-Free",
       "Italian",
@@ -193,6 +521,26 @@
       "Tomato",
       "Vegan",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Tomatoes"
+      },
+      {
+        "item": "Olive Oil"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Red Chilli Flakes"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
@@ -206,14 +554,15 @@
       "Mexican",
       "Rich",
       "Russian",
-      "Savoury",
-      "Under 30 Minutes"
+      "Savoury"
     ]
   },
   {
     "id": "beefvindaloo",
     "title": "Beef Vindaloo",
     "category": "Dinner",
+    "description": "An authentic, fiery, melt-in-your-mouth beef curry that doesn't muck around.",
+    "difficulty": "Intermediate",
     "tags": [
       "Beef",
       "Curry",
@@ -224,22 +573,114 @@
       "Savoury",
       "Slow-Cooked",
       "Spicy"
+    ],
+    "ingredients": [
+      {
+        "item": "Diced Beef"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Ground Turmeric"
+      },
+      {
+        "item": "Red Chilli Powder"
+      },
+      {
+        "item": "Tomatoes"
+      },
+      {
+        "item": "Tomato Paste"
+      },
+      {
+        "item": "White Vinegar"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Coriander (Fresh)"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
     "id": "beefstockpot",
     "title": "20 Minute Beef Stock Pot",
     "category": "Dinner",
+    "description": "A fast, deeply flavoured beef stock base — perfect for rich stews, braises, and hearty sauces.",
+    "difficulty": "Intermediate",
     "tags": [
       "Baking",
       "Beef",
       "Dinner",
       "French",
-      "Hearty",
       "Rich",
       "Sauce",
       "Savoury",
       "Australian"
+    ],
+    "ingredients": [
+      {
+        "item": "Beef"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Carrots"
+      },
+      {
+        "item": "Celery"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Olive Oil"
+      },
+      {
+        "item": "Mushrooms"
+      },
+      {
+        "item": "Fresh Thyme"
+      },
+      {
+        "item": "Fresh Oregano"
+      },
+      {
+        "item": "Tomato Paste"
+      },
+      {
+        "item": "Brown Sugar"
+      },
+      {
+        "item": "Red Wine"
+      },
+      {
+        "item": "Beef Stock"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
@@ -247,7 +688,6 @@
     "title": "Brandy Mustard Steak",
     "category": "Bistro",
     "tags": [
-      "Alcohol",
       "Beef",
       "Bistro",
       "Brandy",
@@ -257,6 +697,31 @@
       "French",
       "Rich",
       "Savoury"
+    ],
+    "description": "Scotch filet in a brandy and mustard cream sauce. Bold, warming, and exactly the kind of dish a 1990s bistro did best.",
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {
+        "item": "Beef"
+      },
+      {
+        "item": "Brandy"
+      },
+      {
+        "item": "Dijon Mustard"
+      },
+      {
+        "item": "Cream"
+      },
+      {
+        "item": "Onion"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
@@ -264,11 +729,9 @@
     "title": "Carpet Bag Steak",
     "category": "Bistro",
     "tags": [
-      "Alcohol",
       "Australian",
       "Beef",
       "Bistro",
-      "Cheese",
       "Classic",
       "Dinner",
       "Rich"
@@ -285,8 +748,38 @@
       "Creamy",
       "Dinner",
       "French",
-      "Garlic",
       "Rich"
+    ],
+    "description": "Golden crumbed chicken breast stuffed with garlic butter, served with a simple tomato cream sauce. A showstopper from the bistro era.",
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {
+        "item": "Chicken Breast"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Fresh Parsley"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Tomatoes"
+      },
+      {
+        "item": "Cream"
+      },
+      {
+        "item": "Tomato Sauce"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
@@ -294,7 +787,6 @@
     "title": "Chicken Papion",
     "category": "Bistro",
     "tags": [
-      "Alcohol",
       "Bistro",
       "Chicken",
       "Classic",
@@ -303,12 +795,39 @@
       "French",
       "Rich",
       "Savoury"
+    ],
+    "description": "Pan-fried chicken breast with fresh oysters folded into a cream sauce. Unusual, elegant, and utterly of its era.",
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {
+        "item": "Chicken Breast"
+      },
+      {
+        "item": "Oysters"
+      },
+      {
+        "item": "Cream"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "White Wine"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
     "id": "bistro-chickenriverina",
     "title": "Chicken Riverina",
     "category": "Bistro",
+    "description": "Chicken breast stuffed with dried apricots and almonds, finished with a cream and apricot sauce. Named for the Riverina region of New South Wales.",
+    "difficulty": "Intermediate",
     "tags": [
       "Australian",
       "Bistro",
@@ -318,6 +837,29 @@
       "Dinner",
       "Rich",
       "Savoury"
+    ],
+    "ingredients": [
+      {
+        "item": "Chicken Breast"
+      },
+      {
+        "item": "Apricots"
+      },
+      {
+        "item": "Almonds"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Cream"
+      },
+      {
+        "item": "Apricot Nectar"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
@@ -325,7 +867,6 @@
     "title": "Chicken Picante",
     "category": "Bistro",
     "tags": [
-      "Alcohol",
       "Bistro",
       "Chicken",
       "Classic",
@@ -333,19 +874,78 @@
       "Dinner",
       "French",
       "Rich"
+    ],
+    "description": "Breast chicken in a cream sauce punched up with Dijon mustard and green peppercorns. Sharp, creamy, and satisfying.",
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {
+        "item": "Chicken Breast"
+      },
+      {
+        "item": "Cream"
+      },
+      {
+        "item": "Dijon Mustard"
+      },
+      {
+        "item": "Green Peppercorns"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "White Wine"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
     "id": "bistro-demiglace",
     "title": "Demi-Glace",
     "category": "Sauces",
+    "description": "Deep, rich, concentrated beef sauce. Makes about 2-3 litres.",
+    "difficulty": "Intermediate",
     "tags": [
       "Bistro",
       "Classic",
       "Dinner",
       "French",
-      "Make Ahead",
+      "Make-Ahead",
       "Sauce"
+    ],
+    "ingredients": [
+      {
+        "item": "Beef Bones"
+      },
+      {
+        "item": "Beef Scraps"
+      },
+      {
+        "item": "Onion"
+      },
+      {
+        "item": "Carrots"
+      },
+      {
+        "item": "Celery"
+      },
+      {
+        "item": "Bay Leaves"
+      },
+      {
+        "item": "Black Peppercorns"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
@@ -362,8 +962,32 @@
       "Gluten-Free",
       "Lunch",
       "Rich",
-      "Savoury",
-      "Under 30 Minutes"
+      "Savoury"
+    ],
+    "description": "Scotch fillet wrapped in bacon with a mushroom and demi glace cream sauce. Simple, rich, and timeless.",
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {
+        "item": "Beef"
+      },
+      {
+        "item": "Middle Bacon"
+      },
+      {
+        "item": "Mushrooms"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Demi Glace"
+      },
+      {
+        "item": "Cream"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
@@ -371,7 +995,6 @@
     "title": "Fish of the Day",
     "category": "Bistro",
     "tags": [
-      "Alcohol",
       "Bistro",
       "Classic",
       "Creamy",
@@ -382,9 +1005,32 @@
       "Lemon",
       "Lunch",
       "Rich",
-      "Savoury",
-      "Seafood",
-      "Under 30 Minutes"
+      "Savoury"
+    ],
+    "description": "Grilled fresh fish fillet with a light lemon and white wine cream sauce. Simply done and always changing.",
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {
+        "item": "Fish Fillet"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Lemon Juice"
+      },
+      {
+        "item": "White Wine"
+      },
+      {
+        "item": "Cream"
+      },
+      {
+        "item": "Fresh Parsley"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
@@ -392,7 +1038,6 @@
     "title": "Mediterranean Steak",
     "category": "Bistro",
     "tags": [
-      "Alcohol",
       "Beef",
       "Bistro",
       "Classic",
@@ -401,14 +1046,46 @@
       "Gluten-Free",
       "Italian",
       "Rich",
-      "Savoury",
-      "Under 30 Minutes"
+      "Savoury"
+    ],
+    "description": "Scotch fillet in a rich cream sauce with king prawns and green peppercorns. Surf and turf done properly — the bistro way.",
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {
+        "item": "Beef"
+      },
+      {
+        "item": "Prawns"
+      },
+      {
+        "item": "Green Peppercorns"
+      },
+      {
+        "item": "Cream"
+      },
+      {
+        "item": "Demi Glace"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Brandy"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
     "id": "bistro-lambcutlets",
     "title": "Lamb Cutlets",
     "category": "Bistro",
+    "description": "Crumbed lamb cutlets with crispy bacon and a rich demi glace gravy. Honest bistro comfort food.",
+    "difficulty": "Intermediate",
     "tags": [
       "Australian",
       "Bistro",
@@ -416,6 +1093,35 @@
       "Lamb",
       "Lunch",
       "Savoury"
+    ],
+    "ingredients": [
+      {
+        "item": "Lamb Cutlets"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Breadcrumbs"
+      },
+      {
+        "item": "Middle Bacon"
+      },
+      {
+        "item": "Demi Glace"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
@@ -433,14 +1139,46 @@
       "Rich",
       "Savoury",
       "Spicy",
-      "Thai",
-      "Under 30 Minutes"
+      "Thai"
+    ],
+    "description": "The Thai Chicken's sibling — same ginger and chilli base but brightened with fresh orange juice for a citrus-forward cream sauce.",
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {
+        "item": "Chicken Breast"
+      },
+      {
+        "item": "Fresh Ginger"
+      },
+      {
+        "item": "Red Chilli"
+      },
+      {
+        "item": "Orange Juice"
+      },
+      {
+        "item": "Cream"
+      },
+      {
+        "item": "Orange Zest"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
     "id": "bistro-pavlova",
     "title": "Pavlova",
     "category": "Desserts",
+    "description": "Crisp-shelled meringue with a soft marshmallow centre, topped with whipped cream and fresh seasonal fruit. An Australian icon.",
+    "difficulty": "Intermediate",
     "tags": [
       "Australian",
       "Classic",
@@ -449,14 +1187,47 @@
       "Gluten-Free",
       "Sweet",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Egg Whites"
+      },
+      {
+        "item": "Caster Sugar"
+      },
+      {
+        "item": "White Vinegar"
+      },
+      {
+        "item": "Cornflour"
+      },
+      {
+        "item": "Natural Vanilla Extract"
+      },
+      {
+        "item": "Cream"
+      },
+      {
+        "item": "Strawberries"
+      },
+      {
+        "item": "Kiwi Fruit"
+      },
+      {
+        "item": "Passionfruit"
+      },
+      {
+        "item": "Mango"
+      }
     ]
   },
   {
     "id": "bistro-profiteroles",
     "title": "Profiteroles",
     "category": "Desserts",
+    "description": "Light choux pastry puffs filled with whipped cream and drizzled with warm chocolate ganache. Served with fresh fruit.",
+    "difficulty": "Intermediate",
     "tags": [
-      "Baked",
       "Baking",
       "Chocolate",
       "Classic",
@@ -467,6 +1238,14 @@
       "Rich",
       "Sweet",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Cream"
+      },
+      {
+        "item": "Dark Chocolate"
+      }
     ]
   },
   {
@@ -474,15 +1253,12 @@
     "title": "Rack of Lamb",
     "category": "Bistro",
     "tags": [
-      "Alcohol",
-      "Baked",
       "Bistro",
       "Classic",
       "Dinner",
       "Gluten-Free",
       "Lamb",
       "Savoury",
-      "Under 1 Hour",
       "Australian"
     ]
   },
@@ -490,6 +1266,8 @@
     "id": "bistro-reefandbeef",
     "title": "Reef and Beef",
     "category": "Bistro",
+    "description": "Scotch fillet topped with a generous seafood Mornay sauce. The ultimate bistro surf and turf.",
+    "difficulty": "Intermediate",
     "tags": [
       "Australian",
       "Baking",
@@ -500,6 +1278,32 @@
       "Dinner",
       "Rich",
       "Savoury"
+    ],
+    "ingredients": [
+      {
+        "item": "Beef"
+      },
+      {
+        "item": "Seafood Mix"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "Tasty Cheese"
+      },
+      {
+        "item": "Nutmeg"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
@@ -507,7 +1311,6 @@
     "title": "Steak Boston",
     "category": "Bistro",
     "tags": [
-      "Alcohol",
       "American",
       "Beef",
       "Bistro",
@@ -515,8 +1318,44 @@
       "Dinner",
       "Gluten-Free",
       "Rich",
-      "Savoury",
-      "Under 30 Minutes"
+      "Savoury"
+    ],
+    "description": "Scotch fillet coated in Creole spice and served with a red wine butter sauce. Bold, spiced, and full of character.",
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {
+        "item": "Sweet Paprika"
+      },
+      {
+        "item": "Red Chilli Powder"
+      },
+      {
+        "item": "Garlic Powder"
+      },
+      {
+        "item": "Onion Powder"
+      },
+      {
+        "item": "Oregano"
+      },
+      {
+        "item": "Thyme"
+      },
+      {
+        "item": "Beef"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Red Wine"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
@@ -532,8 +1371,32 @@
       "Rich",
       "Savoury",
       "Spicy",
-      "Thai",
-      "Under 30 Minutes"
+      "Thai"
+    ],
+    "description": "Breast chicken in a ginger, chilli and cream sauce. Warmth without the fire — a nod to Thai flavours in a classic bistro setting.",
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {
+        "item": "Chicken Breast"
+      },
+      {
+        "item": "Fresh Ginger"
+      },
+      {
+        "item": "Red Chilli"
+      },
+      {
+        "item": "Cream"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
@@ -541,14 +1404,43 @@
     "title": "Veal Cordon Bleu",
     "category": "Bistro",
     "tags": [
-      "Alcohol",
       "Bistro",
       "Classic",
       "Creamy",
       "Dinner",
       "French",
-      "Savoury",
-      "Under 30 Minutes"
+      "Savoury"
+    ],
+    "description": "Thin veal escalopes wrapped around smoked ham and Swiss cheese, crumbed and deep-fried to golden perfection. Served with a Dijon cream sauce.",
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {
+        "item": "Veal"
+      },
+      {
+        "item": "Ham"
+      },
+      {
+        "item": "Gruyere"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "White Wine"
+      },
+      {
+        "item": "Cream"
+      },
+      {
+        "item": "Dijon Mustard"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
@@ -562,14 +1454,55 @@
       "Dinner",
       "French",
       "Rich",
-      "Savoury",
-      "Under 30 Minutes"
+      "Savoury"
+    ],
+    "description": "Veal in a rich cream and demi glace sauce with bacon, capsicum, tomato, onion, garlic, and green peppercorns. Served hot or mild — the customer's choice.",
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {
+        "item": "Veal"
+      },
+      {
+        "item": "Middle Bacon"
+      },
+      {
+        "item": "Green Capsicum"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Tomatoes"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Green Peppercorns"
+      },
+      {
+        "item": "Red Chilli"
+      },
+      {
+        "item": "Cream"
+      },
+      {
+        "item": "Demi Glace"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
     "id": "bistro-vealoscar",
     "title": "Veal Oscar",
     "category": "Bistro",
+    "description": "Crumbed and deep-fried veal topped with blanched asparagus, seafood Mornay, and melted cheese — finished under the grill. A classic fine dining preparation.",
+    "difficulty": "Intermediate",
     "tags": [
       "Bistro",
       "Classic",
@@ -578,12 +1511,31 @@
       "Rich",
       "Savoury",
       "Swedish"
+    ],
+    "ingredients": [
+      {
+        "item": "Veal"
+      },
+      {
+        "item": "Asparagus"
+      },
+      {
+        "item": "Seafood Mix"
+      },
+      {
+        "item": "Tasty Cheese"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
     "id": "bistro-vealmozzarella",
     "title": "Veal Mozzarella",
     "category": "Bistro",
+    "description": "Veal wrapped with mushroom, bacon, and shallots in puff pastry, topped with melted mozzarella. A Wellington-style preparation from the bistro kitchen.",
+    "difficulty": "Intermediate",
     "tags": [
       "Bistro",
       "Classic",
@@ -591,6 +1543,35 @@
       "Italian",
       "Rich",
       "Savoury"
+    ],
+    "ingredients": [
+      {
+        "item": "Veal"
+      },
+      {
+        "item": "Mushrooms"
+      },
+      {
+        "item": "Middle Bacon"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Mozzarella"
+      },
+      {
+        "item": "Puff Pastry"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Demi Glace"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
@@ -606,38 +1587,132 @@
       "Italian",
       "Rich",
       "Savoury",
-      "Under 30 Minutes",
       "Veal"
+    ],
+    "description": "Thin pan-fried veal with a creamy onion and mushroom sauce. Quick, simple, and deeply satisfying.",
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {
+        "item": "Veal"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Shallot"
+      },
+      {
+        "item": "Mushrooms"
+      },
+      {
+        "item": "Cream"
+      },
+      {
+        "item": "Demi Glace"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
     "id": "blueberrymuffins",
     "title": "Heavenly Blueberry Muffins",
     "category": "Snacks",
+    "description": "Light, fluffy muffins crowned with a crisp crumble and bursting with juicy blueberries — built for quiet mornings and empty plates.",
+    "difficulty": "Beginner",
     "tags": [
       "Baking",
       "Breakfast",
       "Sweet",
       "Vegetarian",
       "Australian"
+    ],
+    "ingredients": [
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Milk Powder Full-cream"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Baking Powder"
+      },
+      {
+        "item": "Blueberries"
+      },
+      {
+        "item": "Unsalted Butter"
+      }
     ]
   },
   {
     "id": "bulalo",
     "title": "Original Bulalo",
     "category": "Filipino",
+    "description": "A rich, clear Filipino beef bone marrow soup from Batangas. Beef shanks are slow-boiled for hours until fall-off-the-bone tender, paired with corn, cabbage, and bok choy in a deeply flavourful broth.",
+    "difficulty": "Intermediate",
     "tags": [
       "Beef",
       "Dinner",
       "Filipino",
       "Gluten-Free",
       "Slow-Cooked"
+    ],
+    "ingredients": [
+      {
+        "item": "Beef Shanks"
+      },
+      {
+        "item": "Beef Knuckles"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Black Peppercorns"
+      },
+      {
+        "item": "Corn Cobs"
+      },
+      {
+        "item": "Cabbage"
+      },
+      {
+        "item": "Leek"
+      },
+      {
+        "item": "Fish Sauce"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Calamansi"
+      },
+      {
+        "item": "Red Chilli"
+      }
     ]
   },
   {
     "id": "butterchicken",
     "title": "Restaurant-Style Butter Chicken",
     "category": "Dinner",
+    "description": "A rich, silky, full-flavoured classic — ready in just 40 minutes.",
+    "difficulty": "Intermediate",
     "tags": [
       "Chicken",
       "Creamy",
@@ -645,12 +1720,73 @@
       "Dinner",
       "Indian",
       "Rich"
+    ],
+    "ingredients": [
+      {
+        "item": "Chicken Thigh"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Ginger"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Bay Leaves"
+      },
+      {
+        "item": "Ground Cumin"
+      },
+      {
+        "item": "Garam Masala"
+      },
+      {
+        "item": "Red Chilli Powder"
+      },
+      {
+        "item": "Tomato Paste"
+      },
+      {
+        "item": "Cream"
+      },
+      {
+        "item": "Greek Yoghurt"
+      },
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "Fenugreek"
+      },
+      {
+        "item": "Cashews"
+      },
+      {
+        "item": "Lemon Juice"
+      },
+      {
+        "item": "Coriander"
+      },
+      {
+        "item": "Naan Bread"
+      }
     ]
   },
   {
     "id": "cherrycoconutcake",
     "title": "Cherry and Coconut Cake",
     "category": "Cakes",
+    "description": "A wonderful buttery, soft pound cake bursting with cherries in every bite! The flavour is out of this world, rich in coconut. Bake in a bundt pan or loaf pan.",
+    "difficulty": "Intermediate",
     "tags": [
       "Australian",
       "Baked",
@@ -662,6 +1798,35 @@
       "Sweet",
       "Thai",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Coconut Milk"
+      },
+      {
+        "item": "Caster Sugar"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Desiccated Coconut"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Baking Powder"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Glace Cherries"
+      }
     ]
   },
   {
@@ -669,27 +1834,73 @@
     "title": "Chef-Style Tiramisu Gateau",
     "category": "Desserts",
     "tags": [
-      "Alcohol",
       "Baking",
       "Cake",
       "Classic",
-      "Coffee",
       "Creamy",
       "Dessert",
-      "Drinks",
-      "Gluten-Free",
       "Italian",
-      "Make Ahead",
-      "No-Cook",
+      "Make-Ahead",
       "Rich",
       "Sweet",
       "Vegetarian"
+    ],
+    "description": "Luscious layers. Boozy brilliance. A dessert that whispers Italian and screams, \"I'm extra.\" \n\n***NOT FOR KIDS***",
+    "difficulty": "Advanced",
+    "ingredients": [
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Caster Sugar"
+      },
+      {
+        "item": "Cream"
+      },
+      {
+        "item": "Natural Vanilla Extract"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Cornflour"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Coffee"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Tia Maria"
+      },
+      {
+        "item": "Grand Marnier"
+      },
+      {
+        "item": "Mascarpone"
+      },
+      {
+        "item": "Orange Zest"
+      },
+      {
+        "item": "Strawberries"
+      },
+      {
+        "item": "Dark Chocolate"
+      }
     ]
   },
   {
     "id": "chickencacciatore",
     "title": "Chicken Cacciatore",
     "category": "Dinner",
+    "description": "A hearty Italian classic — tender chicken simmered in a rich tomato and olive sauce, perfect over jasmine rice.",
+    "difficulty": "Beginner",
     "tags": [
       "Classic",
       "Dinner",
@@ -698,12 +1909,64 @@
       "Rich",
       "Savoury",
       "Tomato"
+    ],
+    "ingredients": [
+      {
+        "item": "Chicken Breast"
+      },
+      {
+        "item": "Olive Oil"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "White Wine"
+      },
+      {
+        "item": "White Vinegar"
+      },
+      {
+        "item": "Chicken Stock Cube"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Basil"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Tomatoes"
+      },
+      {
+        "item": "Kalamata Olives"
+      },
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "Parsley"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Black Pepper"
+      }
     ]
   },
   {
     "id": "chickenmushroombaconpies",
     "title": "Chicken, Mushroom & Bacon Pies",
     "category": "Dinner",
+    "description": "Golden, flaky, and stuffed with comfort — a proper home-baked classic where pub fare meets homemade love.",
+    "difficulty": "Intermediate",
     "tags": [
       "Australian",
       "Baked",
@@ -714,12 +1977,61 @@
       "Dinner",
       "Pastry",
       "Savoury"
+    ],
+    "ingredients": [
+      {
+        "item": "Olive Oil"
+      },
+      {
+        "item": "Chicken Thigh"
+      },
+      {
+        "item": "Middle Bacon"
+      },
+      {
+        "item": "Spring Onion"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Mushrooms"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Chicken Stock"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Black Pepper"
+      },
+      {
+        "item": "Mascarpone"
+      },
+      {
+        "item": "Shortcrust Pastry"
+      },
+      {
+        "item": "Puff Pastry"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Sesame Seeds"
+      }
     ]
   },
   {
     "id": "chickenpineapple",
     "title": "Chicken Pineapple",
     "category": "Filipino",
+    "description": "A sweet and slightly spicy dish that deserves complimenting.",
+    "difficulty": "Beginner",
     "tags": [
       "Chicken",
       "Dinner",
@@ -727,6 +2039,44 @@
       "Savoury",
       "Spicy",
       "Sweet"
+    ],
+    "ingredients": [
+      {
+        "item": "Chicken Drumsticks"
+      },
+      {
+        "item": "Fresh Ginger"
+      },
+      {
+        "item": "Red Chilli Flakes"
+      },
+      {
+        "item": "Bay Leaves"
+      },
+      {
+        "item": "Ketchup"
+      },
+      {
+        "item": "Bbq Sauce"
+      },
+      {
+        "item": "Fresh Oregano"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Pineapple"
+      },
+      {
+        "item": "Pineapple Juice"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
@@ -738,14 +2088,11 @@
       "Chinese",
       "Classic",
       "Dinner",
-      "Drinks",
       "Gluten-Free",
       "Indian",
       "Middle Eastern",
       "Savoury",
-      "Spicy",
-      "Stovetop",
-      "Under 30 Minutes"
+      "Spicy"
     ]
   },
   {
@@ -755,15 +2102,12 @@
     "tags": [
       "Asian",
       "Chicken",
-      "Chinese",
       "Classic",
       "Dinner",
       "Gluten-Free",
       "Japanese",
       "Savoury",
-      "Stovetop",
-      "Sweet",
-      "Under 30 Minutes"
+      "Sweet"
     ]
   },
   {
@@ -772,12 +2116,10 @@
     "category": "Sauces",
     "tags": [
       "Chinese",
-      "Garlic",
       "Gluten-Free",
-      "Make Ahead",
+      "Make-Ahead",
       "Sauce",
       "Spicy",
-      "Under 30 Minutes",
       "Vegan",
       "Vegetarian"
     ]
@@ -787,18 +2129,57 @@
     "title": "Chocolate Muffins with Ganache",
     "category": "Snacks",
     "tags": [
-      "Baked",
       "Baking",
       "Breakfast",
       "Chocolate",
       "Dessert",
-      "Drinks",
-      "Muffins",
       "Rich",
       "Sweet",
-      "Under 1 Hour",
       "Vegetarian",
       "Australian"
+    ],
+    "description": "Tall domes like bakery royalty, fluffy like a hymn, dipped in butter-rich ganache — decadent perfection.",
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Cocoa Powder"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Baking Powder"
+      },
+      {
+        "item": "Bi-carb Soda"
+      },
+      {
+        "item": "Coffee"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "Natural Vanilla Extract"
+      },
+      {
+        "item": "Cream"
+      },
+      {
+        "item": "Dark Chocolate"
+      }
     ]
   },
   {
@@ -811,18 +2192,35 @@
       "Dessert",
       "French",
       "Gluten-Free",
-      "Make Ahead",
+      "Make-Ahead",
       "No-Bake",
       "Rich",
       "Sweet",
-      "Under 30 Minutes",
       "Vegetarian"
+    ],
+    "description": "The essence of a mousse is lightness, indicated by its French name meaning foam or froth. This favourite is delicate yet rich with cream and chocolate.",
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {
+        "item": "Dark Chocolate"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Cream"
+      }
     ]
   },
   {
     "id": "chocolatemugcake",
     "title": "Eggless Chocolate Mug Muffin",
     "category": "Snacks",
+    "description": "A single-serve chocolate cake made in a mug without eggs. Richer and more brownie-like in texture, ready in about a minute.",
+    "difficulty": "Beginner",
     "tags": [
       "Baking",
       "Chocolate",
@@ -835,6 +2233,32 @@
       "Egg-free",
       "Under 5 Minutes",
       "Australian"
+    ],
+    "ingredients": [
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Caster Sugar"
+      },
+      {
+        "item": "Cocoa Powder"
+      },
+      {
+        "item": "Baking Powder"
+      },
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Natural Vanilla Extract"
+      },
+      {
+        "item": "Chocolate Chips"
+      }
     ]
   },
   {
@@ -842,13 +2266,11 @@
     "title": "Chocolate Rum Balls",
     "category": "Snacks",
     "tags": [
-      "Alcohol",
       "Australian",
-      "Baked",
       "Chocolate",
       "Dessert",
       "Gluten-Free",
-      "Make Ahead",
+      "Make-Ahead",
       "No-Bake",
       "No-Cook",
       "Party",
@@ -856,12 +2278,36 @@
       "Sweet",
       "Vegan",
       "Vegetarian"
+    ],
+    "description": "Quick, fun, and dangerously delicious — the ultimate no-bake chocolate treat.",
+    "difficulty": "Beginner",
+    "ingredients": [
+      {
+        "item": "Cake Crumbs"
+      },
+      {
+        "item": "Cocoa Powder"
+      },
+      {
+        "item": "Apricot Jam"
+      },
+      {
+        "item": "Rum"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Chocolate Sprinkles"
+      }
     ]
   },
   {
     "id": "chouxpastry",
     "title": "Choux Pastry (Profiteroles)",
     "category": "Baking",
+    "description": "Light, crisp, and ready to cradle cream — the classic French pastry that never goes out of style.",
+    "difficulty": "Intermediate",
     "tags": [
       "Baking",
       "Classic",
@@ -870,6 +2316,29 @@
       "Pastry",
       "Sweet",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Eggs"
+      }
     ]
   },
   {
@@ -877,11 +2346,9 @@
     "title": "Bakery-Style Cinnamon Buns",
     "category": "Baking",
     "tags": [
-      "Baked",
       "Baking",
       "Bread",
       "Breakfast",
-      "Cinnamon",
       "Rich",
       "Sweet",
       "Vegetarian",
@@ -892,6 +2359,8 @@
     "id": "cinntwists",
     "title": "Cinnamon Twists",
     "category": "Baking",
+    "description": "A soft, buttery treat with a swirl of spiced sweetness — perfect for breakfast or afternoon tea.",
+    "difficulty": "Intermediate",
     "tags": [
       "Baking",
       "Bread",
@@ -901,28 +2370,89 @@
       "Sweet",
       "Vegetarian",
       "Australian"
+    ],
+    "ingredients": [
+      {
+        "item": "Yeast"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Sour Cream"
+      },
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Brown Sugar"
+      },
+      {
+        "item": "Ground Cinnamon"
+      },
+      {
+        "item": "Natural Vanilla Extract"
+      },
+      {
+        "item": "Icing Sugar"
+      }
     ]
   },
   {
     "id": "cremecaramel",
     "title": "Creme Caramel",
     "category": "Desserts",
+    "description": "A French classic — silky custard topped with a thin layer of amber caramel. Made possible with the LG Kitchen collection.",
+    "difficulty": "Intermediate",
     "tags": [
-      "Baked",
       "Classic",
       "Creamy",
       "Dessert",
       "French",
       "Gluten-Free",
-      "Make Ahead",
+      "Make-Ahead",
       "Rich",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Caster Sugar"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Cream"
+      },
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Natural Vanilla Extract"
+      }
     ]
   },
   {
     "id": "classiccarrotcake",
     "title": "Classic Carrot Cake",
     "category": "Cakes",
+    "description": "A hearty old-fashioned carrot cake — dense, moist, deeply spiced, and sturdy enough to slice for days without apology.",
+    "difficulty": "Beginner",
     "tags": [
       "Baking",
       "Cake",
@@ -933,12 +2463,58 @@
       "Sweet",
       "Vegetarian",
       "Australian"
+    ],
+    "ingredients": [
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Self-raising Flour"
+      },
+      {
+        "item": "Natural Vanilla Extract"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Baking Powder"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Ground Cinnamon"
+      },
+      {
+        "item": "Carrots"
+      },
+      {
+        "item": "Sultanas"
+      },
+      {
+        "item": "Walnuts"
+      },
+      {
+        "item": "Cream Cheese"
+      },
+      {
+        "item": "Icing Sugar"
+      },
+      {
+        "item": "Lemon Juice"
+      }
     ]
   },
   {
     "id": "crepes",
     "title": "Crepes with Maple Syrup & Butter",
     "category": "Desserts",
+    "description": "Golden, versatile crepes perfect for sweet or savoury cravings. Serve warm — simple is best.",
+    "difficulty": "Beginner",
     "tags": [
       "Baking",
       "Breakfast",
@@ -947,12 +2523,52 @@
       "French",
       "Sweet",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Nutella"
+      },
+      {
+        "item": "Bananas"
+      },
+      {
+        "item": "Strawberries"
+      },
+      {
+        "item": "Honey"
+      },
+      {
+        "item": "Golden Syrup"
+      },
+      {
+        "item": "Cream"
+      },
+      {
+        "item": "Maple Syrup"
+      }
     ]
   },
   {
     "id": "crispycornflakechicken",
     "title": "Crispy Cornflake Chicken",
     "category": "Entree",
+    "description": "Chicken breast tenders tenderized in a spiced buttermilk marinade, coated in a simple flour-based slurry, and crusted with crushed cornflakes. Baked in the air fryer for a crispy texture without the need for deep frying. Serve alongside [[smokybbqsauce|Smoky BBQ Sauce]] or [[honeymustardsauce|Honey Mustard Sauce]].",
+    "difficulty": "Beginner",
     "tags": [
       "Chicken",
       "Crispy",
@@ -962,6 +2578,38 @@
       "Snack",
       "Lunch",
       "Australian"
+    ],
+    "ingredients": [
+      {
+        "item": "Chicken Tenders"
+      },
+      {
+        "item": "Buttermilk"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Sweet Paprika"
+      },
+      {
+        "item": "Garlic Powder"
+      },
+      {
+        "item": "Onion Powder"
+      },
+      {
+        "item": "Ground Turmeric"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Black Pepper"
+      },
+      {
+        "item": "Cornflakes"
+      }
     ]
   },
   {
@@ -969,25 +2617,22 @@
     "title": "Curry Chicken with Coconut Cream",
     "category": "Dinner",
     "tags": [
-      "Asian",
-      "Baking",
       "Chicken",
-      "Chinese",
       "Creamy",
       "Curry",
       "Dinner",
       "Easy",
       "Gluten-Free",
       "Indian",
-      "Make Ahead",
-      "Savoury",
-      "Spicy"
+      "Savoury"
     ]
   },
   {
     "id": "darkrye",
     "title": "Dark Rye Bread",
     "category": "Baking",
+    "description": "Full credit to bakers who perfected this rich, flavourful loaf — dense, dark, and deeply satisfying.",
+    "difficulty": "Intermediate",
     "tags": [
       "Bread",
       "German",
@@ -995,12 +2640,46 @@
       "Savoury",
       "Vegan",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Treacle"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Bread Flour"
+      },
+      {
+        "item": "Rye Flour"
+      },
+      {
+        "item": "Vital Wheat Gluten"
+      },
+      {
+        "item": "Cocoa Powder"
+      },
+      {
+        "item": "Yeast"
+      },
+      {
+        "item": "Bread Improver"
+      }
     ]
   },
   {
     "id": "doublechocolatechipcookies",
     "title": "Double Chocolate Chip Cookies",
     "category": "Biscuits",
+    "description": "Because plain chocolate is for lightweights. Soft, fudgy, and packed with chocolate chips — perfect with a cold glass of milk.",
+    "difficulty": "Beginner",
     "tags": [
       "Baking",
       "Chocolate",
@@ -1012,12 +2691,49 @@
       "Sweet",
       "Vegetarian",
       "Australian"
+    ],
+    "ingredients": [
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Brown Sugar"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Natural Vanilla Extract"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Cocoa Powder"
+      },
+      {
+        "item": "Bi-carb Soda"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Dark Chocolate"
+      },
+      {
+        "item": "White Chocolate"
+      }
     ]
   },
   {
     "id": "filipinoporktoccino",
     "title": "Filipino Pork Toccino",
     "category": "Filipino",
+    "description": "Sweet, caramelised pork — juicy, tender, and perfect for a classic Filipino breakfast or dinner.",
+    "difficulty": "Beginner",
     "tags": [
       "Dinner",
       "Filipino",
@@ -1026,12 +2742,43 @@
       "Pork",
       "Savoury",
       "Sweet"
+    ],
+    "ingredients": [
+      {
+        "item": "Pork Shoulder"
+      },
+      {
+        "item": "Brown Sugar"
+      },
+      {
+        "item": "Pineapple Juice"
+      },
+      {
+        "item": "Soy Sauce"
+      },
+      {
+        "item": "White Vinegar"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Black Pepper"
+      },
+      {
+        "item": "Vegetable Oil"
+      }
     ]
   },
   {
     "id": "focaccia-high",
     "title": "High-Hydration Focaccia",
     "category": "Baking",
+    "description": "A gloriously wet, no-knead focaccia with an open, airy crumb and crisp golden crust.",
+    "difficulty": "Beginner",
     "tags": [
       "Baking",
       "Bread",
@@ -1040,12 +2787,31 @@
       "Savoury",
       "Vegan",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Yeast"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Olive Oil"
+      },
+      {
+        "item": "Bread Flour"
+      },
+      {
+        "item": "Salt"
+      }
     ]
   },
   {
     "id": "focaccia",
     "title": "Focaccia",
     "category": "Baking",
+    "description": "A classic Italian flatbread studded with olives and rosemary, baked until golden and crisp.",
+    "difficulty": "Intermediate",
     "tags": [
       "Baking",
       "Bread",
@@ -1053,12 +2819,52 @@
       "Make Ahead",
       "Savoury",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Yeast"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Caster Sugar"
+      },
+      {
+        "item": "Olive Oil"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Milk Powder Full-cream"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Kalamata Olives"
+      },
+      {
+        "item": "Rosemary"
+      },
+      {
+        "item": "Oregano"
+      },
+      {
+        "item": "Salt"
+      }
     ]
   },
   {
     "id": "friandsop",
     "title": "Orange & Poppyseed Friands",
     "category": "Baking",
+    "description": "Fluffy little citrus pillows that taste like sunshine — and maybe just a bit of smug satisfaction.",
+    "difficulty": "Intermediate",
     "tags": [
       "Baking",
       "Dessert",
@@ -1068,24 +2874,86 @@
       "Rich",
       "Sweet",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Egg Whites"
+      },
+      {
+        "item": "Orange Zest"
+      },
+      {
+        "item": "Natural Vanilla Extract"
+      },
+      {
+        "item": "Orange Juice"
+      },
+      {
+        "item": "Icing Sugar"
+      },
+      {
+        "item": "Almond Meal"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Poppy Seeds"
+      }
     ]
   },
   {
     "id": "garlicbread",
     "title": "Garlic Butter Crusty Bread",
     "category": "Baking",
+    "description": "Soft, golden bread with a crispy crust and a rich garlic butter topping — perfect for any meal.",
+    "difficulty": "Intermediate",
     "tags": [
       "Bread",
       "Classic",
       "Italian",
       "Savoury",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Bread Flour"
+      },
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Yeast"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Parsley"
+      }
     ]
   },
   {
     "id": "hamburger",
     "title": "Hamburger Buns",
     "category": "Baking",
+    "description": "Soft, golden, and pillowy — the perfect base for your ultimate burger creations.",
+    "difficulty": "Intermediate",
     "tags": [
       "Baked",
       "Baking",
@@ -1093,12 +2961,37 @@
       "Savoury",
       "Vegetarian",
       "Australian"
+    ],
+    "ingredients": [
+      {
+        "item": "Bread Flour"
+      },
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Yeast"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Sesame Seeds"
+      }
     ]
   },
   {
     "id": "highhydraciab",
     "title": "Airy High-Hydration Ciabatta",
     "category": "Baking",
+    "description": "Soft, open-crumb Italian bread using a liquid-dough method. Big holes, crisp crust, zero nonsense.",
+    "difficulty": "Intermediate",
     "tags": [
       "Baking",
       "Bread",
@@ -1106,6 +2999,26 @@
       "Savoury",
       "Vegan",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Water"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Yeast"
+      },
+      {
+        "item": "Olive Oil"
+      },
+      {
+        "item": "Bread Flour"
+      },
+      {
+        "item": "Salt"
+      }
     ]
   },
   {
@@ -1114,8 +3027,6 @@
     "category": "Sauces",
     "tags": [
       "Asian",
-      "Baking",
-      "Garlic",
       "Gluten-Free",
       "Sauce",
       "Savoury",
@@ -1128,6 +3039,8 @@
     "id": "honeymustardsauce",
     "title": "Honey Mustard Sauce",
     "category": "Sauces",
+    "description": "A sweet, tangy, and creamy honey mustard sauce. Using a Greek yogurt base keeps the sauce oil-free, while a combination of Dijon and yellow mustard provides a classic condiment flavor.",
+    "difficulty": "Beginner",
     "tags": [
       "American",
       "Chinese",
@@ -1137,6 +3050,29 @@
       "Savoury",
       "Sweet",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Greek Yoghurt"
+      },
+      {
+        "item": "Dijon Mustard"
+      },
+      {
+        "item": "American Mustard"
+      },
+      {
+        "item": "Honey"
+      },
+      {
+        "item": "Apple Cider Vinegar"
+      },
+      {
+        "item": "Garlic Powder"
+      },
+      {
+        "item": "Salt"
+      }
     ]
   },
   {
@@ -1150,22 +3086,65 @@
       "Dinner",
       "Easy",
       "Gluten-Free",
-      "Make Ahead",
+      "Make-Ahead",
       "Savoury",
-      "Sweet",
-      "Under 1 Hour"
+      "Sweet"
+    ],
+    "description": "Chicken thigh fillets marinated in honey, soy, garlic, and ginger. Pan-fried until sticky and caramelised. Serve with rice and vegetables.",
+    "difficulty": "Beginner",
+    "ingredients": [
+      {
+        "item": "Chicken Thigh"
+      },
+      {
+        "item": "Honey"
+      },
+      {
+        "item": "Soy Sauce"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Ginger"
+      },
+      {
+        "item": "Vegetable Oil"
+      }
     ]
   },
   {
     "id": "hotdog",
     "title": "Wendy's-Style Hot Dog Buns",
     "category": "Baking",
+    "description": "Soft, golden buns made for loading up with your favourite hot dogs — eight generously sized rolls.",
+    "difficulty": "Intermediate",
     "tags": [
       "Baking",
       "Bread",
       "Savoury",
       "Vegetarian",
       "Australian"
+    ],
+    "ingredients": [
+      {
+        "item": "Bread Flour"
+      },
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Yeast"
+      },
+      {
+        "item": "Unsalted Butter"
+      }
     ]
   },
   {
@@ -1180,13 +3159,15 @@
       "Rich",
       "Sweet",
       "Vegetarian",
-      "Jamaica"
+      "Jamacian"
     ]
   },
   {
     "id": "kormapaste",
     "title": "Homemade Korma Paste",
     "category": "Sauces",
+    "description": "A rich, fragrant paste — the foundation for a proper korma curry.",
+    "difficulty": "Beginner",
     "tags": [
       "Curry",
       "Gluten-Free",
@@ -1196,12 +3177,52 @@
       "Spicy",
       "Vegan",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Cumin Seeds"
+      },
+      {
+        "item": "Coriander Seeds"
+      },
+      {
+        "item": "Ground Turmeric"
+      },
+      {
+        "item": "Garam Masala"
+      },
+      {
+        "item": "Ground Red Chilli"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Fresh Ginger"
+      },
+      {
+        "item": "Tomato Paste"
+      },
+      {
+        "item": "Desiccated Coconut"
+      },
+      {
+        "item": "Cashews"
+      },
+      {
+        "item": "Fresh Coriander"
+      }
     ]
   },
   {
     "id": "lambvindaloo",
     "title": "Lamb Vindaloo",
     "category": "Dinner",
+    "description": "Succulent lamb cooked low and slow in a classic, fiery vindaloo sauce.",
+    "difficulty": "Intermediate",
     "tags": [
       "Chinese",
       "Curry",
@@ -1214,12 +3235,55 @@
       "Savoury",
       "Slow-Cooked",
       "Spicy"
+    ],
+    "ingredients": [
+      {
+        "item": "Diced Lamb"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Ground Turmeric"
+      },
+      {
+        "item": "Red Chilli Powder"
+      },
+      {
+        "item": "Tomato Paste"
+      },
+      {
+        "item": "Tomatoes"
+      },
+      {
+        "item": "White Vinegar"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Coriander (Fresh)"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
     "id": "lambkorma",
     "title": "Lamb Korma",
     "category": "Dinner",
+    "description": "A rich, fragrant lamb curry in a silky yoghurt-based sauce — deeply spiced and full of flavour.",
+    "difficulty": "Intermediate",
     "tags": [
       "Classic",
       "Curry",
@@ -1230,6 +3294,53 @@
       "Rich",
       "Savoury",
       "Slow-Cooked"
+    ],
+    "ingredients": [
+      {
+        "item": "Diced Lamb"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Ginger"
+      },
+      {
+        "item": "Bay Leaves"
+      },
+      {
+        "item": "Cinnamon Stick"
+      },
+      {
+        "item": "Dried Red Chilli"
+      },
+      {
+        "item": "Ground Cumin"
+      },
+      {
+        "item": "Ground Nutmeg"
+      },
+      {
+        "item": "Garam Masala"
+      },
+      {
+        "item": "Red Chilli Powder"
+      },
+      {
+        "item": "Greek Yoghurt"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
@@ -1238,7 +3349,6 @@
     "category": "Snacks",
     "tags": [
       "Australian",
-      "Baked",
       "Baking",
       "Cake",
       "Chocolate",
@@ -1246,7 +3356,6 @@
       "Coconut",
       "Dessert",
       "Party",
-      "Stovetop",
       "Sweet",
       "Vegetarian"
     ]
@@ -1255,6 +3364,8 @@
     "id": "lasagne",
     "title": "Classic Lasagne — Ragu & Bechamel",
     "category": "Dinner",
+    "description": "A traditional layered lasagne that warms the ribs and calms the spirit.",
+    "difficulty": "Intermediate",
     "tags": [
       "Baking",
       "Beef",
@@ -1262,16 +3373,71 @@
       "Dinner",
       "Italian",
       "Lunch",
-      "Make Ahead",
+      "Make-Ahead",
       "Pasta",
       "Rich",
       "Savoury"
+    ],
+    "ingredients": [
+      {
+        "item": "Olive Oil"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Beef"
+      },
+      {
+        "item": "Tomato Paste"
+      },
+      {
+        "item": "Tomatoes"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Italian Herbs"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Black Pepper"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "Nutmeg"
+      },
+      {
+        "item": "Lasagne Sheets"
+      },
+      {
+        "item": "Parmesan"
+      },
+      {
+        "item": "Mozzarella"
+      }
     ]
   },
   {
     "id": "lemondijonbutterbasa",
     "title": "Lemon Dijon Butter Basa",
     "category": "Dinner",
+    "description": "Pan-seared basa fillets finished in a glossy lemon, garlic and dijon butter sauce. Light, quick, and no cream needed.",
+    "difficulty": "Beginner",
     "tags": [
       "Baking",
       "Butter",
@@ -1280,12 +3446,49 @@
       "Fish",
       "Lemon",
       "Savoury"
+    ],
+    "ingredients": [
+      {
+        "item": "Basa Fillets"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Ground White Pepper"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Dijon Mustard"
+      },
+      {
+        "item": "Lemon Juice"
+      },
+      {
+        "item": "Chicken Stock"
+      },
+      {
+        "item": "Brown Sugar"
+      },
+      {
+        "item": "Sweet Smoked Paprika"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
     "id": "lemoncoconut",
     "title": "Lemon Coconut Cake",
     "category": "Cakes",
+    "description": "A simple old-school favourite — bright lemon, soft crumb, and that warm coconut finish.",
+    "difficulty": "Beginner",
     "tags": [
       "Australian",
       "Baking",
@@ -1295,12 +3498,43 @@
       "Lemon",
       "Sweet",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "Desiccated Coconut"
+      },
+      {
+        "item": "Lemon Zest"
+      },
+      {
+        "item": "Lemon Juice"
+      },
+      {
+        "item": "Icing Sugar"
+      }
     ]
   },
   {
     "id": "lemonmeringuepie",
     "title": "Lemon Meringue Pie",
     "category": "Desserts",
+    "description": "A classic tart with buttery pastry, tangy lemon filling, and light fluffy meringue topping.",
+    "difficulty": "Intermediate",
     "tags": [
       "Baking",
       "Classic",
@@ -1310,12 +3544,43 @@
       "Sweet",
       "Vegetarian",
       "Australian"
+    ],
+    "ingredients": [
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Icing Sugar"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Cornflour"
+      },
+      {
+        "item": "Caster Sugar"
+      },
+      {
+        "item": "Lemon Juice"
+      },
+      {
+        "item": "Lemon Zest"
+      }
     ]
   },
   {
     "id": "marinarasauce",
     "title": "Marinara Sauce",
     "category": "Sauces",
+    "description": "A traditional Italian tomato sauce — fresh, herby, and full of character. Simple ingredients, perfect taste.",
+    "difficulty": "Beginner",
     "tags": [
       "Classic",
       "Gluten-Free",
@@ -1324,15 +3589,39 @@
       "Tomato",
       "Vegan",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Olive Oil"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Tomatoes"
+      },
+      {
+        "item": "Basil"
+      },
+      {
+        "item": "Fresh Oregano"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
     "id": "meatpie",
     "title": "Classic Aussie Meat Pies",
     "category": "Lunch",
+    "description": "True blue, unapologetically hearty, and as Australian as a sunburn at Christmas.",
+    "difficulty": "Intermediate",
     "tags": [
       "Australian",
-      "Baked",
       "Baking",
       "Beef",
       "Classic",
@@ -1340,12 +3629,46 @@
       "Lunch",
       "Pastry",
       "Savoury"
+    ],
+    "ingredients": [
+      {
+        "item": "Beef"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Beef Stock"
+      },
+      {
+        "item": "Tomato Paste"
+      },
+      {
+        "item": "Worcestershire Sauce"
+      },
+      {
+        "item": "Shortcrust Pastry"
+      },
+      {
+        "item": "Puff Pastry"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
     "id": "mockcreamtraditionalmethod",
     "title": "Mock Cream (Traditional Method)",
     "category": "Baking",
+    "description": "A traditional bakery-style mock cream with a small amount of gelatine added for stability, from Tracy Rutherford's Taste.com.au recipe.",
+    "difficulty": "Beginner",
     "tags": [
       "Australian",
       "Bakery-Style",
@@ -1355,6 +3678,26 @@
       "No-Bake",
       "Sweet",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Caster Sugar"
+      },
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Gelatine Powder"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Natural Vanilla Extract"
+      }
     ]
   },
   {
@@ -1362,16 +3705,13 @@
     "title": "Mongolian Beef Stir-Fry",
     "category": "Dinner",
     "tags": [
-      "Alcohol",
       "Asian",
-      "Baking",
       "Beef",
       "Chinese",
       "Dinner",
       "Gluten-Free",
       "Savoury",
       "Stir-Fried",
-      "Stovetop",
       "Sweet"
     ]
   },
@@ -1380,16 +3720,13 @@
     "title": "Mongolian Lamb",
     "category": "Dinner",
     "tags": [
-      "Alcohol",
       "Asian",
-      "Baking",
       "Chinese",
       "Dinner",
       "Gluten-Free",
       "Lamb",
       "Savoury",
       "Stir-Fried",
-      "Stovetop",
       "Sweet"
     ]
   },
@@ -1398,19 +3735,14 @@
     "title": "Mongolian Stir-Fry Sauce",
     "category": "Sauces",
     "tags": [
-      "Alcohol",
       "Asian",
-      "Baking",
       "Chinese",
-      "Condiment",
       "Dinner",
       "Gluten-Free",
-      "Make Ahead",
+      "Make-Ahead",
       "Sauce",
       "Savoury",
-      "Stovetop",
       "Sweet",
-      "Under 30 Minutes",
       "Vegan",
       "Vegetarian"
     ]
@@ -1419,6 +3751,8 @@
     "id": "mornaysauce",
     "title": "Mornay / Cheese Sauce",
     "category": "Sauces",
+    "description": "A smooth, creamy cheese sauce made the right way — starting with a proper roux, then béchamel, then cheese.",
+    "difficulty": "Beginner",
     "tags": [
       "Classic",
       "Creamy",
@@ -1426,6 +3760,26 @@
       "Rich",
       "Sauce",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Nutmeg"
+      },
+      {
+        "item": "Tasty Cheese"
+      }
     ]
   },
   {
@@ -1433,15 +3787,65 @@
     "title": "Basic Muffin Mix",
     "category": "Snacks",
     "tags": [
-      "Baked",
       "Baking",
       "Breakfast",
       "Dessert",
       "Snack",
       "Sweet",
-      "Under 30 Minutes",
       "Vegetarian",
       "Australian"
+    ],
+    "description": "A simple, dependable base recipe — sweet or savoury, load it up any way you like.",
+    "difficulty": "Beginner",
+    "ingredients": [
+      {
+        "item": "Self-raising Flour"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Natural Vanilla Extract"
+      },
+      {
+        "item": "Dark Chocolate Chips"
+      },
+      {
+        "item": "Sultanas"
+      },
+      {
+        "item": "Blueberries"
+      },
+      {
+        "item": "Apples"
+      },
+      {
+        "item": "Cocoa Powder"
+      },
+      {
+        "item": "Tasty Cheese"
+      },
+      {
+        "item": "Spinach"
+      },
+      {
+        "item": "Pumpkin"
+      }
     ]
   },
   {
@@ -1456,7 +3860,6 @@
       "Lunch",
       "Multigrain",
       "Savoury",
-      "Seeded",
       "Vegetarian"
     ]
   },
@@ -1465,7 +3868,6 @@
     "title": "Mushrooms with Herb Nut Butter",
     "category": "Entree",
     "tags": [
-      "Entree",
       "French",
       "Gluten-Free",
       "Rich",
@@ -1477,20 +3879,48 @@
     "id": "nachomince",
     "title": "Seasoned Beef Mince — Nachos & Tacos",
     "category": "Dinner",
+    "description": "The foundation of great nachos and tacos — a rich, deeply seasoned beef mince that holds its own under cheese, sour cream, and all the toppings.",
+    "difficulty": "Beginner",
     "tags": [
       "Beef",
       "Dinner",
       "Gluten-Free",
-      "Make Ahead",
+      "Make-Ahead",
       "Mexican",
       "Savoury",
-      "Spicy"
+      "Spicy",
+      "Lunch"
+    ],
+    "ingredients": [
+      {
+        "item": "Beef"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Tomato Paste"
+      },
+      {
+        "item": "Tomatoes"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
     "id": "orangepoppyseed",
     "title": "Orange & Poppy Seed Cake",
     "category": "Cakes",
+    "description": "A bright, citrusy favourite — buttery, fragrant, and layered with a lush orange cream.",
+    "difficulty": "Intermediate",
     "tags": [
       "Australian",
       "Baking",
@@ -1500,12 +3930,55 @@
       "Orange",
       "Sweet",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Poppy Seeds"
+      },
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Orange Zest"
+      },
+      {
+        "item": "Caster Sugar"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Self-raising Flour"
+      },
+      {
+        "item": "Almond Meal"
+      },
+      {
+        "item": "Orange Juice"
+      },
+      {
+        "item": "Cream Cheese"
+      },
+      {
+        "item": "Sour Cream"
+      },
+      {
+        "item": "Icing Sugar"
+      }
     ]
   },
   {
     "id": "pancakesfortwo",
     "title": "Pancakes for Two",
     "category": "Breakfast",
+    "description": "Light, fluffy pancakes made from scratch — perfect for a weekend breakfast. Simple ingredients, no electric mixer needed.",
+    "difficulty": "Beginner",
     "tags": [
       "Breakfast",
       "Dessert",
@@ -1513,12 +3986,37 @@
       "Make Ahead",
       "Sweet",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Natural Vanilla Extract"
+      },
+      {
+        "item": "Self-raising Flour"
+      },
+      {
+        "item": "Baking Powder"
+      },
+      {
+        "item": "Caster Sugar"
+      },
+      {
+        "item": "Unsalted Butter"
+      }
     ]
   },
   {
     "id": "pancitbihon",
     "title": "Pancit Bihon",
     "category": "Filipino",
+    "description": "The light, thin rice noodle version most people associate with Filipino Pancit. A birthday table staple symbolising long life, best served with a squeeze of calamansi.",
+    "difficulty": "Intermediate",
     "tags": [
       "Chicken",
       "Dinner",
@@ -1528,12 +4026,58 @@
       "Pork",
       "Savoury",
       "Stir-Fried"
+    ],
+    "ingredients": [
+      {
+        "item": "Bihon Rice Noodles"
+      },
+      {
+        "item": "Pork Strips"
+      },
+      {
+        "item": "Chicken Breast"
+      },
+      {
+        "item": "Carrots"
+      },
+      {
+        "item": "Cabbage"
+      },
+      {
+        "item": "Snow Peas"
+      },
+      {
+        "item": "Celery"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Chicken Stock"
+      },
+      {
+        "item": "Soy Sauce"
+      },
+      {
+        "item": "Fish Sauce"
+      },
+      {
+        "item": "Calamansi"
+      },
+      {
+        "item": "Spring Onion"
+      }
     ]
   },
   {
     "id": "pancitcanton",
     "title": "Pancit Canton",
     "category": "Filipino",
+    "description": "The chewy, savoury-sweet egg noodle version of Filipino Pancit. Richer than Bihon thanks to oyster sauce and Chinese sausage, with a satisfying bite from thick wheat noodles.",
+    "difficulty": "Intermediate",
     "tags": [
       "Dairy-Free",
       "Dinner",
@@ -1542,12 +4086,61 @@
       "Pork",
       "Savoury",
       "Stir-Fried"
+    ],
+    "ingredients": [
+      {
+        "item": "Canton Egg Noodles"
+      },
+      {
+        "item": "Pork Strips"
+      },
+      {
+        "item": "Chinese Sausage"
+      },
+      {
+        "item": "Prawns"
+      },
+      {
+        "item": "Carrots"
+      },
+      {
+        "item": "Cabbage"
+      },
+      {
+        "item": "Sugar Snap Peas"
+      },
+      {
+        "item": "Red Capsicum"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Chicken Stock"
+      },
+      {
+        "item": "Soy Sauce"
+      },
+      {
+        "item": "Oyster Sauce"
+      },
+      {
+        "item": "Calamansi"
+      },
+      {
+        "item": "Spring Onion"
+      }
     ]
   },
   {
     "id": "pancitfilipinostirfriednoodles",
     "title": "Pancit (Filipino Stir-Fried Noodles)",
     "category": "Filipino",
+    "description": "A vibrant, savoury noodle dish with pork, chicken, and crisp vegetables — classic Filipino comfort food.",
+    "difficulty": "Intermediate",
     "tags": [
       "Chicken",
       "Dinner",
@@ -1557,12 +4150,70 @@
       "Pork",
       "Savoury",
       "Stir-Fried"
+    ],
+    "ingredients": [
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Pork Strips"
+      },
+      {
+        "item": "Chicken Thigh"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Achiote Powder"
+      },
+      {
+        "item": "Carrots"
+      },
+      {
+        "item": "Celery"
+      },
+      {
+        "item": "Sugar Snap Peas"
+      },
+      {
+        "item": "Cabbage"
+      },
+      {
+        "item": "Oyster Sauce"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Soy Sauce"
+      },
+      {
+        "item": "Fish Sauce"
+      },
+      {
+        "item": "Chicken Stock"
+      },
+      {
+        "item": "Vermicelli Rice Noodles"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Lemon Juice"
+      }
     ]
   },
   {
     "id": "pestosauce",
     "title": "Pesto Sauce",
     "category": "Sauces",
+    "description": "A vibrant Italian basil sauce — fresh, aromatic, and utterly delicious. Pure summer in a bowl.",
+    "difficulty": "Beginner",
     "tags": [
       "Classic",
       "Condiment",
@@ -1571,6 +4222,26 @@
       "Sauce",
       "Vegan",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Basil"
+      },
+      {
+        "item": "Pine Nuts"
+      },
+      {
+        "item": "Parmesan"
+      },
+      {
+        "item": "Olive Oil"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
@@ -1578,18 +4249,81 @@
     "title": "Pineapple Coconut Chicken",
     "category": "Dinner",
     "tags": [
-      "Asian",
       "Baking",
       "Chicken",
-      "Chinese",
       "Coconut",
       "Dinner",
       "Gluten-Free",
-      "Pineapple",
       "Savoury",
-      "Stovetop",
       "Sweet",
-      "Thai"
+      "Filipino"
+    ],
+    "description": "Seared chicken finished in a sweet, salty, tangy pineapple-coconut sauce. Built for spooning generously over rice.",
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {
+        "item": "Chicken Breast"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Ground White Pepper"
+      },
+      {
+        "item": "Cornflour"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Fresh Ginger"
+      },
+      {
+        "item": "Pineapple"
+      },
+      {
+        "item": "Coconut Cream"
+      },
+      {
+        "item": "Chicken Stock"
+      },
+      {
+        "item": "Oyster Sauce"
+      },
+      {
+        "item": "Light Soy Sauce"
+      },
+      {
+        "item": "Dark Soy Sauce"
+      },
+      {
+        "item": "Fish Sauce"
+      },
+      {
+        "item": "Mirin"
+      },
+      {
+        "item": "Brown Sugar"
+      },
+      {
+        "item": "White Vinegar"
+      },
+      {
+        "item": "Chilli Flakes"
+      },
+      {
+        "item": "Cornflour"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Jasmine Rice"
+      }
     ]
   },
   {
@@ -1599,19 +4333,50 @@
     "tags": [
       "Baking",
       "Cake",
-      "Caramel",
       "Dessert",
-      "Drinks",
       "Fruit",
       "Sweet",
       "Vegetarian",
       "Australian"
+    ],
+    "description": "Sticky, caramelised pineapple upside-down cake. Built from pantry staples, baked in a water tray for a moist, even crumb, flipped warm, and it didn't stick. Looks awesome. Tastes even better.",
+    "difficulty": "Beginner",
+    "ingredients": [
+      {
+        "item": "Brown Sugar"
+      },
+      {
+        "item": "Pineapple Juice"
+      },
+      {
+        "item": "Pineapple"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Baking Powder"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Eggs"
+      }
     ]
   },
   {
     "id": "pizzadough",
     "title": "Ultimate Homemade Pizza Dough",
     "category": "Baking",
+    "description": "A versatile dough that works beautifully for both pizza bases and bread rolls. Simple ingredients, minimal fuss, and results that are worth every minute of the knead.",
+    "difficulty": "Beginner",
     "tags": [
       "Baking",
       "Bread",
@@ -1620,12 +4385,37 @@
       "Make Ahead",
       "Savoury",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Bread Flour"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Yeast"
+      },
+      {
+        "item": "Olive Oil"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Bread Improver"
+      },
+      {
+        "item": "White Sugar"
+      }
     ]
   },
   {
     "id": "plaincheesecakeclassicnobake",
     "title": "Plain Cheesecake (Classic No Bake)",
     "category": "Desserts",
+    "description": "No-bake simplicity at its finest — smooth, sweet, and forever dependable. A real fridge-set classic.",
+    "difficulty": "Beginner",
     "tags": [
       "Classic",
       "Creamy",
@@ -1637,12 +4427,31 @@
       "Sweet",
       "Vegetarian",
       "Australian"
+    ],
+    "ingredients": [
+      {
+        "item": "Arnotts Butternut Snap Cookies"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Cream Cheese"
+      },
+      {
+        "item": "Condensed Milk"
+      },
+      {
+        "item": "Gelatine Powder"
+      }
     ]
   },
   {
     "id": "porkcaldereta",
     "title": "Pork Caldereta",
     "category": "Filipino",
+    "description": "A rich Filipino stew known for its tender meat and savoury, slightly spicy tomato-based sauce thickened with liver spread.",
+    "difficulty": "Intermediate",
     "tags": [
       "Dinner",
       "Filipino",
@@ -1651,12 +4460,64 @@
       "Rich",
       "Savoury",
       "Spicy"
+    ],
+    "ingredients": [
+      {
+        "item": "Pork Shoulder"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Tomato Sauce"
+      },
+      {
+        "item": "Pork Stock"
+      },
+      {
+        "item": "Liver Spread"
+      },
+      {
+        "item": "Potato"
+      },
+      {
+        "item": "Carrots"
+      },
+      {
+        "item": "Red Capsicum"
+      },
+      {
+        "item": "Green Capsicum"
+      },
+      {
+        "item": "Pork Stock Cube"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Black Pepper"
+      },
+      {
+        "item": "Red Chilli"
+      },
+      {
+        "item": "Green Olives"
+      },
+      {
+        "item": "Tasty Cheese"
+      }
     ]
   },
   {
     "id": "potatognocchi",
     "title": "Potato Gnocchi with Tomato Sauce",
     "category": "Dinner",
+    "description": "Soft potato gnocchi served with a simple tomato and basil sauce.",
+    "difficulty": "Intermediate",
     "tags": [
       "Classic",
       "Dinner",
@@ -1665,12 +4526,46 @@
       "Rich",
       "Savoury",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Potato"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Parmesan"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Black Pepper"
+      },
+      {
+        "item": "Tomatoes"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "White Wine"
+      },
+      {
+        "item": "Basil"
+      }
     ]
   },
   {
     "id": "puffpastryrough",
     "title": "Rough Puff Pastry",
     "category": "Pastry",
+    "description": "A smart compromise between traditional puff pastry and store-bought. Quick to make with excellent rise and flakiness — the perfect everyday laminated dough. Keep everything cold and don't overwork it.",
+    "difficulty": "Intermediate",
     "tags": [
       "Baking",
       "Classic",
@@ -1680,12 +4575,28 @@
       "Make Ahead",
       "Pastry",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Salt"
+      }
     ]
   },
   {
     "id": "puffpastrytraditional",
     "title": "Traditional Puff Pastry",
     "category": "Pastry",
+    "description": "The full classic method with butter block and multiple turns. Ultimate rise, ethereal flakiness, and deep satisfaction. A project worth the effort — make this when pastry is the centrepiece and you have a Sunday afternoon.",
+    "difficulty": "Advanced",
     "tags": [
       "Baking",
       "Classic",
@@ -1693,6 +4604,20 @@
       "Make Ahead",
       "Pastry",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Salt"
+      }
     ]
   },
   {
@@ -1704,15 +4629,41 @@
       "Italian",
       "Sauce",
       "Tomato",
-      "Under 30 Minutes",
       "Vegan",
       "Vegetarian"
+    ],
+    "description": "A simple tomato-based sauce — rich, aromatic, and perfect for pasta. Quick to make, full of flavour.",
+    "difficulty": "Beginner",
+    "ingredients": [
+      {
+        "item": "Tomatoes"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Olive Oil"
+      },
+      {
+        "item": "Italian Herbs"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Black Pepper"
+      }
     ]
   },
   {
     "id": "roganjosh",
     "title": "Lamb Rogan Josh – Restaurant Style",
     "category": "Dinner",
+    "description": "Succulent pieces of lamb cooked in a rich, flavourful sauce.",
+    "difficulty": "Intermediate",
     "tags": [
       "Curry",
       "Dinner",
@@ -1723,12 +4674,76 @@
       "Savoury",
       "Slow-Cooked",
       "Spicy"
+    ],
+    "ingredients": [
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Ginger"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Fennel Seeds"
+      },
+      {
+        "item": "Cumin Seeds"
+      },
+      {
+        "item": "Coriander Seeds"
+      },
+      {
+        "item": "Ground Turmeric"
+      },
+      {
+        "item": "Garam Masala"
+      },
+      {
+        "item": "Sweet Paprika"
+      },
+      {
+        "item": "Red Chilli Powder"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Green Cardamom Pods"
+      },
+      {
+        "item": "Cloves Whole"
+      },
+      {
+        "item": "Bay Leaves"
+      },
+      {
+        "item": "Tomato Paste"
+      },
+      {
+        "item": "Diced Lamb"
+      },
+      {
+        "item": "Greek Yoghurt"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Coriander (Fresh)"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
     "id": "roulade",
     "title": "Strawberry Meringue Roulade",
     "category": "Desserts",
+    "description": "A light and airy meringue roulade filled with whipped cream and fresh strawberries.",
+    "difficulty": "Beginner",
     "tags": [
       "Australian",
       "Baking",
@@ -1738,28 +4753,86 @@
       "Gluten-Free",
       "Sweet",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Egg Whites"
+      },
+      {
+        "item": "Caster Sugar"
+      },
+      {
+        "item": "Cornflour"
+      },
+      {
+        "item": "White Vinegar"
+      },
+      {
+        "item": "Cream"
+      },
+      {
+        "item": "Strawberries"
+      },
+      {
+        "item": "Icing Sugar"
+      }
     ]
   },
   {
     "id": "sausageroll",
     "title": "Classic Aussie Sausage Rolls",
     "category": "Lunch",
+    "description": "The Aussie snack king — perfect for footy days, picnics, or anytime hunger strikes.",
+    "difficulty": "Beginner",
     "tags": [
       "Australian",
-      "Baked",
       "Baking",
       "Classic",
       "Lunch",
-      "Make Ahead",
+      "Make-Ahead",
       "Pastry",
       "Savoury",
       "Snack"
+    ],
+    "ingredients": [
+      {
+        "item": "Beef"
+      },
+      {
+        "item": "Sausage Mince"
+      },
+      {
+        "item": "Breadcrumbs"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Carrots"
+      },
+      {
+        "item": "Ground Nutmeg"
+      },
+      {
+        "item": "Puff Pastry"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Sesame Seeds"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
     "id": "sataysauce",
     "title": "Satay Sauce",
     "category": "Sauces",
+    "description": "Rich, creamy, slightly spicy, and perfect for chicken, beef, lamb, veggies — or eaten straight from the pan when no one's watching.",
+    "difficulty": "Beginner",
     "tags": [
       "Coconut",
       "Dinner",
@@ -1771,12 +4844,31 @@
       "Thai",
       "Vegan",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Peanut Butter"
+      },
+      {
+        "item": "Soy Sauce"
+      },
+      {
+        "item": "Curry Powder"
+      },
+      {
+        "item": "Coconut Milk"
+      },
+      {
+        "item": "Water"
+      }
     ]
   },
   {
     "id": "smokybbqsauce",
     "title": "Smoky BBQ Sauce",
     "category": "Sauces",
+    "description": "A quick, oil-free BBQ sauce with a deep, savory sweetness. Simmering the ingredients helps cook out the raw tomato taste, blending the smoked paprika with molasses and mustard for a traditional flavor profile.",
+    "difficulty": "Beginner",
     "tags": [
       "Gluten-Free",
       "Sauce",
@@ -1785,6 +4877,41 @@
       "Vegan",
       "Vegetarian",
       "Australian"
+    ],
+    "ingredients": [
+      {
+        "item": "Tomato Paste"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Apple Cider Vinegar"
+      },
+      {
+        "item": "Maple Syrup"
+      },
+      {
+        "item": "Molasses"
+      },
+      {
+        "item": "Worcestershire Sauce"
+      },
+      {
+        "item": "American Mustard"
+      },
+      {
+        "item": "Smoked Paprika"
+      },
+      {
+        "item": "Garlic Powder"
+      },
+      {
+        "item": "Onion Powder"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
@@ -1792,7 +4919,6 @@
     "title": "Sticky Date Pudding with Caramel Sauce",
     "category": "Desserts",
     "tags": [
-      "Alcohol",
       "Australian",
       "Baking",
       "British",
@@ -1802,12 +4928,57 @@
       "Rich",
       "Sweet",
       "Vegetarian"
+    ],
+    "description": "Microwave marvel — rich, sticky, and surprisingly fast.",
+    "difficulty": "Beginner",
+    "ingredients": [
+      {
+        "item": "Carrots"
+      },
+      {
+        "item": "Apples"
+      },
+      {
+        "item": "Dates"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Bi-carb Soda"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Brown Sugar"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Ground Cinnamon"
+      },
+      {
+        "item": "Cream"
+      },
+      {
+        "item": "Grand Marnier"
+      }
     ]
   },
   {
     "id": "sub",
     "title": "Homemade Sub Buns",
     "category": "Baking",
+    "description": "Soft, sturdy sandwich rolls perfect for loaded subs, hoagies, or heroes.",
+    "difficulty": "Intermediate",
     "tags": [
       "Baking",
       "Bread",
@@ -1815,12 +4986,40 @@
       "Savoury",
       "Vegetarian",
       "Australian"
+    ],
+    "ingredients": [
+      {
+        "item": "Bread Flour"
+      },
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Yeast"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Salt"
+      }
     ]
   },
   {
     "id": "sultanabread",
     "title": "Sultana Rolls with Sugar Glaze",
     "category": "Baking",
+    "description": "Warmly spiced, tender sultana rolls portioned into individual buns. Ground allspice and brown sugar provide depth, spreadable butter keeps the crumb soft, and a shiny sugar glaze made with glucose syrup to prevent crystallization is brushed on top after baking.",
+    "difficulty": "Beginner",
     "tags": [
       "Australian",
       "Baking",
@@ -1828,12 +5027,49 @@
       "Breakfast",
       "Sweet",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Bread Flour"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Yeast"
+      },
+      {
+        "item": "Butter"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Bread Improver"
+      },
+      {
+        "item": "Brown Sugar"
+      },
+      {
+        "item": "Ground Allspice"
+      },
+      {
+        "item": "Sultanas"
+      },
+      {
+        "item": "Caster Sugar"
+      },
+      {
+        "item": "Glucose Syrup"
+      }
     ]
   },
   {
     "id": "swbtm",
     "title": "Soft White Bread (Tangzhong Method)",
     "category": "Baking",
+    "description": "A soft, pale, everyday loaf that stays tender for days without milk, butter, or yellowing — thanks to the tangzhong technique.",
+    "difficulty": "Intermediate",
     "tags": [
       "Baking",
       "Bread",
@@ -1841,12 +5077,37 @@
       "Make Ahead",
       "Vegan",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Bread Flour"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Yeast"
+      },
+      {
+        "item": "Bread Improver"
+      }
     ]
   },
   {
     "id": "swbtm2",
     "title": "Soft White Bread 2 (Tangzhong)",
     "category": "Baking",
+    "description": "A soft, airy loaf with a tender crumb, made using tangzhong and hand-rolled sections for perfect pull-apart texture.",
+    "difficulty": "Intermediate",
     "tags": [
       "Baking",
       "Bread",
@@ -1854,12 +5115,43 @@
       "Vegan",
       "Vegetarian",
       "Tangzhong"
+    ],
+    "ingredients": [
+      {
+        "item": "Bread Flour"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Bread Improver"
+      },
+      {
+        "item": "Yeast"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "Unsalted Butter"
+      }
     ]
   },
   {
     "id": "sweetchillisauce",
     "title": "Sweet Chilli Sauce",
     "category": "Sauces",
+    "description": "A Thai-inspired sweet and spicy sauce — sticky, tangy, and addictive. Perfect as a dip or glaze.",
+    "difficulty": "Beginner",
     "tags": [
       "Gluten-Free",
       "Make Ahead",
@@ -1869,15 +5161,36 @@
       "Thai",
       "Vegan",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Water"
+      },
+      {
+        "item": "White Vinegar"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Chilli Sauce"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Cornflour"
+      }
     ]
   },
   {
     "id": "sweetsourpork",
     "title": "Better Than Takeaway Sweet & Sour Pork",
     "category": "Dinner",
+    "description": "Golden, crispy pork with a sticky, tangy sauce — exactly what you want when you skip the takeaway.",
+    "difficulty": "Intermediate",
     "tags": [
       "Asian",
-      "Baking",
       "Chinese",
       "Classic",
       "Dinner",
@@ -1885,27 +5198,107 @@
       "Pork",
       "Savoury",
       "Sweet"
+    ],
+    "ingredients": [
+      {
+        "item": "Pork Shoulder"
+      },
+      {
+        "item": "Light Soy Sauce"
+      },
+      {
+        "item": "White Pepper"
+      },
+      {
+        "item": "Chinese Five Spice"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Cornflour"
+      },
+      {
+        "item": "Tomato Sauce"
+      },
+      {
+        "item": "Brown Sugar"
+      },
+      {
+        "item": "White Vinegar"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Green Capsicum"
+      },
+      {
+        "item": "Carrots"
+      },
+      {
+        "item": "Garlic"
+      }
     ]
   },
   {
     "id": "sweetsoursauce_flex",
     "title": "Sweet & Sour Sauce – Home Chef Flex",
     "category": "Sauces",
+    "description": "Tangy, sweet, and versatile — adjust sweetness, tang, or add heat. Perfect for home cooking and fridge-friendly storage.",
+    "difficulty": "Beginner",
     "tags": [
       "Baking",
       "Condiment",
       "Gluten-Free",
-      "Make Ahead",
+      "Make-Ahead",
       "Sauce",
       "Sweet",
       "Vegan",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Tomato Sauce"
+      },
+      {
+        "item": "Brown Sugar"
+      },
+      {
+        "item": "White Vinegar"
+      },
+      {
+        "item": "Pineapple Juice"
+      },
+      {
+        "item": "Soy Sauce"
+      },
+      {
+        "item": "Cornflour"
+      },
+      {
+        "item": "Capsicum"
+      },
+      {
+        "item": "Pineapple"
+      },
+      {
+        "item": "Carrots"
+      }
     ]
   },
   {
     "id": "sweetspicyorangesauce",
     "title": "Sweet & Spicy Orange Sauce",
     "category": "Sauces",
+    "description": "A zesty Asian-inspired sauce — citrusy, fiery, and utterly moreish. Restaurant quality at home.",
+    "difficulty": "Beginner",
     "tags": [
       "Chinese",
       "Gluten-Free",
@@ -1914,12 +5307,40 @@
       "Sweet",
       "Vegan",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Orange Juice"
+      },
+      {
+        "item": "Honey"
+      },
+      {
+        "item": "Soy Sauce"
+      },
+      {
+        "item": "White Vinegar"
+      },
+      {
+        "item": "Chilli Sauce"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Orange Zest"
+      },
+      {
+        "item": "Orange"
+      }
     ]
   },
   {
     "id": "sweetsoursauce_quick",
     "title": "Sweet & Sour Sauce – Quick Takeout Style",
     "category": "Sauces",
+    "description": "Fast, tangy, sweet, and irresistibly familiar — your shortcut to classic Chinese takeout flavour at home.",
+    "difficulty": "Beginner",
     "tags": [
       "Baking",
       "Chinese",
@@ -1929,18 +5350,81 @@
       "Sweet",
       "Vegan",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "White Vinegar"
+      },
+      {
+        "item": "Tomato Sauce"
+      },
+      {
+        "item": "Soy Sauce"
+      },
+      {
+        "item": "Pineapple Juice"
+      },
+      {
+        "item": "Cornflour"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Capsicum"
+      },
+      {
+        "item": "Pineapple"
+      },
+      {
+        "item": "Carrots"
+      }
     ]
   },
   {
     "id": "tacoseasoning",
     "title": "Taco Seasoning — Old El Paso Style (From Scratch)",
     "category": "Sauces",
+    "description": "A homemade taco seasoning that replicates the Old El Paso packet blend — but fresher, deeper, and completely under your control. One batch equals roughly one standard 35 g packet.",
+    "difficulty": "Beginner",
     "tags": [
-      "Make Ahead",
+      "Make-Ahead",
       "Mexican",
       "Vegetarian",
       "Spice Mix",
       "Spicy"
+    ],
+    "ingredients": [
+      {
+        "item": "Ground Cumin"
+      },
+      {
+        "item": "Coriander"
+      },
+      {
+        "item": "Sweet Paprika"
+      },
+      {
+        "item": "Red Chilli Powder"
+      },
+      {
+        "item": "Garlic Powder"
+      },
+      {
+        "item": "Onion Powder"
+      },
+      {
+        "item": "Oregano"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
@@ -1951,18 +5435,20 @@
       "Baking",
       "Bread",
       "Breakfast",
-      "Make Ahead",
+      "Make-Ahead",
       "Vegan",
       "Vegetarian",
       "Australian",
-      "Seed & Grain",
-      "Tangzhong"
+      "Tangzhong",
+      "Multigrain"
     ]
   },
   {
     "id": "teriyakimarinade",
     "title": "Teriyaki Marinade",
     "category": "Sauces",
+    "description": "A sweet-savoury marinade that makes chicken tender, juicy, and full of flavour. Perfect for grilling, baking, or stir-frying.",
+    "difficulty": "Beginner",
     "tags": [
       "Dinner",
       "Gluten-Free",
@@ -1973,12 +5459,28 @@
       "Sweet",
       "Vegan",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Soy Sauce"
+      },
+      {
+        "item": "Mirin"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Garlic"
+      }
     ]
   },
   {
     "id": "teriyakisauce",
     "title": "Teriyaki Sauce",
     "category": "Sauces",
+    "description": "A classic Japanese glaze — sweet, umami-rich, and beautifully glossy. Authentic taste, simple method.",
+    "difficulty": "Beginner",
     "tags": [
       "Gluten-Free",
       "Japanese",
@@ -1987,12 +5489,34 @@
       "Sweet",
       "Vegan",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Soy Sauce"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Honey"
+      },
+      {
+        "item": "Mirin"
+      },
+      {
+        "item": "Garlic"
+      }
     ]
   },
   {
     "id": "theultimatechocolatemudcake",
     "title": "The Ultimate Chocolate Mud Cake",
     "category": "Cakes",
+    "description": "A decadent, dense, and fudgy masterpiece topped with silky chocolate ganache — the ultimate indulgence.",
+    "difficulty": "Intermediate",
     "tags": [
       "Australian",
       "Baking",
@@ -2002,12 +5526,55 @@
       "Rich",
       "Sweet",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Dark Chocolate"
+      },
+      {
+        "item": "Caster Sugar"
+      },
+      {
+        "item": "Brown Sugar"
+      },
+      {
+        "item": "Coffee"
+      },
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Natural Vanilla Extract"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Cocoa Powder"
+      },
+      {
+        "item": "Baking Powder"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Cream"
+      }
     ]
   },
   {
     "id": "tomatoflan",
     "title": "Tomato and Olive Flan",
     "category": "Entree",
+    "description": "A savoury baked flan filled with tomatoes, olives, basil, and Gruyère cheese.",
+    "difficulty": "Intermediate",
     "tags": [
       "Baked",
       "Baking",
@@ -2020,12 +5587,55 @@
       "Savoury",
       "Tomato",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Olive Oil"
+      },
+      {
+        "item": "Dijon Mustard"
+      },
+      {
+        "item": "Tomatoes"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Basil"
+      },
+      {
+        "item": "Kalamata Olives"
+      },
+      {
+        "item": "Gruyere"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
     "id": "traditionalanzacbiscuits",
     "title": "Traditional ANZAC Biscuits",
     "category": "Biscuits",
+    "description": "A classic Australian favourite — golden, chewy, and steeped in history. This version uses a higher oat-to-coconut ratio for better binding and a less greasy dough. Weigh each ball to 35g for consistent results every time.",
+    "difficulty": "Beginner",
     "tags": [
       "Australian",
       "Baking",
@@ -2033,12 +5643,43 @@
       "Make Ahead",
       "Sweet",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Rolled Oats"
+      },
+      {
+        "item": "Brown Sugar"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Golden Syrup"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Bi-carb Soda"
+      },
+      {
+        "item": "Salt"
+      }
     ]
   },
   {
     "id": "turkishbread",
     "title": "Traditional Turkish Bread",
     "category": "Baking",
+    "description": "Soft, slightly chewy, and baked to a golden finish with a traditional sesame and nigella seed topping.",
+    "difficulty": "Intermediate",
     "tags": [
       "Baking",
       "Bread",
@@ -2047,29 +5688,94 @@
       "Savoury",
       "Vegetarian",
       "Turkish"
+    ],
+    "ingredients": [
+      {
+        "item": "Bread Flour"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Yeast"
+      },
+      {
+        "item": "Olive Oil"
+      },
+      {
+        "item": "Malt Powder"
+      },
+      {
+        "item": "Sesame Seeds"
+      },
+      {
+        "item": "Nigella Seeds"
+      }
     ]
   },
   {
     "id": "vindaloopaste",
     "title": "Vindaloo Paste",
     "category": "Sauces",
+    "description": "A bold, tangy, fire-forward paste — the beating heart of a proper vindaloo.",
+    "difficulty": "Beginner",
     "tags": [
       "Chinese",
       "Condiment",
       "Curry",
       "Gluten-Free",
       "Indian",
-      "Make Ahead",
+      "Make-Ahead",
       "Savoury",
       "Spicy",
       "Vegan",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Ginger"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Dried Red Chilli"
+      },
+      {
+        "item": "Coriander Seeds"
+      },
+      {
+        "item": "Fenugreek Seeds"
+      },
+      {
+        "item": "Cumin Seeds"
+      },
+      {
+        "item": "Green Cardamom Pods"
+      },
+      {
+        "item": "Cloves Whole"
+      },
+      {
+        "item": "Cinnamon Stick"
+      },
+      {
+        "item": "Black Peppercorns"
+      },
+      {
+        "item": "Lemon Juice"
+      }
     ]
   },
   {
     "id": "whitesauce",
     "title": "White Sauce (Béchamel)",
     "category": "Sauces",
+    "description": "A classic French white sauce — smooth, creamy, and versatile. The foundation of countless dishes.",
+    "difficulty": "Beginner",
     "tags": [
       "Classic",
       "Creamy",
@@ -2077,6 +5783,20 @@
       "Rich",
       "Sauce",
       "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Milk Full-cream"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   }
 ]

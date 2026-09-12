@@ -18,7 +18,6 @@
     "Italian",
     "Rich",
     "Savoury",
-    "Under 30 Minutes",
     "Veal"
   ],
   "ingredients": [
@@ -48,7 +47,8 @@
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Thickened Cream"
+      "item": "Cream",
+      "notes": "Thickened"
     },
     {
       "quantity": "60",

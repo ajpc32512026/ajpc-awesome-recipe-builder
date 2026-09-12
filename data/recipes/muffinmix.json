@@ -15,7 +15,6 @@
     "Dessert",
     "Snack",
     "Sweet",
-    "Under 30 Minutes",
     "Vegetarian",
     "Australian"
   ],
@@ -81,8 +80,8 @@
     },
     {
       "quantity": "1",
-      "unit": "",
-      "item": "Apple",
+      "unit": "ea",
+      "item": "Apples",
       "notes": "grated, plus 5 g cinnamon"
     },
     {

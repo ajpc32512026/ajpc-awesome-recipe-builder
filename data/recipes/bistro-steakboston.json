@@ -10,7 +10,6 @@
   "servings": "1 serving",
   "yieldPerBatch": "1 serving",
   "tags": [
-    "Alcohol",
     "American",
     "Beef",
     "Bistro",
@@ -18,8 +17,7 @@
     "Dinner",
     "Gluten-Free",
     "Rich",
-    "Savoury",
-    "Under 30 Minutes"
+    "Savoury"
   ],
   "ingredients": [
     {
@@ -55,10 +53,10 @@
       "notes": "dried"
     },
     {
-      "quantity": "1",
-      "unit": "",
-      "item": "Beef, Scotch Fillet",
-      "notes": "approximately 180 g each"
+      "quantity": "180",
+      "unit": "g",
+      "item": "Beef",
+      "notes": "Scotch Fillet"
     },
     {
       "quantity": "30",

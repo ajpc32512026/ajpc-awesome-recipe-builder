@@ -14,7 +14,6 @@
     "Beef",
     "Dinner",
     "French",
-    "Hearty",
     "Rich",
     "Sauce",
     "Savoury",
@@ -24,7 +23,8 @@
     {
       "quantity": "800",
       "unit": "g",
-      "item": "Beef, Scotch Fillet"
+      "item": "Beef",
+      "notes": "Scotch Fillet or Rump"
     },
     {
       "quantity": "1",

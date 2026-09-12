@@ -54,8 +54,8 @@
     },
     {
       "quantity": "1",
-      "unit": "",
-      "item": "Banana",
+      "unit": "ea",
+      "item": "Bananas",
       "notes": "sliced"
     },
     {
@@ -77,7 +77,8 @@
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Thickened Cream"
+      "item": "Cream",
+      "notes": "Thickened"
     },
     {
       "quantity": "30",

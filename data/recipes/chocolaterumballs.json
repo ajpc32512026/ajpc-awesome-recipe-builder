@@ -10,7 +10,6 @@
   "servings": "24 balls",
   "yieldPerBatch": "1 batch",
   "tags": [
-    "Alcohol",
     "Australian",
     "Chocolate",
     "Dessert",
@@ -51,7 +50,7 @@
     {
       "quantity": "30",
       "unit": "ml",
-      "item": "Hot Water"
+      "item": "Water"
     },
     {
       "quantity": "100",

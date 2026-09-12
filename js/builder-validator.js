@@ -415,7 +415,7 @@
                         r.errors.length + ' error' + (r.errors.length !== 1 ? 's' : '') + ', ' +
                         r.warnings.length + ' warning' + (r.warnings.length !== 1 ? 's' : '') +
                     '</span></span>' +
-                    '<button class="validate-load-btn" onclick="BuilderValidator.loadRecipeForEditing(\'' + escHtml(r.id).replace(/'/g, '&#39;') + '\')">Load in Editor</button>' +
+                    '<button class="validate-load-btn" onclick="BuilderValidator.loadRecipeForEditing(' + jsArg(r.id) + ')">Load in Editor</button>' +
                     '</div>' +
                     '<ul class="validate-issue-list">' +
                     r.errors.map(function (e) { return '<li class="validate-issue-error">' + escHtml(e) + '</li>'; }).join('') +
@@ -485,7 +485,7 @@
                 html += '<div class="validate-file v-err">' +
                     '<div class="validate-file-name">' +
                     '<span>' + escHtml(r.title) + ' <span class="validate-count">' + escHtml(r.id) + '.json</span></span>' +
-                    '<button class="validate-load-btn" onclick="BuilderValidator.loadRecipeForEditing(\'' + escHtml(r.id).replace(/'/g, '&#39;') + '\')">Load in Editor</button>' +
+                    '<button class="validate-load-btn" onclick="BuilderValidator.loadRecipeForEditing(' + jsArg(r.id) + ')">Load in Editor</button>' +
                     '</div></div>';
             });
         }
@@ -499,8 +499,18 @@
     }
 
     // ── Manage Tags: scan, select, remove one or everywhere ─
-    // tagMap: { "Tag Name": [{id, title, category}, ...] }
+    // tagMap: { "Tag Name": [{id, title, category}, ...] } — reflects the
+    // EFFECTIVE state (real files + any pending, not-yet-applied edits),
+    // used purely for rendering.
+    // recipeTagsCache: { id: {title, category, tags: [...]} } — this
+    // recipe's real on-disk tags, as of the last scan.
+    // pendingChanges: { id: {title, category, tags: [...]} } — recipes with
+    // staged-but-not-yet-written edits. Nothing touches disk until Apply
+    // All is clicked — every remove/swap just updates these two things and
+    // re-renders, so you can make a dozen edits and commit them in one go.
     var tagMap = {};
+    var recipeTagsCache = {};
+    var pendingChanges = {};
 
     async function scanAllTags() {
         var panel  = document.getElementById('tags-panel');
@@ -526,12 +536,19 @@
         // this tool, etc.), and Manage Tags removes things permanently, so it
         // has to work from the truth, not a copy of it.
         tagMap = {};
+        recipeTagsCache = {};
+        pendingChanges = {};
+        undoStack = [];
+        currentSelectedTag = null;
+        currentBrowseList = [];
         var failed = [];
         for (var i = 0; i < index.length; i++) {
             var id = index[i].id;
             try {
                 var data = await readRecipeData(id);
-                (data.tags || []).forEach(function (t) {
+                var tags = data.tags || [];
+                recipeTagsCache[id] = { title: data.title || id, category: data.category || '', tags: tags.slice() };
+                tags.forEach(function (t) {
                     if (!tagMap[t]) tagMap[t] = [];
                     tagMap[t].push({ id: id, title: data.title || id, category: data.category || '' });
                 });
@@ -541,6 +558,7 @@
         }
 
         renderAllTags();
+        renderPendingBar();
         if (failed.length && output) {
             output.insertAdjacentHTML('afterbegin', '<p class="diff-note">Could not read: ' + failed.join(', ') + '</p>');
         }
@@ -589,227 +607,296 @@
         names.forEach(function (name) {
             var count = tagMap[name].length;
             html += '<div class="tag-manage-chip">' +
-                '<span class="tag-manage-name" onclick="BuilderValidator.selectTag(\'' + escHtml(name).replace(/'/g, '&#39;') + '\')">' +
+                '<span class="tag-manage-name" onclick="BuilderValidator.selectTag(' + jsArg(name) + ')">' +
                     escHtml(name) + ' <span class="tag-manage-count">(' + count + ')</span>' +
                 '</span>' +
                 '<button class="tag-manage-delete" title="Remove this tag from all ' + count + ' recipes" ' +
-                    'onclick="BuilderValidator.deleteTagEverywhere(\'' + escHtml(name).replace(/'/g, '&#39;') + '\')">&times;</button>' +
+                    'onclick="BuilderValidator.deleteTagEverywhere(' + jsArg(name) + ')">&times;</button>' +
                 '</div>';
         });
         html += '</div>';
         output.innerHTML = html;
     }
 
+    var currentSelectedTag = null;
+
+    var currentSelectedTag = null;
+    var currentBrowseList = [];  // frozen recipe list for the tag being browsed — doesn't
+                                  // shrink just because you removed the tag you're viewing
+    var undoStack = [];          // [{id, previousTags}, ...] — every staged change, in order
+
+    // Called when you click a tag in the top grid — this is the only place
+    // that takes a fresh snapshot of "which recipes have this tag right now".
     function selectTag(name) {
+        currentSelectedTag = name;
+        currentBrowseList = (tagMap[name] || []).slice();
+        renderDetailView();
+    }
+
+    // Re-renders whatever's currently being browsed using the FROZEN list
+    // captured by selectTag(), so removing a tag from a recipe updates that
+    // recipe's chips in place instead of yanking the whole row out of view
+    // the moment it stops matching. The list only changes when you pick a
+    // different tag from the top grid, or run a fresh scan.
+    function renderDetailView() {
         var header = document.getElementById('tags-detail-header');
         var output = document.getElementById('tags-detail-output');
         if (!header || !output) return;
 
-        var recipes = tagMap[name] || [];
-        header.textContent = '"' + name + '" — used in ' + recipes.length + ' recipe' + (recipes.length !== 1 ? 's' : '');
+        var name = currentSelectedTag;
+        var recipes = currentBrowseList;
+        var stillHave = recipes.filter(function (r) { return getEffectiveTags(r.id).indexOf(name) !== -1; }).length;
+        header.textContent = '"' + name + '" — ' + stillHave + ' of ' + recipes.length + ' still have this tag';
 
         if (!recipes.length) {
-            output.innerHTML = '<p class="preview-placeholder">This tag has no recipes left — it will disappear on the next scan.</p>';
+            output.innerHTML = '<p class="preview-placeholder">Select a tag above to see its recipes.</p>';
             return;
         }
 
-        var safeName = escHtml(name).replace(/'/g, '&#39;');
+        var safeName = jsArg(name);
         var html = '<div class="tags-swap-all-bar">' +
-            '<span>Swap "' + escHtml(name) + '" for a different tag in all ' + recipes.length + ' recipes:</span>' +
+            '<span>Swap "' + escHtml(name) + '" for a different tag in every recipe still shown here:</span>' +
             '<input type="text" list="all-tags-datalist" class="tag-swap-input" id="swap-all-input" placeholder="New tag name…">' +
-            '<button class="btn primary" onclick="BuilderValidator.swapTagEverywhere(\'' + safeName + '\', document.getElementById(\'swap-all-input\').value)">Swap in All ' + recipes.length + '</button>' +
+            '<button class="btn primary" onclick="BuilderValidator.swapTagEverywhere(' + safeName + ', document.getElementById(\'swap-all-input\').value)">Swap Remaining</button>' +
             '</div>';
 
         recipes.slice().sort(function (a, b) { return a.title.localeCompare(b.title); }).forEach(function (r) {
-            var rid = escHtml(r.id).replace(/'/g, '&#39;');
+            var rid = jsArg(r.id);
             var inputId = 'swap-input-' + r.id.replace(/[^a-zA-Z0-9]/g, '_');
-            html += '<div class="validate-file">' +
+            var pendingTag = pendingChanges[r.id] ? ' <span class="tags-pending-flag">unsaved</span>' : '';
+            var allTags = getEffectiveTags(r.id);
+            var hasCurrent = allTags.indexOf(name) !== -1;
+            var otherTagsHtml = allTags.map(function (t) {
+                var cls = t === name ? 'tags-row-tag tags-row-tag-current' : 'tags-row-tag';
+                var safeT = jsArg(t);
+                return '<span class="' + cls + '">' + escHtml(t) +
+                    '<button class="tags-row-tag-remove" title="Remove ' + escHtml(t) + ' from just this recipe" ' +
+                        'onclick="BuilderValidator.removeTagFromRecipe(' + rid + ',' + safeT + ')">&times;</button>' +
+                    '</span>';
+            }).join('') || '<span class="tags-row-tag" style="opacity:0.5;">no tags left</span>';
+            html += '<div class="validate-file' + (hasCurrent ? '' : ' tags-row-cleared') + '">' +
                 '<div class="validate-file-name">' +
-                '<span>' + escHtml(r.title) + ' <span class="validate-count">' + escHtml(r.id) + '.json</span></span>' +
+                '<span>' + escHtml(r.title) + ' <span class="validate-count">' + escHtml(r.id) + '.json</span>' + pendingTag +
+                (hasCurrent ? '' : ' <span class="tags-row-done-flag">"' + escHtml(name) + '" removed</span>') + '</span>' +
                 '<span class="tags-row-actions">' +
                 '<input type="text" list="all-tags-datalist" class="tag-swap-input" id="' + inputId + '" placeholder="Swap for…">' +
-                '<button class="tag-manage-swap-inline" onclick="BuilderValidator.swapTagInRecipe(\'' + rid + '\',\'' + safeName + '\', document.getElementById(\'' + inputId + '\').value)">Swap</button>' +
+                '<button class="tag-manage-swap-inline" onclick="BuilderValidator.swapTagInRecipe(' + rid + ',' + safeName + ', document.getElementById(\'' + inputId + '\').value)">Swap</button>' +
                 '<button class="tag-manage-delete-inline" title="Remove just from this recipe" ' +
-                    'onclick="BuilderValidator.removeTagFromRecipe(\'' + rid + '\',\'' + safeName + '\')">Remove</button>' +
-                '</span></div></div>';
+                    'onclick="BuilderValidator.removeTagFromRecipe(' + rid + ',' + safeName + ')">Remove</button>' +
+                '</span></div>' +
+                '<div class="tags-row-all-tags">' + otherTagsHtml + '</div></div>';
         });
         output.innerHTML = html;
     }
 
-    // Reads the real recipe file, strips the tag, writes it back, and keeps
-    // recipe-index.json's cached copy in sync — same as a normal Save does.
-    // Requires a connected project folder; there's no meaningful way to do
-    // a multi-file bulk edit through the download-a-copy fallback.
-    async function removeTagFromRecipe(id, tagName) {
-        var rootHandle = getRootHandleForTags();
-        if (!rootHandle) {
-            alert('Connect your project folder first — removing tags writes directly to your recipe files and needs real file access.');
-            return;
-        }
-        try {
-            var handle = await getRecipeFileHandle(id);
-            if (!handle) throw new Error('could not find data/recipes/' + id + '.json');
-            var file = await handle.getFile();
-            var data = JSON.parse(await file.text());
-
-            data.tags = (data.tags || []).filter(function (t) { return t !== tagName; });
-
-            var w = await handle.createWritable();
-            await w.write(JSON.stringify(data, null, 2));
-            await w.close();
-
-            if (typeof syncRecipeIndexEntry === 'function') {
-                await syncRecipeIndexEntry(id, data);
-            }
-
-            // Update local state + UI without a full rescan
-            if (tagMap[tagName]) {
-                tagMap[tagName] = tagMap[tagName].filter(function (r) { return r.id !== id; });
-                if (!tagMap[tagName].length) delete tagMap[tagName];
-            }
-            renderAllTags();
-            selectTag(tagName);
-            if (typeof toast === 'function') toast('Removed "' + tagName + '" from ' + id + '.json');
-        } catch (e) {
-            alert('Could not remove tag: ' + e.message);
-        }
+    // Effective tags for a recipe: whatever's already staged, or its real
+    // on-disk tags if nothing's staged yet.
+    function getEffectiveTags(id) {
+        if (pendingChanges[id]) return pendingChanges[id].tags;
+        if (recipeTagsCache[id]) return recipeTagsCache[id].tags;
+        return [];
     }
 
-    // Reads one recipe file, replaces oldTag with newTag in its tags array
-    // (de-duplicating if newTag is already present), writes it back, and
-    // syncs recipe-index.json — all in one action instead of remove-then-
-    // reopen-then-add-then-save.
-    async function swapTagInRecipe(id, oldTag, newTag) {
-        newTag = (newTag || '').trim();
-        if (!newTag) { alert('Type or pick a tag to swap to first.'); return; }
-        var rootHandle = getRootHandleForTags();
-        if (!rootHandle) {
-            alert('Connect your project folder first — swapping tags writes directly to your recipe files and needs real file access.');
-            return;
-        }
-        try {
-            var handle = await getRecipeFileHandle(id);
-            if (!handle) throw new Error('could not find data/recipes/' + id + '.json');
-            var file = await handle.getFile();
-            var data = JSON.parse(await file.text());
-
-            var tags = (data.tags || []).filter(function (t) { return t !== oldTag; });
-            if (tags.indexOf(newTag) === -1) tags.push(newTag);
-            data.tags = tags;
-
-            var w = await handle.createWritable();
-            await w.write(JSON.stringify(data, null, 2));
-            await w.close();
-
-            if (typeof syncRecipeIndexEntry === 'function') await syncRecipeIndexEntry(id, data);
-
-            // Move this recipe from the old tag's bucket to the new one
-            if (tagMap[oldTag]) {
-                var rec = tagMap[oldTag].find(function (r) { return r.id === id; });
-                tagMap[oldTag] = tagMap[oldTag].filter(function (r) { return r.id !== id; });
-                if (!tagMap[oldTag].length) delete tagMap[oldTag];
-                if (rec) {
-                    if (!tagMap[newTag]) tagMap[newTag] = [];
-                    if (!tagMap[newTag].some(function (r) { return r.id === id; })) tagMap[newTag].push(rec);
-                }
-            }
-            renderAllTags();
-            selectTag(oldTag);
-            if (typeof toast === 'function') toast('Swapped "' + oldTag + '" → "' + newTag + '" on ' + id + '.json');
-        } catch (e) {
-            alert('Could not swap tag: ' + e.message);
-        }
+    function tagsEqual(a, b) {
+        if (a.length !== b.length) return false;
+        var sa = a.slice().sort(), sb = b.slice().sort();
+        return sa.every(function (v, i) { return v === sb[i]; });
     }
 
-    async function swapTagEverywhere(oldTag, newTag) {
-        newTag = (newTag || '').trim();
-        if (!newTag) { alert('Type or pick a tag to swap to first.'); return; }
-        var rootHandle = getRootHandleForTags();
-        if (!rootHandle) {
-            alert('Connect your project folder first — swapping tags writes directly to your recipe files and needs real file access.');
-            return;
-        }
-        var recipes = (tagMap[oldTag] || []).slice();
-        if (!recipes.length) return;
-        var proceed = confirm('Swap "' + oldTag + '" for "' + newTag + '" in all ' + recipes.length + ' recipes that use it?');
-        if (!proceed) return;
-
-        var failed = [];
-        for (var i = 0; i < recipes.length; i++) {
-            try {
-                var handle = await getRecipeFileHandle(recipes[i].id);
-                if (!handle) throw new Error('file not found');
-                var file = await handle.getFile();
-                var data = JSON.parse(await file.text());
-                var tags = (data.tags || []).filter(function (t) { return t !== oldTag; });
-                if (tags.indexOf(newTag) === -1) tags.push(newTag);
-                data.tags = tags;
-                var w = await handle.createWritable();
-                await w.write(JSON.stringify(data, null, 2));
-                await w.close();
-                if (typeof syncRecipeIndexEntry === 'function') await syncRecipeIndexEntry(recipes[i].id, data);
-            } catch (e) {
-                failed.push(recipes[i].id);
-            }
+    // Records a new tag list for a recipe as pending (not written to disk),
+    // keeps tagMap in sync, and pushes the previous state onto the undo
+    // stack. If the new list exactly matches what's really on disk, the
+    // pending flag is cleared instead of staying "unsaved" forever.
+    function stageTagsForRecipe(id, newTags, opts) {
+        opts = opts || {};
+        if (!opts.skipUndo) {
+            undoStack.push({ id: id, previousTags: getEffectiveTags(id).slice() });
         }
 
-        var moved = recipes.filter(function (r) { return failed.indexOf(r.id) === -1; });
-        delete tagMap[oldTag];
-        if (moved.length) {
-            if (!tagMap[newTag]) tagMap[newTag] = [];
-            moved.forEach(function (r) {
-                if (!tagMap[newTag].some(function (x) { return x.id === r.id; })) tagMap[newTag].push(r);
-            });
+        var meta = recipeTagsCache[id] || { title: id, category: '' };
+        var onDisk = recipeTagsCache[id] ? recipeTagsCache[id].tags : [];
+        if (tagsEqual(newTags, onDisk)) {
+            delete pendingChanges[id];
+        } else {
+            pendingChanges[id] = { title: meta.title, category: meta.category, tags: newTags };
         }
+
+        Object.keys(tagMap).forEach(function (t) {
+            tagMap[t] = tagMap[t].filter(function (r) { return r.id !== id; });
+            if (!tagMap[t].length) delete tagMap[t];
+        });
+        newTags.forEach(function (t) {
+            if (!tagMap[t]) tagMap[t] = [];
+            tagMap[t].push({ id: id, title: meta.title, category: meta.category });
+        });
+    }
+
+    function removeTagFromRecipe(id, tagName) {
+        var newTags = getEffectiveTags(id).filter(function (t) { return t !== tagName; });
+        stageTagsForRecipe(id, newTags);
         renderAllTags();
-        document.getElementById('tags-detail-header').textContent = 'Select a tag above to see its recipes';
-        document.getElementById('tags-detail-output').innerHTML = '';
-
-        if (failed.length) {
-            alert('Swapped ' + moved.length + ' recipes. Failed on: ' + failed.join(', '));
-        } else if (typeof toast === 'function') {
-            toast('Swapped "' + oldTag + '" → "' + newTag + '" in ' + recipes.length + ' recipes');
-        }
+        renderDetailView();
+        renderPendingBar();
     }
 
-    async function deleteTagEverywhere(tagName) {
-        var rootHandle = getRootHandleForTags();
-        if (!rootHandle) {
-            alert('Connect your project folder first — removing tags writes directly to your recipe files and needs real file access.');
-            return;
-        }
+    function swapTagInRecipe(id, oldTag, newTag) {
+        newTag = (newTag || '').trim();
+        if (!newTag) { alert('Type or pick a tag to swap to first.'); return; }
+        var tags = getEffectiveTags(id).filter(function (t) { return t !== oldTag; });
+        if (tags.indexOf(newTag) === -1) tags.push(newTag);
+        stageTagsForRecipe(id, tags);
+        renderAllTags();
+        renderDetailView();
+        renderPendingBar();
+    }
+
+    function deleteTagEverywhere(tagName) {
         var recipes = (tagMap[tagName] || []).slice();
         if (!recipes.length) return;
-        var proceed = confirm('Remove "' + tagName + '" from all ' + recipes.length + ' recipes that use it? This writes to every one of those files.');
+        var proceed = confirm('Stage removing "' + tagName + '" from all ' + recipes.length + ' recipes that use it? Nothing writes to disk until you click Apply All Changes.');
         if (!proceed) return;
 
-        var failed = [];
-        for (var i = 0; i < recipes.length; i++) {
-            try {
-                var handle = await getRecipeFileHandle(recipes[i].id);
-                if (!handle) throw new Error('file not found');
-                var file = await handle.getFile();
-                var data = JSON.parse(await file.text());
-                data.tags = (data.tags || []).filter(function (t) { return t !== tagName; });
-                var w = await handle.createWritable();
-                await w.write(JSON.stringify(data, null, 2));
-                await w.close();
-                if (typeof syncRecipeIndexEntry === 'function') await syncRecipeIndexEntry(recipes[i].id, data);
-            } catch (e) {
-                failed.push(recipes[i].id);
-            }
-        }
-
-        delete tagMap[tagName];
+        recipes.forEach(function (r) {
+            var newTags = getEffectiveTags(r.id).filter(function (t) { return t !== tagName; });
+            stageTagsForRecipe(r.id, newTags);
+        });
         renderAllTags();
-        document.getElementById('tags-detail-header').textContent = 'Select a tag above to see its recipes';
-        document.getElementById('tags-detail-output').innerHTML = '';
+        renderDetailView();
+        renderPendingBar();
+        if (typeof toast === 'function') toast('Staged removing "' + tagName + '" from ' + recipes.length + ' recipes — click Apply All Changes to save');
+    }
 
-        if (failed.length) {
-            alert('Removed "' + tagName + '" from ' + (recipes.length - failed.length) + ' recipes. Failed on: ' + failed.join(', '));
-        } else if (typeof toast === 'function') {
-            toast('Removed "' + tagName + '" from ' + recipes.length + ' recipes');
+    function swapTagEverywhere(oldTag, newTag) {
+        newTag = (newTag || '').trim();
+        if (!newTag) { alert('Type or pick a tag to swap to first.'); return; }
+        // Operate on whichever recipes in the frozen browse list still
+        // actually have oldTag — not tagMap directly — so this composes
+        // correctly with individual edits already made in this session.
+        var recipes = currentBrowseList.filter(function (r) { return getEffectiveTags(r.id).indexOf(oldTag) !== -1; });
+        if (!recipes.length) return;
+        var proceed = confirm('Stage swapping "' + oldTag + '" for "' + newTag + '" in ' + recipes.length + ' recipe(s)? Nothing writes to disk until you click Apply All Changes.');
+        if (!proceed) return;
+
+        recipes.forEach(function (r) {
+            var tags = getEffectiveTags(r.id).filter(function (t) { return t !== oldTag; });
+            if (tags.indexOf(newTag) === -1) tags.push(newTag);
+            stageTagsForRecipe(r.id, tags);
+        });
+        renderAllTags();
+        renderDetailView();
+        renderPendingBar();
+        if (typeof toast === 'function') toast('Staged swapping "' + oldTag + '" → "' + newTag + '" in ' + recipes.length + ' recipes — click Apply All Changes to save');
+    }
+
+    function undoLastChange() {
+        if (!undoStack.length) { if (typeof toast === 'function') toast('Nothing to undo'); return; }
+        var last = undoStack.pop();
+        stageTagsForRecipe(last.id, last.previousTags, { skipUndo: true });
+        renderAllTags();
+        renderDetailView();
+        renderPendingBar();
+        if (typeof toast === 'function') toast('Undid last change to ' + last.id + '.json');
+    }
+
+    function renderPendingBar() {
+        var bar = document.getElementById('tags-pending-bar');
+        if (!bar) return;
+        var ids = Object.keys(pendingChanges);
+        if (!ids.length && !undoStack.length) {
+            bar.style.display = 'none';
+            bar.innerHTML = '';
+            return;
         }
+        bar.style.display = 'flex';
+        var pendingText = ids.length
+            ? ids.length + ' recipe' + (ids.length !== 1 ? 's' : '') + ' with unsaved tag changes'
+            : 'No unsaved changes';
+        bar.innerHTML =
+            '<span>' + pendingText + '</span>' +
+            '<span class="tags-pending-actions">' +
+            '<button class="btn" onclick="BuilderValidator.undoLastChange()" ' + (undoStack.length ? '' : 'disabled') + '>Undo Last</button>' +
+            '<button class="btn" onclick="BuilderValidator.discardAllPendingChanges()">Undo All</button>' +
+            '<button class="btn primary" onclick="BuilderValidator.applyAllPendingChanges()" ' + (ids.length ? '' : 'disabled') + '>Apply All Changes</button>' +
+            '</span>';
+    }
+
+    // The only place that actually writes to disk for tag edits. Loops every
+    // staged recipe once, writes its final tag list, syncs recipe-index.json,
+    // and reports exactly what succeeded or failed — recipes that fail stay
+    // pending so nothing gets silently lost and you can just hit Apply again.
+    var applyInProgress = false;
+
+    async function applyAllPendingChanges() {
+        console.log('[Manage Tags] Apply clicked — applyInProgress:', applyInProgress, '| rootHandle connected:', !!getRootHandleForTags(), '| pendingChanges keys:', Object.keys(pendingChanges));
+        if (applyInProgress) {
+            if (typeof toast === 'function') toast('Already applying — wait for it to finish before clicking again');
+            return;
+        }
+        var rootHandle = getRootHandleForTags();
+        if (!rootHandle) {
+            alert('Connect your project folder first — applying tag changes writes directly to your recipe files and needs real file access.');
+            return;
+        }
+        var ids = Object.keys(pendingChanges);
+        if (!ids.length) return;
+        applyInProgress = true;
+        console.log('[Manage Tags] Apply All starting, staged ids:', ids);
+
+        var bar = document.getElementById('tags-pending-bar');
+        var succeeded = [];
+        var failedDetails = [];
+        try {
+            for (var i = 0; i < ids.length; i++) {
+                var id = ids[i];
+                if (bar) bar.innerHTML = '<span>Applying ' + (i + 1) + ' of ' + ids.length + ': ' + id + '.json…</span>';
+                console.log('[Manage Tags] applying', i + 1, 'of', ids.length, '→', id);
+                try {
+                    var handle = await getRecipeFileHandle(id);
+                    if (!handle) throw new Error('file not found');
+                    var file = await handle.getFile();
+                    var data = JSON.parse(await file.text());
+                    console.log('[Manage Tags] writing', id, '— pending tags:', pendingChanges[id].tags, '| on-disk before write:', data.tags);
+                    data.tags = pendingChanges[id].tags;
+
+                    var w = await handle.createWritable();
+                    await w.write(JSON.stringify(data, null, 2));
+                    await w.close();
+
+                    if (typeof syncRecipeIndexEntry === 'function') await syncRecipeIndexEntry(id, data);
+
+                    recipeTagsCache[id] = { title: data.title || id, category: data.category || '', tags: data.tags.slice() };
+                    succeeded.push(id);
+                    console.log('[Manage Tags] OK:', id);
+                } catch (e) {
+                    console.error('[Manage Tags] FAILED:', id, e);
+                    failedDetails.push(id + ' (' + e.message + ')');
+                }
+            }
+        } catch (outer) {
+            // A genuinely unexpected error outside the per-file try/catch —
+            // surface it loudly instead of the loop just silently stopping.
+            console.error('[Manage Tags] Apply All aborted:', outer);
+            alert('Apply All stopped unexpectedly after ' + succeeded.length + ' of ' + ids.length + ' recipes:\n\n' + outer.message + '\n\nCheck the browser console (F12) for the full error. Anything not yet applied is still staged.');
+        }
+
+        succeeded.forEach(function (id) { delete pendingChanges[id]; });
+        undoStack = undoStack.filter(function (u) { return pendingChanges[u.id]; }); // drop undo history for anything now committed
+        renderAllTags();
+        renderDetailView();
+        renderPendingBar();
+
+        if (failedDetails.length) {
+            alert('Applied ' + succeeded.length + ' of ' + ids.length + ' recipes.\n\nFailed:\n' + failedDetails.join('\n') + '\n\nThese are still staged — fix the issue and click Apply All Changes again.');
+        } else if (typeof toast === 'function') {
+            toast('Applied tag changes to ' + succeeded.length + ' recipe' + (succeeded.length !== 1 ? 's' : ''));
+        }
+        applyInProgress = false;
+    }
+
+    function discardAllPendingChanges() {
+        if (!Object.keys(pendingChanges).length) return;
+        if (!confirm('Discard all unsaved tag changes and reset to what\'s actually on disk?')) return;
+        scanAllTags(); // simplest correct way to fully reset — re-reads real files
     }
 
     function getRootHandleForTags() {
@@ -921,6 +1008,18 @@
         return String(str || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     }
 
+    // Correctly escapes a value for use as an argument inside an
+    // onclick="..." attribute. A plain &#39; replacement for apostrophes
+    // is actually broken: the browser HTML-decodes attribute values BEFORE
+    // treating them as JS, so &#39; becomes a real apostrophe that
+    // prematurely closes the JS string literal and silently throws a
+    // syntax error — any tag containing one ("Chef's Special") would fail
+    // to do anything when clicked. JSON.stringify escapes correctly;
+    // only its own double quotes need HTML-escaping afterward.
+    function jsArg(val) {
+        return JSON.stringify(String(val == null ? '' : val)).replace(/"/g, '&quot;');
+    }
+
     // ── Init ───────────────────────────────────────────────
     function initValidator() {
         checkForRememberedFolder();
@@ -964,12 +1063,17 @@
         closeMissingRelated: closeMissingRelated,
         connectProjectFolder: connectProjectFolder,
         getRootHandle: function () { return projectRootHandle; },
+        getRecipeFileHandle: getRecipeFileHandle,
+        readRecipeData: readRecipeData,
         scanAllTags: scanAllTags,
         selectTag: selectTag,
         removeTagFromRecipe: removeTagFromRecipe,
         deleteTagEverywhere: deleteTagEverywhere,
         swapTagInRecipe: swapTagInRecipe,
         swapTagEverywhere: swapTagEverywhere,
+        applyAllPendingChanges: applyAllPendingChanges,
+        discardAllPendingChanges: discardAllPendingChanges,
+        undoLastChange: undoLastChange,
         closeTagsPanel: closeTagsPanel
     };
 

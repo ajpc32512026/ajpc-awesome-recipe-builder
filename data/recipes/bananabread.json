@@ -23,8 +23,8 @@
   "ingredients": [
     {
       "quantity": "3",
-      "unit": "",
-      "item": "Banana",
+      "unit": "ea",
+      "item": "Bananas",
       "notes": "mashed"
     },
     {

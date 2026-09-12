@@ -42,7 +42,8 @@
     {
       "quantity": "500",
       "unit": "g",
-      "item": "Beef Mince"
+      "item": "Beef",
+      "notes": "Mince"
     },
     {
       "quantity": "40",

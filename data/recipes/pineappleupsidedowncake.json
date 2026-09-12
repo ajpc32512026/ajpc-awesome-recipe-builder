@@ -12,7 +12,6 @@
   "tags": [
     "Baking",
     "Cake",
-    "Caramel",
     "Dessert",
     "Fruit",
     "Sweet",
@@ -35,8 +34,8 @@
     {
       "quantity": "5",
       "unit": "",
-      "item": "Pineapple Rings",
-      "notes": "patted dry"
+      "item": "Pineapple",
+      "notes": "slices patted dry"
     },
     {
       "quantity": "200",
