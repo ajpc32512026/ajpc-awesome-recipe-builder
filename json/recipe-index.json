@@ -3815,7 +3815,7 @@
         "item": "Water"
       },
       {
-        "item": "Gelatine Powder"
+        "item": "Gelatine"
       },
       {
         "item": "Unsalted Butter"
@@ -4545,7 +4545,7 @@
       "Classic",
       "Creamy",
       "Dessert",
-      "Make Ahead",
+      "Make-Ahead",
       "No-Bake",
       "No-Cook",
       "Rich",
@@ -4567,7 +4567,7 @@
         "item": "Condensed Milk"
       },
       {
-        "item": "Gelatine Powder"
+        "item": "Gelatine"
       }
     ]
   },

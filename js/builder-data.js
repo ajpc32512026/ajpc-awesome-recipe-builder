@@ -140,6 +140,28 @@ function buildJSON() {
         if (!obj.related.length) delete obj.related;
     }
 
+    // ── See Also ──
+    // Sub-recipe dependencies OR reference/technique pages (e.g. a paste
+    // made separately, or the Gelatine Blooming Guide), rendered as their
+    // own callout above the Method steps on the live page — not the older
+    // [[id|Display Text]] inline bracket syntax.
+    const seeAlsoRows = document.querySelectorAll('#see-also-list .see-also-row');
+    if (seeAlsoRows.length) {
+        obj.seeAlso = [];
+        seeAlsoRows.forEach(row => {
+            const id = row.dataset.id || '';
+            const url = row.dataset.url || '';
+            if (!id && !url) return;
+            const noteEl = row.querySelector('.uses-recipe-note');
+            const entry = { title: row.dataset.title || id || url };
+            if (id) entry.id = id; else entry.url = url;
+            const note = noteEl ? noteEl.value.trim() : '';
+            if (note) entry.note = note;
+            obj.seeAlso.push(entry);
+        });
+        if (!obj.seeAlso.length) delete obj.seeAlso;
+    }
+
     // ── Nutrition ──
     // computeNutrition is defined in builder-nutrition.js.
     // It returns null if NUTRITION_DB is not yet loaded or no ingredients match.
@@ -253,6 +275,12 @@ function populateForm(data) {
         if (typeof window.loadRelatedRecipe === 'function') {
             // Note: handles both 'matchingTags' and old 'tags' key
             window.loadRelatedRecipe(r.id, r.title || r.name || r.id, r.matchingTags || r.tags || []);
+        }
+    });
+
+    (data.seeAlso || []).forEach(r => {
+        if (typeof window.loadSeeAlso === 'function') {
+            window.loadSeeAlso({ id: r.id || null, url: r.url || null, title: r.title || r.id || r.url, note: r.note || '' });
         }
     });
     window.scrollTo(0, 0);

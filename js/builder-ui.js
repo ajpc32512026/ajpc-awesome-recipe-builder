@@ -544,4 +544,100 @@ window.removeTagFromRelated = function(span, tag) {
     }
 };
 
+// ── SEE ALSO HELPERS ───────────────────────────────────────
+// A "see also" is a hard dependency or important cross-reference — either
+// a sub-recipe (paste, sauce, dough) this one requires, OR a reference/
+// technique page (Gelatine Blooming Guide, Puff Pastry Methods, etc.).
+// Rendered as its own callout above the numbered Method steps on the live
+// page — not embedded inline in a step's sentence the way the older
+// [[id|Display Text]] bracket syntax works. Each entry stores EITHER an
+// "id" (links to recipe.html?id=...) OR a "url" (links directly to that
+// reference page) — never both.
+
+window.populateSeeAlsoDropdown = function() {
+    const select = document.getElementById('see-also-select');
+    if (!select) return;
+
+    const hasRecipes = recipeIndex && recipeIndex.length;
+    const hasReference = referenceIndex && referenceIndex.length;
+    if (!hasRecipes && !hasReference) {
+        select.innerHTML = '<option value="">Loading…</option>';
+        return;
+    }
+
+    let html = '<option value="">— Select a recipe or reference page —</option>';
+
+    if (hasRecipes) {
+        const sortedRecipes = [...recipeIndex].sort((a, b) => (a.title || '').localeCompare(b.title || ''));
+        html += '<optgroup label="Recipes">' +
+            sortedRecipes.map(r => `<option value="recipe:${r.id}">${escHtml(r.title || r.name || r.id)}</option>`).join('') +
+            '</optgroup>';
+    }
+    if (hasReference) {
+        const sortedRef = [...referenceIndex].sort((a, b) => (a.title || '').localeCompare(b.title || ''));
+        html += '<optgroup label="Reference Pages">' +
+            sortedRef.map(r => `<option value="ref:${r.url}">${escHtml(r.title || r.url)}</option>`).join('') +
+            '</optgroup>';
+    }
+
+    select.innerHTML = html;
+};
+
+window.addSeeAlso = function() {
+    const select = document.getElementById('see-also-select');
+    if (!select || !select.value) return;
+    const [kind, key] = select.value.split(/:(.+)/); // split on FIRST colon only — urls can't contain one anyway, but be safe
+
+    let id = null, url = null, title = null;
+    if (kind === 'recipe') {
+        const entry = recipeIndex.find(r => r.id === key);
+        if (!entry) return;
+        id = key;
+        title = entry.title || entry.name || key;
+    } else if (kind === 'ref') {
+        const entry = referenceIndex.find(r => r.url === key);
+        if (!entry) return;
+        url = key;
+        title = entry.title || key;
+    } else {
+        return;
+    }
+
+    const exists = Array.from(document.querySelectorAll('#see-also-list .see-also-row'))
+        .some(row => (id && row.dataset.id === id) || (url && row.dataset.url === url));
+    if (exists) {
+        toast('Already added');
+        return;
+    }
+
+    loadSeeAlso({ id, url, title, note: '' });
+    select.selectedIndex = 0;
+    update();
+};
+
+window.loadSeeAlso = function(entry) {
+    const list = document.getElementById('see-also-list');
+    if (!list) return;
+
+    const row = document.createElement('div');
+    row.className = 'see-also-row';
+    row.dataset.id = entry.id || '';
+    row.dataset.url = entry.url || '';
+    row.dataset.title = entry.title || entry.id || entry.url || '';
+
+    const kindLabel = entry.id ? 'Recipe' : 'Reference Page';
+    const idLine = entry.id || entry.url || '';
+
+    row.innerHTML = `
+        <div class="related-row-info">
+            <div class="related-row-title">${escHtml(row.dataset.title)}</div>
+            <div class="related-row-id">${escHtml(kindLabel)} · ${escHtml(idLine)}</div>
+        </div>
+        <input type="text" class="uses-recipe-note" placeholder="Note (e.g. 1 batch, prepared ahead)" value="${escHtml(entry.note || '')}" oninput="update()">
+        <button class="btn danger" onclick="removeRow(this); update();">✕</button>
+    `;
+
+    list.appendChild(row);
+};
+
 document.addEventListener('DOMContentLoaded', initDragDrop);

@@ -48,7 +48,7 @@
     {
       "quantity": "10",
       "unit": "g",
-      "item": "Gelatine Powder",
+      "item": "Gelatine",
       "notes": "see gelatine booming guide in reference tab"
     }
   ],
@@ -159,28 +159,36 @@
       ]
     }
   ],
+  "seeAlso": [
+    {
+      "title": "Gelatin Blooming Guide",
+      "url": "gelatin-blooming-guide.html"
+    }
+  ],
   "nutrition": {
     "servings": 8,
-    "cal": 452,
-    "kj": 1890,
-    "protein": 12,
+    "cal": 447,
+    "kj": 1872,
+    "protein": 11,
     "carbs": 39,
     "sugars": 34,
     "fat": 28,
     "saturated_fat": 18.2,
     "fiber": 0,
-    "sodium": 912,
-    "coverage": 100,
-    "foundCount": 5,
+    "sodium": 908,
+    "coverage": 80,
+    "foundCount": 4,
     "totalCount": 5,
-    "unmatchedItems": [],
+    "unmatchedItems": [
+      "Gelatine"
+    ],
     "noQuantityItems": [],
-    "calcium_mg": 642,
+    "calcium_mg": 639,
     "potassium_mg": 236,
-    "magnesium_mg": 26,
+    "magnesium_mg": 25,
     "zinc_mg": 1,
     "cholesterol_mg": 83,
     "vitamin_a_ug": 248
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-12"
 }

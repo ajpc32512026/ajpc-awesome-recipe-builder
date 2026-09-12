@@ -96,34 +96,30 @@
   "method": [
     {
       "step": 1,
-      "instruction": "Prepare 1 batch of [[vindaloopaste|Vindaloo Paste]] according to the recipe. Set aside."
-    },
-    {
-      "step": 2,
       "instruction": "Place beef in a large bowl. Add the vindaloo paste and toss to coat evenly. Cover and marinate at least 1 hour at room temperature, or refrigerate overnight for deeper flavour."
     },
     {
-      "step": 3,
+      "step": 2,
       "instruction": "Heat vegetable oil in a large heavy-based pot over medium-high heat. Add onions and sauté 2–3 minutes until soft. Add garlic and sauté 1 minute until fragrant."
     },
     {
-      "step": 4,
+      "step": 3,
       "instruction": "Add turmeric, chilli powder, chopped tomatoes, tomato paste, and white vinegar. Cook 2–3 minutes until tomatoes break down."
     },
     {
-      "step": 5,
+      "step": 4,
       "instruction": "Add marinated beef and sugar. Season with salt. Cook for 10 minutes, stirring occasionally."
     },
     {
-      "step": 6,
+      "step": 5,
       "instruction": "Pour in hot water, bring to the boil, reduce heat to low, cover, and simmer for 1 hour or until beef is tender and sauce has thickened."
     },
     {
-      "step": 7,
+      "step": 6,
       "instruction": "If sauce is too thin, uncover and simmer for a further 5–10 minutes to reduce."
     },
     {
-      "step": 8,
+      "step": 7,
       "instruction": "Garnish with fresh coriander and serve with steamed rice."
     }
   ],
@@ -208,32 +204,37 @@
       ]
     }
   ],
+  "seeAlso": [
+    {
+      "title": "Vindaloo Paste",
+      "id": "vindaloopaste"
+    }
+  ],
   "nutrition": {
     "servings": 4,
-    "cal": 247,
-    "kj": 1035,
-    "protein": 7,
-    "carbs": 17,
-    "sugars": 9,
-    "fat": 14,
-    "saturated_fat": 1.5,
-    "fiber": 16,
-    "sodium": 79,
-    "coverage": 82,
-    "foundCount": 9,
+    "cal": 671,
+    "kj": 2807,
+    "protein": 27,
+    "carbs": 82,
+    "sugars": 21,
+    "fat": 19,
+    "saturated_fat": 2.5,
+    "fiber": 28,
+    "sodium": 335,
+    "coverage": 100,
+    "foundCount": 11,
     "totalCount": 11,
-    "unmatchedItems": [
-      "Diced Beef",
-      "Red Chilli Powder"
-    ],
+    "unmatchedItems": [],
     "noQuantityItems": [],
-    "calcium_mg": 59,
-    "iron_mg": 2,
-    "potassium_mg": 794,
-    "magnesium_mg": 44,
-    "zinc_mg": 1,
-    "vitamin_a_ug": 50,
-    "vitamin_c_mg": 24
+    "calcium_mg": 92,
+    "iron_mg": 5,
+    "potassium_mg": 1560,
+    "magnesium_mg": 104,
+    "zinc_mg": 5,
+    "cholesterol_mg": 33,
+    "vitamin_a_ug": 735,
+    "vitamin_c_mg": 271,
+    "vitamin_d_ug": 1
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-12"
 }

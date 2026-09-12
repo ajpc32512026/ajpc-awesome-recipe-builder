@@ -9,6 +9,7 @@ let currentFileHandle = null;
 let currentFilename   = '';
 let tags              = [];
 let recipeIndex       = [];
+let referenceIndex    = [];
 
 // NUTRITION_DB lives here — builder-nutrition.js reads this variable.
 // It's now DERIVED from data/ingredients-master.json (the single unified
@@ -22,6 +23,7 @@ let NUTRITION_DB = {};
 document.addEventListener('DOMContentLoaded', async () => {
     await loadNutritionDB();
     await loadRecipeIndexForRelated();
+    await loadReferenceIndexForSeeAlso();
     initScrollToTop();
     update();
 });
@@ -54,8 +56,19 @@ async function loadRecipeIndexForRelated() {
         if (res.ok) {
             recipeIndex = await res.json();
             if (typeof populateRelatedRecipeDropdown === 'function') populateRelatedRecipeDropdown();
+            if (typeof populateSeeAlsoDropdown === 'function') populateSeeAlsoDropdown();
         }
     } catch(e) { console.warn('Could not load recipe index'); }
+}
+
+async function loadReferenceIndexForSeeAlso() {
+    try {
+        const res = await fetch('json/reference-index.json?t=' + Date.now());
+        if (res.ok) {
+            referenceIndex = await res.json();
+            if (typeof populateSeeAlsoDropdown === 'function') populateSeeAlsoDropdown();
+        }
+    } catch(e) { console.warn('Could not load reference index'); }
 }
 
 // ── Main Update Loop ──────────────────────────────────────

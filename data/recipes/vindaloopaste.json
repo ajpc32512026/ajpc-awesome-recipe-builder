@@ -182,38 +182,36 @@
       ]
     }
   ],
+  "usesRecipes": [
+    {
+      "id": "beefvindaloo",
+      "title": "Beef Vindaloo"
+    }
+  ],
   "nutrition": {
     "servings": 1,
-    "cal": 2328,
-    "kj": 9740,
-    "protein": 86,
-    "carbs": 448,
-    "sugars": 9,
-    "fat": 49,
-    "saturated_fat": 4.3,
-    "fiber": 221,
-    "sodium": 99,
-    "coverage": 36,
-    "foundCount": 4,
+    "cal": 7644,
+    "kj": 31983,
+    "protein": 247,
+    "carbs": 862,
+    "sugars": 187,
+    "fat": 271,
+    "saturated_fat": 58,
+    "fiber": 773,
+    "sodium": 2449,
+    "coverage": 100,
+    "foundCount": 11,
     "totalCount": 11,
-    "unmatchedItems": [
-      "Dried Red Chilli",
-      "Fenugreek Seeds",
-      "Cumin Seeds",
-      "Cloves Whole",
-      "Cinnamon Stick",
-      "Black Peppercorns",
-      "Lemon Juice"
-    ],
+    "unmatchedItems": [],
     "noQuantityItems": [],
-    "calcium_mg": 137,
-    "iron_mg": 6,
-    "potassium_mg": 1617,
-    "magnesium_mg": 95,
-    "zinc_mg": 3,
+    "calcium_mg": 6847,
+    "iron_mg": 223,
+    "potassium_mg": 27099,
+    "magnesium_mg": 3370,
+    "zinc_mg": 45,
     "cholesterol_mg": 18,
-    "vitamin_a_ug": 33,
-    "vitamin_c_mg": 34
+    "vitamin_a_ug": 26828,
+    "vitamin_c_mg": 690
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-12"
 }

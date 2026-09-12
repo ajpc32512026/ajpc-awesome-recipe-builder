@@ -181,7 +181,7 @@
     ];
     var OPTIONAL_TOP = [
         'yieldPerBatch','notes','journal','related',
-        'nutrition','lastModified','youWillNeed','equipment'
+        'nutrition','lastModified','youWillNeed','equipment','seeAlso'
     ];
     var KNOWN_TOP = REQUIRED_TOP.concat(OPTIONAL_TOP);
 
@@ -315,6 +315,20 @@
                     if (!r.matchingTags || !r.matchingTags.length) {
                         warnings.push('related[' + i + '] ("' + (r.title || r.id) + '") has no "matchingTags" — harmless on the live recipe page, but shows empty tag chips if reopened here');
                     }
+                });
+            }
+        }
+
+        // ── seeAlso (optional array) — sub-recipe or reference-page links ──
+        if (data.seeAlso !== undefined) {
+            if (!Array.isArray(data.seeAlso)) {
+                errors.push('seeAlso present but not an array');
+            } else {
+                data.seeAlso.forEach(function (r, i) {
+                    if (!r || typeof r !== 'object') { errors.push('seeAlso[' + i + '] is not an object'); return; }
+                    if (!r.id && !r.url) errors.push('seeAlso[' + i + '] missing both "id" and "url" — needs exactly one');
+                    if (r.id && r.url) errors.push('seeAlso[' + i + '] has both "id" and "url" — should only have one');
+                    if (!r.title) errors.push('seeAlso[' + i + '] missing "title"');
                 });
             }
         }

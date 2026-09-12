@@ -1212,6 +1212,43 @@ li {
     text-decoration-color: var(--copper);
 }
 
+.uses-recipes-callout {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.4rem 0.6rem;
+    background: var(--surface-2);
+    border: 1px solid var(--border-dim);
+    border-left: 3px solid var(--copper-dark);
+    border-radius: 4px;
+    padding: 0.75rem 1rem;
+    margin: 0 0 1.25rem;
+    font-size: 0.92rem;
+}
+
+.uses-recipes-label {
+    font-family: var(--font-mono, monospace);
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--copper);
+}
+
+.uses-recipes-callout ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.uses-recipes-callout .uses-recipe-note {
+    color: var(--cream-muted);
+    font-size: 0.85rem;
+    font-style: italic;
+}
+
 .method-heading {
     counter-increment: none !important;
     color: var(--copper-warm) !important;

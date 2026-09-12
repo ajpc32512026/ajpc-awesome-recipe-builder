@@ -384,10 +384,26 @@
         });
     }
 
+    function renderSeeAlso(r) {
+        var entries = r.seeAlso || r.usesRecipes; // usesRecipes kept as a fallback for anything saved under the old name
+        if (!entries || !entries.length) return '';
+        var items = entries.map(function (u) {
+            var href = u.id ? 'recipe.html?id=' + encodeURIComponent(u.id) : escHtml(u.url || '#');
+            var note = u.note ? ' <span class="uses-recipe-note">(' + escHtml(u.note) + ')</span>' : '';
+            return '<li><a href="' + href + '" class="recipe-inline-link">' +
+                escHtml(u.title) + '</a>' + note + '</li>';
+        }).join('');
+        return '<div class="uses-recipes-callout">' +
+            '<span class="uses-recipes-label">See Also:</span>' +
+            '<ul>' + items + '</ul>' +
+            '</div>';
+    }
+
     function renderMethod(r) {
         if (!r.method || !r.method.length) {
             return '<section class="method">' +
                 '<h2>Method</h2>' +
+                renderSeeAlso(r) +
                 '<p>No instructions provided.</p>' +
                 '</section>';
         }
@@ -402,6 +418,7 @@
 
         return '<section class="method">' +
             '<h2>Method</h2>' +
+            renderSeeAlso(r) +
             '<ol>' + items + '</ol>' +
             '</section>';
     }
@@ -1034,7 +1051,7 @@
             var step = steps[n];
             var instruction = typeof step === 'string' ? step : (step.instruction || step.text || '');
             counter.textContent = 'Step ' + (n + 1) + ' of ' + steps.length;
-            text.textContent = instruction;
+            text.innerHTML = renderLinkedText(instruction);
             prevBtn.disabled = (n === 0);
             nextBtn.textContent = (n === steps.length - 1) ? 'Done' : 'Next →';
             stepEls.forEach(function(el, i) {

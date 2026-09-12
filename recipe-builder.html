@@ -162,6 +162,18 @@
             </div>
         </div>
 
+        <!-- SEE ALSO (sub-recipes or reference pages this one depends on) -->
+        <div class="section">
+            <div class="section-title">See Also <span class="section-hint">(links to other recipes or reference pages — shown above the Method steps, not inline in them)</span></div>
+            <div class="dynamic-list" id="see-also-list"></div>
+            <div class="related-add-controls">
+                <select id="see-also-select" class="related-select">
+                    <option value="">Loading...</option>
+                </select>
+                <button class="btn" onclick="addSeeAlso()">＋ Add</button>
+            </div>
+        </div>
+
         <!-- METHOD -->
         <div class="section">
             <div class="section-title">Method <span class="section-hint">(drag to reorder)</span></div>
@@ -382,13 +394,13 @@
     <button class="scroll-top-btn" id="scrollTopBtn" title="Scroll to top">↑</button>
 
 <!-- REMOVED monolithic js/recipe-builder.js to prevent conflicts -->
-    <script src="js/builder-ui.js"></script>
-    <script src="js/builder-data.js"></script>
+    <script src="js/builder-ui.js?v=3"></script>
+    <script src="js/builder-data.js?v=3"></script>
     <script src="js/builder-nutrition.js"></script>
     <script src="js/builder-timeline.js"></script>
-    <script src="js/builder-main.js"></script>
+    <script src="js/builder-main.js?v=3"></script>
     <script src="js/builder-checks.js"></script>
-    <script src="js/builder-validator.js?v=10"></script>
+    <script src="js/builder-validator.js?v=11"></script>
     <script src="js/builder-ingredients.js?v=3"></script>
 </body>
 </html>
