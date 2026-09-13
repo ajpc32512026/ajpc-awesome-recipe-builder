@@ -10,7 +10,6 @@
   "servings": "12 scrolls",
   "yieldPerBatch": "12 Scrolls",
   "tags": [
-    "Australian",
     "Baking",
     "Breakfast",
     "Classic",
@@ -245,5 +244,6 @@
     "vitamin_c_mg": 3,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-09-11"
+  "lastModified": "2026-09-11",
+  "cuisine": "Australian"
 }

@@ -12,8 +12,6 @@
   "tags": [
     "Baking",
     "Bread",
-    "Breakfast",
-    "British",
     "Lunch",
     "Multigrain",
     "Savoury",
@@ -299,5 +297,6 @@
     "cholesterol_mg": 4,
     "vitamin_a_ug": 22
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "British"
 }

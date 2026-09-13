@@ -10,7 +10,6 @@
   "servings": "1",
   "yieldPerBatch": "1 batch",
   "tags": [
-    "Australian",
     "Breakfast",
     "Creamy",
     "Dessert",
@@ -200,5 +199,6 @@
     "magnesium_mg": 28,
     "zinc_mg": 1
   },
-  "lastModified": "2026-09-11"
+  "lastModified": "2026-09-11",
+  "cuisine": "Australian"
 }

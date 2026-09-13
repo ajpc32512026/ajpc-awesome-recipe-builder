@@ -11,12 +11,10 @@
   "yieldPerBatch": "12 muffins",
   "tags": [
     "Baking",
-    "Breakfast",
     "Dessert",
     "Snack",
     "Sweet",
-    "Vegetarian",
-    "Australian"
+    "Vegetarian"
   ],
   "ingredients": [
     {
@@ -249,5 +247,6 @@
     "vitamin_c_mg": 2,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Australian"
 }

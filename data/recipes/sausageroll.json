@@ -10,7 +10,6 @@
   "servings": "12 rolls",
   "yieldPerBatch": "12 rolls",
   "tags": [
-    "Australian",
     "Baking",
     "Classic",
     "Lunch",
@@ -235,5 +234,6 @@
     "vitamin_c_mg": 1,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Australian"
 }

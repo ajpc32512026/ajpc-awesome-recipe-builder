@@ -15,15 +15,14 @@
     "Creamy",
     "Dinner",
     "Rich",
-    "Savoury",
-    "Swedish"
+    "Savoury"
   ],
   "ingredients": [
     {
       "quantity": "180",
       "unit": "g",
       "item": "Veal",
-      "notes": "escalopes, pounded thin"
+      "notes": "schnitzels, pounded thin"
     },
     {
       "quantity": "50",
@@ -64,7 +63,7 @@
     },
     {
       "item": "Oil",
-      "note": "For deep frying — use a high smoke point oil such as cottonseed, sunflower, canola, or peanut oil."
+      "note": "For deep frying — use a high smoke point oil such as cottonseed, sunflower or canola."
     },
     {
       "item": "Ovenproof Dish",
@@ -74,11 +73,11 @@
   "method": [
     {
       "step": 1,
-      "instruction": "Prepare 1 batch of [[mornaysauce|Mornay / Cheese Sauce]] and keep warm. Fold the seafood into the finished Mornay sauce and warm through gently."
+      "instruction": "Fold the seafood into the finished Mornay sauce and warm through gently."
     },
     {
       "step": 2,
-      "instruction": "Pound veal escalopes until thin and even. Dust lightly with flour, dip in beaten egg, and coat thoroughly with breadcrumbs."
+      "instruction": "Pound veal schnitzels until thin and even. Dust lightly with flour, dip in beaten egg, and coat thoroughly with breadcrumbs."
     },
     {
       "step": 3,
@@ -175,6 +174,13 @@
       ]
     }
   ],
+  "seeAlso": [
+    {
+      "title": "Mornay / Cheese Sauce",
+      "id": "mornaysauce",
+      "note": "Prepare and keep warm."
+    }
+  ],
   "nutrition": {
     "servings": 1,
     "cal": 1522,
@@ -201,5 +207,6 @@
     "vitamin_c_mg": 782,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-13",
+  "cuisine": "Swedish"
 }

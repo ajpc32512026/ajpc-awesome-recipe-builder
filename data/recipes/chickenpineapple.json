@@ -12,7 +12,6 @@
   "tags": [
     "Chicken",
     "Dinner",
-    "Filipino",
     "Savoury",
     "Spicy",
     "Sweet"
@@ -193,5 +192,6 @@
     "vitamin_a_ug": 150,
     "vitamin_c_mg": 10
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Filipino"
 }

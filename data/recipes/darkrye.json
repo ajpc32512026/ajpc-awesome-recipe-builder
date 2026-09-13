@@ -11,7 +11,6 @@
   "yieldPerBatch": "1 loaf",
   "tags": [
     "Bread",
-    "German",
     "Make-Ahead",
     "Savoury",
     "Vegan",
@@ -216,5 +215,6 @@
     "zinc_mg": 10,
     "vitamin_a_ug": 4
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "German"
 }

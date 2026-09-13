@@ -10,7 +10,6 @@
   "servings": "1 serving",
   "yieldPerBatch": "1 serving",
   "tags": [
-    "Australian",
     "Beef",
     "Bistro",
     "Classic",
@@ -202,5 +201,6 @@
     "vitamin_c_mg": 37,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-09-12"
+  "lastModified": "2026-09-12",
+  "cuisine": "Australian"
 }

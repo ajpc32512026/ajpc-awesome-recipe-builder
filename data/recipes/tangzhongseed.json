@@ -12,11 +12,9 @@
   "tags": [
     "Baking",
     "Bread",
-    "Breakfast",
     "Make-Ahead",
     "Vegan",
     "Vegetarian",
-    "Australian",
     "Tangzhong",
     "Multigrain"
   ],
@@ -301,5 +299,6 @@
     "zinc_mg": 10,
     "vitamin_a_ug": 3
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Australian"
 }

@@ -10,7 +10,6 @@
   "servings": "12 slices",
   "yieldPerBatch": "1 cake",
   "tags": [
-    "Australian",
     "Baking",
     "Cake",
     "Coconut",
@@ -216,5 +215,6 @@
     "vitamin_c_mg": 109,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Australian"
 }

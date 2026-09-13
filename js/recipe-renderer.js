@@ -272,6 +272,7 @@
         if (r.totalTime) items.push({ label: 'Total', value: r.totalTime });
         if (r.servings) items.push({ label: 'Serves', value: r.servings });
         if (r.difficulty) items.push({ label: 'Difficulty', value: r.difficulty });
+        if (r.cuisine) items.push({ label: 'Cuisine', value: r.cuisine });
 
         if (!items.length) return '';
 

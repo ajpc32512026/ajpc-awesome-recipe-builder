@@ -15,7 +15,6 @@
     "Classic",
     "Creamy",
     "Dinner",
-    "French",
     "Rich"
   ],
   "ingredients": [
@@ -226,5 +225,6 @@
     "vitamin_c_mg": 83,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "French"
 }

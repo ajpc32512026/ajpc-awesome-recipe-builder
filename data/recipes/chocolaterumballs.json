@@ -10,7 +10,6 @@
   "servings": "24 balls",
   "yieldPerBatch": "1 batch",
   "tags": [
-    "Australian",
     "Chocolate",
     "Dessert",
     "Gluten-Free",
@@ -188,5 +187,6 @@
     "cholesterol_mg": 14,
     "vitamin_a_ug": 19
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Australian"
 }

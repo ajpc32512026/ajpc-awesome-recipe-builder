@@ -12,7 +12,6 @@
   "tags": [
     "Classic",
     "Creamy",
-    "French",
     "Rich",
     "Sauce",
     "Vegetarian"
@@ -153,5 +152,6 @@
     "cholesterol_mg": 25,
     "vitamin_a_ug": 119
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "French"
 }

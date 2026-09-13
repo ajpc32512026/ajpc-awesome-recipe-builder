@@ -181,7 +181,7 @@
     ];
     var OPTIONAL_TOP = [
         'yieldPerBatch','notes','journal','related',
-        'nutrition','lastModified','youWillNeed','equipment','seeAlso'
+        'nutrition','lastModified','youWillNeed','equipment','seeAlso','cuisine'
     ];
     var KNOWN_TOP = REQUIRED_TOP.concat(OPTIONAL_TOP);
 
@@ -561,7 +561,7 @@
             try {
                 var data = await readRecipeData(id);
                 var tags = data.tags || [];
-                recipeTagsCache[id] = { title: data.title || id, category: data.category || '', tags: tags.slice() };
+                recipeTagsCache[id] = { title: data.title || id, category: data.category || '', tags: tags.slice(), cuisine: data.cuisine || '' };
                 tags.forEach(function (t) {
                     if (!tagMap[t]) tagMap[t] = [];
                     tagMap[t].push({ id: id, title: data.title || id, category: data.category || '' });
@@ -672,6 +672,10 @@
             '<span>Swap "' + escHtml(name) + '" for a different tag in every recipe still shown here:</span>' +
             '<input type="text" list="all-tags-datalist" class="tag-swap-input" id="swap-all-input" placeholder="New tag name…">' +
             '<button class="btn primary" onclick="BuilderValidator.swapTagEverywhere(' + safeName + ', document.getElementById(\'swap-all-input\').value)">Swap Remaining</button>' +
+            '</div>' +
+            '<div class="tags-swap-all-bar">' +
+            '<span>Move "' + escHtml(name) + '" out of tags and into the Cuisine field instead:</span>' +
+            '<button class="btn primary" onclick="BuilderValidator.moveTagToCuisineEverywhere(' + safeName + ')">Move All to Cuisine</button>' +
             '</div>';
 
         recipes.slice().sort(function (a, b) { return a.title.localeCompare(b.title); }).forEach(function (r) {
@@ -680,6 +684,8 @@
             var pendingTag = pendingChanges[r.id] ? ' <span class="tags-pending-flag">unsaved</span>' : '';
             var allTags = getEffectiveTags(r.id);
             var hasCurrent = allTags.indexOf(name) !== -1;
+            var currentCuisine = getEffectiveCuisine(r.id);
+            var cuisineFlag = currentCuisine ? ' <span class="tags-row-tag" style="opacity:0.7;">cuisine: ' + escHtml(currentCuisine) + '</span>' : '';
             var otherTagsHtml = allTags.map(function (t) {
                 var cls = t === name ? 'tags-row-tag tags-row-tag-current' : 'tags-row-tag';
                 var safeT = jsArg(t);
@@ -691,10 +697,11 @@
             html += '<div class="validate-file' + (hasCurrent ? '' : ' tags-row-cleared') + '">' +
                 '<div class="validate-file-name">' +
                 '<span>' + escHtml(r.title) + ' <span class="validate-count">' + escHtml(r.id) + '.json</span>' + pendingTag +
-                (hasCurrent ? '' : ' <span class="tags-row-done-flag">"' + escHtml(name) + '" removed</span>') + '</span>' +
+                (hasCurrent ? '' : ' <span class="tags-row-done-flag">"' + escHtml(name) + '" removed</span>') + cuisineFlag + '</span>' +
                 '<span class="tags-row-actions">' +
                 '<input type="text" list="all-tags-datalist" class="tag-swap-input" id="' + inputId + '" placeholder="Swap for…">' +
                 '<button class="tag-manage-swap-inline" onclick="BuilderValidator.swapTagInRecipe(' + rid + ',' + safeName + ', document.getElementById(\'' + inputId + '\').value)">Swap</button>' +
+                '<button class="tag-manage-swap-inline" title="Remove this tag and set it as this recipe\'s Cuisine" onclick="BuilderValidator.moveTagToCuisine(' + rid + ',' + safeName + ')">Move to Cuisine</button>' +
                 '<button class="tag-manage-delete-inline" title="Remove just from this recipe" ' +
                     'onclick="BuilderValidator.removeTagFromRecipe(' + rid + ',' + safeName + ')">Remove</button>' +
                 '</span></div>' +
@@ -728,11 +735,15 @@
         }
 
         var meta = recipeTagsCache[id] || { title: id, category: '' };
-        var onDisk = recipeTagsCache[id] ? recipeTagsCache[id].tags : [];
-        if (tagsEqual(newTags, onDisk)) {
+        var onDiskTags = recipeTagsCache[id] ? recipeTagsCache[id].tags : [];
+        var onDiskCuisine = recipeTagsCache[id] ? (recipeTagsCache[id].cuisine || '') : '';
+        var pendingCuisine = pendingChanges[id] && pendingChanges[id].cuisine !== undefined
+            ? pendingChanges[id].cuisine : onDiskCuisine;
+
+        if (tagsEqual(newTags, onDiskTags) && pendingCuisine === onDiskCuisine) {
             delete pendingChanges[id];
         } else {
-            pendingChanges[id] = { title: meta.title, category: meta.category, tags: newTags };
+            pendingChanges[id] = { title: meta.title, category: meta.category, tags: newTags, cuisine: pendingCuisine };
         }
 
         Object.keys(tagMap).forEach(function (t) {
@@ -743,6 +754,46 @@
             if (!tagMap[t]) tagMap[t] = [];
             tagMap[t].push({ id: id, title: meta.title, category: meta.category });
         });
+    }
+
+    function getEffectiveCuisine(id) {
+        if (pendingChanges[id] && pendingChanges[id].cuisine !== undefined) return pendingChanges[id].cuisine;
+        if (recipeTagsCache[id]) return recipeTagsCache[id].cuisine || '';
+        return '';
+    }
+
+    // Stages a cuisine change while preserving whatever tag state is
+    // already staged (or on-disk, if nothing's staged yet) for this recipe.
+    function stageCuisineForRecipe(id, newCuisine) {
+        var meta = recipeTagsCache[id] || { title: id, category: '' };
+        var currentTags = getEffectiveTags(id);
+        var onDiskTags = recipeTagsCache[id] ? recipeTagsCache[id].tags : [];
+        var onDiskCuisine = recipeTagsCache[id] ? (recipeTagsCache[id].cuisine || '') : '';
+
+        if (tagsEqual(currentTags, onDiskTags) && newCuisine === onDiskCuisine) {
+            delete pendingChanges[id];
+        } else {
+            pendingChanges[id] = { title: meta.title, category: meta.category, tags: currentTags, cuisine: newCuisine };
+        }
+    }
+
+    // Removes a tag and sets it as this recipe's cuisine, in one staged step.
+    function moveTagToCuisine(id, tagName) {
+        var newTags = getEffectiveTags(id).filter(function (t) { return t !== tagName; });
+        undoStack.push({ id: id, previousTags: getEffectiveTags(id).slice(), previousCuisine: getEffectiveCuisine(id) });
+        stageTagsForRecipe(id, newTags, { skipUndo: true });
+        stageCuisineForRecipe(id, tagName);
+        renderAllTags();
+        renderDetailView();
+        renderPendingBar();
+    }
+
+    function moveTagToCuisineEverywhere(tagName) {
+        var recipes = currentBrowseList.filter(function (r) { return getEffectiveTags(r.id).indexOf(tagName) !== -1; });
+        if (!recipes.length) return;
+        if (!confirm('Move the "' + tagName + '" tag to the Cuisine field on all ' + recipes.length + ' recipe(s) shown here? This removes the tag and sets Cuisine on each one. Nothing writes to disk until you click Apply All Changes.')) return;
+        recipes.forEach(function (r) { moveTagToCuisine(r.id, tagName); });
+        if (typeof toast === 'function') toast('Staged moving "' + tagName + '" to Cuisine on ' + recipes.length + ' recipe(s) — click Apply All Changes to save');
     }
 
     function removeTagFromRecipe(id, tagName) {
@@ -806,6 +857,7 @@
         if (!undoStack.length) { if (typeof toast === 'function') toast('Nothing to undo'); return; }
         var last = undoStack.pop();
         stageTagsForRecipe(last.id, last.previousTags, { skipUndo: true });
+        if (last.previousCuisine !== undefined) stageCuisineForRecipe(last.id, last.previousCuisine);
         renderAllTags();
         renderDetailView();
         renderPendingBar();
@@ -871,6 +923,10 @@
                     var data = JSON.parse(await file.text());
                     console.log('[Manage Tags] writing', id, '— pending tags:', pendingChanges[id].tags, '| on-disk before write:', data.tags);
                     data.tags = pendingChanges[id].tags;
+                    if (pendingChanges[id].cuisine !== undefined) {
+                        if (pendingChanges[id].cuisine) data.cuisine = pendingChanges[id].cuisine;
+                        else delete data.cuisine;
+                    }
 
                     var w = await handle.createWritable();
                     await w.write(JSON.stringify(data, null, 2));
@@ -878,7 +934,7 @@
 
                     if (typeof syncRecipeIndexEntry === 'function') await syncRecipeIndexEntry(id, data);
 
-                    recipeTagsCache[id] = { title: data.title || id, category: data.category || '', tags: data.tags.slice() };
+                    recipeTagsCache[id] = { title: data.title || id, category: data.category || '', tags: data.tags.slice(), cuisine: data.cuisine || '' };
                     succeeded.push(id);
                     console.log('[Manage Tags] OK:', id);
                 } catch (e) {
@@ -1085,6 +1141,8 @@
         deleteTagEverywhere: deleteTagEverywhere,
         swapTagInRecipe: swapTagInRecipe,
         swapTagEverywhere: swapTagEverywhere,
+        moveTagToCuisine: moveTagToCuisine,
+        moveTagToCuisineEverywhere: moveTagToCuisineEverywhere,
         applyAllPendingChanges: applyAllPendingChanges,
         discardAllPendingChanges: discardAllPendingChanges,
         undoLastChange: undoLastChange,

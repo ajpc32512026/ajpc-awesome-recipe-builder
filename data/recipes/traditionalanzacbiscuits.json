@@ -10,12 +10,12 @@
   "servings": "20 biscuits",
   "yieldPerBatch": "20",
   "tags": [
-    "Australian",
     "Baking",
     "Classic",
     "Make-Ahead",
     "Sweet",
-    "Vegetarian"
+    "Vegetarian",
+    "Snack"
   ],
   "ingredients": [
     {
@@ -203,5 +203,6 @@
     "cholesterol_mg": 10,
     "vitamin_a_ug": 54
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-13",
+  "cuisine": "Australian"
 }

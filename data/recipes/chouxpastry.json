@@ -13,7 +13,6 @@
     "Baking",
     "Classic",
     "Dessert",
-    "French",
     "Pastry",
     "Sweet",
     "Vegetarian"
@@ -199,5 +198,6 @@
     "vitamin_a_ug": 65,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "French"
 }

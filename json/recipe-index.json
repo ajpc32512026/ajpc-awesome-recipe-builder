@@ -10,7 +10,6 @@
       "Baking",
       "Bread",
       "Crusty",
-      "European",
       "Make-Ahead",
       "Sourdough Style",
       "Vegan",
@@ -59,8 +58,7 @@
       "Dessert",
       "Pastry",
       "Sweet",
-      "Vegetarian",
-      "Australian"
+      "Vegetarian"
     ],
     "description": "The kind of pie that disappears faster than good intentions — crisp pastry, soft spiced apples, and zero leftovers.",
     "difficulty": "Beginner",
@@ -101,7 +99,6 @@
     "tags": [
       "Creamy",
       "Gluten-Free",
-      "Italian",
       "Pasta",
       "Sauce",
       "Vegetarian"
@@ -131,7 +128,6 @@
     "title": "Ana's Chia Vanilla Pudding",
     "category": "Breakfast",
     "tags": [
-      "Australian",
       "Breakfast",
       "Creamy",
       "Dessert",
@@ -140,6 +136,28 @@
       "No-Cook",
       "Vegetarian",
       "Make-Ahead"
+    ],
+    "description": "A creamy, no-cook pudding that finally puts chia seeds to good use. Sweetened with honey and scented with vanilla — the redemption arc after the ANZAC disaster.",
+    "difficulty": "Beginner",
+    "ingredients": [
+      {
+        "item": "Milk"
+      },
+      {
+        "item": "Coconut Cream"
+      },
+      {
+        "item": "Black Chia Seeds"
+      },
+      {
+        "item": "Rolled Oats"
+      },
+      {
+        "item": "Honey"
+      },
+      {
+        "item": "Natural Vanilla Extract"
+      }
     ]
   },
   {
@@ -149,13 +167,11 @@
     "description": "Not just dessert — this is the one that makes the room go quiet. Soft custard, buttery pastry, and apricots that know their job.",
     "difficulty": "Intermediate",
     "tags": [
-      "Australian",
       "Baking",
       "Brandy",
       "Classic",
       "Creamy",
       "Dessert",
-      "French",
       "Pastry",
       "Rich",
       "Sweet",
@@ -211,8 +227,7 @@
       "Make-Ahead",
       "Rich",
       "Sweet",
-      "Vegetarian",
-      "Australian"
+      "Vegetarian"
     ],
     "ingredients": [
       {
@@ -251,18 +266,16 @@
     "description": "A classic baked cheesecake with a creamy, dense filling and crisp biscuit base. Rich, smooth, and far more forgiving than its reputation suggests.",
     "difficulty": "Intermediate",
     "tags": [
-      "Baked",
       "Classic",
       "Creamy",
       "Dessert",
       "Gluten-Free",
-      "Make Ahead",
+      "Make-Ahead",
       "Overnight",
       "Party",
       "Rich",
       "Sweet",
-      "Vegetarian",
-      "Australian"
+      "Vegetarian"
     ],
     "ingredients": [
       {
@@ -301,9 +314,7 @@
     "description": "A moist, tender banana cake made with oil — no mixer required. Crowned with a tangy lemon buttercream and toasted coconut.",
     "difficulty": "Beginner",
     "tags": [
-      "Australian",
       "Baking",
-      "Breakfast",
       "Cake",
       "Citrus",
       "Dessert",
@@ -360,7 +371,6 @@
     "title": "Apricot Chicken",
     "category": "Dinner",
     "tags": [
-      "Australian",
       "Chicken",
       "Classic",
       "Dinner",
@@ -396,7 +406,6 @@
     "title": "Apple & Cinnamon Scrolls",
     "category": "Baking",
     "tags": [
-      "Australian",
       "Baking",
       "Breakfast",
       "Classic",
@@ -469,9 +478,7 @@
     "description": "Easy apple strudel recipe using store-bought puff pastry and staples like apples, walnuts, and cinnamon. Perfect for dessert or a sweet breakfast treat!",
     "difficulty": "Beginner",
     "tags": [
-      "Austrian",
       "Baking",
-      "Breakfast",
       "Dessert",
       "Fruit",
       "Pastry",
@@ -514,7 +521,6 @@
     "difficulty": "Beginner",
     "tags": [
       "Gluten-Free",
-      "Italian",
       "Sauce",
       "Spicy",
       "Tomato",
@@ -550,10 +556,48 @@
       "Beef",
       "Creamy",
       "Dinner",
-      "Mexican",
       "Rich",
-      "Russian",
       "Savoury"
+    ],
+    "description": "Rich, creamy, and anchored by mushrooms — a classic dinner that works for weeknights or company.",
+    "difficulty": "Beginner",
+    "ingredients": [
+      {
+        "item": "Beef Strips"
+      },
+      {
+        "item": "Sweet Paprika"
+      },
+      {
+        "item": "Olive Oil"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Mushrooms"
+      },
+      {
+        "item": "Beef Stock"
+      },
+      {
+        "item": "Worcestershire Sauce"
+      },
+      {
+        "item": "Sour Cream"
+      },
+      {
+        "item": "Green Beans"
+      },
+      {
+        "item": "Chives"
+      },
+      {
+        "item": "Egg Noodles"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
@@ -566,7 +610,6 @@
       "Beef",
       "Curry",
       "Dinner",
-      "Indian",
       "Make-Ahead",
       "Rich",
       "Savoury",
@@ -625,11 +668,9 @@
       "Baking",
       "Beef",
       "Dinner",
-      "French",
       "Rich",
       "Sauce",
-      "Savoury",
-      "Australian"
+      "Savoury"
     ],
     "ingredients": [
       {
@@ -693,7 +734,6 @@
       "Classic",
       "Creamy",
       "Dinner",
-      "French",
       "Rich",
       "Savoury"
     ],
@@ -728,7 +768,6 @@
     "title": "Carpet Bag Steak",
     "category": "Bistro",
     "tags": [
-      "Australian",
       "Beef",
       "Bistro",
       "Classic",
@@ -774,7 +813,6 @@
       "Classic",
       "Creamy",
       "Dinner",
-      "French",
       "Rich"
     ],
     "description": "Golden crumbed chicken breast stuffed with garlic butter, served with a simple tomato cream sauce. A showstopper from the bistro era.",
@@ -819,7 +857,6 @@
       "Classic",
       "Creamy",
       "Dinner",
-      "French",
       "Rich",
       "Savoury"
     ],
@@ -856,7 +893,6 @@
     "description": "Chicken breast stuffed with dried apricots and almonds, finished with a cream and apricot sauce. Named for the Riverina region of New South Wales.",
     "difficulty": "Intermediate",
     "tags": [
-      "Australian",
       "Bistro",
       "Chicken",
       "Classic",
@@ -899,7 +935,6 @@
       "Classic",
       "Creamy",
       "Dinner",
-      "French",
       "Rich"
     ],
     "description": "Breast chicken in a cream sauce punched up with Dijon mustard and green peppercorns. Sharp, creamy, and satisfying.",
@@ -941,7 +976,6 @@
       "Bistro",
       "Classic",
       "Dinner",
-      "French",
       "Make-Ahead",
       "Sauce"
     ],
@@ -985,7 +1019,6 @@
       "Classic",
       "Creamy",
       "Dinner",
-      "French",
       "Gluten-Free",
       "Lunch",
       "Rich",
@@ -1027,7 +1060,6 @@
       "Creamy",
       "Dinner",
       "Fish",
-      "French",
       "Gluten-Free",
       "Lemon",
       "Lunch",
@@ -1071,7 +1103,6 @@
       "Creamy",
       "Dinner",
       "Gluten-Free",
-      "Italian",
       "Rich",
       "Savoury"
     ],
@@ -1114,7 +1145,6 @@
     "description": "Crumbed lamb cutlets with crispy bacon and a rich demi glace gravy. Honest bistro comfort food.",
     "difficulty": "Intermediate",
     "tags": [
-      "Australian",
       "Bistro",
       "Dinner",
       "Lamb",
@@ -1165,8 +1195,7 @@
       "Orange",
       "Rich",
       "Savoury",
-      "Spicy",
-      "Thai"
+      "Spicy"
     ],
     "description": "The Thai Chicken's sibling — same ginger and chilli base but brightened with fresh orange juice for a citrus-forward cream sauce.",
     "difficulty": "Intermediate",
@@ -1207,7 +1236,6 @@
     "description": "Crisp-shelled meringue with a soft marshmallow centre, topped with whipped cream and fresh seasonal fruit. An Australian icon.",
     "difficulty": "Intermediate",
     "tags": [
-      "Australian",
       "Classic",
       "Creamy",
       "Dessert",
@@ -1260,7 +1288,6 @@
       "Classic",
       "Creamy",
       "Dessert",
-      "French",
       "Pastry",
       "Rich",
       "Sweet",
@@ -1285,8 +1312,7 @@
       "Dinner",
       "Gluten-Free",
       "Lamb",
-      "Savoury",
-      "Australian"
+      "Savoury"
     ],
     "description": "French-trimmed rack of lamb oven-roasted and served with a spiced plum and demi glace sauce.",
     "difficulty": "Intermediate",
@@ -1324,7 +1350,6 @@
     "description": "Scotch fillet topped with a generous seafood Mornay sauce. The ultimate bistro surf and turf.",
     "difficulty": "Intermediate",
     "tags": [
-      "Australian",
       "Baking",
       "Beef",
       "Bistro",
@@ -1366,7 +1391,6 @@
     "title": "Steak Boston",
     "category": "Bistro",
     "tags": [
-      "American",
       "Beef",
       "Bistro",
       "Classic",
@@ -1425,8 +1449,7 @@
       "Gluten-Free",
       "Rich",
       "Savoury",
-      "Spicy",
-      "Thai"
+      "Spicy"
     ],
     "description": "Breast chicken in a ginger, chilli and cream sauce. Warmth without the fire — a nod to Thai flavours in a classic bistro setting.",
     "difficulty": "Intermediate",
@@ -1463,7 +1486,6 @@
       "Classic",
       "Creamy",
       "Dinner",
-      "French",
       "Savoury"
     ],
     "description": "Thin veal escalopes wrapped around smoked ham and Swiss cheese, crumbed and deep-fried to golden perfection. Served with a Dijon cream sauce.",
@@ -1507,7 +1529,6 @@
       "Classic",
       "Creamy",
       "Dinner",
-      "French",
       "Rich",
       "Savoury"
     ],
@@ -1564,8 +1585,7 @@
       "Creamy",
       "Dinner",
       "Rich",
-      "Savoury",
-      "Swedish"
+      "Savoury"
     ],
     "ingredients": [
       {
@@ -1595,7 +1615,6 @@
       "Bistro",
       "Classic",
       "Dinner",
-      "Italian",
       "Rich",
       "Savoury"
     ],
@@ -1639,7 +1658,6 @@
       "Creamy",
       "Dinner",
       "Gluten-Free",
-      "Italian",
       "Rich",
       "Savoury",
       "Veal"
@@ -1678,10 +1696,8 @@
     "difficulty": "Beginner",
     "tags": [
       "Baking",
-      "Breakfast",
       "Sweet",
-      "Vegetarian",
-      "Australian"
+      "Vegetarian"
     ],
     "ingredients": [
       {
@@ -1722,7 +1738,6 @@
     "tags": [
       "Beef",
       "Dinner",
-      "Filipino",
       "Gluten-Free",
       "Slow-Cooked"
     ],
@@ -1773,7 +1788,6 @@
       "Creamy",
       "Curry",
       "Dinner",
-      "Indian",
       "Rich"
     ],
     "ingredients": [
@@ -1843,15 +1857,11 @@
     "description": "A wonderful buttery, soft pound cake bursting with cherries in every bite! The flavour is out of this world, rich in coconut. Bake in a bundt pan or loaf pan.",
     "difficulty": "Intermediate",
     "tags": [
-      "Australian",
-      "Baked",
       "Baking",
       "Cake",
-      "Cherry",
       "Coconut",
       "Dessert",
       "Sweet",
-      "Thai",
       "Vegetarian"
     ],
     "ingredients": [
@@ -1894,7 +1904,6 @@
       "Classic",
       "Creamy",
       "Dessert",
-      "Italian",
       "Make-Ahead",
       "Rich",
       "Sweet",
@@ -1960,7 +1969,6 @@
       "Classic",
       "Dinner",
       "Gluten-Free",
-      "Italian",
       "Rich",
       "Savoury",
       "Tomato"
@@ -2023,9 +2031,6 @@
     "description": "Golden, flaky, and stuffed with comfort — a proper home-baked classic where pub fare meets homemade love.",
     "difficulty": "Intermediate",
     "tags": [
-      "Australian",
-      "Baked",
-      "Baking",
       "Chicken",
       "Chinese",
       "Creamy",
@@ -2090,7 +2095,6 @@
     "tags": [
       "Chicken",
       "Dinner",
-      "Filipino",
       "Savoury",
       "Spicy",
       "Sweet"
@@ -2144,10 +2148,42 @@
       "Classic",
       "Dinner",
       "Gluten-Free",
-      "Indian",
-      "Middle Eastern",
       "Savoury",
       "Spicy"
+    ],
+    "description": "Quick stovetop Middle Eastern chicken, marinated with authentic spices and seared hot for charred, tender strips.",
+    "difficulty": "Beginner",
+    "ingredients": [
+      {
+        "item": "Chicken Breast"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Lemon Juice"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Sweet Paprika"
+      },
+      {
+        "item": "Ground Cardamom"
+      },
+      {
+        "item": "Ground Cumin"
+      },
+      {
+        "item": "Red Chilli Flakes"
+      },
+      {
+        "item": "Ground Cinnamon"
+      }
     ]
   },
   {
@@ -2155,14 +2191,40 @@
     "title": "Chicken Teriyaki",
     "category": "Dinner",
     "tags": [
-      "Asian",
       "Chicken",
       "Classic",
       "Dinner",
       "Gluten-Free",
-      "Japanese",
       "Savoury",
       "Sweet"
+    ],
+    "description": "Juicy, tender chicken marinated in a sweet-savoury teriyaki sauce — quick stovetop method for weeknights.",
+    "difficulty": "Beginner",
+    "ingredients": [
+      {
+        "item": "Chicken Breast"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Soy Sauce"
+      },
+      {
+        "item": "Mirin"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Fresh Ginger"
+      },
+      {
+        "item": "Sesame Seeds"
+      }
     ]
   },
   {
@@ -2185,13 +2247,11 @@
     "category": "Snacks",
     "tags": [
       "Baking",
-      "Breakfast",
       "Chocolate",
       "Dessert",
       "Rich",
       "Sweet",
-      "Vegetarian",
-      "Australian"
+      "Vegetarian"
     ],
     "description": "Tall domes like bakery royalty, fluffy like a hymn, dipped in butter-rich ganache — decadent perfection.",
     "difficulty": "Intermediate",
@@ -2245,7 +2305,6 @@
       "Chocolate",
       "Creamy",
       "Dessert",
-      "French",
       "Gluten-Free",
       "Make-Ahead",
       "No-Bake",
@@ -2285,8 +2344,7 @@
       "Single Serve",
       "Sweet",
       "Vegetarian",
-      "Egg-free",
-      "Australian"
+      "Egg-free"
     ],
     "ingredients": [
       {
@@ -2320,7 +2378,6 @@
     "title": "Chocolate Rum Balls",
     "category": "Snacks",
     "tags": [
-      "Australian",
       "Chocolate",
       "Dessert",
       "Gluten-Free",
@@ -2366,7 +2423,6 @@
       "Baking",
       "Classic",
       "Dessert",
-      "French",
       "Pastry",
       "Sweet",
       "Vegetarian"
@@ -2405,8 +2461,7 @@
       "Breakfast",
       "Rich",
       "Sweet",
-      "Vegetarian",
-      "Australian"
+      "Vegetarian"
     ],
     "description": "Soft, pillowy, buttery, and swirled with cinnamon sugar — just like your favourite bakery.",
     "difficulty": "Intermediate",
@@ -2458,8 +2513,7 @@
       "Breakfast",
       "Dessert",
       "Sweet",
-      "Vegetarian",
-      "Australian"
+      "Vegetarian"
     ],
     "ingredients": [
       {
@@ -2510,7 +2564,6 @@
       "Classic",
       "Creamy",
       "Dessert",
-      "French",
       "Gluten-Free",
       "Make-Ahead",
       "Rich",
@@ -2551,8 +2604,7 @@
       "Dessert",
       "Party",
       "Sweet",
-      "Vegetarian",
-      "Australian"
+      "Vegetarian"
     ],
     "ingredients": [
       {
@@ -2610,7 +2662,6 @@
       "Breakfast",
       "Classic",
       "Dessert",
-      "French",
       "Sweet",
       "Vegetarian"
     ],
@@ -2666,8 +2717,7 @@
       "Easy",
       "Savoury",
       "Snack",
-      "Lunch",
-      "Australian"
+      "Lunch"
     ],
     "ingredients": [
       {
@@ -2713,8 +2763,44 @@
       "Dinner",
       "Easy",
       "Gluten-Free",
-      "Indian",
       "Savoury"
+    ],
+    "description": "Tender chicken in a rich, creamy coconut curry sauce. Simple, comforting, and packed with flavour.",
+    "difficulty": "Beginner",
+    "ingredients": [
+      {
+        "item": "Chicken Thigh"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Fresh Ginger"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Curry Powder"
+      },
+      {
+        "item": "Chicken Stock Cube"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Coconut Cream"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Cornflour"
+      }
     ]
   },
   {
@@ -2725,8 +2811,7 @@
     "difficulty": "Intermediate",
     "tags": [
       "Bread",
-      "German",
-      "Make Ahead",
+      "Make-Ahead",
       "Savoury",
       "Vegan",
       "Vegetarian"
@@ -2774,13 +2859,10 @@
       "Baking",
       "Chocolate",
       "Classic",
-      "Cookies",
-      "Make Ahead",
-      "Rich",
+      "Make-Ahead",
       "Snack",
       "Sweet",
-      "Vegetarian",
-      "Australian"
+      "Vegetarian"
     ],
     "ingredients": [
       {
@@ -2826,9 +2908,8 @@
     "difficulty": "Beginner",
     "tags": [
       "Dinner",
-      "Filipino",
       "Gluten-Free",
-      "Make Ahead",
+      "Make-Ahead",
       "Pork",
       "Savoury",
       "Sweet"
@@ -2872,8 +2953,7 @@
     "tags": [
       "Baking",
       "Bread",
-      "Italian",
-      "Make Ahead",
+      "Make-Ahead",
       "Savoury",
       "Vegan",
       "Vegetarian"
@@ -2905,7 +2985,6 @@
     "tags": [
       "Baking",
       "Bread",
-      "Italian",
       "Make-Ahead",
       "Savoury",
       "Vegetarian"
@@ -2958,7 +3037,6 @@
     "tags": [
       "Baking",
       "Dessert",
-      "French",
       "Gluten-Free",
       "Orange",
       "Rich",
@@ -3004,7 +3082,6 @@
     "tags": [
       "Bread",
       "Classic",
-      "Italian",
       "Savoury",
       "Vegetarian"
     ],
@@ -3048,8 +3125,7 @@
       "Baking",
       "Bread",
       "Savoury",
-      "Vegetarian",
-      "Australian"
+      "Vegetarian"
     ],
     "ingredients": [
       {
@@ -3084,7 +3160,6 @@
     "tags": [
       "Baking",
       "Bread",
-      "Italian",
       "Savoury",
       "Vegan",
       "Vegetarian"
@@ -3115,13 +3190,37 @@
     "title": "Honey Garlic Sauce",
     "category": "Sauces",
     "tags": [
-      "Asian",
       "Gluten-Free",
       "Sauce",
       "Savoury",
       "Sweet",
       "Vegan",
       "Vegetarian"
+    ],
+    "description": "A sweet and savoury Asian glaze — sticky, garlicky, and impossible to resist. A family favourite.",
+    "difficulty": "Beginner",
+    "ingredients": [
+      {
+        "item": "Honey"
+      },
+      {
+        "item": "Light Soy Sauce"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "White Vinegar"
+      },
+      {
+        "item": "Cornflour"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Sesame Seeds"
+      }
     ]
   },
   {
@@ -3131,7 +3230,6 @@
     "description": "A sweet, tangy, and creamy honey mustard sauce. Using a Greek yogurt base keeps the sauce oil-free, while a combination of Dijon and yellow mustard provides a classic condiment flavor.",
     "difficulty": "Beginner",
     "tags": [
-      "American",
       "Chinese",
       "Condiment",
       "Gluten-Free",
@@ -3169,7 +3267,6 @@
     "title": "Honey Soy Chicken",
     "category": "Dinner",
     "tags": [
-      "Asian",
       "Chicken",
       "Chinese",
       "Dinner",
@@ -3212,8 +3309,7 @@
       "Baking",
       "Bread",
       "Savoury",
-      "Vegetarian",
-      "Australian"
+      "Vegetarian"
     ],
     "ingredients": [
       {
@@ -3247,8 +3343,53 @@
       "Party",
       "Rich",
       "Sweet",
-      "Vegetarian",
-      "Jamacian"
+      "Vegetarian"
+    ],
+    "description": "A lush, old-fashioned Southern classic — moist, fragrant, packed with fruit, and crowned with cream cheese frosting.",
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {
+        "item": "Plain Flour"
+      },
+      {
+        "item": "Caster Sugar"
+      },
+      {
+        "item": "Ground Cinnamon"
+      },
+      {
+        "item": "Bi-carb Soda"
+      },
+      {
+        "item": "Eggs"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Bananas"
+      },
+      {
+        "item": "Pecans"
+      },
+      {
+        "item": "Pineapple"
+      },
+      {
+        "item": "Cream Cheese"
+      },
+      {
+        "item": "Sour Cream"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Natural Vanilla Extract"
+      },
+      {
+        "item": "Icing Sugar"
+      }
     ]
   },
   {
@@ -3260,8 +3401,7 @@
     "tags": [
       "Curry",
       "Gluten-Free",
-      "Indian",
-      "Make Ahead",
+      "Make-Ahead",
       "Savoury",
       "Spicy",
       "Vegan",
@@ -3317,7 +3457,6 @@
       "Curry",
       "Dinner",
       "Gluten-Free",
-      "Indian",
       "Lamb",
       "Make-Ahead",
       "Rich",
@@ -3378,7 +3517,6 @@
       "Curry",
       "Dinner",
       "Gluten-Free",
-      "Indian",
       "Lamb",
       "Rich",
       "Savoury",
@@ -3437,7 +3575,6 @@
     "title": "Classic Lamingtons",
     "category": "Snacks",
     "tags": [
-      "Australian",
       "Baking",
       "Cake",
       "Chocolate",
@@ -3497,7 +3634,6 @@
       "Beef",
       "Classic",
       "Dinner",
-      "Italian",
       "Lunch",
       "Make-Ahead",
       "Pasta",
@@ -3567,7 +3703,6 @@
     "tags": [
       "Baking",
       "Dinner",
-      "European",
       "Fish",
       "Lemon",
       "Savoury"
@@ -3615,7 +3750,6 @@
     "description": "A simple old-school favourite — bright lemon, soft crumb, and that warm coconut finish.",
     "difficulty": "Beginner",
     "tags": [
-      "Australian",
       "Baking",
       "Cake",
       "Coconut",
@@ -3667,8 +3801,7 @@
       "Lemon",
       "Pastry",
       "Sweet",
-      "Vegetarian",
-      "Australian"
+      "Vegetarian"
     ],
     "ingredients": [
       {
@@ -3709,7 +3842,6 @@
     "tags": [
       "Classic",
       "Gluten-Free",
-      "Italian",
       "Sauce",
       "Tomato",
       "Vegan",
@@ -3746,7 +3878,6 @@
     "description": "True blue, unapologetically hearty, and as Australian as a sunburn at Christmas.",
     "difficulty": "Intermediate",
     "tags": [
-      "Australian",
       "Baking",
       "Beef",
       "Classic",
@@ -3795,7 +3926,6 @@
     "description": "A traditional bakery-style mock cream with a small amount of gelatine added for stability, from Tracy Rutherford's Taste.com.au recipe.",
     "difficulty": "Beginner",
     "tags": [
-      "Australian",
       "Bakery-Style",
       "Classic",
       "Gluten-Free",
@@ -3830,7 +3960,6 @@
     "title": "Mongolian Beef Stir-Fry",
     "category": "Dinner",
     "tags": [
-      "Asian",
       "Beef",
       "Chinese",
       "Dinner",
@@ -3838,6 +3967,55 @@
       "Savoury",
       "Stir-Fried",
       "Sweet"
+    ],
+    "description": "Serve this sizzling stir-fry in a cast-iron pan for full restaurant-style drama — the sizzling, spitting finish brings the flavour alive.",
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {
+        "item": "Beef Strips"
+      },
+      {
+        "item": "Bi-carb Soda"
+      },
+      {
+        "item": "Cornflour"
+      },
+      {
+        "item": "Light Soy Sauce"
+      },
+      {
+        "item": "Chinese Rice Wine"
+      },
+      {
+        "item": "Dark Soy Sauce"
+      },
+      {
+        "item": "Sambal Oelek"
+      },
+      {
+        "item": "Oyster Sauce"
+      },
+      {
+        "item": "Chinese Five Spice"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Sesame Oil"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Spring Onion"
+      },
+      {
+        "item": "Garlic"
+      }
     ]
   },
   {
@@ -3845,7 +4023,6 @@
     "title": "Mongolian Lamb",
     "category": "Dinner",
     "tags": [
-      "Asian",
       "Chinese",
       "Dinner",
       "Gluten-Free",
@@ -3853,6 +4030,55 @@
       "Savoury",
       "Stir-Fried",
       "Sweet"
+    ],
+    "description": "A sweet and savoury stir-fry with tender lamb, Chinese Five Spice, and Hoisin — even better than many restaurant versions.",
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {
+        "item": "Lamb Strips"
+      },
+      {
+        "item": "Bi-carb Soda"
+      },
+      {
+        "item": "Cornflour"
+      },
+      {
+        "item": "Light Soy Sauce"
+      },
+      {
+        "item": "Chinese Rice Wine"
+      },
+      {
+        "item": "Dark Soy Sauce"
+      },
+      {
+        "item": "Sambal Oelek"
+      },
+      {
+        "item": "Hoisin Sauce"
+      },
+      {
+        "item": "Chinese Five Spice"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Sesame Oil"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Spring Onion"
+      }
     ]
   },
   {
@@ -3860,7 +4086,6 @@
     "title": "Mongolian Stir-Fry Sauce",
     "category": "Sauces",
     "tags": [
-      "Asian",
       "Chinese",
       "Dinner",
       "Gluten-Free",
@@ -3870,6 +4095,37 @@
       "Sweet",
       "Vegan",
       "Vegetarian"
+    ],
+    "description": "A rich, sticky, savoury-sweet sauce perfect with beef, chicken, or vegetables.",
+    "difficulty": "Beginner",
+    "ingredients": [
+      {
+        "item": "Cornflour"
+      },
+      {
+        "item": "Dark Soy Sauce"
+      },
+      {
+        "item": "Light Soy Sauce"
+      },
+      {
+        "item": "Sambal Oelek"
+      },
+      {
+        "item": "Hoisin Sauce"
+      },
+      {
+        "item": "Chinese Rice Wine"
+      },
+      {
+        "item": "Chinese Five Spice"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Sesame Oil"
+      }
     ]
   },
   {
@@ -3881,7 +4137,6 @@
     "tags": [
       "Classic",
       "Creamy",
-      "French",
       "Rich",
       "Sauce",
       "Vegetarian"
@@ -3913,12 +4168,10 @@
     "category": "Snacks",
     "tags": [
       "Baking",
-      "Breakfast",
       "Dessert",
       "Snack",
       "Sweet",
-      "Vegetarian",
-      "Australian"
+      "Vegetarian"
     ],
     "description": "A simple, dependable base recipe — sweet or savoury, load it up any way you like.",
     "difficulty": "Beginner",
@@ -3980,12 +4233,89 @@
     "tags": [
       "Baking",
       "Bread",
-      "Breakfast",
-      "British",
       "Lunch",
       "Multigrain",
       "Savoury",
       "Vegetarian"
+    ],
+    "description": "A dense, nutrient-dense sandwich loaf packed with a variety of seeds, grains, and added dietary fibre. This recipe produces a hearty loaf suitable for daily slicing.",
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {
+        "item": "Bread Flour"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Yeast"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Bread Improver"
+      },
+      {
+        "item": "Sunflower Seeds"
+      },
+      {
+        "item": "Poppy Seeds"
+      },
+      {
+        "item": "Black Chia Seeds"
+      },
+      {
+        "item": "White Chia Seeds"
+      },
+      {
+        "item": "Sesame Seeds"
+      },
+      {
+        "item": "Hemp Seeds"
+      },
+      {
+        "item": "Linseed"
+      },
+      {
+        "item": "Quinoa"
+      },
+      {
+        "item": "Hemp Protein Powder"
+      },
+      {
+        "item": "Flaxseed Meal"
+      },
+      {
+        "item": "Freekeh"
+      },
+      {
+        "item": "Bulgur Wheat"
+      },
+      {
+        "item": "Almond Meal"
+      },
+      {
+        "item": "Psyllium Husk"
+      },
+      {
+        "item": "Soy Lecithin"
+      },
+      {
+        "item": "Gentle Fibre"
+      },
+      {
+        "item": "Rolled Oats"
+      },
+      {
+        "item": "Pumpkin Kernels"
+      }
     ]
   },
   {
@@ -3993,11 +4323,50 @@
     "title": "Mushrooms with Herb Nut Butter",
     "category": "Entree",
     "tags": [
-      "French",
       "Gluten-Free",
       "Rich",
       "Savoury",
       "Vegetarian"
+    ],
+    "description": "Baked mushroom caps filled with a rich herb and almond butter, finished until golden and fragrant.",
+    "difficulty": "Beginner",
+    "ingredients": [
+      {
+        "item": "Mushrooms"
+      },
+      {
+        "item": "Olive Oil"
+      },
+      {
+        "item": "Brown Onion"
+      },
+      {
+        "item": "Almonds"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Lemon Juice"
+      },
+      {
+        "item": "Fresh Parsley"
+      },
+      {
+        "item": "Fresh Thyme"
+      },
+      {
+        "item": "Fresh Rosemary"
+      },
+      {
+        "item": "Chives"
+      },
+      {
+        "item": "Unsalted Butter"
+      },
+      {
+        "item": "Salt & Pepper"
+      }
     ]
   },
   {
@@ -4011,7 +4380,6 @@
       "Dinner",
       "Gluten-Free",
       "Make-Ahead",
-      "Mexican",
       "Savoury",
       "Spicy",
       "Lunch"
@@ -4047,7 +4415,6 @@
     "description": "A bright, citrusy favourite — buttery, fragrant, and layered with a lush orange cream.",
     "difficulty": "Intermediate",
     "tags": [
-      "Australian",
       "Baking",
       "Cake",
       "Citrus",
@@ -4145,7 +4512,6 @@
     "tags": [
       "Chicken",
       "Dinner",
-      "Filipino",
       "Gluten-Free",
       "Noodles",
       "Pork",
@@ -4206,7 +4572,6 @@
     "tags": [
       "Dairy-Free",
       "Dinner",
-      "Filipino",
       "Noodles",
       "Pork",
       "Savoury",
@@ -4269,7 +4634,6 @@
     "tags": [
       "Chicken",
       "Dinner",
-      "Filipino",
       "Gluten-Free",
       "Noodles",
       "Pork",
@@ -4343,7 +4707,6 @@
       "Classic",
       "Condiment",
       "Gluten-Free",
-      "Italian",
       "Sauce",
       "Vegan",
       "Vegetarian"
@@ -4380,8 +4743,7 @@
       "Dinner",
       "Gluten-Free",
       "Savoury",
-      "Sweet",
-      "Filipino"
+      "Sweet"
     ],
     "description": "Seared chicken finished in a sweet, salty, tangy pineapple-coconut sauce. Built for spooning generously over rice.",
     "difficulty": "Intermediate",
@@ -4461,8 +4823,7 @@
       "Dessert",
       "Fruit",
       "Sweet",
-      "Vegetarian",
-      "Australian"
+      "Vegetarian"
     ],
     "description": "Sticky, caramelised pineapple upside-down cake. Built from pantry staples, baked in a water tray for a moist, even crumb, flipped warm, and it didn't stick. Looks awesome. Tastes even better.",
     "difficulty": "Beginner",
@@ -4506,8 +4867,7 @@
       "Baking",
       "Bread",
       "Classic",
-      "Italian",
-      "Make Ahead",
+      "Make-Ahead",
       "Savoury",
       "Vegetarian"
     ],
@@ -4550,8 +4910,7 @@
       "No-Cook",
       "Rich",
       "Sweet",
-      "Vegetarian",
-      "Australian"
+      "Vegetarian"
     ],
     "ingredients": [
       {
@@ -4579,7 +4938,6 @@
     "difficulty": "Intermediate",
     "tags": [
       "Dinner",
-      "Filipino",
       "Gluten-Free",
       "Pork",
       "Rich",
@@ -4646,7 +5004,6 @@
     "tags": [
       "Classic",
       "Dinner",
-      "Italian",
       "Pasta",
       "Rich",
       "Savoury",
@@ -4696,8 +5053,7 @@
       "Classic",
       "Dessert",
       "Freezer Friendly",
-      "French",
-      "Make Ahead",
+      "Make-Ahead",
       "Pastry",
       "Vegetarian"
     ],
@@ -4725,8 +5081,7 @@
     "tags": [
       "Baking",
       "Classic",
-      "French",
-      "Make Ahead",
+      "Make-Ahead",
       "Pastry",
       "Vegetarian"
     ],
@@ -4751,7 +5106,6 @@
     "category": "Sauces",
     "tags": [
       "Classic",
-      "Italian",
       "Sauce",
       "Tomato",
       "Vegan",
@@ -4793,7 +5147,6 @@
       "Curry",
       "Dinner",
       "Gluten-Free",
-      "Indian",
       "Lamb",
       "Rich",
       "Savoury",
@@ -4870,7 +5223,6 @@
     "description": "A light and airy meringue roulade filled with whipped cream and fresh strawberries.",
     "difficulty": "Beginner",
     "tags": [
-      "Australian",
       "Baking",
       "Classic",
       "Creamy",
@@ -4910,7 +5262,6 @@
     "description": "The Aussie snack king — perfect for footy days, picnics, or anytime hunger strikes.",
     "difficulty": "Beginner",
     "tags": [
-      "Australian",
       "Baking",
       "Classic",
       "Lunch",
@@ -4962,11 +5313,10 @@
       "Coconut",
       "Dinner",
       "Gluten-Free",
-      "Make Ahead",
+      "Make-Ahead",
       "Sauce",
       "Savoury",
       "Spicy",
-      "Thai",
       "Vegan",
       "Vegetarian"
     ],
@@ -5000,8 +5350,7 @@
       "Savoury",
       "Sweet",
       "Vegan",
-      "Vegetarian",
-      "Australian"
+      "Vegetarian"
     ],
     "ingredients": [
       {
@@ -5044,9 +5393,7 @@
     "title": "Sticky Date Pudding with Caramel Sauce",
     "category": "Desserts",
     "tags": [
-      "Australian",
       "Baking",
-      "British",
       "Classic",
       "Creamy",
       "Dessert",
@@ -5109,8 +5456,7 @@
       "Bread",
       "Lunch",
       "Savoury",
-      "Vegetarian",
-      "Australian"
+      "Vegetarian"
     ],
     "ingredients": [
       {
@@ -5146,10 +5492,8 @@
     "description": "Warmly spiced, tender sultana rolls portioned into individual buns. Ground allspice and brown sugar provide depth, spreadable butter keeps the crumb soft, and a shiny sugar glaze made with glucose syrup to prevent crystallization is brushed on top after baking.",
     "difficulty": "Beginner",
     "tags": [
-      "Australian",
       "Baking",
       "Bread",
-      "Breakfast",
       "Sweet",
       "Vegetarian"
     ],
@@ -5279,11 +5623,10 @@
     "difficulty": "Beginner",
     "tags": [
       "Gluten-Free",
-      "Make Ahead",
+      "Make-Ahead",
       "Sauce",
       "Spicy",
       "Sweet",
-      "Thai",
       "Vegan",
       "Vegetarian"
     ],
@@ -5315,7 +5658,6 @@
     "description": "Golden, crispy pork with a sticky, tangy sauce — exactly what you want when you skip the takeaway.",
     "difficulty": "Intermediate",
     "tags": [
-      "Asian",
       "Chinese",
       "Classic",
       "Dinner",
@@ -5517,7 +5859,6 @@
     "difficulty": "Beginner",
     "tags": [
       "Make-Ahead",
-      "Mexican",
       "Vegetarian",
       "Spice Mix",
       "Spicy"
@@ -5559,13 +5900,90 @@
     "tags": [
       "Baking",
       "Bread",
-      "Breakfast",
       "Make-Ahead",
       "Vegan",
       "Vegetarian",
-      "Australian",
       "Tangzhong",
       "Multigrain"
+    ],
+    "description": "A soft, generous loaf with the soul of old-world baking — built on modern tangzhong and a hearty, soaked grain-and-seed mix that gives depth without stealing moisture.",
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {
+        "item": "Bread Flour"
+      },
+      {
+        "item": "Water"
+      },
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Salt"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Yeast"
+      },
+      {
+        "item": "Bread Improver"
+      },
+      {
+        "item": "Rolled Oats"
+      },
+      {
+        "item": "Flaxseed Meal"
+      },
+      {
+        "item": "Linseed"
+      },
+      {
+        "item": "Sesame Seeds"
+      },
+      {
+        "item": "White Quinoa"
+      },
+      {
+        "item": "Black Quinoa"
+      },
+      {
+        "item": "Black Chia Seeds"
+      },
+      {
+        "item": "White Chia Seeds"
+      },
+      {
+        "item": "Sunflower Seeds"
+      },
+      {
+        "item": "Pumpkin Seeds"
+      },
+      {
+        "item": "Bulgur Wheat"
+      },
+      {
+        "item": "Freekeh"
+      },
+      {
+        "item": "Poppy Seeds"
+      },
+      {
+        "item": "Hemp Protein Powder"
+      },
+      {
+        "item": "Hemp Seeds"
+      },
+      {
+        "item": "Psyllium Husk"
+      },
+      {
+        "item": "Bran"
+      },
+      {
+        "item": "Soy Lecithin"
+      }
     ]
   },
   {
@@ -5577,8 +5995,7 @@
     "tags": [
       "Dinner",
       "Gluten-Free",
-      "Japanese",
-      "Make Ahead",
+      "Make-Ahead",
       "Sauce",
       "Savoury",
       "Sweet",
@@ -5608,8 +6025,7 @@
     "difficulty": "Beginner",
     "tags": [
       "Gluten-Free",
-      "Japanese",
-      "Make Ahead",
+      "Make-Ahead",
       "Sauce",
       "Sweet",
       "Vegan",
@@ -5643,7 +6059,6 @@
     "description": "A decadent, dense, and fudgy masterpiece topped with silky chocolate ganache — the ultimate indulgence.",
     "difficulty": "Intermediate",
     "tags": [
-      "Australian",
       "Baking",
       "Cake",
       "Chocolate",
@@ -5701,7 +6116,6 @@
     "description": "A savoury baked flan filled with tomatoes, olives, basil, and Gruyère cheese.",
     "difficulty": "Intermediate",
     "tags": [
-      "French",
       "Pastry",
       "Rich",
       "Savoury",
@@ -5759,12 +6173,12 @@
     "description": "A classic Australian favourite — golden, chewy, and steeped in history. This version uses a higher oat-to-coconut ratio for better binding and a less greasy dough. Weigh each ball to 35g for consistent results every time.",
     "difficulty": "Beginner",
     "tags": [
-      "Australian",
       "Baking",
       "Classic",
-      "Make Ahead",
+      "Make-Ahead",
       "Sweet",
-      "Vegetarian"
+      "Vegetarian",
+      "Snack"
     ],
     "ingredients": [
       {
@@ -5806,10 +6220,9 @@
       "Baking",
       "Bread",
       "Classic",
-      "Make Ahead",
+      "Make-Ahead",
       "Savoury",
-      "Vegetarian",
-      "Turkish"
+      "Vegetarian"
     ],
     "ingredients": [
       {
@@ -5849,7 +6262,6 @@
       "Condiment",
       "Curry",
       "Gluten-Free",
-      "Indian",
       "Make-Ahead",
       "Savoury",
       "Spicy",
@@ -5901,7 +6313,6 @@
     "tags": [
       "Classic",
       "Creamy",
-      "French",
       "Rich",
       "Sauce",
       "Vegetarian"

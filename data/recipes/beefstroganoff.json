@@ -13,9 +13,7 @@
     "Beef",
     "Creamy",
     "Dinner",
-    "Mexican",
     "Rich",
-    "Russian",
     "Savoury"
   ],
   "ingredients": [
@@ -240,5 +238,6 @@
     "vitamin_c_mg": 4,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Russian"
 }

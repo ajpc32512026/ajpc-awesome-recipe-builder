@@ -13,7 +13,6 @@
     "Classic",
     "Condiment",
     "Gluten-Free",
-    "Italian",
     "Sauce",
     "Vegan",
     "Vegetarian"
@@ -174,5 +173,6 @@
     "vitamin_a_ug": 119,
     "vitamin_c_mg": 9
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Italian"
 }

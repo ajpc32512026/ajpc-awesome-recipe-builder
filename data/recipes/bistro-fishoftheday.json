@@ -15,7 +15,6 @@
     "Creamy",
     "Dinner",
     "Fish",
-    "French",
     "Gluten-Free",
     "Lemon",
     "Lunch",
@@ -203,5 +202,6 @@
     "vitamin_a_ug": 495,
     "vitamin_c_mg": 18
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "French"
 }

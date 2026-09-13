@@ -10,10 +10,8 @@
   "servings": "9",
   "yieldPerBatch": "9 rolls",
   "tags": [
-    "Australian",
     "Baking",
     "Bread",
-    "Breakfast",
     "Sweet",
     "Vegetarian"
   ],
@@ -203,5 +201,6 @@
     "magnesium_mg": 32,
     "zinc_mg": 1
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Australian"
 }

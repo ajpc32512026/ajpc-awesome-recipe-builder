@@ -10,9 +10,7 @@
   "servings": "8 servings",
   "yieldPerBatch": "8 servings",
   "tags": [
-    "Australian",
     "Baking",
-    "British",
     "Classic",
     "Creamy",
     "Dessert",
@@ -254,5 +252,6 @@
     "vitamin_c_mg": 2,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "British"
 }

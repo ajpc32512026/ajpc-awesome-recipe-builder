@@ -10,7 +10,6 @@
   "servings": "2",
   "yieldPerBatch": "1 batch",
   "tags": [
-    "American",
     "Chinese",
     "Condiment",
     "Gluten-Free",
@@ -183,5 +182,6 @@
     "vitamin_a_ug": 73,
     "vitamin_c_mg": 1
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "American"
 }

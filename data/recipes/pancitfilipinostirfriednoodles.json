@@ -12,7 +12,6 @@
   "tags": [
     "Chicken",
     "Dinner",
-    "Filipino",
     "Gluten-Free",
     "Noodles",
     "Pork",
@@ -259,5 +258,6 @@
     "vitamin_c_mg": 36,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Filipino"
 }

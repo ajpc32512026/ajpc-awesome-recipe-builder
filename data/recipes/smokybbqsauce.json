@@ -15,8 +15,7 @@
     "Savoury",
     "Sweet",
     "Vegan",
-    "Vegetarian",
-    "Australian"
+    "Vegetarian"
   ],
   "ingredients": [
     {
@@ -194,5 +193,6 @@
     "vitamin_a_ug": 55,
     "vitamin_c_mg": 4
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Australian"
 }

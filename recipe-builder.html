@@ -55,7 +55,7 @@
             <input type="text" id="title" placeholder="e.g. Sourdough Bread" oninput="update()">
             <div id="duplicate-id-warning"></div>
         </div>
-        <div class="row row-2">
+        <div class="row row-3">
             <div class="field">
                 <label>Category <span class="required-star">*</span></label>
                 <select id="category" onchange="update()">
@@ -90,6 +90,13 @@
                     <option>Intermediate</option>
                     <option>Advanced</option>
                 </select>
+            </div>
+            <div class="field">
+                <label>Cuisine <span class="section-hint">(optional)</span></label>
+                <select id="cuisine" onchange="handleCuisineChange()">
+                    <option value="">— None —</option>
+                </select>
+                <input type="text" id="cuisine-other" placeholder="Enter cuisine…" style="display:none; margin-top:0.4rem;" oninput="update()">
             </div>
         </div>
         <div class="field">
@@ -394,13 +401,13 @@
     <button class="scroll-top-btn" id="scrollTopBtn" title="Scroll to top">↑</button>
 
 <!-- REMOVED monolithic js/recipe-builder.js to prevent conflicts -->
-    <script src="js/builder-ui.js?v=3"></script>
-    <script src="js/builder-data.js?v=3"></script>
+    <script src="js/builder-ui.js?v=4"></script>
+    <script src="js/builder-data.js?v=4"></script>
     <script src="js/builder-nutrition.js"></script>
     <script src="js/builder-timeline.js"></script>
-    <script src="js/builder-main.js?v=3"></script>
+    <script src="js/builder-main.js?v=4"></script>
     <script src="js/builder-checks.js"></script>
-    <script src="js/builder-validator.js?v=11"></script>
+    <script src="js/builder-validator.js?v=12"></script>
     <script src="js/builder-ingredients.js?v=3"></script>
 </body>
 </html>

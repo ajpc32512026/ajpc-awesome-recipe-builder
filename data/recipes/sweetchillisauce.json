@@ -15,7 +15,6 @@
     "Sauce",
     "Spicy",
     "Sweet",
-    "Thai",
     "Vegan",
     "Vegetarian"
   ],
@@ -168,5 +167,6 @@
     "vitamin_a_ug": 4,
     "vitamin_c_mg": 7
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Thai"
 }

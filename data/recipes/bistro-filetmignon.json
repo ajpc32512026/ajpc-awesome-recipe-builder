@@ -15,7 +15,6 @@
     "Classic",
     "Creamy",
     "Dinner",
-    "French",
     "Gluten-Free",
     "Lunch",
     "Rich",
@@ -198,5 +197,6 @@
     "vitamin_c_mg": 1,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-09-08"
+  "lastModified": "2026-09-08",
+  "cuisine": "French"
 }

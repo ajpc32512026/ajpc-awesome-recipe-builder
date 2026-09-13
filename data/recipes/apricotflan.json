@@ -10,13 +10,11 @@
   "servings": "8 servings",
   "yieldPerBatch": "1 flan",
   "tags": [
-    "Australian",
     "Baking",
     "Brandy",
     "Classic",
     "Creamy",
     "Dessert",
-    "French",
     "Pastry",
     "Rich",
     "Sweet",
@@ -216,5 +214,6 @@
     "vitamin_a_ug": 265,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "French"
 }

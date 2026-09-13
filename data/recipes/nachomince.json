@@ -14,7 +14,6 @@
     "Dinner",
     "Gluten-Free",
     "Make-Ahead",
-    "Mexican",
     "Savoury",
     "Spicy",
     "Lunch"
@@ -206,5 +205,6 @@
     "vitamin_a_ug": 41,
     "vitamin_c_mg": 714
   },
-  "lastModified": "2026-09-12"
+  "lastModified": "2026-09-12",
+  "cuisine": "Mexican"
 }

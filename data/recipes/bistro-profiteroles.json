@@ -15,7 +15,6 @@
     "Classic",
     "Creamy",
     "Dessert",
-    "French",
     "Pastry",
     "Rich",
     "Sweet",
@@ -176,5 +175,6 @@
     "vitamin_a_ug": 936,
     "vitamin_d_ug": 5
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "French"
 }

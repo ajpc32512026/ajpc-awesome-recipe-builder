@@ -10,13 +10,11 @@
   "servings": "10",
   "yieldPerBatch": "1 cake",
   "tags": [
-    "Australian",
     "Baking",
     "Cake",
     "Coconut",
     "Dessert",
     "Sweet",
-    "Thai",
     "Vegetarian"
   ],
   "ingredients": [
@@ -254,5 +252,6 @@
     "vitamin_a_ug": 229,
     "vitamin_d_ug": 4
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-13",
+  "cuisine": "Australian"
 }

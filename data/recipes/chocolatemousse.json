@@ -13,7 +13,6 @@
     "Chocolate",
     "Creamy",
     "Dessert",
-    "French",
     "Gluten-Free",
     "Make-Ahead",
     "No-Bake",
@@ -194,5 +193,6 @@
     "vitamin_a_ug": 383,
     "vitamin_d_ug": 7
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "French"
 }

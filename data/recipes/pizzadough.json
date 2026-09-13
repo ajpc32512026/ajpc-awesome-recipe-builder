@@ -13,7 +13,6 @@
     "Baking",
     "Bread",
     "Classic",
-    "Italian",
     "Make-Ahead",
     "Savoury",
     "Vegetarian"
@@ -160,5 +159,6 @@
     "zinc_mg": 6,
     "vitamin_a_ug": 2
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Italian"
 }

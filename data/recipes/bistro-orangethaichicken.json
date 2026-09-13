@@ -19,8 +19,7 @@
     "Orange",
     "Rich",
     "Savoury",
-    "Spicy",
-    "Thai"
+    "Spicy"
   ],
   "ingredients": [
     {
@@ -209,5 +208,6 @@
     "vitamin_c_mg": 1510,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-09-08"
+  "lastModified": "2026-09-08",
+  "cuisine": "Thai"
 }

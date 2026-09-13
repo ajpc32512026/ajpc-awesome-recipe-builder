@@ -12,7 +12,6 @@
   "tags": [
     "Classic",
     "Dinner",
-    "Italian",
     "Pasta",
     "Rich",
     "Savoury",
@@ -208,5 +207,6 @@
     "vitamin_a_ug": 109,
     "vitamin_c_mg": 1756
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Italian"
 }

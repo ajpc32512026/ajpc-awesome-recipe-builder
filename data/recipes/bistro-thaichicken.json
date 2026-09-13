@@ -17,8 +17,7 @@
     "Gluten-Free",
     "Rich",
     "Savoury",
-    "Spicy",
-    "Thai"
+    "Spicy"
   ],
   "ingredients": [
     {
@@ -192,5 +191,6 @@
     "vitamin_c_mg": 7,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Thai"
 }

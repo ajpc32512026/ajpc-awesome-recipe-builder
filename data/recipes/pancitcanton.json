@@ -12,7 +12,6 @@
   "tags": [
     "Dairy-Free",
     "Dinner",
-    "Filipino",
     "Noodles",
     "Pork",
     "Savoury",
@@ -235,5 +234,6 @@
     "vitamin_c_mg": 117,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Filipino"
 }

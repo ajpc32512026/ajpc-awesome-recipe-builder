@@ -12,7 +12,6 @@
   "tags": [
     "Baking",
     "Bread",
-    "Italian",
     "Make-Ahead",
     "Savoury",
     "Vegetarian"
@@ -226,5 +225,6 @@
     "vitamin_a_ug": 688,
     "vitamin_c_mg": 144
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Italian"
 }

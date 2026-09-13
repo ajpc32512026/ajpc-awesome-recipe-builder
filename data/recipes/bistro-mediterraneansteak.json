@@ -16,7 +16,6 @@
     "Creamy",
     "Dinner",
     "Gluten-Free",
-    "Italian",
     "Rich",
     "Savoury"
   ],
@@ -214,5 +213,6 @@
     "vitamin_c_mg": 8,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-09-08"
+  "lastModified": "2026-09-08",
+  "cuisine": "Italian"
 }

@@ -11,7 +11,6 @@
   "yieldPerBatch": "4 servings",
   "tags": [
     "Dinner",
-    "Filipino",
     "Gluten-Free",
     "Make-Ahead",
     "Pork",
@@ -115,7 +114,6 @@
       "id": "pancitfilipinostirfriednoodles",
       "title": "Pancit (Filipino Stir-Fried Noodles)",
       "matchingTags": [
-        
         "Chinese",
         "Dinner",
         "Drinks",
@@ -129,7 +127,6 @@
       "id": "sweetsourpork",
       "title": "Better Than Takeaway Sweet & Sour Pork",
       "matchingTags": [
-        
         "Chinese",
         "Dinner",
         "Gluten-Free",
@@ -155,7 +152,6 @@
       "id": "honeysoychicken",
       "title": "Honey Soy Chicken",
       "matchingTags": [
-        
         "Chinese",
         "Dinner",
         "Gluten-Free",
@@ -168,7 +164,6 @@
       "id": "pancitbihon",
       "title": "Pancit Bihon",
       "matchingTags": [
-        
         "Chinese",
         "Dinner",
         "Filipino",
@@ -204,5 +199,6 @@
     "vitamin_c_mg": 12,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Filipino"
 }

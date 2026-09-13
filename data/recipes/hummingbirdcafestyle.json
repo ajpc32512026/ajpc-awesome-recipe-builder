@@ -16,8 +16,7 @@
     "Party",
     "Rich",
     "Sweet",
-    "Vegetarian",
-    "Jamacian"
+    "Vegetarian"
   ],
   "ingredients": [
     {
@@ -244,5 +243,6 @@
     "vitamin_c_mg": 381,
     "vitamin_d_ug": 4
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Jamacian"
 }

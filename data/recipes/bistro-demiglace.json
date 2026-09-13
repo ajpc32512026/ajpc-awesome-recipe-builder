@@ -13,7 +13,6 @@
     "Bistro",
     "Classic",
     "Dinner",
-    "French",
     "Make-Ahead",
     "Sauce"
   ],
@@ -234,5 +233,6 @@
     "vitamin_a_ug": 20,
     "vitamin_c_mg": 14
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "French"
 }

@@ -10,6 +10,7 @@ let currentFilename   = '';
 let tags              = [];
 let recipeIndex       = [];
 let referenceIndex    = [];
+let cuisineList       = [];
 
 // NUTRITION_DB lives here — builder-nutrition.js reads this variable.
 // It's now DERIVED from data/ingredients-master.json (the single unified
@@ -24,6 +25,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     await loadNutritionDB();
     await loadRecipeIndexForRelated();
     await loadReferenceIndexForSeeAlso();
+    await loadCuisineList();
     initScrollToTop();
     update();
 });
@@ -69,6 +71,17 @@ async function loadReferenceIndexForSeeAlso() {
             if (typeof populateSeeAlsoDropdown === 'function') populateSeeAlsoDropdown();
         }
     } catch(e) { console.warn('Could not load reference index'); }
+}
+
+async function loadCuisineList() {
+    try {
+        const res = await fetch('json/official-tag-vocabulary.json?t=' + Date.now());
+        if (res.ok) {
+            const vocab = await res.json();
+            cuisineList = (vocab.tagVocabulary && vocab.tagVocabulary.cuisine) || [];
+            if (typeof populateCuisineDropdown === 'function') populateCuisineDropdown();
+        }
+    } catch(e) { console.warn('Could not load official-tag-vocabulary.json for cuisine list'); }
 }
 
 // ── Main Update Loop ──────────────────────────────────────

@@ -328,6 +328,8 @@ function clearForm(skipConfirm=false) {
     document.querySelectorAll('input[type="text"], input[type="number"], textarea').forEach(i => i.value = '');
     document.querySelectorAll('select').forEach(s => s.selectedIndex = 0);
     document.querySelectorAll('.dynamic-list').forEach(l => l.innerHTML = '');
+    const cuisineOther = document.getElementById('cuisine-other');
+    if (cuisineOther) cuisineOther.style.display = 'none';
     tags = []; renderTags();
     currentFilename   = '';
     currentFileHandle = null;
@@ -641,3 +643,47 @@ window.loadSeeAlso = function(entry) {
 };
 
 document.addEventListener('DOMContentLoaded', initDragDrop);
+
+// ── CUISINE ────────────────────────────────────────────────
+window.populateCuisineDropdown = function() {
+    const select = document.getElementById('cuisine');
+    if (!select) return;
+    const current = select.value; // preserve selection if this runs again after load
+    const sorted = [...(cuisineList || [])].sort((a, b) => a.localeCompare(b));
+    select.innerHTML = '<option value="">— None —</option>' +
+        sorted.map(c => `<option>${escHtml(c)}</option>`).join('') +
+        '<option value="__other__">Other…</option>';
+    if (current) select.value = current;
+};
+
+window.handleCuisineChange = function() {
+    const select = document.getElementById('cuisine');
+    const otherInput = document.getElementById('cuisine-other');
+    if (!select || !otherInput) return;
+    if (select.value === '__other__') {
+        otherInput.style.display = 'block';
+        otherInput.focus();
+    } else {
+        otherInput.style.display = 'none';
+        otherInput.value = '';
+    }
+    update();
+};
+
+// Loads a saved cuisine value into the dropdown — falls back to "Other…"
+// with the free-text field filled in if it's not one of the known 21.
+window.setCuisineValue = function(value) {
+    const select = document.getElementById('cuisine');
+    const otherInput = document.getElementById('cuisine-other');
+    if (!select) return;
+    if (!value) { select.value = ''; return; }
+
+    const knownOption = Array.from(select.options).find(o => o.value === value);
+    if (knownOption) {
+        select.value = value;
+        if (otherInput) { otherInput.style.display = 'none'; otherInput.value = ''; }
+    } else {
+        select.value = '__other__';
+        if (otherInput) { otherInput.style.display = 'block'; otherInput.value = value; }
+    }
+};

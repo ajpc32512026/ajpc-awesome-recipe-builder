@@ -10,7 +10,6 @@
   "servings": "1",
   "yieldPerBatch": "1 batch",
   "tags": [
-    "Australian",
     "Bakery-Style",
     "Classic",
     "Gluten-Free",
@@ -161,5 +160,6 @@
     "vitamin_a_ug": 1605,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Australian"
 }

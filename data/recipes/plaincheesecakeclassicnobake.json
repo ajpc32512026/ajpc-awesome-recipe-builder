@@ -18,8 +18,7 @@
     "No-Cook",
     "Rich",
     "Sweet",
-    "Vegetarian",
-    "Australian"
+    "Vegetarian"
   ],
   "ingredients": [
     {
@@ -190,5 +189,6 @@
     "cholesterol_mg": 83,
     "vitamin_a_ug": 248
   },
-  "lastModified": "2026-09-12"
+  "lastModified": "2026-09-12",
+  "cuisine": "Australian"
 }

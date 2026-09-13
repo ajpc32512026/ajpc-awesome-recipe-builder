@@ -12,7 +12,6 @@
   "tags": [
     "Curry",
     "Gluten-Free",
-    "Indian",
     "Make-Ahead",
     "Savoury",
     "Spicy",
@@ -210,5 +209,6 @@
     "vitamin_a_ug": 2681,
     "vitamin_c_mg": 991
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Indian"
 }

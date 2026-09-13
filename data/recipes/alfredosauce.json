@@ -12,7 +12,6 @@
   "tags": [
     "Creamy",
     "Gluten-Free",
-    "Italian",
     "Pasta",
     "Sauce",
     "Vegetarian"
@@ -160,5 +159,6 @@
     "vitamin_a_ug": 330,
     "vitamin_c_mg": 6
   },
-  "lastModified": "2026-09-11"
+  "lastModified": "2026-09-11",
+  "cuisine": "Italian"
 }

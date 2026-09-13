@@ -16,8 +16,7 @@
     "Lemon",
     "Pastry",
     "Sweet",
-    "Vegetarian",
-    "Australian"
+    "Vegetarian"
   ],
   "ingredients": [
     {
@@ -225,5 +224,6 @@
     "vitamin_c_mg": 167,
     "vitamin_d_ug": 6
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Australian"
 }

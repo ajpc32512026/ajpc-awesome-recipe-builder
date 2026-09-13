@@ -11,7 +11,6 @@
   "yieldPerBatch": "4 servings",
   "tags": [
     "Gluten-Free",
-    "Italian",
     "Sauce",
     "Spicy",
     "Tomato",
@@ -178,5 +177,6 @@
     "vitamin_a_ug": 44,
     "vitamin_c_mg": 933
   },
-  "lastModified": "2026-09-10"
+  "lastModified": "2026-09-10",
+  "cuisine": "Italian"
 }

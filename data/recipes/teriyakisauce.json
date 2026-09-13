@@ -11,7 +11,6 @@
   "yieldPerBatch": "4 servings",
   "tags": [
     "Gluten-Free",
-    "Japanese",
     "Make-Ahead",
     "Sauce",
     "Sweet",
@@ -160,5 +159,6 @@
     "vitamin_a_ug": 1,
     "vitamin_c_mg": 3
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Japanese"
 }

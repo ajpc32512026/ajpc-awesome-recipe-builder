@@ -14,7 +14,6 @@
     "Baking",
     "Bread",
     "Crusty",
-    "European",
     "Make-Ahead",
     "Sourdough Style",
     "Vegan",
@@ -226,5 +225,6 @@
     "zinc_mg": 6,
     "vitamin_a_ug": 1
   },
-  "lastModified": "2026-09-10"
+  "lastModified": "2026-09-10",
+  "cuisine": "European"
 }

@@ -10,7 +10,6 @@
   "servings": "8 serves",
   "yieldPerBatch": "1 batch",
   "tags": [
-    
     "Classic",
     "Creamy",
     "Dessert",
@@ -20,8 +19,7 @@
     "Party",
     "Rich",
     "Sweet",
-    "Vegetarian",
-    "Australian"
+    "Vegetarian"
   ],
   "ingredients": [
     {
@@ -170,13 +168,38 @@
       "id": "plaincheesecakeclassicnobake",
       "title": "Plain Cheesecake (Classic No Bake)",
       "matchingTags": [
-        "American",
-        
         "Classic",
         "Creamy",
         "Dessert",
+        "Make-Ahead",
+        "Rich",
+        "Sweet",
+        "Vegetarian",
+        "Australian"
+      ]
+    },
+    {
+      "id": "chocolaterumballs",
+      "title": "Chocolate Rum Balls",
+      "matchingTags": [
+        "Australian",
+        "Dessert",
         "Gluten-Free",
         "Make-Ahead",
+        "Party",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "apricotflan",
+      "title": "Apricot Flan",
+      "matchingTags": [
+        "Australian",
+        "Classic",
+        "Creamy",
+        "Dessert",
         "Rich",
         "Sweet",
         "Vegetarian"
@@ -189,8 +212,6 @@
         "Classic",
         "Creamy",
         "Dessert",
-        "Drinks",
-        "Gluten-Free",
         "Make-Ahead",
         "Rich",
         "Sweet",
@@ -198,44 +219,14 @@
       ]
     },
     {
-      "id": "classiccarrotcake",
-      "title": "Classic Carrot Cake",
+      "id": "chocolatemousse",
+      "title": "Chocolate Mousse",
       "matchingTags": [
-        "American",
-        
-        "Classic",
-        "Creamy",
-        "Dessert",
-        "Drinks",
-        "Party",
-        "Sweet",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "cremecaramel",
-      "title": "Crème Caramel",
-      "matchingTags": [
-        
-        "Classic",
         "Creamy",
         "Dessert",
         "Gluten-Free",
         "Make-Ahead",
         "Rich",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "lemonmeringuepie",
-      "title": "Lemon Meringue Pie",
-      "matchingTags": [
-        "American",
-        
-        "Classic",
-        "Dessert",
-        "Drinks",
-        "Gluten-Free",
         "Sweet",
         "Vegetarian"
       ]
@@ -267,5 +258,6 @@
     "vitamin_c_mg": 82,
     "vitamin_d_ug": 5
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-13",
+  "cuisine": "Australian"
 }

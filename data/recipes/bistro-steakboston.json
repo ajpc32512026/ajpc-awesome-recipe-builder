@@ -10,7 +10,6 @@
   "servings": "1 serving",
   "yieldPerBatch": "1 serving",
   "tags": [
-    "American",
     "Beef",
     "Bistro",
     "Classic",
@@ -220,5 +219,6 @@
     "vitamin_c_mg": 9,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "American"
 }

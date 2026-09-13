@@ -13,7 +13,6 @@
     "Classic",
     "Dinner",
     "Gluten-Free",
-    "Italian",
     "Rich",
     "Savoury",
     "Tomato"
@@ -272,5 +271,6 @@
     "vitamin_c_mg": 34,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-09-10"
+  "lastModified": "2026-09-10",
+  "cuisine": "Italian"
 }

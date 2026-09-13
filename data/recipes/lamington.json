@@ -10,7 +10,6 @@
   "servings": "16 squares",
   "yieldPerBatch": "16 squares",
   "tags": [
-    "Australian",
     "Baking",
     "Cake",
     "Chocolate",
@@ -241,5 +240,6 @@
     "vitamin_a_ug": 136,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Australian"
 }

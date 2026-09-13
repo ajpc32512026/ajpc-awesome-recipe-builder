@@ -12,7 +12,6 @@
   "tags": [
     "Baking",
     "Classic",
-    "French",
     "Make-Ahead",
     "Pastry",
     "Vegetarian"
@@ -213,5 +212,6 @@
     "vitamin_a_ug": 3432,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "French"
 }

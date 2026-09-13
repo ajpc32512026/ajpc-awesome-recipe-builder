@@ -12,7 +12,6 @@
   "tags": [
     "Baking",
     "Bread",
-    "Italian",
     "Savoury",
     "Vegan",
     "Vegetarian"
@@ -204,5 +203,6 @@
     "magnesium_mg": 64,
     "zinc_mg": 2
   },
-  "lastModified": "2026-09-10"
+  "lastModified": "2026-09-10",
+  "cuisine": "Italian"
 }

@@ -14,7 +14,6 @@
     "Beef",
     "Classic",
     "Dinner",
-    "Italian",
     "Lunch",
     "Make-Ahead",
     "Pasta",
@@ -288,5 +287,6 @@
     "vitamin_c_mg": 19,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Italian"
 }

@@ -18,8 +18,7 @@
     "Single Serve",
     "Sweet",
     "Vegetarian",
-    "Egg-free",
-    "Australian"
+    "Egg-free"
   ],
   "ingredients": [
     {
@@ -190,5 +189,6 @@
     "cholesterol_mg": 13,
     "vitamin_a_ug": 63
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Australian"
 }

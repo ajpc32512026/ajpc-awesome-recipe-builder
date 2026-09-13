@@ -16,8 +16,7 @@
     "Dinner",
     "Gluten-Free",
     "Savoury",
-    "Sweet",
-    "Filipino"
+    "Sweet"
   ],
   "ingredients": [
     {
@@ -236,5 +235,6 @@
     "vitamin_c_mg": 20,
     "vitamin_d_ug": 0
   },
-  "lastModified": "2026-08-29"
+  "lastModified": "2026-08-29",
+  "cuisine": "Filipino"
 }

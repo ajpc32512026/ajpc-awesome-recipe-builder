@@ -16,8 +16,7 @@
     "Easy",
     "Savoury",
     "Snack",
-    "Lunch",
-    "Australian"
+    "Lunch"
   ],
   "ingredients": [
     {
@@ -208,5 +207,6 @@
     "vitamin_c_mg": 8,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Australian"
 }

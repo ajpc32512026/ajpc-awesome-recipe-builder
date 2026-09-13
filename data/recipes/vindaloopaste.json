@@ -14,7 +14,6 @@
     "Condiment",
     "Curry",
     "Gluten-Free",
-    "Indian",
     "Make-Ahead",
     "Savoury",
     "Spicy",
@@ -213,5 +212,6 @@
     "vitamin_a_ug": 26828,
     "vitamin_c_mg": 690
   },
-  "lastModified": "2026-09-12"
+  "lastModified": "2026-09-12",
+  "cuisine": "Indian"
 }

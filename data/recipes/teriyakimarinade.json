@@ -12,7 +12,6 @@
   "tags": [
     "Dinner",
     "Gluten-Free",
-    "Japanese",
     "Make-Ahead",
     "Sauce",
     "Savoury",
@@ -154,5 +153,6 @@
     "vitamin_a_ug": 6,
     "vitamin_c_mg": 33
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Japanese"
 }

@@ -15,8 +15,7 @@
     "Classic",
     "Make-Ahead",
     "Savoury",
-    "Vegetarian",
-    "Turkish"
+    "Vegetarian"
   ],
   "ingredients": [
     {
@@ -224,5 +223,6 @@
     "magnesium_mg": 122,
     "zinc_mg": 3
   },
-  "lastModified": "2026-09-10"
+  "lastModified": "2026-09-10",
+  "cuisine": "Turkish"
 }

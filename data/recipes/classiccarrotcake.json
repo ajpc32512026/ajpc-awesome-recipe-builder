@@ -17,8 +17,7 @@
     "Dessert",
     "Party",
     "Sweet",
-    "Vegetarian",
-    "Australian"
+    "Vegetarian"
   ],
   "ingredients": [
     {
@@ -278,5 +277,6 @@
     "vitamin_a_ug": 185,
     "vitamin_d_ug": 4
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Australian"
 }

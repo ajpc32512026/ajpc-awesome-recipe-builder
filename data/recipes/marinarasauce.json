@@ -12,7 +12,6 @@
   "tags": [
     "Classic",
     "Gluten-Free",
-    "Italian",
     "Sauce",
     "Tomato",
     "Vegan",
@@ -175,5 +174,6 @@
     "vitamin_a_ug": 11,
     "vitamin_c_mg": 885
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Italian"
 }

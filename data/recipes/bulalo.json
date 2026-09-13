@@ -12,7 +12,6 @@
   "tags": [
     "Beef",
     "Dinner",
-    "Filipino",
     "Gluten-Free",
     "Slow-Cooked"
   ],
@@ -221,5 +220,6 @@
     "vitamin_c_mg": 131,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Filipino"
 }

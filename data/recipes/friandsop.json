@@ -12,7 +12,6 @@
   "tags": [
     "Baking",
     "Dessert",
-    "French",
     "Gluten-Free",
     "Orange",
     "Rich",
@@ -208,5 +207,6 @@
     "vitamin_a_ug": 161,
     "vitamin_c_mg": 126
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "French"
 }

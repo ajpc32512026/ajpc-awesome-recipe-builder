@@ -10,7 +10,6 @@
   "servings": "8 servings",
   "yieldPerBatch": "8 servings",
   "tags": [
-    "Australian",
     "Classic",
     "Creamy",
     "Dessert",
@@ -206,5 +205,6 @@
     "vitamin_a_ug": 111,
     "vitamin_c_mg": 36
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Australian"
 }

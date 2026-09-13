@@ -15,7 +15,6 @@
     "Classic",
     "Creamy",
     "Dessert",
-    "Italian",
     "Make-Ahead",
     "Rich",
     "Sweet",
@@ -318,5 +317,6 @@
     "vitamin_c_mg": 8,
     "vitamin_d_ug": 10
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Italian"
 }

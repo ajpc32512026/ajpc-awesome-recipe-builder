@@ -12,7 +12,6 @@
   "tags": [
     "Baking",
     "Dinner",
-    "European",
     "Fish",
     "Lemon",
     "Savoury"
@@ -201,5 +200,6 @@
     "vitamin_a_ug": 266,
     "vitamin_c_mg": 50
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "European"
 }

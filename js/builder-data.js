@@ -32,6 +32,16 @@ function buildJSON() {
                        'prepTime','cookTime','totalTime','servings','yieldPerBatch'];
     optFields.forEach(f => { const v = val(f); if (v) obj[f] = v; });
 
+    // Cuisine — needs special handling since "Other…" defers to a free-text
+    // field rather than the select's own value.
+    const cuisineSelectVal = val('cuisine');
+    if (cuisineSelectVal === '__other__') {
+        const other = val('cuisine-other');
+        if (other) obj.cuisine = other;
+    } else if (cuisineSelectVal) {
+        obj.cuisine = cuisineSelectVal;
+    }
+
     if (tags.length) obj.tags = [...tags];
 
     // ── Ingredients ──
@@ -241,6 +251,9 @@ function populateForm(data) {
             }
         }
     });
+
+    // Cuisine — handled separately since it may need the "Other…" free-text field
+    if (typeof window.setCuisineValue === 'function') window.setCuisineValue(data.cuisine || '');
 
     // Emoji
 

@@ -10,7 +10,6 @@
   "servings": "4 servings",
   "yieldPerBatch": "1 flan",
   "tags": [
-    "French",
     "Pastry",
     "Rich",
     "Savoury",
@@ -243,5 +242,6 @@
     "vitamin_c_mg": 26,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-09-10"
+  "lastModified": "2026-09-10",
+  "cuisine": "French"
 }

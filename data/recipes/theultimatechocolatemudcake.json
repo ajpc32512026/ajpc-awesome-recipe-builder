@@ -10,7 +10,6 @@
   "servings": "10 servings",
   "yieldPerBatch": "1 cake",
   "tags": [
-    "Australian",
     "Baking",
     "Cake",
     "Chocolate",
@@ -247,5 +246,6 @@
     "vitamin_a_ug": 413,
     "vitamin_d_ug": 5
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Australian"
 }

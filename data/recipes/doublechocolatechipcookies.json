@@ -13,13 +13,10 @@
     "Baking",
     "Chocolate",
     "Classic",
-    "Cookies",
     "Make-Ahead",
-    "Rich",
     "Snack",
     "Sweet",
-    "Vegetarian",
-    "Australian"
+    "Vegetarian"
   ],
   "ingredients": [
     {
@@ -209,5 +206,6 @@
     "vitamin_a_ug": 205,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-13",
+  "cuisine": "Australian"
 }

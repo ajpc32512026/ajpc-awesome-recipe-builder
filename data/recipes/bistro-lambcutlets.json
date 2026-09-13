@@ -10,7 +10,6 @@
   "servings": "1 serving",
   "yieldPerBatch": "1 serving",
   "tags": [
-    "Australian",
     "Bistro",
     "Dinner",
     "Lamb",
@@ -184,5 +183,6 @@
     "vitamin_c_mg": 7,
     "vitamin_d_ug": 23
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Australian"
 }

@@ -13,7 +13,6 @@
     "Classic",
     "Creamy",
     "Dessert",
-    "French",
     "Gluten-Free",
     "Make-Ahead",
     "Rich",
@@ -217,5 +216,6 @@
     "vitamin_a_ug": 324,
     "vitamin_d_ug": 9
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "French"
 }

@@ -10,7 +10,6 @@
   "servings": "6",
   "yieldPerBatch": "1 batch",
   "tags": [
-    "Australian",
     "Chicken",
     "Classic",
     "Dinner",
@@ -203,5 +202,6 @@
     "vitamin_a_ug": 133,
     "vitamin_c_mg": 11
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Australian"
 }
