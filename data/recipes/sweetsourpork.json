@@ -10,7 +10,6 @@
   "servings": "4 servings",
   "yieldPerBatch": "4 servings",
   "tags": [
-    "Chinese",
     "Classic",
     "Dinner",
     "Gluten-Free",
@@ -252,5 +251,6 @@
     "vitamin_c_mg": 50,
     "vitamin_d_ug": 5
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Chinese"
 }

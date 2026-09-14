@@ -11,7 +11,6 @@
   "yieldPerBatch": "2 serves",
   "tags": [
     "Chicken",
-    "Chinese",
     "Dinner",
     "Easy",
     "Gluten-Free",
@@ -265,5 +264,6 @@
     "vitamin_c_mg": 17,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Chinese"
 }

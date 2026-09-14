@@ -9,10 +9,12 @@
   "totalTime": "45 min",
   "servings": "12 muffins",
   "yieldPerBatch": "12 muffins",
+  "cuisine": "Australian",
   "tags": [
     "Baking",
     "Sweet",
-    "Vegetarian"
+    "Vegetarian",
+    "Snack"
   ],
   "ingredients": [
     {
@@ -195,6 +197,5 @@
     "vitamin_a_ug": 56,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-09-09",
-  "cuisine": "Australian"
+  "lastModified": "2026-09-14"
 }

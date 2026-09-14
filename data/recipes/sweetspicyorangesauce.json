@@ -10,7 +10,6 @@
   "servings": "4 servings",
   "yieldPerBatch": "4 servings",
   "tags": [
-    "Chinese",
     "Gluten-Free",
     "Orange",
     "Spicy",
@@ -175,5 +174,6 @@
     "vitamin_a_ug": 111,
     "vitamin_c_mg": 774
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Chinese"
 }

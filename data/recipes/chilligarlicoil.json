@@ -10,7 +10,6 @@
   "servings": "8 servings",
   "yieldPerBatch": "8 servings",
   "tags": [
-    "Chinese",
     "Gluten-Free",
     "Make-Ahead",
     "Sauce",
@@ -177,5 +176,6 @@
     "vitamin_a_ug": 101,
     "vitamin_c_mg": 4
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Chinese"
 }

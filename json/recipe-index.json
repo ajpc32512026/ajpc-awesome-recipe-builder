@@ -1697,7 +1697,8 @@
     "tags": [
       "Baking",
       "Sweet",
-      "Vegetarian"
+      "Vegetarian",
+      "Snack"
     ],
     "ingredients": [
       {
@@ -2032,7 +2033,6 @@
     "difficulty": "Intermediate",
     "tags": [
       "Chicken",
-      "Chinese",
       "Creamy",
       "Dinner",
       "Pastry",
@@ -2144,7 +2144,6 @@
     "category": "Dinner",
     "tags": [
       "Chicken",
-      "Chinese",
       "Classic",
       "Dinner",
       "Gluten-Free",
@@ -2232,13 +2231,34 @@
     "title": "Chilli Garlic Oil",
     "category": "Sauces",
     "tags": [
-      "Chinese",
       "Gluten-Free",
       "Make-Ahead",
       "Sauce",
       "Spicy",
       "Vegan",
       "Vegetarian"
+    ],
+    "description": "A fragrant Asian condiment — fiery, aromatic, and incredibly versatile. Elevates everything it touches.",
+    "difficulty": "Beginner",
+    "ingredients": [
+      {
+        "item": "Vegetable Oil"
+      },
+      {
+        "item": "Red Chilli Flakes"
+      },
+      {
+        "item": "Garlic"
+      },
+      {
+        "item": "Soy Sauce"
+      },
+      {
+        "item": "White Sugar"
+      },
+      {
+        "item": "Salt"
+      }
     ]
   },
   {
@@ -3018,7 +3038,7 @@
         "item": "Kalamata Olives"
       },
       {
-        "item": "Rosemary"
+        "item": "Fresh Rosemary"
       },
       {
         "item": "Oregano"
@@ -3230,7 +3250,6 @@
     "description": "A sweet, tangy, and creamy honey mustard sauce. Using a Greek yogurt base keeps the sauce oil-free, while a combination of Dijon and yellow mustard provides a classic condiment flavor.",
     "difficulty": "Beginner",
     "tags": [
-      "Chinese",
       "Condiment",
       "Gluten-Free",
       "Sauce",
@@ -3268,7 +3287,6 @@
     "category": "Dinner",
     "tags": [
       "Chicken",
-      "Chinese",
       "Dinner",
       "Easy",
       "Gluten-Free",
@@ -3453,7 +3471,6 @@
     "description": "Succulent lamb cooked low and slow in a classic, fiery vindaloo sauce.",
     "difficulty": "Intermediate",
     "tags": [
-      "Chinese",
       "Curry",
       "Dinner",
       "Gluten-Free",
@@ -3961,7 +3978,6 @@
     "category": "Dinner",
     "tags": [
       "Beef",
-      "Chinese",
       "Dinner",
       "Gluten-Free",
       "Savoury",
@@ -4023,7 +4039,6 @@
     "title": "Mongolian Lamb",
     "category": "Dinner",
     "tags": [
-      "Chinese",
       "Dinner",
       "Gluten-Free",
       "Lamb",
@@ -4086,7 +4101,6 @@
     "title": "Mongolian Stir-Fry Sauce",
     "category": "Sauces",
     "tags": [
-      "Chinese",
       "Dinner",
       "Gluten-Free",
       "Make-Ahead",
@@ -4800,7 +4814,7 @@
         "item": "White Vinegar"
       },
       {
-        "item": "Chilli Flakes"
+        "item": "Rec Chilli Flakes"
       },
       {
         "item": "Cornflour"
@@ -5052,7 +5066,6 @@
       "Baking",
       "Classic",
       "Dessert",
-      "Freezer Friendly",
       "Make-Ahead",
       "Pastry",
       "Vegetarian"
@@ -5658,7 +5671,6 @@
     "description": "Golden, crispy pork with a sticky, tangy sauce — exactly what you want when you skip the takeaway.",
     "difficulty": "Intermediate",
     "tags": [
-      "Chinese",
       "Classic",
       "Dinner",
       "Gluten-Free",
@@ -5767,7 +5779,6 @@
     "description": "A zesty Asian-inspired sauce — citrusy, fiery, and utterly moreish. Restaurant quality at home.",
     "difficulty": "Beginner",
     "tags": [
-      "Chinese",
       "Gluten-Free",
       "Orange",
       "Spicy",
@@ -5810,7 +5821,6 @@
     "difficulty": "Beginner",
     "tags": [
       "Baking",
-      "Chinese",
       "Condiment",
       "Gluten-Free",
       "Sauce",

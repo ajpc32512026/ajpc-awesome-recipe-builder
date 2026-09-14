@@ -10,7 +10,6 @@
   "servings": "1 batch",
   "yieldPerBatch": "1 batch",
   "tags": [
-    "Chinese",
     "Dinner",
     "Gluten-Free",
     "Make-Ahead",
@@ -204,5 +203,6 @@
     "magnesium_mg": 4,
     "vitamin_a_ug": 3
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Chinese"
 }

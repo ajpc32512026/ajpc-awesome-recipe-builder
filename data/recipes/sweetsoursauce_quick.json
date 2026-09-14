@@ -11,7 +11,6 @@
   "yieldPerBatch": "6 servings",
   "tags": [
     "Baking",
-    "Chinese",
     "Condiment",
     "Gluten-Free",
     "Sauce",
@@ -208,5 +207,6 @@
     "vitamin_a_ug": 275,
     "vitamin_c_mg": 168
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Chinese"
 }

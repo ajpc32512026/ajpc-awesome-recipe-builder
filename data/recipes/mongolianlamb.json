@@ -10,7 +10,6 @@
   "servings": "2 servings",
   "yieldPerBatch": "2 servings",
   "tags": [
-    "Chinese",
     "Dinner",
     "Gluten-Free",
     "Lamb",
@@ -243,5 +242,6 @@
     "vitamin_c_mg": 79,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Chinese"
 }

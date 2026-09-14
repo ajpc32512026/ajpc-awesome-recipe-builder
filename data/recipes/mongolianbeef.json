@@ -11,7 +11,6 @@
   "yieldPerBatch": "2 servings",
   "tags": [
     "Beef",
-    "Chinese",
     "Dinner",
     "Gluten-Free",
     "Savoury",
@@ -243,5 +242,6 @@
     "vitamin_c_mg": 64,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-09-09"
+  "lastModified": "2026-09-09",
+  "cuisine": "Chinese"
 }
