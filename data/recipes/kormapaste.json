@@ -9,6 +9,7 @@
   "totalTime": "12 min",
   "servings": "1 batch",
   "yieldPerBatch": "1 batch",
+  "cuisine": "Indian",
   "tags": [
     "Curry",
     "Gluten-Free",
@@ -209,6 +210,5 @@
     "vitamin_a_ug": 2681,
     "vitamin_c_mg": 991
   },
-  "lastModified": "2026-09-09",
-  "cuisine": "Indian"
+  "lastModified": "2026-09-13"
 }

@@ -9,8 +9,8 @@
   "totalTime": "7 min",
   "servings": "1 batch",
   "yieldPerBatch": "1 batch",
+  "cuisine": "Indian",
   "tags": [
-    "Chinese",
     "Condiment",
     "Curry",
     "Gluten-Free",
@@ -114,11 +114,8 @@
       "id": "kormapaste",
       "title": "Homemade Korma Paste",
       "matchingTags": [
-        "Chinese",
-        "Condiment",
         "Curry",
         "Gluten-Free",
-        "Indian",
         "Make-Ahead",
         "Savoury",
         "Spicy",
@@ -130,10 +127,7 @@
       "id": "sataysauce",
       "title": "Satay Sauce",
       "matchingTags": [
-        "Chinese",
-        "Condiment",
         "Gluten-Free",
-        "Indian",
         "Make-Ahead",
         "Savoury",
         "Spicy",
@@ -145,8 +139,6 @@
       "id": "chilligarlicoil",
       "title": "Chilli Garlic Oil",
       "matchingTags": [
-        "Chinese",
-        "Condiment",
         "Gluten-Free",
         "Make-Ahead",
         "Spicy",
@@ -158,8 +150,6 @@
       "id": "mongoliansauce",
       "title": "Mongolian Stir-Fry Sauce",
       "matchingTags": [
-        "Chinese",
-        "Condiment",
         "Gluten-Free",
         "Make-Ahead",
         "Savoury",
@@ -171,9 +161,7 @@
       "id": "sweetsoursauce_flex",
       "title": "Sweet & Sour Sauce – Home Chef Flex",
       "matchingTags": [
-        "Chinese",
         "Condiment",
-        "Drinks",
         "Gluten-Free",
         "Make-Ahead",
         "Vegan",
@@ -181,10 +169,10 @@
       ]
     }
   ],
-  "usesRecipes": [
+  "seeAlso": [
     {
-      "id": "beefvindaloo",
-      "title": "Beef Vindaloo"
+      "title": "Beef Vindaloo",
+      "id": "beefvindaloo"
     }
   ],
   "nutrition": {
@@ -212,6 +200,5 @@
     "vitamin_a_ug": 26828,
     "vitamin_c_mg": 690
   },
-  "lastModified": "2026-09-12",
-  "cuisine": "Indian"
+  "lastModified": "2026-09-13"
 }
