@@ -1,8 +1,10 @@
 /* =========================================================
    AJPC KITCHEN NOTEBOOK — COMPLETE REDESIGN
-   Design: Dark Editorial Magazine
+   Design: Editorial Magazine, warm food photography palette
    Fonts: DM Serif Display + DM Sans
-   Palette: Charcoal, Cream, Copper, Slate
+   Palette: Cocoa Bar dark mode and Patisserie light mode,
+   sampled from caramel, cream, cocoa, berry, and charcoal.
+   :root is dark; body.light-mode switches to the light palette.
 ========================================================= */
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300;1,9..40,400&display=swap');
@@ -12,49 +14,55 @@
 ========================================================= */
 :root {
 	--nav-height: 110px; /* approximate height of both nav rows */
-    /* Core Palette */
-    --ink: #16161a;
-    --ink-soft: #1e1e24;
-    --ink-medium: #252530;
-    --slate: #2d2d3a;
-    --slate-mid: #3a3a4a;
-    --slate-light: #4a4a5e;
+    /* Core Palette — Dark / Cocoa Bar */
+    --ink: #171115;
+    --ink-soft: #211719;
+    --ink-medium: #2A1D1C;
+    --slate: #392622;
+    --slate-mid: #4A3229;
+    --slate-light: #604337;
 
     /* Text */
-    --cream: #f0ebe2;
-    --cream-dim: #c8c0b4;
-    --cream-muted: #8a8278;
-    --cream-faint: #5a5650;
+    --cream: #F4E7CE;
+    --cream-dim: #D1BFA7;
+    --cream-muted: #B89D87;
+    --cream-faint: #8E7565;
 
-    /* Accent - Copper/Amber */
-    --copper: #c97d3e;
-    --copper-warm: #e09050;
-    --copper-pale: #f4d5b0;
-    --copper-dark: #9a5e28;
+    /* Accent - Primary (apricot/caramel) */
+    --copper: #E6A64F;
+    --copper-rgb: 230, 166, 79;
+    --copper-warm: #F0B45F;
+    --copper-pale: rgba(230, 166, 79, 0.18);
+    --copper-dark: #B76C2A;
+    --berry: #D95A5B;
+    --berry-rgb: 217, 90, 91;
 
-    /* Accent - Sage (subtle) */
-    --sage: #7a9e8a;
-    --sage-dark: #5c7a6a;
+    /* Accent - Secondary (natural herb/status colour) */
+    --sage: #87A77F;
+    --sage-rgb: 135, 167, 127;
+    --sage-dark: #65815F;
+    --sage-pale: rgba(135, 167, 127, 0.16);
 
     /* Surfaces */
-    --surface-0: #16161a;
-    --surface-1: #1e1e24;
-    --surface-2: #252530;
-    --surface-3: #2d2d3a;
-    --surface-card: #1e1e26;
-    --surface-raised: #252532;
+    --surface-0: #171115;
+    --surface-0-rgb: 23, 17, 21;
+    --surface-1: #2A1D1C;
+    --surface-2: #392622;
+    --surface-3: #4A3229;
+    --surface-card: #2A1D1C;
+    --surface-raised: #392622;
 
     /* Borders */
-    --border-dim: rgba(240, 235, 226, 0.08);
-    --border-mid: rgba(240, 235, 226, 0.14);
-    --border-bright: rgba(240, 235, 226, 0.22);
-    --border-copper: rgba(201, 125, 62, 0.35);
+    --border-dim: rgba(244, 231, 206, 0.10);
+    --border-mid: rgba(244, 231, 206, 0.18);
+    --border-bright: rgba(244, 231, 206, 0.30);
+    --border-copper: rgba(230, 166, 79, 0.35);
 
     /* Shadows */
     --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
     --shadow-md: 0 6px 24px rgba(0, 0, 0, 0.5);
     --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.6);
-    --shadow-copper: 0 8px 32px rgba(201, 125, 62, 0.15);
+    --shadow-copper: 0 8px 32px rgba(230, 166, 79, 0.15);
 
     /* Typography */
     --font-display: 'DM Serif Display', Georgia, serif;
@@ -237,7 +245,7 @@ li {
     left: 0;
     right: 0;
     width: 100%;
-    background: rgba(22, 22, 26, 0.96);
+    background: rgba(var(--surface-0-rgb), 0.96);
     border-bottom: 1px solid var(--border-mid);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
@@ -302,7 +310,7 @@ li {
 .nav-search input:focus {
     outline: none;
     border-color: var(--copper);
-    box-shadow: 0 0 0 3px rgba(201, 125, 62, 0.15);
+    box-shadow: 0 0 0 3px rgba(var(--copper-rgb), 0.15);
 }
 
 .search-icon {
@@ -470,13 +478,13 @@ li {
 }
 
 .nav-direct.accent {
-    background: rgba(201, 125, 62, 0.15);
+    background: rgba(var(--copper-rgb), 0.15);
     border-color: var(--border-copper);
     color: var(--copper-warm);
 }
 
 .nav-direct.accent:hover {
-    background: rgba(201, 125, 62, 0.25);
+    background: rgba(var(--copper-rgb), 0.25);
     color: var(--copper-pale);
 }
 
@@ -636,7 +644,7 @@ li {
     right: -120px;
     width: 480px;
     height: 480px;
-    background: radial-gradient(circle, rgba(201, 125, 62, 0.07) 0%, transparent 65%);
+    background: radial-gradient(circle, rgba(var(--copper-rgb), 0.07) 0%, transparent 65%);
     pointer-events: none;
 }
 
@@ -824,7 +832,7 @@ li {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(201, 125, 62, 0.04) 0%, transparent 60%);
+    background: linear-gradient(135deg, rgba(var(--copper-rgb), 0.04) 0%, transparent 60%);
     opacity: 0;
     transition: opacity var(--t-base);
 }
@@ -935,7 +943,7 @@ li {
     color: var(--copper);
     font-weight: 600;
     font-family: var(--font-body);
-    background: rgba(201, 125, 62, 0.1);
+    background: rgba(var(--copper-rgb), 0.1);
     border: 1px solid var(--border-copper);
     padding: 0.2rem 0.6rem;
     border-radius: var(--r-sm);
@@ -1424,8 +1432,8 @@ li {
 
 /* Recipe Warnings */
 .recipe-warnings {
-    background: rgba(201, 125, 62, 0.08);
-    border: 1px solid rgba(201, 125, 62, 0.3);
+    background: rgba(var(--copper-rgb), 0.08);
+    border: 1px solid rgba(var(--copper-rgb), 0.3);
     border-radius: var(--r-md);
     padding: var(--sp-md) var(--sp-lg);
     margin-bottom: var(--sp-lg);
@@ -1608,13 +1616,13 @@ li {
 }
 
 .toolbar-btn.primary {
-    background: rgba(201, 125, 62, 0.15);
+    background: rgba(var(--copper-rgb), 0.15);
     border-color: var(--border-copper);
     color: var(--copper-warm);
 }
 
 .toolbar-btn.primary:hover {
-    background: rgba(201, 125, 62, 0.25);
+    background: rgba(var(--copper-rgb), 0.25);
     color: var(--copper-pale);
 }
 
@@ -1715,7 +1723,7 @@ li {
 
 .cook-mode-active .method ol li.cook-mode-current {
     opacity: 1;
-    background: rgba(201, 125, 62, 0.08);
+    background: rgba(var(--copper-rgb), 0.08);
     border-left: 3px solid var(--copper);
     padding-left: 52px;
 }
@@ -1760,7 +1768,7 @@ li {
 .search-input-large:focus {
     outline: none;
     border-color: var(--copper);
-    box-shadow: 0 0 0 3px rgba(201, 125, 62, 0.12);
+    box-shadow: 0 0 0 3px rgba(var(--copper-rgb), 0.12);
 }
 
 .search-results-count {
@@ -2020,7 +2028,7 @@ footer {
     display: block;
     text-align: center;
     padding: 0.6rem;
-    background: rgba(201, 125, 62, 0.12);
+    background: rgba(var(--copper-rgb), 0.12);
     border: 1px solid var(--border-copper);
     border-radius: 6px;
     color: var(--copper-warm);
@@ -2031,7 +2039,7 @@ footer {
 }
 
 .stats-button:hover {
-    background: rgba(201, 125, 62, 0.22);
+    background: rgba(var(--copper-rgb), 0.22);
     color: var(--copper-pale);
 }
 
@@ -2099,7 +2107,7 @@ footer {
 
 /* Recipe Tip Box */
 .recipe-tip-box {
-    background: rgba(201, 125, 62, 0.06);
+    background: rgba(var(--copper-rgb), 0.06);
     border: 1px solid var(--border-copper);
     border-radius: var(--r-lg);
     margin: var(--sp-2xl) 0;
@@ -2107,7 +2115,7 @@ footer {
 }
 
 .tip-box-header {
-    background: rgba(201, 125, 62, 0.12);
+    background: rgba(var(--copper-rgb), 0.12);
     padding: var(--sp-sm) var(--sp-lg);
     font-size: 0.7rem;
     font-weight: 600;
@@ -2229,7 +2237,7 @@ footer {
 
 
 .tip-box-save:hover {
-    background: rgba(201, 125, 62, 0.22);
+    background: rgba(var(--copper-rgb), 0.22);
     color: var(--copper-pale);
 }
 
@@ -2270,7 +2278,7 @@ footer {
 }
 
 .reference-table tbody tr:hover td {
-    background: rgba(201, 125, 62, 0.04);
+    background: rgba(var(--copper-rgb), 0.04);
 }
 
 .reference-table tbody td:first-child {
@@ -2281,7 +2289,7 @@ footer {
 /* Ingredient search styles */
 .ingredient-match-badge {
     display: inline-block;
-    background: rgba(201, 125, 62, 0.15);
+    background: rgba(var(--copper-rgb), 0.15);
     padding: 0.2rem 0.6rem;
     border-radius: 20px;
     font-size: 0.7rem;
@@ -2295,7 +2303,7 @@ footer {
 
 .match-tag {
     display: inline-block;
-    background: rgba(201, 125, 62, 0.15);
+    background: rgba(var(--copper-rgb), 0.15);
     padding: 0.15rem 0.5rem;
     border-radius: 12px;
     margin: 0.2rem;
@@ -2731,67 +2739,76 @@ footer {
     opacity: 0;
 }
 
-/* =========================================================
-   LIGHT MODE OVERRIDE
-   Eggshell surfaces, dark ink text, copper shifts warmer/
-   more terracotta so it reads well on pale backgrounds.
-========================================================= */
+    /* =========================================================
+       LIGHT MODE OVERRIDE
+       Warm Patisserie palette: cream canvas, vanilla surfaces,
+       cocoa text, toasted caramel primary, and berry accents.
+    ========================================================= */
 body.light-mode {
-    /* Surfaces — Bone White (zero pink/peach undertones, not blinding) */
-    --ink: #f4f5f3;          /* Soft, cool-neutral alabaster */
-    --ink-soft: #ebede9;     /* Slightly deeper stone shade */
-    --ink-medium: #e2e5e0;   /* Muted grey-stone */
-    --slate: #d3d8d0;        /* Cool neutral slate */
-    --slate-mid: #c3c8c0;    
-    --slate-light: #b3b8b0;  
+    /* Surfaces — Light / Patisserie */
+    --ink: #FBF5EA;
+    --ink-soft: #FFFDF8;
+    --ink-medium: #F3EADB;
+    --slate: #E8D9C7;
+    --slate-mid: #D9C5AD;
+    --slate-light: #CBB39B;
 
-    /* Text — deep charcoal ink on pale ground */
-    --cream: #1c1a16;
-    --cream-dim: #3c3830;
-    --cream-muted: #6e6558;
-    --cream-faint: #9e9488;
+    /* Text */
+    --cream: #2A1B17;
+    --cream-dim: #5E473B;
+    --cream-muted: #765B4C;
+    --cream-faint: #9A806D;
 
-    /* Accent — shift copper warmer/more terracotta for light bg */
-    --copper: #b86830;
-    --copper-warm: #cc7838;
-    --copper-pale: #f0c090;
-    --copper-dark: #8a4e22;
+    /* Accent — PRIMARY: toasted caramel */
+    --copper: #C06E24;
+    --copper-rgb: 192, 110, 36;
+    --copper-warm: #D8893E;
+    --copper-pale: #F5E2C6;
+    --copper-dark: #A9561B;
+    --berry: #B72933;
+    --berry-rgb: 183, 41, 51;
+
+    /* Accent — SECONDARY: natural herb/status colour */
+    --sage: #7D9B78;
+    --sage-rgb: 125, 155, 120;
+    --sage-dark: #5F7D5A;
+    --sage-pale: rgba(125, 155, 120, 0.16);
 
     /* Surfaces */
-    --surface-0: #f4f5f3;
-    --surface-1: #ebede9;
-    --surface-2: #e2e5e0;
-    --surface-3: #d3d8d0;
-    --surface-card: #ebede9;
-    --surface-raised: #e2e5e0;
+    --surface-0: #FBF5EA;
+    --surface-0-rgb: 251, 245, 234;
+    --surface-1: #FFFDF8;
+    --surface-2: #F5E9D9;
+    --surface-3: #EAD7C0;
+    --surface-card: #FFFDF8;
+    --surface-raised: #F5E9D9;
 
-    /* Borders */
-    --border-dim: rgba(28, 26, 22, 0.08);
-    --border-mid: rgba(28, 26, 22, 0.14);
-    --border-bright: rgba(28, 26, 22, 0.22);
-    --border-copper: rgba(184, 104, 48, 0.35);
+    /* Borders — warm cocoa neutrals */
+    --border-dim: rgba(118, 91, 76, 0.18);
+    --border-mid: rgba(118, 91, 76, 0.28);
+    --border-bright: rgba(118, 91, 76, 0.42);
+    --border-copper: rgba(192, 110, 36, 0.35);
 
-    /* Shadows — lighter on pale ground */
-    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.07);
-    --shadow-md: 0 6px 24px rgba(0, 0, 0, 0.10);
-    --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.14);
-    --shadow-copper: 0 8px 32px rgba(184, 104, 48, 0.12);
+    /* Shadows — your exact values */
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 6px 24px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.12);
+    --shadow-copper: 0 8px 32px rgba(192, 110, 36, 0.15);
 }
 
-/* Updated to match the new #f4f5f3 background (RGB: 244, 245, 243) */
 body.light-mode .nav-header {
-    background: rgba(244, 245, 243, 0.96);
-    border-bottom-color: rgba(28, 26, 22, 0.12);
+    background: rgba(255, 253, 248, 0.96);
+    border-bottom-color: rgba(229, 212, 191, 0.9);
 }
 
-body.light-mode body::selection {
+body.light-mode::selection {
     background: var(--copper);
-    color: #f4f5f3;
+    color: #FFFDF8;
 }
 
 body.light-mode .search-examples code {
-    background: rgba(0, 0, 0, 0.06);
-    border-color: rgba(28, 26, 22, 0.15);
+    background: rgba(118, 91, 76, 0.08);
+    border-color: rgba(229, 212, 191, 0.9);
     color: var(--cream);
 }
 
@@ -2830,32 +2847,32 @@ body.light-mode .search-examples code {
        Fixes every element using var(--surface-*) etc
        without needing individual !important overrides    */
     :root {
-        --ink:           white;
-        --ink-soft:      white;
-        --ink-medium:    #f0ece5;
-        --slate:         #d8d0c4;
-        --surface-0:     white;
-        --surface-1:     white;
-        --surface-2:     #f5f2ee;
-        --surface-3:     #ece8e2;
-        --surface-card:  white;
-        --surface-raised:#f5f2ee;
-        --cream:         #1c1a16;
-        --cream-dim:     #3c3830;
-        --cream-muted:   #6e6558;
-        --cream-faint:   #9e9488;
-        --border-dim:    rgba(28, 26, 22, 0.12);
-        --border-mid:    rgba(28, 26, 22, 0.20);
-        --border-bright: rgba(28, 26, 22, 0.30);
-        --copper:        #b86830;
-        --copper-warm:   #cc7838;
-        --copper-dark:   #8a4e22;
-        --copper-pale:   #f0c090;
+        --ink:           #FBF5EA;
+        --ink-soft:      #FFFDF8;
+        --ink-medium:    #F3EADB;
+        --slate:         #E8D9C7;
+        --surface-0:     #FBF5EA;
+        --surface-1:     #FFFDF8;
+        --surface-2:     #F5E9D9;
+        --surface-3:     #EAD7C0;
+        --surface-card:  #FFFDF8;
+        --surface-raised:#F5E9D9;
+        --cream:         #2A1B17;
+        --cream-dim:     #5E473B;
+        --cream-muted:   #765B4C;
+        --cream-faint:   #9A806D;
+        --border-dim:    rgba(118, 91, 76, 0.18);
+        --border-mid:    rgba(118, 91, 76, 0.28);
+        --border-bright: rgba(118, 91, 76, 0.42);
+        --copper:        #C06E24;
+        --copper-warm:   #D8893E;
+        --copper-dark:   #A9561B;
+        --copper-pale:   #F5E2C6;
     }
 
     body {
-        background: white !important;
-        color: #1c1a16 !important;
+        background: #FBF5EA !important;
+        color: #2A1B17 !important;
         font-family: 'DM Sans', system-ui, sans-serif;
         font-size: 8.5pt;
         line-height: 1.4;
@@ -3396,7 +3413,7 @@ body.light-mode .search-examples code {
     padding: var(--sp-sm) var(--sp-lg);
     font-size: 0.8rem;
     color: var(--cream-muted);
-    background: rgba(201, 125, 62, 0.06);
+    background: rgba(var(--copper-rgb), 0.06);
     border-bottom: 1px solid var(--border-dim);
     flex-shrink: 0;
 }
@@ -3463,17 +3480,17 @@ body.light-mode .search-examples code {
 }
 
 .pantry-flag-half {
-    background: rgba(201, 125, 62, 0.15);
+    background: rgba(var(--copper-rgb), 0.15);
     color: var(--copper-warm);
 }
 
 .pantry-flag-low {
-    background: rgba(122, 158, 138, 0.18);
+    background: rgba(var(--sage-rgb), 0.18);
     color: var(--sage);
 }
 
 .pantry-flag-empty {
-    background: rgba(122, 158, 138, 0.28);
+    background: rgba(var(--sage-rgb), 0.28);
     color: var(--sage);
     font-weight: 700;
 }
@@ -3495,7 +3512,7 @@ body.light-mode .search-examples code {
 .shopping-item-lvl-low .shopping-item-name {
     color: var(--sage);
     text-decoration: line-through;
-    text-decoration-color: rgba(122, 158, 138, 0.55);
+    text-decoration-color: rgba(var(--sage-rgb), 0.55);
 }
 
 .shopping-item-lvl-empty .shopping-item-name {
@@ -3589,13 +3606,13 @@ body.light-mode .search-examples code {
 }
 
 .new-btn {
-    background: rgba(201, 125, 62, 0.1);
+    background: rgba(var(--copper-rgb), 0.1);
     color: var(--copper-warm);
     border-color: var(--border-copper);
 }
 
 .new-btn:hover {
-    background: rgba(201, 125, 62, 0.2);
+    background: rgba(var(--copper-rgb), 0.2);
 }
 
 .price-edit-form {
@@ -3783,7 +3800,7 @@ body.light-mode .search-examples code {
 }
 
 .price-disclaimer {
-    background: rgba(201, 169, 97, 0.15);
+    background: rgba(var(--copper-rgb), 0.15);
     border-left: 3px solid var(--copper);
     padding: 0.75rem;
     margin-bottom: 1rem;
@@ -3808,12 +3825,12 @@ body.light-mode .search-examples code {
 }
 
 .missing-prices-warning {
-    background: rgba(192, 57, 43, 0.2);
+    background: rgba(var(--berry-rgb), 0.20);
     padding: 0.75rem;
     border-radius: 6px;
     margin-bottom: 1rem;
     font-size: 0.8rem;
-    border-left: 3px solid var(--red);
+    border-left: 3px solid var(--berry);
 }
 
 .item-name {
@@ -4121,7 +4138,7 @@ body.light-mode .search-examples code {
     left: 0;
     right: 0;
     padding: 1.5rem 1rem 0.75rem;
-    background: linear-gradient(transparent, rgba(22, 22, 26, 0.95));
+    background: linear-gradient(transparent, rgba(var(--surface-0-rgb), 0.95));
     color: var(--cream);
     font-size: 0.85rem;
     font-family: var(--font-display);
@@ -4159,7 +4176,7 @@ body.light-mode .search-examples code {
     right: 0.75rem;
     width: 38px;
     height: 38px;
-    background: rgba(22, 22, 26, 0.8);
+    background: rgba(var(--surface-0-rgb), 0.8);
     border: 1px solid var(--border-mid);
     border-radius: var(--r-sm);
     color: var(--cream-muted);
@@ -4255,7 +4272,7 @@ body.light-mode .search-examples code {
     align-items: center;
     gap: 0.5rem;
     padding: 0.5rem 1.2rem;
-    background: rgba(201, 125, 62, 0.15);
+    background: rgba(var(--copper-rgb), 0.15);
     border: 1px solid var(--border-copper);
     border-radius: var(--r-full);
     color: var(--copper-warm);
@@ -4355,7 +4372,7 @@ body.light-mode .search-examples code {
 }
 
 .cat-btn:hover { color: var(--cream); background: var(--slate); }
-.cat-btn.active { color: var(--copper-warm); background: rgba(201,125,62,0.08); }
+.cat-btn.active { color: var(--copper-warm); background: rgba(var(--copper-rgb),0.08); }
 
 /* Search Component */
 .dir-search-wrap { position: relative; margin-bottom: var(--sp-md); }
@@ -4406,7 +4423,7 @@ body.light-mode .search-examples code {
     text-transform: uppercase;
     color: var(--copper);
     font-weight: 700;
-    background: rgba(201,125,62,0.1);
+    background: rgba(var(--copper-rgb),0.1);
     border: 1px solid var(--border-copper);
     padding: 0.15rem 0.5rem;
     border-radius: var(--r-sm);
@@ -4497,16 +4514,16 @@ body.light-mode .search-examples code {
     .print-recipe-block {
         page-break-after: always;
         width: 100%;
-        color: #1a1814 !important;
+        color: #2A1B17 !important;
     }
 
     .print-recipe-block:last-child { page-break-after: avoid; }
 
     .print-bulk-category {
         display: inline-block;
-        background: #f5ede3;
-        border: 1px solid #c97d3e;
-        color: #9a5e28 !important;
+        background: #F5E2C6;
+        border: 1px solid #C06E24;
+        color: #A9561B !important;
         font-size: 6.5pt;
         padding: 1pt 5pt;
         border-radius: 2pt;
@@ -4557,7 +4574,7 @@ body.light-mode .search-examples code {
 .search-examples {
     margin-top: var(--sp-lg);
     padding: var(--sp-lg);
-    background: rgba(201, 125, 62, 0.04);
+    background: rgba(var(--copper-rgb), 0.04);
     border: 1px solid var(--border-dim);
     border-radius: var(--r-lg);
     font-size: 0.85rem;
@@ -4641,7 +4658,7 @@ body.light-mode .search-examples code {
     display: inline-block;
     font-size: 0.65rem;
     padding: 0.1rem 0.4rem;
-    background: rgba(201, 125, 62, 0.1);
+    background: rgba(var(--copper-rgb), 0.1);
     border-radius: 3px;
     margin-left: 0.5rem;
     color: var(--copper);
@@ -4822,7 +4839,7 @@ body.light-mode .search-examples code {
     font-size: 0.65rem;
     font-family: var(--font-mono);
     padding: 2px 6px;
-    background: rgba(201, 125, 62, 0.12);
+    background: rgba(var(--copper-rgb), 0.12);
     border-radius: 3px;
     color: var(--copper-warm);
     min-width: 24px;
@@ -4959,7 +4976,7 @@ body.light-mode .search-examples code {
 
 /* ── Search Results ───────────────────────────────────── */
 mark.search-highlight {
-    background: rgba(201, 125, 62, 0.25);
+    background: rgba(var(--copper-rgb), 0.25);
     color: var(--copper-warm);
     border-radius: 2px;
     padding: 0 2px;
@@ -4981,7 +4998,7 @@ mark.search-highlight {
 }
 .ingredient-match-badge {
     display: inline-block;
-    background: rgba(201, 125, 62, 0.15);
+    background: rgba(var(--copper-rgb), 0.15);
     border: 1px solid var(--border-copper);
     border-radius: var(--r-full);
     color: var(--copper-warm);
@@ -5001,10 +5018,10 @@ mark.search-highlight {
     font-weight: 600;
     margin-right: 0.25rem;
 }
-.match-have { color: var(--sage, #6a9e7f); }
+.match-have { color: var(--sage, #7D9B78); }
 .match-need { color: var(--cream-muted); }
 .match-tag {
-    background: rgba(106, 158, 127, 0.15);
+    background: rgba(var(--sage-rgb), 0.15);
     border-radius: var(--r-sm);
     padding: 0.1rem 0.4rem;
     color: var(--cream-dim);
@@ -5057,7 +5074,7 @@ mark.search-highlight {
 }
 .tag-cat-btn:hover,
 .tag-cat-btn.active {
-    background: rgba(201, 125, 62, 0.15);
+    background: rgba(var(--copper-rgb), 0.15);
     border-color: var(--border-copper);
     color: var(--copper-warm);
 }
@@ -5146,21 +5163,21 @@ mark.search-highlight {
     color: var(--cream);
 }
 .enh-btn-add {
-    background: rgba(201, 125, 62, 0.15);
+    background: rgba(var(--copper-rgb), 0.15);
     border-color: var(--border-copper);
     color: var(--copper-warm);
 }
 .enh-btn-add:hover {
-    background: rgba(201, 125, 62, 0.25);
+    background: rgba(var(--copper-rgb), 0.25);
     color: var(--copper-pale);
 }
 .enh-btn-remove {
-    background: rgba(192, 57, 43, 0.1);
-    border-color: rgba(192, 57, 43, 0.3);
-    color: #e07060;
+    background: rgba(var(--berry-rgb), 0.10);
+    border-color: rgba(var(--berry-rgb), 0.30);
+    color: var(--berry);
 }
 .enh-btn-remove:hover {
-    background: rgba(192, 57, 43, 0.2);
+    background: rgba(var(--berry-rgb), 0.20);
 }
 .enh-input {
     background: var(--surface-2);
@@ -5278,9 +5295,9 @@ mark.search-highlight {
 }
 .voice-btn-replay { color: var(--copper-warm); }
 .voice-btn-stop {
-    background: rgba(192,57,43,0.1);
-    border-color: rgba(192,57,43,0.3);
-    color: #e07060;
+    background: rgba(var(--berry-rgb), 0.10);
+    border-color: rgba(var(--berry-rgb), 0.30);
+    color: var(--berry);
 }
 .voice-step-text {
     color: var(--cream-dim);
@@ -5365,7 +5382,7 @@ mark.search-highlight {
     transition: color var(--t-fast);
     flex-shrink: 0;
 }
-.collection-remove-recipe:hover { color: #e07060; }
+.collection-remove-recipe:hover { color: var(--berry); }
 .collection-empty-note {
     color: var(--cream-muted);
     font-style: italic;
@@ -5467,7 +5484,7 @@ mark.search-highlight {
     border-radius: var(--r-full);
     transition: width var(--t-slow);
 }
-.tracker-bar-fill.over-rdi { background: #c0392b; }
+.tracker-bar-fill.over-rdi { background: var(--berry); }
 .tracker-macro-pct {
     font-size: 0.72rem;
     color: var(--cream-faint);
@@ -5515,7 +5532,7 @@ mark.search-highlight {
     padding: 0;
     transition: color var(--t-fast);
 }
-.tracker-remove-btn:hover { color: #e07060; }
+.tracker-remove-btn:hover { color: var(--berry); }
 .tracker-serving-row {
     display: flex;
     justify-content: space-between;
@@ -5622,15 +5639,15 @@ mark.search-highlight {
 .diff-old   { color: var(--cream-muted); text-decoration: line-through; }
 .diff-new   { color: var(--cream); }
 .diff-note  { font-size: 0.8rem; color: var(--cream-muted); font-style: italic; }
-.diff-clean { color: var(--sage, #6a9e7f); font-style: normal; }
+.diff-clean { color: var(--sage, #7D9B78); font-style: normal; }
 
 /* Duplicate warning */
 #duplicate-id-warning {
     display: none;
-    background: rgba(192, 57, 43, 0.1);
-    border: 1px solid rgba(192, 57, 43, 0.3);
+    background: rgba(var(--berry-rgb), 0.10);
+    border: 1px solid rgba(var(--berry-rgb), 0.30);
     border-radius: var(--r-md);
-    color: #e07060;
+    color: var(--berry);
     font-size: 0.82rem;
     padding: 0.4rem 0.75rem;
     margin-top: var(--sp-xs);
@@ -5638,7 +5655,7 @@ mark.search-highlight {
 
 /* ── Toolbar Additions ────────────────────────────────── */
 .toolbar-btn.active {
-    background: rgba(201, 125, 62, 0.15);
+    background: rgba(var(--copper-rgb), 0.15);
     border-color: var(--border-copper);
     color: var(--copper-warm);
 }
@@ -5891,7 +5908,7 @@ mark.search-highlight {
 }
 
 .pantry-stat-warn  { color: var(--copper); font-weight: 500; }
-.pantry-stat-empty { color: #e07060; font-weight: 500; }
+.pantry-stat-empty { color: var(--berry); font-weight: 500; }
 
 .pantry-filter-bar {
     display: flex;
@@ -5950,7 +5967,7 @@ mark.search-highlight {
 .pantry-item:hover { border-color: var(--border-mid); }
 
 .pantry-item-low   { border-left: 3px solid var(--copper) !important; }
-.pantry-item-empty { border-left: 3px solid #e07060 !important; opacity: 0.7; }
+.pantry-item-empty { border-left: 3px solid var(--berry) !important; opacity: 0.7; }
 
 .pantry-item-name {
     font-size: 0.88rem;
@@ -6001,7 +6018,7 @@ mark.search-highlight {
     line-height: 1;
 }
 
-.pantry-remove-btn:hover { color: #e07060; }
+.pantry-remove-btn:hover { color: var(--berry); }
 
 .pantry-empty {
     text-align: center;
@@ -6087,7 +6104,7 @@ mark.search-highlight {
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    background: #81c995;
+    background: var(--sage);
     flex-shrink: 0;
     margin-top: 3px;
 }
@@ -6234,7 +6251,7 @@ mark.search-highlight {
 
 .stocktake-item.has-it {
     border-color: var(--copper-dark);
-    background: rgba(201, 125, 62, 0.06);
+    background: rgba(var(--copper-rgb), 0.06);
 }
 
 .stocktake-label {
@@ -6350,5 +6367,100 @@ mark.search-highlight {
     accent-color: var(--copper);
     cursor: pointer;
     flex-shrink: 0;
+}
+
+/* =========================================================
+   PRINT PALETTE FINISH
+   Keeps the printable recipe output in the same Patisserie
+   palette as the light website theme.
+========================================================= */
+@media print {
+    body,
+    .print-recipe-block {
+        background: #FBF5EA !important;
+        color: #2A1B17 !important;
+    }
+
+    .print-recipe-block h1,
+    .print-recipe-block h2,
+    .print-recipe-block h3,
+    .print-recipe-block h4,
+    .recipe-title,
+    .nutrition-label,
+    .nutrition-title,
+    .nutrition-calories,
+    .nutrition-row,
+    .ingredients ul li,
+    .ingredient-quantity,
+    .you-will-need-item,
+    .method ol li {
+        color: #2A1B17 !important;
+    }
+
+    .recipe-description,
+    .ingredient-notes,
+    .ingredient-totaste,
+    .note p,
+    .note li,
+    .nutrition-serving,
+    .nutrition-kj,
+    .nutrition-row.indent,
+    .nutrition-row.micronutrient {
+        color: #765B4C !important;
+    }
+
+    .recipe-category-badge,
+    .print-bulk-category {
+        background: #FFFDF8 !important;
+        border-color: #C06E24 !important;
+        color: #A9561B !important;
+    }
+
+    .recipe-metadata-table,
+    .meta-cell,
+    .note,
+    .nutrition-label {
+        background: #FFFDF8 !important;
+        border-color: #E5D4BF !important;
+    }
+
+    .meta-label,
+    .ingredients h2,
+    .you-will-need h2,
+    .method h2,
+    .recipe-notes h2,
+    .ingredient-totaste-label,
+    .ingredient-heading,
+    .method-heading,
+    .note h4,
+    .reference-table thead th,
+    .simple-row-4col.header {
+        color: #C06E24 !important;
+    }
+
+    .ingredients h2,
+    .you-will-need h2,
+    .method h2,
+    .recipe-notes h2,
+    .ingredients ul li,
+    .you-will-need-item,
+    .method ol li,
+    .nutrition-row,
+    .reference-table tbody td,
+    .simple-row,
+    .simple-row-4col {
+        border-color: #E5D4BF !important;
+    }
+
+    .method ol li::before,
+    .you-will-need-checkbox {
+        background: #FFFDF8 !important;
+        border-color: #C06E24 !important;
+        color: #C06E24 !important;
+    }
+
+    .recipe-last-updated {
+        color: #9A806D !important;
+    }
 }
 

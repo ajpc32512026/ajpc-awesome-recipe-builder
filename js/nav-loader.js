@@ -270,7 +270,10 @@
 
     /* --------------------------------------------------
        Dark Mode Toggle
-       The site is dark by default. Toggle adds 'light-mode' to body.
+       The site is LIGHT by default now. Toggle adds 'light-mode'
+       to body for... history's sake, the class name stayed the
+       same even though it's now the default rather than the
+       exception — only .light-mode's ABSENCE now means dark.
     -------------------------------------------------- */
     function initDarkMode() {
         var btn = document.getElementById('darkModeToggle');
@@ -285,8 +288,10 @@
             btn.title = on ? 'Switch to dark mode' : 'Switch to light mode';
         }
 
+        // Light is now the default for anyone who hasn't chosen yet —
+        // only an explicit "dark" in localStorage keeps dark mode.
         var stored = localStorage.getItem('ajpc-theme');
-        if (stored === 'light') applyLight(true);
+        applyLight(stored !== 'dark');
 
         btn.addEventListener('click', function() {
             var isLight = document.body.classList.contains('light-mode');

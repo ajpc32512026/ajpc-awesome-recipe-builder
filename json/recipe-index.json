@@ -716,7 +716,7 @@
         "item": "Plain Flour"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Salt & Pepper"
@@ -756,7 +756,7 @@
         "item": "Brown Onion"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Salt & Pepper"
@@ -787,7 +787,7 @@
         "item": "Camembert Cheese"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Demi Glace"
@@ -822,7 +822,7 @@
         "item": "Chicken Breast"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Garlic"
@@ -873,7 +873,7 @@
         "item": "Cream"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Brown Onion"
@@ -912,7 +912,7 @@
         "item": "Almonds"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Cream"
@@ -953,7 +953,7 @@
         "item": "Green Peppercorns"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Brown Onion"
@@ -1037,7 +1037,7 @@
         "item": "Mushrooms"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Demi Glace"
@@ -1073,7 +1073,7 @@
         "item": "Fish Fillets"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Lemon Juice"
@@ -1125,7 +1125,7 @@
         "item": "Demi Glace"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Brown Onion"
@@ -1171,7 +1171,7 @@
         "item": "Demi Glace"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Brown Onion"
@@ -1219,7 +1219,7 @@
         "item": "Orange Zest"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Brown Onion"
@@ -1367,7 +1367,7 @@
         "item": "Seafood Mix"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Plain Flour"
@@ -1424,7 +1424,7 @@
         "item": "Beef"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Brown Onion"
@@ -1467,7 +1467,7 @@
         "item": "Cream"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Brown Onion"
@@ -1501,7 +1501,7 @@
         "item": "Gruyere"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Brown Onion"
@@ -1566,7 +1566,7 @@
         "item": "Demi Glace"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Salt & Pepper"
@@ -1638,7 +1638,7 @@
         "item": "Puff Pastry"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Demi Glace"
@@ -1669,7 +1669,7 @@
         "item": "Veal"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Shallot"
@@ -1799,7 +1799,7 @@
         "item": "Vegetable Oil"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Brown Onion"
@@ -1842,12 +1842,6 @@
       },
       {
         "item": "Lemon Juice"
-      },
-      {
-        "item": "Fresh Coriander"
-      },
-      {
-        "item": "Naan Bread"
       }
     ]
   },
@@ -2455,7 +2449,7 @@
         "item": "Milk"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Salt"
@@ -3125,7 +3119,7 @@
         "item": "Salt"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Garlic"
@@ -3346,7 +3340,7 @@
         "item": "Yeast"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       }
     ]
   },
@@ -3689,7 +3683,7 @@
         "item": "Black Pepper"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Plain Flour"
@@ -3735,7 +3729,7 @@
         "item": "Ground White Pepper"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Garlic"
@@ -4157,7 +4151,7 @@
     ],
     "ingredients": [
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Plain Flour"
@@ -4268,7 +4262,7 @@
         "item": "Salt"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "White Sugar"
@@ -4376,7 +4370,7 @@
         "item": "Chives"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Salt & Pepper"
@@ -5034,7 +5028,7 @@
         "item": "Parmesan"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Salt"
@@ -5075,7 +5069,7 @@
         "item": "Plain Flour"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Water"
@@ -5103,7 +5097,7 @@
         "item": "Plain Flour"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Water"
@@ -5624,7 +5618,7 @@
         "item": "Milk"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       }
     ]
   },
@@ -6139,7 +6133,7 @@
         "item": "Plain Flour"
       },
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Eggs"
@@ -6263,10 +6257,10 @@
   },
   {
     "id": "vindaloopaste",
-    "title": "Vindaloo Paste",
+    "title": "Authentic Goan Vindaloo Paste",
     "category": "Sauces",
-    "description": "A bold, tangy, fire-forward paste — the beating heart of a proper vindaloo.",
-    "difficulty": "Beginner",
+    "description": "A fiery, traditional Goan masala paste driven by toasted whole spices, pungent garlic, roasted fenugreek, and sharp vinegar.",
+    "difficulty": "Intermediate",
     "tags": [
       "Condiment",
       "Curry",
@@ -6285,16 +6279,25 @@
         "item": "Garlic"
       },
       {
-        "item": "Red Chilli Flakes"
+        "item": "Kashmiri Chillies"
+      },
+      {
+        "item": "Guntur Chillies"
       },
       {
         "item": "Coriander Seeds"
       },
       {
-        "item": "Fenugreek"
+        "item": "Cumin Seeds"
       },
       {
-        "item": "Cumin Seeds"
+        "item": "Fenugreek Seeds"
+      },
+      {
+        "item": "Mustard Seeds"
+      },
+      {
+        "item": "Black Peppercorns"
       },
       {
         "item": "Green Cardamom Pods"
@@ -6306,10 +6309,7 @@
         "item": "Cinnamon Stick"
       },
       {
-        "item": "Black Peppercorns"
-      },
-      {
-        "item": "Lemon Juice"
+        "item": "Apple Cider Vinegar"
       }
     ]
   },
@@ -6328,7 +6328,7 @@
     ],
     "ingredients": [
       {
-        "item": "Unsalted Butter"
+        "item": "Butter"
       },
       {
         "item": "Plain Flour"

@@ -1,5 +1,15 @@
 /* =========================================================
    WHAT CAN I COOK — styling for whatcanicook.html
+
+   Backgrounds/borders now use the shared theme variables from
+   main.css instead of hardcoded white transparency — those
+   assumed a dark background always and would have been
+   essentially invisible in light mode. "Ready to cook" now
+   uses the shared sage accent for consistency with the rest
+   of the site; "close"/"almost" stay as fixed status colors
+   since they're a semantic traffic-light (their meaning matters
+   more than matching either theme exactly), same reasoning as
+   the fixed red "danger" colors elsewhere in main.css.
 ========================================================= */
 
 .cook-filter-bar {
@@ -10,8 +20,8 @@
 }
 
 .cook-filter-btn {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: var(--surface-1, #2A1D1C);
+    border: 1px solid var(--border-dim, rgba(244, 231, 206, 0.10));
     color: inherit;
     border-radius: 999px;
     padding: 0.4rem 0.9rem;
@@ -20,9 +30,9 @@
 }
 
 .cook-filter-btn.active {
-    background: #c97d3e;
-    border-color: #c97d3e;
-    color: #16161a;
+    background: var(--copper, #C06E24);
+    border-color: var(--copper, #C06E24);
+    color: var(--surface-0, #FBF5EA);
     font-weight: 600;
 }
 
@@ -33,19 +43,19 @@
 
 .cook-card {
     display: block;
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    border-left: 3px solid rgba(255, 255, 255, 0.15);
+    background: var(--surface-1, #2A1D1C);
+    border: 1px solid var(--border-dim, rgba(244, 231, 206, 0.10));
+    border-left: 3px solid var(--border-mid, rgba(244, 231, 206, 0.18));
     border-radius: 8px;
     padding: 0.9rem 1.1rem;
     text-decoration: none;
     color: inherit;
 }
 
-.cook-card-ready  { border-left-color: #6fae6f; }
-.cook-card-close  { border-left-color: #c9a53e; }
-.cook-card-almost { border-left-color: #c97d3e; }
-.cook-card-far    { border-left-color: rgba(255, 255, 255, 0.15); }
+.cook-card-ready  { border-left-color: var(--sage, #7D9B78); }
+.cook-card-close  { border-left-color: #D9A64F; }
+.cook-card-almost { border-left-color: var(--copper, #C06E24); }
+.cook-card-far    { border-left-color: var(--border-mid, rgba(244, 231, 206, 0.18)); }
 
 .cook-card-header {
     display: flex;
@@ -64,10 +74,10 @@
     opacity: 0.85;
 }
 
-.cook-card-badge-ready  { color: #6fae6f; }
-.cook-card-badge-close  { color: #c9a53e; }
+.cook-card-badge-ready  { color: var(--sage, #7D9B78); }
+.cook-card-badge-close  { color: #D9A64F; }
 .cook-card-badge-almost,
-.cook-card-badge-far    { color: #c97d3e; }
+.cook-card-badge-far    { color: var(--copper, #C06E24); }
 
 .cook-card-category {
     font-size: 0.8rem;

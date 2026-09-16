@@ -1,15 +1,15 @@
 {
   "id": "vindaloopaste",
-  "title": "Vindaloo Paste",
+  "title": "Authentic Goan Vindaloo Paste",
   "category": "Sauces",
-  "difficulty": "Beginner",
-  "description": "A bold, tangy, fire-forward paste — the beating heart of a proper vindaloo.",
-  "prepTime": "5 min",
-  "cookTime": "2 min",
-  "totalTime": "7 min",
+  "difficulty": "Intermediate",
+  "description": "A fiery, traditional Goan masala paste driven by toasted whole spices, pungent garlic, roasted fenugreek, and sharp vinegar.",
+  "prepTime": "10 min",
+  "cookTime": "3 min",
+  "totalTime": "13 min",
   "servings": "1 batch",
-  "yieldPerBatch": "1 batch",
-  "cuisine": "Indian",
+  "yieldPerBatch": "approx. 100g paste",
+  "cuisine": "Goan / Indian",
   "tags": [
     "Condiment",
     "Curry",
@@ -22,21 +22,28 @@
   ],
   "ingredients": [
     {
-      "quantity": "20",
+      "quantity": "25",
       "unit": "g",
       "item": "Fresh Ginger",
-      "notes": "fresh, chopped"
+      "notes": "peeled and roughly chopped"
     },
     {
-      "quantity": "3",
+      "quantity": "6",
       "unit": "cloves",
       "item": "Garlic",
-      "notes": "chopped"
+      "notes": "peeled (essential for Goan vinha d'alhos)"
     },
     {
-      "quantity": "10",
-      "unit": "",
-      "item": "Red Chilli Flakes"
+      "quantity": "6",
+      "unit": "ea",
+      "item": "Kashmiri Chillies",
+      "notes": "Dried: stems removed (gives vibrant deep red colour and fruity body)"
+    },
+    {
+      "quantity": "5",
+      "unit": "ea",
+      "item": "Guntur Chillies",
+      "notes": "stems removed; provides aggressive, lingering heat (found at any Indian grocer)"
     },
     {
       "quantity": "5",
@@ -44,18 +51,30 @@
       "item": "Coriander Seeds"
     },
     {
-      "quantity": "2",
-      "unit": "g",
-      "item": "Fenugreek"
-    },
-    {
       "quantity": "3",
       "unit": "g",
       "item": "Cumin Seeds"
     },
     {
+      "quantity": "2",
+      "unit": "g",
+      "item": "Fenugreek Seeds",
+      "notes": "whole seeds, dry-roasted until lightly golden"
+    },
+    {
+      "quantity": "2",
+      "unit": "g",
+      "item": "Mustard Seeds",
+      "notes": "Brown Or Black: classic Goan pairing with fenugreek"
+    },
+    {
+      "quantity": "2",
+      "unit": "g",
+      "item": "Black Peppercorns"
+    },
+    {
       "quantity": "6",
-      "unit": "pods",
+      "unit": "ea",
       "item": "Green Cardamom Pods"
     },
     {
@@ -65,48 +84,50 @@
     },
     {
       "quantity": "1",
-      "unit": "stick",
-      "item": "Cinnamon Stick"
+      "unit": "ea",
+      "item": "Cinnamon Stick",
+      "notes": "crushed into small shards to protect grinder"
     },
     {
-      "quantity": "1",
-      "unit": "g",
-      "item": "Black Peppercorns"
-    },
-    {
-      "quantity": "45",
+      "quantity": "50",
       "unit": "ml",
-      "item": "Lemon Juice"
+      "item": "Apple Cider Vinegar",
+      "notes": "Or Malt Vinegar: traditional acidic base; replace lemon juice"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Dry roast the dried chillies, coriander seeds, cumin seeds, fenugreek seeds, cardamom pods, cloves, cinnamon stick, and black peppercorns over low heat until aromatic, about 2 minutes."
+      "instruction": "Place the crushed cinnamon shards, cardamom pods, cloves, black peppercorns, coriander seeds, cumin seeds, mustard seeds, fenugreek seeds, and dried chillies into a dry skillet over low heat."
     },
     {
       "step": 2,
-      "instruction": "Remove from heat and allow spices to cool slightly."
+      "instruction": "Toast gently for 90–120 seconds, stirring constantly, until the fenugreek turns lightly golden and the spices release a rich, sweet, and pungent aroma. Immediately transfer to a plate to stop cooking."
     },
     {
       "step": 3,
-      "instruction": "Transfer spices to a grinder and grind to a fine powder."
+      "instruction": "Once cooled, transfer the toasted spices to a spice grinder and pulse until finely ground. Pass the ground mixture through a fine wire mesh sieve to remove any fibrous cardamom husks or woody cinnamon fragments."
     },
     {
       "step": 4,
-      "instruction": "Add ginger, garlic, and lemon juice. Process to a smooth paste, adding a little water if needed."
+      "instruction": "Add the sieved spice blend, fresh ginger, garlic cloves, and vinegar into a small blender or food processor. Blend into a smooth, thick, deep-crimson paste, adding 1–2 tablespoons of water only if needed to loosen."
     }
   ],
   "notes": [
     {
-      "type": "substitution",
-      "title": "Lemon Juice Substitute",
-      "content": "Lemon juice can be replaced with tamarind paste for a more traditional sour note."
+      "type": "technique",
+      "title": "Toasting Fenugreek",
+      "content": "Keep heat strictly on low/medium-low when dry roasting. Fenugreek seeds turn harsh and aggressively bitter if blackened. Pull them the moment they turn amber-golden."
     },
     {
-      "type": "technique",
-      "title": "Yield",
-      "content": "This recipe makes approximately 80–100 g of vindaloo paste — enough for 1 kg of meat. Use the full batch for beef or lamb vindaloo."
+      "type": "substitution",
+      "title": "Vinegar Varieties",
+      "content": "Authentic Goan vindaloo relies on palm toddy vinegar. Apple cider vinegar, malt vinegar, or red wine vinegar provide the closest authentic tang. Avoid plain white vinegar if possible."
+    },
+    {
+      "type": "acknowledgement",
+      "title": "Chilli Selection",
+      "content": "Never omit the Kashmiri chillies—they build the signature ruby color and sauce thickness. For serious heat, swap the secondary dried chillies for 1–2 dried Bhut Jolokia (Ghost Pepper) or fresh habanero peppers."
     }
   ],
   "related": [
@@ -115,18 +136,6 @@
       "title": "Homemade Korma Paste",
       "matchingTags": [
         "Curry",
-        "Gluten-Free",
-        "Make-Ahead",
-        "Savoury",
-        "Spicy",
-        "Vegan",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "sataysauce",
-      "title": "Satay Sauce",
-      "matchingTags": [
         "Gluten-Free",
         "Make-Ahead",
         "Savoury",
@@ -156,49 +165,45 @@
         "Vegan",
         "Vegetarian"
       ]
-    },
-    {
-      "id": "sweetsoursauce_flex",
-      "title": "Sweet & Sour Sauce – Home Chef Flex",
-      "matchingTags": [
-        "Condiment",
-        "Gluten-Free",
-        "Make-Ahead",
-        "Vegan",
-        "Vegetarian"
-      ]
     }
   ],
   "seeAlso": [
     {
       "title": "Beef Vindaloo",
       "id": "beefvindaloo"
+    },
+    {
+      "title": "Lamb Vindaloo",
+      "id": "lambvindaloo"
     }
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 7644,
-    "kj": 31983,
-    "protein": 247,
-    "carbs": 862,
-    "sugars": 187,
-    "fat": 271,
-    "saturated_fat": 58,
-    "fiber": 773,
-    "sodium": 2449,
-    "coverage": 100,
+    "cal": 5122,
+    "kj": 21433,
+    "protein": 143,
+    "carbs": 764,
+    "sugars": 120,
+    "fat": 139,
+    "saturated_fat": 40.3,
+    "fiber": 481,
+    "sodium": 1812,
+    "coverage": 85,
     "foundCount": 11,
-    "totalCount": 11,
-    "unmatchedItems": [],
+    "totalCount": 13,
+    "unmatchedItems": [
+      "Kashmiri Chillies",
+      "Guntur Chillies"
+    ],
     "noQuantityItems": [],
-    "calcium_mg": 6847,
-    "iron_mg": 223,
-    "potassium_mg": 27099,
-    "magnesium_mg": 3370,
-    "zinc_mg": 45,
-    "cholesterol_mg": 18,
-    "vitamin_a_ug": 26828,
-    "vitamin_c_mg": 690
+    "calcium_mg": 4159,
+    "iron_mg": 85,
+    "potassium_mg": 9401,
+    "magnesium_mg": 1757,
+    "zinc_mg": 21,
+    "cholesterol_mg": 23,
+    "vitamin_a_ug": 100,
+    "vitamin_c_mg": 67
   },
-  "lastModified": "2026-09-13"
+  "lastModified": "2026-09-15"
 }

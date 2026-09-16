@@ -2,6 +2,11 @@
    TAG GROUPS — add this to css/main.css (or link it as its
    own file from tags.html). Styles the grouped sections
    rendered by the updated tags.js.
+
+   Uses the shared --border-dim variable from main.css rather
+   than a hardcoded white transparency — the divider was
+   always assuming a dark background and would have been
+   nearly invisible in light mode (a real bug, now fixed).
 ========================================================= */
 
 .tag-group {
@@ -14,7 +19,7 @@
     letter-spacing: 0.02em;
     margin: 0 0 0.75rem 0;
     padding-bottom: 0.4rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid var(--border-dim, rgba(244, 231, 206, 0.10));
     display: flex;
     align-items: baseline;
     gap: 0.5rem;

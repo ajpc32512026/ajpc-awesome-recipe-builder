@@ -9,6 +9,7 @@
   "totalTime": "1 hr 30 min",
   "servings": "4 servings",
   "yieldPerBatch": "4 servings",
+  "cuisine": "Indian",
   "tags": [
     "Curry",
     "Dinner",
@@ -96,7 +97,7 @@
   "method": [
     {
       "step": 1,
-      "instruction": "Prepare 1 batch of [[vindaloopaste|Vindaloo Paste]] according to the vindaloo paste recipe. Set aside."
+      "instruction": "Prepare 1 batch of Vindaloo Paste according to the vindaloo paste recipe. Set aside."
     },
     {
       "step": 2,
@@ -220,33 +221,37 @@
       ]
     }
   ],
+  "seeAlso": [
+    {
+      "title": "Vindaloo Paste",
+      "id": "vindaloopaste"
+    }
+  ],
   "nutrition": {
     "servings": 4,
-    "cal": 214,
-    "kj": 897,
-    "protein": 7,
-    "carbs": 17,
-    "sugars": 9,
-    "fat": 10,
-    "saturated_fat": 1.2,
-    "fiber": 16,
-    "sodium": 79,
-    "coverage": 82,
-    "foundCount": 9,
+    "cal": 632,
+    "kj": 2643,
+    "protein": 59,
+    "carbs": 23,
+    "sugars": 15,
+    "fat": 28,
+    "saturated_fat": 7,
+    "fiber": 25,
+    "sodium": 225,
+    "coverage": 100,
+    "foundCount": 11,
     "totalCount": 11,
-    "unmatchedItems": [
-      "Diced Lamb",
-      "Red Chilli Powder"
-    ],
+    "unmatchedItems": [],
     "noQuantityItems": [],
-    "calcium_mg": 59,
-    "iron_mg": 2,
-    "potassium_mg": 794,
-    "magnesium_mg": 44,
-    "zinc_mg": 1,
-    "vitamin_a_ug": 50,
-    "vitamin_c_mg": 24
+    "calcium_mg": 107,
+    "iron_mg": 8,
+    "potassium_mg": 1862,
+    "magnesium_mg": 122,
+    "zinc_mg": 11,
+    "cholesterol_mg": 150,
+    "vitamin_a_ug": 730,
+    "vitamin_c_mg": 261,
+    "vitamin_d_ug": 2
   },
-  "lastModified": "2026-09-09",
-  "cuisine": "Indian"
+  "lastModified": "2026-09-15"
 }

@@ -9,6 +9,7 @@
   "totalTime": "40 min",
   "servings": "4 servings",
   "yieldPerBatch": "4 servings",
+  "cuisine": "Indian",
   "tags": [
     "Chicken",
     "Creamy",
@@ -31,7 +32,7 @@
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Unsalted Butter"
+      "item": "Butter"
     },
     {
       "quantity": "1",
@@ -60,14 +61,12 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Ground Cumin",
-      "notes": "ground"
+      "item": "Ground Cumin"
     },
     {
       "quantity": "10",
       "unit": "g",
-      "item": "Garam Masala",
-      "notes": "ground"
+      "item": "Garam Masala"
     },
     {
       "quantity": "5",
@@ -112,18 +111,16 @@
       "quantity": "30",
       "unit": "ml",
       "item": "Lemon Juice"
-    },
+    }
+  ],
+  "youWillNeed": [
     {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Fresh Coriander",
-      "notes": "for garnish"
-    },
-    {
-      "quantity": "2",
-      "unit": "",
       "item": "Naan Bread",
-      "notes": "to serve"
+      "note": "To serve"
+    },
+    {
+      "item": "Fresh Coriander",
+      "note": "Garnish"
     }
   ],
   "method": [
@@ -240,30 +237,29 @@
   ],
   "nutrition": {
     "servings": 4,
-    "cal": 859,
-    "kj": 3593,
-    "protein": 41,
-    "carbs": 77,
-    "sugars": 10,
-    "fat": 45,
-    "saturated_fat": 17.2,
-    "fiber": 31,
-    "sodium": 508,
+    "cal": 765,
+    "kj": 3203,
+    "protein": 38,
+    "carbs": 59,
+    "sugars": 13,
+    "fat": 42,
+    "saturated_fat": 16.5,
+    "fiber": 38,
+    "sodium": 196,
     "coverage": 100,
-    "foundCount": 19,
-    "totalCount": 19,
+    "foundCount": 17,
+    "totalCount": 17,
     "unmatchedItems": [],
     "noQuantityItems": [],
-    "calcium_mg": 181,
+    "calcium_mg": 127,
     "iron_mg": 5,
-    "potassium_mg": 1190,
-    "magnesium_mg": 109,
+    "potassium_mg": 1484,
+    "magnesium_mg": 118,
     "zinc_mg": 4,
-    "cholesterol_mg": 165,
-    "vitamin_a_ug": 220,
-    "vitamin_c_mg": 17,
+    "cholesterol_mg": 163,
+    "vitamin_a_ug": 860,
+    "vitamin_c_mg": 252,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-09-09",
-  "cuisine": "Indian"
+  "lastModified": "2026-09-14"
 }

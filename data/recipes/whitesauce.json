@@ -9,6 +9,7 @@
   "totalTime": "15 min",
   "servings": "4 servings",
   "yieldPerBatch": "4 servings",
+  "cuisine": "French",
   "tags": [
     "Classic",
     "Creamy",
@@ -20,7 +21,7 @@
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Unsalted Butter"
+      "item": "Butter"
     },
     {
       "quantity": "30",
@@ -36,7 +37,7 @@
     {
       "item": "Salt & Pepper",
       "toTaste": true,
-      "notes": "Tip out onto a lightly floured bench and knead for a full 15 minutes until smooth, elastic, and no longer sticky."
+      "notes": "Don't add too much all at once, you can't take it out once it's in."
     }
   ],
   "method": [
@@ -80,54 +81,67 @@
       "matchingTags": [
         "Classic",
         "Creamy",
-        "French",
         "Rich",
         "Sauce",
         "Vegetarian"
       ]
     },
     {
-      "id": "apricotflan",
-      "title": "Apricot Flan",
+      "id": "arrabbiatasauce",
+      "title": "Arrabbiata Sauce",
       "matchingTags": [
-        "Classic",
-        "Creamy",
-        "French",
-        "Rich",
+        "Gluten-Free",
+        "Sauce",
+        "Spicy",
+        "Tomato",
+        "Vegan",
         "Vegetarian"
       ]
     },
     {
-      "id": "cremecaramel",
-      "title": "Crème Caramel",
+      "id": "marinarasauce",
+      "title": "Marinara Sauce",
       "matchingTags": [
         "Classic",
-        "Creamy",
-        "French",
-        "Rich",
+        "Gluten-Free",
+        "Sauce",
+        "Tomato",
+        "Vegan",
         "Vegetarian"
       ]
     },
     {
-      "id": "bistro-profiteroles",
-      "title": "Profiteroles",
+      "id": "pestosauce",
+      "title": "Pesto Sauce",
       "matchingTags": [
         "Classic",
-        "Creamy",
-        "French",
-        "Rich",
+        "Condiment",
+        "Gluten-Free",
+        "Sauce",
+        "Vegan",
         "Vegetarian"
       ]
     },
     {
-      "id": "baked-cheesecake",
-      "title": "Baked Cheesecake",
+      "id": "sataysauce",
+      "title": "Satay Sauce",
       "matchingTags": [
-        "Classic",
-        "Creamy",
-        "Rich",
+        "Coconut",
+        "Dinner",
+        "Gluten-Free",
+        "Make-Ahead",
+        "Sauce",
+        "Savoury",
+        "Spicy",
+        "Vegan",
         "Vegetarian"
       ]
+    }
+  ],
+  "seeAlso": [
+    {
+      "title": "Classic Lasagne — Ragu & Bechamel",
+      "id": "lasagne"
     }
   ],
   "nutrition": {
@@ -152,6 +166,5 @@
     "cholesterol_mg": 25,
     "vitamin_a_ug": 119
   },
-  "lastModified": "2026-09-09",
-  "cuisine": "French"
+  "lastModified": "2026-09-14"
 }
