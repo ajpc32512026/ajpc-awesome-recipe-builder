@@ -8560,10 +8560,10 @@
     "category": "Spices Seasonings",
     "displayName": "Ground Coriander",
     "priceData": {
-      "brand": "Woolworths",
-      "price": 2.5,
-      "size": 25,
-      "unit": "g"
+      "size": 30,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "Masterfoods"
     },
     "reference": {
       "notes": "Ground coriander is often used in large quantities (tablespoons rather than teaspoons) because its flavor is so gentle.",
@@ -12095,10 +12095,10 @@
       "zinc_mg": 2.69
     },
     "priceData": {
-      "brand": "MasterFoods",
-      "price": 3.5,
       "size": 10,
-      "unit": "g"
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
     },
     "reference": {
       "notes": "Oregano is a fragrant herb - **Usage:** Dried oregano is more potent than fresh; add early in cooking to allow flavor to bloom. Fresh oregano can be added toward the end for bright, aromatic notes. - **Pairings:** Complements tomato, garlic, olive oil, cheeses, meats, and vegetables. - ** - **Substitutions:** Marjoram or thyme can be used for a milder, similar flavor.",
@@ -14492,10 +14492,10 @@
     "displayName": "Red Chilli",
     "per": "each",
     "priceData": {
-      "brand": "Woolworths",
-      "price": 0.6,
-      "size": 1,
-      "unit": "each"
+      "size": 27,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "Masterfoods"
     },
     "reference": {
       "notes": "Red chili comes in whole, dried, or ground forms and adds heat, colour, and aroma to a wide range of dishes. - **Forms and Ideal for tempering, pickling, or slow-cooked curries and stews. * **Red Chili Powder / Ground Chili:** Made from dried red chilies; provides even intensity in sauces, curries, rubs, and marinades. Hot paprika can substitute for mild heat and colour. - **Usage Tips:** Remove seeds to reduce heat if desired. Toast whole chilies lightly to enhance aroma before grinding. Start with small amounts and adjust to taste. - **",

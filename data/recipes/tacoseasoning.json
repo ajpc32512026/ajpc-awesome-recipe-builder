@@ -9,6 +9,7 @@
   "totalTime": "5 min",
   "servings": "1 batch",
   "yieldPerBatch": "1 batch",
+  "cuisine": "Mexican",
   "tags": [
     "Make-Ahead",
     "Vegetarian",
@@ -19,8 +20,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Ground Cumin",
-      "notes": "ground"
+      "item": "Ground Cumin"
     },
     {
       "quantity": "5",
@@ -30,8 +30,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Sweet Paprika",
-      "notes": "ground"
+      "item": "Sweet Paprika"
     },
     {
       "quantity": "5",
@@ -98,14 +97,18 @@
       "type": "variation",
       "title": "Trevor's Touch",
       "content": "For notably better flavour, toast whole cumin seeds and coriander seeds in a dry pan for 2–3 minutes until fragrant, then grind fresh. It transforms the depth of the blend completely."
-    },
-    {
-      "type": "technique",
-      "title": "Scaling Up",
-      "content": "To make a bulk jar, multiply everything by 4 or 6 and store. Use 2 heaped tablespoons per 500 g of mince — same as the packet instructions."
     }
   ],
   "related": [
+    {
+      "id": "vindaloopaste",
+      "title": "Authentic Goan Vindaloo Paste",
+      "matchingTags": [
+        "Make-Ahead",
+        "Spicy",
+        "Vegetarian"
+      ]
+    },
     {
       "id": "chilligarlicoil",
       "title": "Chilli Garlic Oil",
@@ -141,41 +144,31 @@
         "Spicy",
         "Vegetarian"
       ]
-    },
-    {
-      "id": "vindaloopaste",
-      "title": "Vindaloo Paste",
-      "matchingTags": [
-        "Make-Ahead",
-        "Spicy",
-        "Vegetarian"
-      ]
     }
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 98,
-    "kj": 410,
-    "protein": 3,
-    "carbs": 12,
-    "sugars": 2,
-    "fat": 3,
+    "cal": 326,
+    "kj": 1364,
+    "protein": 10,
+    "carbs": 36,
+    "sugars": 26,
+    "fat": 6,
     "saturated_fat": 0.4,
-    "fiber": 6,
-    "sodium": 29,
+    "fiber": 42,
+    "sodium": 44,
     "coverage": 100,
     "foundCount": 8,
     "totalCount": 8,
     "unmatchedItems": [],
     "noQuantityItems": [],
-    "calcium_mg": 166,
-    "iron_mg": 6,
-    "potassium_mg": 272,
-    "magnesium_mg": 53,
-    "zinc_mg": 1,
-    "vitamin_a_ug": 42,
-    "vitamin_c_mg": 12
+    "calcium_mg": 226,
+    "iron_mg": 10,
+    "potassium_mg": 1831,
+    "magnesium_mg": 162,
+    "zinc_mg": 2,
+    "vitamin_a_ug": 2616,
+    "vitamin_c_mg": 952
   },
-  "lastModified": "2026-09-12",
-  "cuisine": "Mexican"
+  "lastModified": "2026-09-18"
 }
